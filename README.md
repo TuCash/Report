@@ -43,7 +43,7 @@
 
 | Versión               | Fecha    | Autores         | Descripción de Modificación                  |
 |:---------------------:|:--------:|:---------------:|--------------------------------------------|
-| |  |  | Se realizó:<br> - El README <br> - Startup Profile <br> - Solution Profile <br> - Segmentos Objetivos |
+| TB1 |  |  | Se realizó:<br> - El README <br> - Startup Profile <br> - Solution Profile <br> - Segmentos Objetivos |
 
 </div>
 
@@ -51,8 +51,10 @@
 
 ## Project Report Collaboration Insights
 
-El siguiente enlace es nuestra organización pública: github-link
+El siguiente enlace es nuestra organización pública: [TuCash](https://github.com/TuCash/)
+
 Aquí se encuentra el resultado del Project Report de la entrega correspondiente.
+
 A continuación, se explicará todo a cerca del desarrollo de actividades para la elaboración del informe junto con capturas de los analíticos de colaboración y commits en Github:
 
 ---
