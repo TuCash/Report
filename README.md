@@ -296,30 +296,81 @@ En esta sección se brinda la descripción de nuestra startup, producto y miembr
 <img src="public/assets/images/styleGuidelines/Branding.png" alt="Imagen de logo y variaciones" width="7000">
 
 ### 1.1.2. Perfiles de integrantes del equipo
+
 <table border="1">
   <tr>
     <td><img src="public/assets/images/integrantes/adriand.jpeg" alt="Adrian Donayre" width="150"></td>
-    <td><br><br></td>
+    <td>
+      <b>Adrian Donayre</b><br>
+      <!-- Aquí va su descripción -->
+    </td>
   </tr>
   <tr>
     <td><img src="public/assets/images/integrantes/guillermot.jpeg" alt="Guillermo Tantaleán" width="200"></td>
-    <td><br><br></td>
+    <td>
+      <b>Guillermo Tantaleán</b><br>
+      <!-- Aquí va su descripción -->
+    </td>
   </tr>
   <tr>
     <td><img src="public/assets/images/integrantes/Henry.jpg" alt="Henry Esteban" width="200"></td>
-    <td><br><br></td>
+    <td>
+      <b>Henry Esteban</b><br>
+      <!-- Aquí va su descripción -->
+    </td>
   </tr>
   <tr>
     <td><img src="public/assets/images/integrantes/fredy.jpeg" alt="Carlos Fredy" width="200"></td>
-    <td><br><br></td>
+    <td>
+      <b>Carlos Fredy</b><br>
+      <!-- Aquí va su descripción -->
+    </td>
   </tr>
   <tr>
     <td><img src="public/assets/images/integrantes/Chris.jpeg" alt="Christian Inga" width="200"></td>
-    <td><br><br></td>
+    <td>
+      <b>Christian Inga</b><br>
+      <!-- Aquí va su descripción -->
+    </td>
   </tr>
   <tr>
     <td><img src="public/assets/images/integrantes/JD.jpg" alt="Juan Diego" width="200"></td>
-    <td><br><br></td>
+    <td>
+      <b>Juan Diego Javier Mondoñedo Rodriguez (U202110373)</b><br>
+      <!-- Aquí va su descripción -->
+    </td>
+  </tr>
+  <tr>
+    <td><img src="public/assets/images/integrantes/giussepe.jpg" alt="Jhunior Giussepe Taquiri Calderon" width="200"></td>
+    <td>
+      <b>🧑‍💻 Jhunior Giussepe Taquiri Calderon (U20221C676)</b><br><br>
+      Soy estudiante del sexto ciclo de Ingeniería de Software en la UPC, con una formación orientada al desarrollo de software y al uso de diversas tecnologías. 
+      Tengo experiencia en C++, Python, Java y SQL, además de bases en HTML, CSS y JavaScript, lo que me ha permitido trabajar tanto en lógica de programación como en aspectos de desarrollo web. <br><br>
+      Me considero una persona responsable, organizada y comprometida, con facilidad para el trabajo en equipo y con interés en seguir aprendiendo para fortalecer mi perfil profesional. <br><br>
+      Mis expectativas para el curso de Aplicaciones Web son muy altas, ya que representa una oportunidad para profundizar en el desarrollo frontend y backend, así como para aprender
+      nuevos frameworks como Vue, que serán de gran valor en mi futuro como desarrollador.
+    </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>
+      <b>Harrison Hubert Payesa Torres (U2022201024)</b><br>
+      <!-- Aquí va su descripción -->
+    </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>
+      <b>Patricia Valeria Mejia Poma (U202523271)</b><br>
+      <!-- Aquí va su descripción -->
+    </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>
+      <b>Milenio Huaman Hinostroza (U20211C245)</b><br>
+      <!-- Aquí va su descripción -->
+    </td>
   </tr>
 </table>
 
