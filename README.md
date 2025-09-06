@@ -374,158 +374,106 @@ Esta sección describe a los segmentos clave vinculados al dominio del problema 
 **Artisan**: <br><br>
 **CoffeeMind**: <br><br>
 
-### 2.1.1. Análisis competitivo
+# Capítulo II: Requirements Elicitation & Analysis
 
-#### Competitive Analysis
+## 2.1 Competidores
 
-<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
-    <tr>
-        <th colspan="6" style="text-align:center; border: 1px solid #000;">Competitive Analysis Landscape</th>
-    </tr>
-    <tr>
-        <th style="text-align:center; border: 1px solid #000;">¿Por qué llevar a cabo este análisis?</th>
-        <td colspan="5" style="border: 1px solid #000;"><br><br></td>
-    </tr>
-    <tr>
-        <th style="border: 1px solid #000;"></th>
-        <th style="text-align:center; border: 1px solid #000;"></th>
-        <th style="text-align:center; border: 1px solid #000;">CaféLab<img src="public\assets\images\styleGuidelines\Logo.jpg" alt="Logo Café Lab" width="150"></th>
-        <th style="text-align:center; border: 1px solid #000;">Cropster<img src="public\assets\images\Competidores\cropster.jpg" alt="Logo Crospter" width="150"></th>
-        <th style="text-align:center; border: 1px solid #000;">Ikawa<img src="public\assets\images\Competidores\ikawa.png" alt="Logo Ikawa" width="150"></th>
-        <th style="text-align:center; border: 1px solid #000;">Beanconqueror<img src="public\assets\images\Competidores\conqueror.jpg" alt="Logo Beanconqueror" width="150"></th>
-    </tr>
-    <tr>
-        <th rowspan="3" style="text-align:center; border: 1px solid #000;">Perfil</th>
-        <td style="border: 1px solid #000;"><strong>Overview</strong></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-    </tr>
-    <tr>
-        <td style="border: 1px solid #000;"><strong>Ventaja competitiva ¿Qué valor ofrece a los clientes?</strong></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-    </tr>
-    <tr>
-        <td style="border: 1px solid #000;"><strong>Clientes</strong></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-    </tr>
-    <tr>
-        <th rowspan="2" style="text-align:center; border: 1px solid #000;">Perfil de Marketing</th>
-        <td style="border: 1px solid #000;"><strong>Mercado objetivo</strong></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-    </tr>
-    <tr>
-        <td style="border: 1px solid #000;"><strong>Estrategias de marketing</strong></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-    </tr>
-    <tr>
-        <th rowspan="3" style="text-align:center; border: 1px solid #000;">Perfil de Producto</th>
-        <td style="border: 1px solid #000;"><strong>Productos & Servicios</strong></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-    </tr>
-    <tr>
-        <td style="border: 1px solid #000;"><strong>Precios & Costos</strong></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-    </tr>
-    <tr>
-        <td style="border: 1px solid #000;"><strong>Canales de distribución (web/móvil)</strong></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-    </tr>
-    <tr>
-        <th rowspan="4" style="text-align:center; border: 1px solid #000;">ANÁLISIS SWOT</th>
-        <td style="border: 1px solid #000;"><strong>Fortalezas</strong></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-    </tr>
-    <tr>
-        <td style="border: 1px solid #000;"><strong>Debilidades</strong></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-    </tr>
-    <tr>
-        <td style="border: 1px solid #000;"><strong>Oportunidades</strong></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-    </tr>
-    <tr>
-        <td style="border: 1px solid #000;"><strong>Amenazas</strong></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-        <td style="border: 1px solid #000;"><br><br></td>
-    </tr>
-</table>
+### ¿Por qué llevar a cabo este análisis?
 
-
-### 2.1.2. Estrategias y tácticas frente a competidores
-<br><br>
-
-## 2.2. Entrevistas
-### 2.2.1. Diseño de entrevistas
-
-#### Preguntas dirigidas a Baristas Profesionales:
-
-**Preguntas principales:**
-
-1. <br><br>
-2. <br><br>
-3. <br><br>
-4. <br><br>
-5. <br><br>
-6. <br><br>
-7. <br><br>
-8. <br><br>
-9. <br><br>
-10. <br><br>
-11. <br><br>
+El análisis competitivo resulta fundamental para comprender el panorama del mercado de aplicaciones financieras personales. A través de esta evaluación, es posible identificar fortalezas, debilidades, oportunidades y amenazas en el sector. Además, permite diferenciar a **TuCash**, destacando su simplicidad, enfoque educativo y adaptación al contexto financiero peruano.
 
 ---
 
-#### Preguntas dirigidas a Dueños/Administradores de Cafeterías de Especialidad:
+## 2.1.1 Análisis competitivo (Comparativa)
+
+### Competitive Analysis
+
+| Perfil                        | Competidor A: **Mi Plata**                                                | Competidor B: **Controlar Gastos**                         | Competidor C: **Monefy**                                        | Competidor D: **Kakeibo**                                   | Competidor E: **TuCash (Perú)**                                    |
+|-----------------------------|---------------------------------------------------------------------------|------------------------------------------------------------|------------------------------------------------------------------|------------------------------------------------------------|------------------------------------------------------------------|
+| **Overview**                | App peruana para registrar ingresos/gastos y definir metas de ahorro.    | App simple de registro diario de gastos con reportes básicos. | App internacional con registro rápido y visual de ingresos/gastos. | Basada en el método japonés Kakeibo, con reflexión sobre gastos. | App peruana para estudiantes y familias, con control de ingresos, gastos, metas y educación financiera. |
+| **Ventaja competitiva**     | Facilidad de uso y metas claras de ahorro.                               | Muy sencilla y gratuita, ideal para principiantes.         | Visualización atractiva y rapidez.                               | Promueve consciencia y hábitos financieros saludables.      | Localización, accesibilidad y personalización (categorías y moneda local). |
+| **Clientes**                | Adultos jóvenes que desean control básico de dinero.                     | Usuarios que buscan simplicidad sin funciones avanzadas.   | Jóvenes y adultos que prefieren apps rápidas y gráficas.          | Personas interesadas en disciplina y ahorro consciente.      | Estudiantes universitarios y familias peruanas de ingresos medios. |
+| **Mercado objetivo**        | Usuarios no necesariamente bancarizados en Perú.                         | Usuarios básicos que valoran la simplicidad.                | Mercado internacional y usuarios tecnológicos.                    | Nicho en métodos alternativos de ahorro.                     | Jóvenes y familias peruanas que necesitan educación y control financiero. |
+| **Estrategia de marketing** | Redes sociales y tiendas de apps.                                         | Boca a boca y app stores.                                  | Marketing global y fuerte presencia en tiendas digitales.         | Enfocada en un nicho minimalista.                           | Campañas en redes sociales, alianzas con universidades y enfoque educativo. |
+| **Productos & Servicios**   | Registro de gastos/ingresos y metas de ahorro.                           | Registro manual con reportes simples.                        | Registro visual de ingresos/gastos con gráficos.                   | Registro manual con categorías reflexivas.                   | Control de ingresos/gastos, metas, recordatorios, reportes y educación financiera. |
+| **Precios**                 | Gratuita / Premium accesible.                                             | Gratuita.                                                   | Gratis / Pro con pago único.                                      | Gratuita o de bajo costo.                                   | Freemium: básica gratuita + Premium económico en soles.         |
+| **Canales de distribución** | App móvil (iOS/Android).                                                  | App móvil.                                                  | App móvil.                                                        | App móvil.                                                  | App móvil (iOS/Android); futura versión web.                    |
+
+---
+
+## Análisis SWOT – TuCash
+
+| Categoría       | Descripción |
+|----------------|-------------|
+| **Fortalezas** | - Enfoque 100 % local (Perú).<br>- Interfaz sencilla e intuitiva.<br>- Personalización (categorías, moneda local).<br>- Precios accesibles adaptados al mercado peruano. |
+| **Debilidades**| - Competencia con más recursos (apps internacionales).<br>- Bajo reconocimiento de marca.<br>- Recursos limitados en marketing masivo. |
+| **Oportunidades** | - Crecimiento del ecosistema fintech en Perú y LATAM.<br>- Escasa oferta de apps peruanas para estudiantes/familias.<br>- Potencial integración con billeteras digitales y bancos locales. |
+| **Amenazas**   | - Entrada de grandes competidores internacionales.<br>- Desconfianza de usuarios en privacidad de datos.<br>- Cambios regulatorios en apps financieras digitales. |
+
+---
+
+## 2.1.2 Estrategias y tácticas frente a competidores
+
+1. **Diferenciación por localización**  
+   TuCash se dirige exclusivamente al contexto peruano, con categorías, precios y lenguaje alineados al usuario local.
+
+2. **Simplicidad con educación financiera**  
+   Combina la interfaz ágil y funcional de Monefy con un componente educativo que la hace única en el mercado.
+
+3. **Segmentación clara**  
+   Apunta a estudiantes universitarios y familias de ingresos medios—aquellos menos atendidos por otras apps.
+
+4. **Modelo freemium atractivo**  
+   - **Gratis**: acceso completo a funciones básicas.  
+   - **Premium económico en soles**: metas personalizadas, reportes automáticos, recordatorios inteligentes y herramientas educativas.
+
+5. **Confianza y transparencia**  
+   Mensajes claros sobre privacidad y protección de datos, adecuados para usuarios no técnicos.
+
+6. **Marketing educativo**  
+   - Alianzas con universidades para penetración en el público estudiantil.  
+   - Contenido útil en redes sociales: consejos financieros, microcursos y retos de ahorro.  
+   - Enfoque en impacto social: mejorar la salud financiera de las familias peruanas.  
+## 2.2 Entrevistas
+
+### 2.2.1 Diseño de entrevistas
+
+El objetivo de estas entrevistas es comprender las necesidades, dificultades y expectativas de los usuarios potenciales de **TuCash**, considerando dos segmentos principales: **estudiantes universitarios** y **padres/madres de familia**.  
+
+---
+
+#### Segmento 1: Estudiantes universitarios (16–24 años)
 
 **Preguntas principales:**
 
-1. <br><br>
-2. <br><br>
-3. <br><br>
-4. <br><br>
-5. <br><br>
-6. <br><br>
-7. <br><br>
-8. <br><br>
-9. <br><br>
-10. <br><br>
-11. <br><br>
+1. ¿Cómo administras actualmente tus ingresos (mesada, trabajo parcial, becas, emprendimientos)?  
+2. ¿Con qué frecuencia llevas un registro de tus gastos (diario, semanal, mensual o nunca)?  
+3. ¿Qué categorías de gasto son más importantes para ti (alimentación, transporte, ocio, estudios, salud)?  
+4. ¿Has utilizado antes una aplicación o herramienta digital para controlar tus finanzas? Si la respuesta es **sí**, ¿qué te gustó o no te gustó?  
+5. ¿Qué dificultades enfrentas al organizar tus finanzas personales como estudiante?  
+6. ¿Qué funciones consideras más útiles en una app de control financiero (recordatorios, reportes automáticos, metas, consejos personalizados)?  
+7. ¿Qué te motivaría a usar **TuCash** de manera constante (simplicidad, notificaciones, recompensas, educación financiera)?  
+8. ¿Cómo te gustaría recibir la información financiera: en gráficos, notificaciones, reportes semanales, consejos cortos?  
+9. ¿Qué tan importante es para ti que la app sea segura y proteja tus datos personales?  
+10. Si existiera una versión Premium con funciones avanzadas, ¿qué te gustaría que incluya (ejemplo: metas personalizadas, recordatorios inteligentes, integración con billeteras digitales)?  
 
 ---
+
+#### Segmento 2: Padres/madres o tutores (25–45 años)
+
+**Preguntas principales:**
+
+1. ¿Cómo sueles organizar los ingresos y gastos del hogar (libretas, Excel, apps, memoria)?  
+2. ¿Qué tipo de gastos familiares son los más difíciles de controlar (servicios, educación, ocio, imprevistos, salud)?  
+3. ¿Qué medio de pago utilizas con mayor frecuencia (efectivo, tarjeta, billetera digital)?  
+4. ¿Qué tan importante es para ti enseñar a tus hijos sobre educación financiera desde temprana edad?  
+5. ¿Has probado antes alguna aplicación de finanzas personales? ¿Qué experiencias positivas o negativas tuviste?  
+6. ¿Qué problemas enfrentas al intentar mantener un presupuesto familiar?  
+7. ¿Qué funciones valorarías más en una app de gestión financiera (reportes automáticos, metas familiares, alertas de pagos, proyecciones)?  
+8. ¿Qué tipo de recordatorios financieros serían más útiles para ti (pago de servicios, vencimientos de colegios, seguros, deudas)?  
+9. ¿Qué expectativas tienes respecto a la seguridad de datos en este tipo de aplicaciones?  
+10. ¿Estarías dispuesto/a a pagar por una versión Premium de la app? Si la respuesta es **sí**, ¿qué debería incluir para que lo consideres justo (ejemplo: reportes detallados, multiusuario para la familia, integración con billeteras)?  
+
 
 ### 2.2.2. Registro de entrevistas 
 
