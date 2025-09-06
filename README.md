@@ -475,197 +475,87 @@ El objetivo de estas entrevistas es comprender las necesidades, dificultades y e
 10. ¿Estarías dispuesto/a a pagar por una versión Premium de la app? Si la respuesta es **sí**, ¿qué debería incluir para que lo consideres justo (ejemplo: reportes detallados, multiusuario para la familia, integración con billeteras)?  
 
 
-### 2.2.2. Registro de entrevistas 
+### 2.2.2 Registro de entrevistas
 
-#### Entrevistas a baristas profesionales
+#### Entrevistas a estudiantes universitarios
 
-<table border="1">
-  <tr>
-    <th>Campo</th>
-    <th>Información</th>
-  </tr>
-  <tr>
-    <td>Entrevistado 1</td>
-    <td><br><br></td>
-  </tr>
-  <tr>
-    <td>Edad</td>
-    <td><br><br></td>
-  </tr>
-  <tr>
-    <td>Distrito</td>
-    <td><br><br></td>
-  </tr>
-  <tr>
-    <td><img src="" alt="Foto entrevistado 1"></td>
-    <td><br><br></td>
-  </tr>
-  <tr>
-    <td>Timing:</td>
-    <td><a href="#">Ver grabación</a></td>
-  </tr>
-</table>
+| Campo         | Información |
+|---------------|-------------|
+| Entrevistado 1 |             |
+| Edad          |             |
+| Distrito      |             |
+| Foto          | ![Foto entrevistado 1]() |
+| Timing        | [Ver grabación]() |
 
-<br>
+---
 
-<table border="1">
-  <tr>
-    <th>Campo</th>
-    <th>Información</th>
-  </tr>
-  <tr>
-    <td>Entrevistado 2</td>
-    <td><br><br></td>
-  </tr>
-  <tr>
-    <td>Edad</td>
-    <td><br><br></td>
-  </tr>
-  <tr>
-    <td>Distrito</td>
-    <td><br><br></td>
-  </tr>
-  <tr>
-    <td><img src="" alt="Foto entrevistado 2"></td>
-    <td><br><br></td>
-  </tr>
-  <tr>
-    <td>Timing:</td>
-    <td><a href="#">Ver grabación</a></td>
-  </tr>
-</table>
+| Campo         | Información |
+|---------------|-------------|
+| Entrevistado 2 |             |
+| Edad          |             |
+| Distrito      |             |
+| Foto          | ![Foto entrevistado 2]() |
+| Timing        | [Ver grabación]() |
 
-<br>
+---
 
-<table border="1">
-  <tr>
-    <th>Campo</th>
-    <th>Información</th>
-  </tr>
-  <tr>
-    <td>Entrevistado 3</td>
-    <td><br><br></td>
-  </tr>
-  <tr>
-    <td>Edad</td>
-    <td><br><br></td>
-  </tr>
-  <tr>
-    <td>Distrito</td>
-    <td><br><br></td>
-  </tr>
-  <tr>
-    <td><img src="" alt="Foto entrevistado 3"></td>
-    <td><br><br></td>
-  </tr>
-  <tr>
-    <td>Timing:</td>
-    <td><a href="#">Ver grabación</a></td>
-  </tr>
-</table>
+| Campo         | Información |
+|---------------|-------------|
+| Entrevistado 3 |             |
+| Edad          |             |
+| Distrito      |             |
+| Foto          | ![Foto entrevistado 3]() |
+| Timing        | [Ver grabación]() |
 
-#### Entrevistas a dueños o administradores de cafeterías de especialidad
+---
 
-<table border="1">
-  <tr>
-    <th>Campo</th>
-    <th>Información</th>
-  </tr>
-  <tr>
-    <td>Entrevistado 1</td>
-    <td><br><br></td>
-  </tr>
-  <tr>
-    <td>Edad</td>
-    <td><br><br></td>
-  </tr>
-  <tr>
-    <td>Distrito</td>
-    <td><br><br></td>
-  </tr>
-  <tr>
-    <td><img src="" alt="Foto entrevistado 1"></td>
-    <td><br><br></td>
-  </tr>
-  <tr>
-    <td>Timing:</td>
-    <td><a href="#">Ver grabación</a></td>
-  </tr>
-</table>
+#### Entrevistas a padres/madres o tutores
 
-<br>
+| Campo         | Información |
+|---------------|-------------|
+| Entrevistado 1 |             |
+| Edad          |             |
+| Distrito      |             |
+| Foto          | ![Foto entrevistado 1]() |
+| Timing        | [Ver grabación]() |
 
-<table border="1">
-  <tr>
-    <th>Campo</th>
-    <th>Información</th>
-  </tr>
-  <tr>
-    <td>Entrevistado 2</td>
-    <td><br><br></td>
-  </tr>
-  <tr>
-    <td>Edad</td>
-    <td><br><br></td>
-  </tr>
-  <tr>
-    <td>Distrito</td>
-    <td><br><br></td>
-  </tr>
-  <tr>
-    <td><img src="" alt="Foto entrevistado 2"></td>
-    <td><br><br></td>
-  </tr>
-  <tr>
-    <td>Timing:</td>
-    <td><a href="#">Ver grabación</a></td>
-  </tr>
-</table>
+---
 
-<br>
+| Campo         | Información |
+|---------------|-------------|
+| Entrevistado 2 |             |
+| Edad          |             |
+| Distrito      |             |
+| Foto          | ![Foto entrevistado 2]() |
+| Timing        | [Ver grabación]() |
 
-<table border="1">
-  <tr>
-    <th>Campo</th>
-    <th>Información</th>
-  </tr>
-  <tr>
-    <td>Entrevistado 3</td>
-    <td><br><br></td>
-  </tr>
-  <tr>
-    <td>Edad</td>
-    <td><br><br></td>
-  </tr>
-  <tr>
-    <td>Distrito</td>
-    <td><br><br></td>
-  </tr>
-  <tr>
-    <td><img src="" alt="Foto entrevistado 3"></td>
-    <td><br><br></td>
-  </tr>
-  <tr>
-    <td>Timing:</td>
-    <td><a href="#">Ver grabación</a></td>
-  </tr>
-</table>
+---
 
+| Campo         | Información |
+|---------------|-------------|
+| Entrevistado 3 |             |
+| Edad          |             |
+| Distrito      |             |
+| Foto          | ![Foto entrevistado 3]() |
+| Timing        | [Ver grabación]() |
 
-### 2.2.3. Análisis de entrevistas
-<h4>Análisis del segmento de administradores o dueños de cafeterías de especialidad</h4>
+---
 
-<p><br><br></p>
-<p><br><br></p>
-<p><br><br></p>
-<p><br><br></p>
+### 2.2.3 Análisis de entrevistas
 
-<h4>Análisis del segmento de baristas profesionales</h4>
+#### Análisis del segmento de estudiantes universitarios
 
-<p><br><br></p>
-<p><br><br></p>
-<p><br><br></p>
-<p><br><br></p>
+<br><br>  
+<br><br>  
+<br><br>  
+<br><br>  
+
+#### Análisis del segmento de padres/madres o tutores
+
+<br><br>  
+<br><br>  
+<br><br>  
+<br><br>  
 
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
