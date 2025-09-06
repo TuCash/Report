@@ -388,7 +388,7 @@ El análisis competitivo resulta fundamental para comprender el panorama del mer
 
 ### Competitive Analysis
 
-| Perfil                        | Competidor A: **Mi Plata**                                                | Competidor B: **Controlar Gastos**                         | Competidor C: **Monefy**                                        | Competidor D: **Kakeibo**                                   | Competidor E: **TuCash (Perú)**                                    |
+| Perfil                        |  **Mi Plata**                                                |  **Controlar Gastos**                         |  **Monefy**                                        | **Kakeibo**                                   |  **TuCash (Perú)**                                    |
 |-----------------------------|---------------------------------------------------------------------------|------------------------------------------------------------|------------------------------------------------------------------|------------------------------------------------------------|------------------------------------------------------------------|
 | **Overview**                | App peruana para registrar ingresos/gastos y definir metas de ahorro.    | App simple de registro diario de gastos con reportes básicos. | App internacional con registro rápido y visual de ingresos/gastos. | Basada en el método japonés Kakeibo, con reflexión sobre gastos. | App peruana para estudiantes y familias, con control de ingresos, gastos, metas y educación financiera. |
 | **Ventaja competitiva**     | Facilidad de uso y metas claras de ahorro.                               | Muy sencilla y gratuita, ideal para principiantes.         | Visualización atractiva y rapidez.                               | Promueve consciencia y hábitos financieros saludables.      | Localización, accesibilidad y personalización (categorías y moneda local). |
@@ -424,16 +424,16 @@ El análisis competitivo resulta fundamental para comprender el panorama del mer
    Apunta a estudiantes universitarios y familias de ingresos medios—aquellos menos atendidos por otras apps.
 
 4. **Modelo freemium atractivo**  
-   - **Gratis**: acceso completo a funciones básicas.  
-   - **Premium económico en soles**: metas personalizadas, reportes automáticos, recordatorios inteligentes y herramientas educativas.
+   **Gratis**: acceso completo a funciones básicas.  
+   **Premium económico en soles**: metas personalizadas, reportes automáticos, recordatorios inteligentes y herramientas educativas.
 
 5. **Confianza y transparencia**  
    Mensajes claros sobre privacidad y protección de datos, adecuados para usuarios no técnicos.
 
 6. **Marketing educativo**  
-   - Alianzas con universidades para penetración en el público estudiantil.  
-   - Contenido útil en redes sociales: consejos financieros, microcursos y retos de ahorro.  
-   - Enfoque en impacto social: mejorar la salud financiera de las familias peruanas.  
+     Alianzas con universidades para penetración en el público estudiantil.  
+    Contenido útil en redes sociales: consejos financieros, microcursos y retos de ahorro.  
+    Enfoque en impacto social: mejorar la salud financiera de las familias peruanas.  
 ## 2.2 Entrevistas
 
 ### 2.2.1 Diseño de entrevistas
