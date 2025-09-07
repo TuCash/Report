@@ -286,20 +286,32 @@
 ## 1.1. Startup Profile
 En esta sección se brinda la descripción de nuestra startup, producto y miembros de equipo.
 ### 1.1.1. Descripción de la Startup
-
-**Nombre de la Startup:** <br><br>
-**Descripción:** <br><br>
-**Misión:** <br><br>
-**Visión:** <br><br>
+**Nombre de la Startup:** <br>KASHU<br>
+**Descripción:** <br>Kashu es una empresa emergente Fintech enfocada en desarrollar soluciones digitales innovadoras que promuevan la inclusión financiera y la gestión responsable del dinero en Latinoamérica.<br>
+**Misión:** <br>Nuestra visión es convertirnos en una plataforma tecnológica de referencia para el manejo financiero personal y familiar, ofreciendo herramientas accesibles, intuitivas y escalables que empoderen a los usuarios a tomar mejores decisiones económicas.<br>
+**Visión:** <br>Nuestra misión es democratizar el acceso a la educación y control financiero mediante productos digitales sencillos, inclusivos y seguros, que puedan evolucionar hacia aplicaciones móviles, servicios conectados a IoT y futuras integraciones con ecosistemas financieros.<br>
 
 #### Logo, isotipo y logotipo:
-<img src="public/assets/images/styleGuidelines/Branding.png" alt="Imagen de logo y variaciones" width="7000">
+<img src="resources/LOGOS.png" alt="LOGO" width="100"><br>
+**LOGO**
+
+<img src="resources/tucash.jpeg" alt="Imagen de logo y variaciones" width="100">
+
+**ISOTIPO**
+
+ <img src="resources/Isotipo.png" alt="LOGO" width="100">
+
+**LOGOTIPO**
+
+ <img src="resources/Logotipo.png" alt="LOGO" width="100">
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
 <table border="1">
+<tr><th>Nombre</th><th>Biografía del los integrantes del equipo</th></tr>
+
   <tr>
-    <td><img src="public/assets/images/integrantes/giussepe.jpg" alt="Jhunior Giussepe Taquiri Calderon" width="200"></td>
+    <td><img src="resources/giussepe.jpg" alt="Jhunior Giussepe Taquiri Calderon" width="200"></td>
     <td>
       <b>🧑‍💻 Jhunior Giussepe Taquiri Calderon (U20221C576)</b><br><br>
       Soy estudiante del sexto ciclo de Ingeniería de Software en la UPC, con una formación orientada al desarrollo de software y al uso de diversas tecnologías. 
@@ -310,79 +322,195 @@ En esta sección se brinda la descripción de nuestra startup, producto y miembr
     </td>
   </tr>
   <tr>
-    <td></td>
+    <td><img src="resources/harrison.png" alt="Harrison Hubert Payesa Torres" width="200"></td></td>
     <td>
       <b>Harrison Hubert Payesa Torres (U2022201024)</b><br>
       <!-- Aquí va su descripción -->
     </td>
   </tr>
+
   <tr>
-    <td><img src="public/assets/images/integrantes/JD.jpg" alt="Juan Diego Javier Mondoñedo Rodriguez" width="200"></td>
+    <td><img src="resources/JD.jpg" alt="Juan Diego Javier Mondoñedo Rodriguez" width="200"></td>
     <td>
       <b>Juan Diego Javier Mondoñedo Rodriguez (U202110373)</b><br>
       <!-- Aquí va su descripción -->
     </td>
   </tr>
+
   <tr>
-    <td></td>
+    <td><img src="resources/patricia.jpg" alt="Patricia Valeria Mejia Poma" width="200"></td>
     <td>
       <b>Patricia Valeria Mejia Poma (U202523271)</b><br>
       <!-- Aquí va su descripción -->
     </td>
   </tr>
+
   <tr>
-    <td></td>
+    <td> <img src="resources/perfilMilenio.png" alt="Huaman Hinostroza, Milenio" width="200"></td>
     <td>
-      <b>Milenio Huaman Hinostroza (U20211C245)</b><br>
-      <!-- Aquí va su descripción -->
-    </td>
+      <b>Milenio Huaman Hinostroza (U20211C245)</b><br><br>
+      Soy estudiante de Ingeniería de Sistemas de Software en la UPC. Mi formación está orientada al desarrollo de aplicaciones web distribuidas y al uso de tecnologías open source. Tengo experiencia en Java con Spring Boot, Angular, HTML, CSS, JavaScript y TypeScript, además de conocimientos en bases de datos SQL y en control de versiones con Git y GitHub aplicando GitFlow.<br><br>
+      Me considero una persona responsable, perseverante y comprometida, con capacidad para trabajar en equipo y adaptarme a diferentes roles dentro de un proyecto. Me interesa seguir fortaleciendo mis habilidades tanto en el desarrollo backend como en frontend, además de adquirir experiencia en el diseño de experiencias de usuario (UX/UI) y en metodologías ágiles.<br><br>
+      Mis expectativas para el curso de Desarrollo de Aplicaciones Open Source son altas, ya que representa una oportunidad para aplicar buenas prácticas de ingeniería de software, explorar herramientas modernas de desarrollo y consolidar mi perfil como futuro ingeniero de software capaz de aportar soluciones innovadoras y escalables.
+   </td>
   </tr>
 </table>
 
 
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
-**Who (¿Quiénes?):** <br><br>
-**What (¿Qué sucede?):** <br><br>
-**When (¿Cuándo ocurre?):** <br><br>
-**Where (¿Dónde ocurre?):** <br><br>
-**Why (¿Por qué es un problema?):** <br><br>
-**How (¿Cómo lo solucionan hoy?):** <br><br>
-**How much (¿Cuánto cuesta no resolverlo?):** <br><br>
+En la actualidad, gran parte de la población enfrenta dificultades para gestionar sus finanzas personales. Muchas personas desconocen exactamente en qué gastan su dinero, lo que impide llevar un control efectivo de ingresos, egresos, deudas y ahorros.
+•	En Latinoamérica, estudios muestran que más del 60% de trabajadores no lleva un registro formal de sus gastos.
+•	Las herramientas más usadas son Excel o notas manuales, pero suelen ser poco prácticas, requieren disciplina y carecen de alertas inteligentes.
+•	La falta de control financiero deriva en endeudamiento, poca capacidad de ahorro e imposibilidad de planificar metas económicas.
+
+**Who (¿Quiénes?):** 
+<br>
+- Profesionales jóvenes y adultos con ingresos fijos o variables.
+- Emprendedores que mezclan finanzas personales y gastos de negocio.
+- Personas con deudas que necesitan visibilidad para mejorar su economía.
+<br>
+
+**What (¿Qué sucede?):** 
+<br>
+- No cuentan con herramientas simples y automatizadas para registrar ingresos/egresos.
+- Les resulta difícil identificar patrones de gasto, fijar metas de ahorro o anticipar deudas.
+- Pierden control de su liquidez mensual y no toman decisiones financieras informadas.
+<br>
+
+**Where (¿Dónde ocurre?):**
+<br>
+- En contextos urbanos y semiurbanos de Latinoamérica, donde existe acceso a internet y smartphones, pero bajo uso de soluciones fintech avanzadas.
+<br>
+
+**When (¿Cuándo ocurre?):** 
+<br>
+- De forma continua, ya que el manejo de ingresos y gastos es un proceso diario y recurrente.
+- Es más crítico a fin de mes o en fechas de pagos de deudas/servicios.
+<br>
+
+**Why (¿Por qué es un problema?):**
+<br>
+- La falta de control genera endeudamiento, estrés financiero y baja capacidad de ahorro.
+- No existe cultura de educación financiera clara ni accesible.
+- Las herramientas bancarias tradicionales no son inclusivas ni amigables para usuarios comunes.
+<br>
+
+**How (¿Cómo lo solucionan hoy?):**
+<br>
+- Personas gastan más de lo que ganan sin darse cuenta.
+- Usan múltiples medios (apps de bancos, Excel, notas) sin integración ni visión consolidada.
+- No reciben alertas ni métricas que los ayuden a cambiar su comportamiento.
+ <br>
+
+**How much (¿Cuánto cuesta no resolverlo?):**
+<br>
+- Según la CEPAL, más del 70% de personas en Latinoamérica carecen de hábitos de ahorro formal.
+- En Perú, menos del 40% de adultos llevan un registro financiero sistemático.
+- Esto implica una población objetivo potencial de millones de usuarios con necesidad de una solución accesible y escalable.
+ <br>
 
 ### 1.2.2. Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
-<br><br>
+Se ha detectado que, aunque los usuarios cuentan con diversas herramientas como Excel, aplicaciones bancarias o notas manuales, no logran mantener un control disciplinado y visualmente claro de su dinero. Como resultado, experimentan falta de claridad sobre sus gastos, baja motivación para registrar movimientos financieros, abandono prematuro de las herramientas existentes y poca percepción de valor en los resultados obtenidos es por ello que nos planteamos lo siguiente.
+
+¿Cómo podríamos diseñar una solución que permita a los usuarios llevar un registro simple y visual de sus finanzas, recibir recomendaciones y alertas personalizadas y fijar metas claras, de manera que perciban un mayor control de su dinero, aumenten la frecuencia de uso de la plataforma y logren mejores resultados en su bienestar financiero?
+
+**Domain:**
+<br>Gestión de finanzas personales (personal finance management).<br>
+
+**Customer Segments:**
+<br>Jóvenes estudiantes con ingresos variantes que buscan organizar gastos y ahorrar.
+Adultos con gastos y deudas recurrentes que necesitan visualizar pagos y mejorar su liquidez.
+Emprendedores pequeños que mezclan gastos personales y de negocio.</br>
+
+**Pain Points (dolores):**
+<br>
+- Falta de claridad sobre en qué se gasta el dinero.
+- Dificultad para llevar un registro disciplinado en Excel o manual.
+- Ausencia de alertas cuando se supera un presupuesto o se acerca un pago importante.
+- Poca cultura de planificación financiera accesible.</br>
+
+**Gap (brecha actual):**
+<br>
+- Existen apps bancarias, pero no son inclusivas ni flexibles.
+- Las soluciones globales (ej. Mint, Fintonic) no están adaptadas al contexto latinoamericano (moneda local, idioma, accesibilidad).
+- El mercado latinoamericano aún carece de herramientas sencillas, visuales e inclusivas.</br>
+
+**Vision/Strategy:**
+<br>
+- Brindar una plataforma digital inclusiva, simple y visual que ayude a las personas a registrar, categorizar y analizar sus finanzas personales.
+- Evolucionar hacia integraciones móviles, IoT y APIs bancarias para automatizar el proceso.</br>
+
+**Initial Segment:**
+<br>Estudiantes jóvenes (16–55 años) en Perú y Latinoamérica urbana, con acceso a internet y smartphones, pero sin hábitos financieros consolidados.</br>
 
 #### 1.2.2.2. Lean UX Assumptions
-**¿Quién es el usuario?** <br><br>
-**¿Dónde encaja nuestro producto en su vida?** <br><br>
-**¿Qué problemas tiene nuestro producto y cómo se pueden resolver?** <br><br>
-**¿Cuándo y cómo se usará nuestro producto?** <br><br>
-**¿Qué características son importantes?** <br><br>
-**¿Cómo debe verse nuestro producto y cómo debe comportarse?** <br><br>
+**¿Quién es el usuario?** <br>El usuario es principalmente un adulto joven o estudiante universitarios que recibe ingresos de manera regular, aunque en muchos casos enfrenta gastos variables, deudas recurrentes o dificultades para ahorrar. Es alguien que busca tener mayor control sobre su dinero, pero que hasta ahora no ha encontrado una herramienta sencilla y confiable que le permita organizarse sin invertir demasiado tiempo o esfuerzo.<br>
+
+**¿Dónde encaja nuestro producto en su vida?** <br>Nuestro producto encaja en su vida diaria como un aliado silencioso: no pretende reemplazar su banco ni complicarle con procesos técnicos, sino convertirse en el espacio central donde pueda visualizar de forma clara y ordenada el estado de sus finanzas. Allí, el usuario podrá entender en qué se está yendo su dinero, fijar metas y recibir alertas que lo ayuden a tomar mejores decisiones<br>
+
+**¿Qué problemas tiene nuestro producto y cómo se pueden resolver?** <br>El problema principal es la falta de visibilidad y motivación. Hoy, muchos intentan llevar un control con Excel o notas, pero lo abandonan porque el proceso es tedioso, poco visual y sin retroalimentación.Nuestro producto aborda esta necesidad ofreciendo simplicidad en el registro de ingresos y egresos, categorización automática y reportes visuales fáciles de interpretar, además de notificaciones que guían al usuario en momentos clave, como cuando está por superar su presupuesto.<br>
+
+**¿Cuándo y cómo se usará nuestro producto?** <br>El producto será utilizado en los momentos cotidianos en los que la persona recibe dinero o realiza un gasto: al pagar una cuenta, comprar en el supermercado o planificar a fin de mes. En su versión web, se utilizará sobre todo en laptops y PCs al revisar balances completos; en la app móvil permitirá registrar gastos en tiempo real desde cualquier lugar.<br>
+
+**¿Qué características son importantes?** <br>Las características más importantes se relacionan con la simplicidad, la claridad visual y la personalización. No se trata de tener cientos de funciones, sino de que cada interacción aporte valor inmediato: registrar rápido, ver de un vistazo el estado financiero, recibir alertas útiles y definir metas alcanzables<br>
+
+**¿Cómo debe verse nuestro producto y cómo debe comportarse?** <br>El producto debe verse moderno y confiable, con un diseño amigable y profesional que inspire seguridad, pero también accesible para cualquier persona, incluso quienes no tienen experiencia en herramientas financieras. Su comportamiento debe ser fluido y coherente: ágil al momento de registrar datos, consistente en sus reportes y proactivo al enviar recomendaciones personalizadas.<br>
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
-**Hypothesis Statement 1:** <br><br>
-**Hypothesis Statement 2:** <br><br>
-**Hypothesis Statement 3:** <br><br>
+**Hypothesis Statement 1:** <br>**Creemos que** si ofrecemos una forma rápida y sencilla de registrar ingresos y egresos, los usuarios mantendrán un registro constante de su vida financiera.
+**Sabremos que** hemos tenido éxito **cuando** al menos el 60% de los usuarios registre movimientos al menos tres veces por semana.<br>
+
+**Hypothesis Statement 2:** <br>**Creemos que** si presentamos reportes visuales claros sobre el flujo de dinero, los usuarios comprenderán mejor sus hábitos de gasto.
+**Sabremos que** hemos tenido éxito **cuando** más del 70% de los usuarios consulten sus reportes al menos una vez por semana.<br>
+
+**Hypothesis Statement 3:** <br>**Creemos que** si la solución envía alertas y recordatorios personalizados, los usuarios podrán anticiparse a gastos importantes y evitar sobrepasar sus presupuestos.
+**Sabremos** que hemos tenido éxito **cuando** al menos el 50% de los usuarios ajusten su comportamiento financiero después de recibir una alerta.<br>
+
+**Hypothesis Statement 4:**<br>Creemos que si se permite definir metas financieras alcanzables y muestra el progreso de forma motivadora, los usuarios se comprometerán más con la plataforma.
+Sabremos que hemos tenido éxito cuando al menos el 40% de los usuarios logren cumplir una meta de ahorro en los primeros tres meses de uso.
+</br>
 
 #### 1.2.2.4. Lean UX Canvas
-<td><img src="public/assets/images/Lean-Ux-Canvas/LeanUxCanvas.png" alt="LeanUxCanvas"></td>
+<td><img src="resources/canvas.png" alt="LeanUxCanvas"></td>
 
-Enlace para acceder al [Canvas](#).
+[Enlace para accerder al canva](https://miro.com/app/board/uXjVJL9MIK8=/?share_link_id=902556983183)
 
 ## 1.3. Segmentos objetivo
-
 ### Segmentación del Dominio del Problema
-Esta sección describe a los segmentos clave vinculados al dominio del problema en el contexto del café de especialidad.
-#### 1. Baristas Profesionales
+La solución TuCash está orientada a dos segmentos principales de usuarios que enfrentan retos financieros en su vida diaria y que necesitan herramientas accesibles, visuales y confiables para mejorar el control de sus ingresos y gastos.
 
-<br><br><br>
+#### 1. Estudiantes universitarios (16–24 años)
+**Demografía:**
+jóvenes que cursan estudios técnicos o universitarios, en su mayoría dependientes económicamente de sus padres o con ingresos parciales (trabajos de medio tiempo, prácticas profesionales o becas).
 
-#### 2. Cafeterías de Especialidad (Administradores y Dueños)
+**Características:**
+- Manejan ingresos limitados y variables.
+- Alta afinidad con el uso de tecnología y aplicaciones móviles.
+- Buscan independencia y aprender a organizar su dinero desde etapas tempranas.
 
-<br><br><br>
+**Necesidades:**
+- Un sistema simple para registrar ingresos (mesadas, trabajos eventuales) y gastos diarios.
+- Herramientas visuales que les ayuden a identificar patrones de consumo.
+- Motivación para empezar a crear hábitos de ahorro.
+
+Datos de sustento: según el INEI (2023), en Perú más del 65% de jóvenes entre 18 y 24 años usa internet desde el celular para actividades financieras básicas, pero menos del 30% lleva un registro formal de sus finanzas.
+#### 2. Padres, madres o tutores (25–45 años)
+**Demografía:**
+- adultos con ingresos estables (formales o informales), responsables de la economía familiar.
+
+**aracterísticas:**
+- Manejan presupuestos familiares, con gastos recurrentes (alquiler, servicios, alimentación, educación).
+- Buscan mantener estabilidad financiera y planificar metas a mediano plazo.
+- Valoran herramientas que brinden claridad y seguridad.
+
+**Necesidades:**
+- Un sistema confiable que les permita organizar gastos del hogar y anticipar pagos.
+- Alertas y recordatorios que ayuden a evitar sobreendeudamiento.
+- Metas financieras familiares (ahorrar para educación, vivienda, salud).
+
+**Datos de sustento:** el Banco Interamericano de Desarrollo (2022) señala que más del 45% de adultos en Latinoamérica con hijos declara tener dificultades para llegar a fin de mes, y un 38% carece de un método estructurado de control financiero.
 
 # Capítulo II: Requirements Elicitation & Analysis
 
