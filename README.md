@@ -341,7 +341,8 @@ En esta sección se brinda la descripción de nuestra startup, producto y miembr
     <td><img src="resources/patricia.jpg" alt="Patricia Valeria Mejia Poma" width="200"></td>
     <td>
       <b>Patricia Valeria Mejia Poma (U202523271)</b><br>
-      <!-- Aquí va su descripción -->
+      Soy estudiante de Ingeniería de Software en la UPC. Mi experiencia abarca el desarrollo backend con tecnologías como Java y C#, y la gestión de bases de datos como MySQL y PostgreSQL. Además, tengo conocimientos en el desarrollo frontend con HTML, CSS y framework como Tailwind CSS. 
+      Me defino como una persona responsable y comprometida con el trabajo en equipo. Tengo un gran interés en seguir aprendiendo para fortalecer mi perfil profesional, aplicando mis habilidades para aportar soluciones innovadoras. Espero que este curso me permita profundizar en el desarrollo de aplicaciones web y consolidar mi formación como futura ingeniera.
     </td>
   </tr>
 
@@ -795,252 +796,103 @@ El objetivo de estas entrevistas es comprender las necesidades, dificultades y e
 # Capítulo III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping
-En el caso del To-be Scenario Mapping, el equipo definió cómo se visualizaría el flujo de trabajo una vez que la solución CaféLab haya sido implementada en los dos segmentos objetivos. El propósito de este artefacto es analizar y mejorar los aspectos negativos identificados en el As-is Scenario, optimizando los procesos de monitoreo, registro y retroalimentación, y elevando la calidad del café, la eficiencia operativa y la capacidad para tomar decisiones informadas.
+El mapeo de escenarios “To-Be” nos permite visualizar cómo será el proceso o flujo de trabajo deseado del usuario una vez que implementemos nuestra solución. Basado en nuestros segmentos objetivo, elaboramos un To-Be Scenario Mapping para observar cómo TuCash aborda las necesidades de cada usuario, detallando sus acciones, pensamientos y emociones en cada fase de su viaje financiero.
 
-**Administradores y dueños de cafeterias de especialidad**
-<td><img src="public\assets\images\TO-BE\TO_BE_ADMINISTRADORES_Y_DUEÑOS_DE_CAFETERIAS_DE_ESPECIALIDAD.png" alt="To-Be Administradores y dueños de cafeterías de especialidad"></td>
+---
 
-**Barista Profesional**
-<td><img src="public\assets\images\TO-BE\TO_BE_BARISTA_PROFESIONAL.png" alt="To-Be Baristas profesionales"></td>
+#### Segmento 1: Estudiantes universitarios en busca de control financiero
 
+| PHASES | *1. Adopción y Registro Inicial* | *2. Análisis de Datos y Concienciación* | *3. Planificación y Seguimiento de Metas* |
+| :--- | :--- | :--- | :--- |
+| *DOING* | Realiza el proceso de alta en la plataforma. Registra sus transacciones financieras diarias (gastos e ingresos) utilizando las categorías predefinidas. | Accede al dashboard principal para revisar la data consolidada. Utiliza los filtros para visualizar la distribución de gastos por categoría en un período determinado. | Define una meta de ahorro con un monto y plazo específicos. Ingresa periódicamente los montos destinados a dicha meta y monitorea su avance. |
+| *THINKING* | "Evalúa si la simplicidad de la herramienta le permitirá ser constante en el registro de sus finanzas para obtener datos útiles." | "Identifica una oportunidad de ahorro significativa al visualizar el alto costo de una categoría de gasto específica." | "Considera que el plan de ahorro sugerido por la aplicación es una guía clara y alcanzable para cumplir su objetivo." |
+| *FEELING* | *Interesada, con expectativas moderadas sobre la utilidad de la herramienta. | **Sorprendida, pero con una mayor **sensación de control* al comprender sus patrones de consumo. | *Motivada, con un claro **sentido de logro* al observar el progreso hacia su objetivo financiero. |
+
+---
+
+#### Segmento 2: Padres y madres de familia buscando estabilidad económica
+
+| PHASES | *1. Configuración del Presupuesto Familiar* | *2. Monitoreo y Gestión Continua* | *3. Planificación Financiera Estratégica* |
+| :--- | :--- | :--- | :--- |
+| *DOING* | Ingresa los ingresos fijos del hogar. Configura los gastos recurrentes (servicios, hipoteca, educación) estableciendo sus fechas de vencimiento. | Recibe notificaciones automáticas de próximos vencimientos. Registra los gastos variables de la familia conforme se realizan. | Analiza los reportes mensuales consolidados junto a su pareja. Establece una meta de ahorro a mediano plazo para un objetivo familiar. |
+| *THINKING* | "Piensa que registrar los gastos recurrentes desde el principio establecerá una base sólida para el control del presupuesto familiar." | "Valora la utilidad de los recordatorios para evitar recargos. Reconoce la eficiencia del registro inmediato de gastos." | "Confirma que la visualización de datos consolidados permite tomar decisiones informadas sobre el ahorro y la planificación." |
+| *FEELING* | *Aliviado, con una **sensación de orden* en la gestión financiera del hogar. | *Seguro* y con *menor estrés financiero* gracias a las alertas y al control constante. | *Optimista* y *alineado con los objetivos familiares* al contar con un plan financiero claro. |
 
 ## 3.2. User Stories
 
+Tras analizar las Épicas definidas, procedemos a desglosarlas en Historias de Usuario más detalladas, enfocándonos en cubrir las funcionalidades principales de cada una. Este proceso nos permitió identificar los requisitos específicos del usuario y los casos de uso de cada Épica, lo que facilitó la priorización y planificación de las siguientes etapas de desarrollo.
 
+Para elaborar user stories que pertenecen a un epic. A continuación, las epics que consideramos como equipo:
+
+| EPIC ID | TÍTULO DE LA EPIC |
+| :--- | :--- |
+| *EP01* | Gestión de Cuentas de Usuario |
+| *EP02* | Gestión de Transacciones |
+| *EP03* | Visualización de Datos y Reportes |
+| *EP04* | Planificación y Metas Financieras |
+| *EP05* | Presupuestos y Notificaciones |
+
+---
+
+A continuacion, la realizacion de los user stories con sus criterios de aceptacion con escenarios e ID de Épica:
+
+
+| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Epic ID |
+| :--- | :--- | :--- | :--- | :--- |
+| *EP01/US01* | Creación de cuenta de usuario | Como usuario nuevo, quiero registrarme en la plataforma utilizando mi correo electrónico y una contraseña para crear una cuenta personal y segura. | **Escenario 1: Registro Exitoso<br>Given* que el usuario se encuentra en la página de registro.<br>*When* ingresa un correo electrónico válido, una contraseña segura y hace clic en "Registrarse".<br>*Then* el sistema crea la cuenta, inicia su sesión y lo redirige al panel principal.<br><br>*Escenario 2: Correo ya existente<br>Given* que el usuario se encuentra en la página de registro.<br>*When* ingresa un correo electrónico que ya está registrado.<br>*Then* el sistema muestra un mensaje de error indicando que el correo ya existe. | EP01 |
+| *EP01/US02* | Inicio de sesión de usuario | Como usuario registrado, quiero iniciar sesión en mi cuenta para acceder a mi información financiera. | **Escenario 1: Credenciales Correctas<br>Given* que un usuario registrado se encuentra en la página de inicio de sesión.<br>*When* ingresa su correo y contraseña correctos.<br>*Then* el sistema valida las credenciales y le da acceso a su panel principal.<br><br>*Escenario 2: Credenciales Incorrectas<br>Given* que un usuario registrado se encuentra en la página de inicio de sesión.<br>*When* ingresa un correo o contraseña incorrectos.<br>*Then* el sistema muestra un mensaje de error de "Credenciales inválidas". | EP01 |
+| *EP02/US01* | Registro de Ingresos | Como usuario, quiero registrar un nuevo ingreso de forma rápida para mantener mi saldo total actualizado. | **Given* que el usuario ha iniciado sesión.<br>*When* el usuario añade un nuevo ingreso con un monto válido y una descripción.<br>*Then* el sistema registra la transacción, actualiza el saldo general y la muestra en el historial. | EP02 |
+| *EP02/US02* | Registro de Egresos | Como usuario, quiero registrar un nuevo egreso y asignarle una categoría para facilitar el análisis de mis patrones de consumo. | **Given* que el usuario ha iniciado sesión.<br>*When* el usuario añade un nuevo egreso, completa el monto y selecciona una categoría de la lista.<br>*Then* el sistema registra la transacción, actualiza el saldo y la muestra en el historial con la categoría asignada. | EP02 |
+| *EP03/US01* | Dashboard Financiero | Como usuario, quiero acceder a un panel principal que resuma mi estado financiero para obtener una vista consolidada de mis finanzas. | **Given* que el usuario ha iniciado sesión.<br>*When* el usuario navega a la página principal.<br>*Then* se muestra un dashboard con: saldo actual, total de ingresos del mes y total de egresos del mes. | EP03 |
+| *EP03/US02* | Reporte Gráfico por Categoría | Como usuario, quiero ver un gráfico de distribución de gastos por categoría para identificar las áreas de mayor egreso. | **Given* que el usuario ha registrado egresos en el mes actual.<br>*When* el usuario visualiza el dashboard.<br>*Then* se muestra un gráfico (ej. circular o de barras) que desglosa los gastos del mes por categoría. | EP03 |
+| *EP04/US01* | Creación de Metas de Ahorro | Como estudiante, quiero crear una meta de ahorro con un nombre y monto objetivo para dar seguimiento a un objetivo específico. | **Given* que el usuario está en la sección de "Metas".<br>*When* el usuario selecciona "Crear Nueva Meta", completa los campos requeridos y guarda.<br>*Then* la nueva meta aparece en su listado con un progreso de 0%. | EP04 |
+| *EP04/US02| Contribución a Metas | Como usuario, quiero poder registrar aportes monetarios a una meta existente para actualizar el monto ahorrado. | **Given* que el usuario tiene una meta de ahorro creada.<br>*When* el usuario selecciona una meta y elige la opción de "Añadir Ahorro", ingresando un monto.<br>*Then* el monto se suma al total ahorrado de la meta y la barra de progreso se actualiza. | EP04 |
+| *EP05/US01* | Creación de Presupuestos | Como usuario, quiero establecer un límite de gasto mensual por categoría para gestionar proactivamente mis egresos. | **Given* que el usuario está en la sección de "Presupuestos".<br>*When* el usuario selecciona una categoría, establece un monto límite para el mes en curso y guarda.<br>*Then* el presupuesto queda registrado y activo para esa categoría. | EP05 |
+| *EP05/US02* | Alertas de Presupuesto | Como usuario, quiero recibir una alerta cuando mi gasto en una categoría se aproxime al límite del presupuesto para tomar decisiones informadas. | **Given* que un presupuesto para una categoría está activo.<br>*When* un nuevo egreso causa que el total gastado en esa categoría supere el 90% del límite.<br>*Then* el sistema genera una notificación visible para el usuario. | EP05 |
 
 ## 3.3. Impact Mapping
-![Impact Mapping - Fernando Goijman 1](https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4307-CafeMetrix/cafeLab/feature/informe-readme/public/assets/images/ImpactMapping/ImpactMapping-FernandoGoijman1.jpeg)
-![Impact Mapping - Valeria Ramos 1](https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4307-CafeMetrix/cafeLab/feature/informe-readme/public/assets/images/ImpactMapping/ImpactMapping-ValeriaRamos1.jpeg)
 
-![Impact Mapping - Fernando Goijman 2](https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4307-CafeMetrix/cafeLab/feature/informe-readme/public/assets/images/ImpactMapping/ImpactMapping-FernandoGoijman2.jpeg)
-![Impact Mapping -  2](https://raw.githubusercontent.com/upc-pre-202510-1asi0729-4307-CafeMetrix/cafeLab/feature/informe-readme/public/assets/images/ImpactMapping/ImpactMapping-ValeriaRamos2.jpeg)
+El Impact Mapping es una técnica de planificación estratégica que nos permite visualizar cómo las funcionalidades del producto se conectan con los objetivos del negocio. Nos ayuda a asegurar que estamos construyendo las características correctas para generar el impacto deseado en el comportamiento de nuestros usuarios y, en última instancia, alcanzar nuestras metas.
+
+A continuación, se presenta el Impact Map para el proyecto TuCash.
+
+<img width="1316" height="1981" alt="Impact map 1" src="https://github.com/user-attachments/assets/fea56845-297e-4c33-8479-10a20b745bfd" />
 
 
 ## 3.4. Product Backlog
-<table>
-<table border="1" cellspacing="0" cellpadding="8">
-  <thead>
-    <tr>
-      <th rowspan="2">#<br>Orden</th>
-      <th rowspan="2">User<br>Story<br>Id</th>
-      <th rowspan="2">Título</th>
-      <th rowspan="2">Descripción</th>
-      <th rowspan="2">Story<br>Points<br>(1/2/3/5/8)</th>
-    </tr>
-  </thead>
- </tr>
-        <tr>
-            <td class="center">1</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td class="center"></td>
-        </tr>
-        <tr>
-            <td class="center">2</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td class="center"></td>
-        </tr>
-        <tr>
-            <td class="center">3</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td class="center"></td>
-        </tr>
-        <tr>
-            <td class="center">4</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td class="center"></td>
-        </tr>
-        <tr>
-            <td class="center">5</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td class="center"></td>
-        </tr>
-        <tr>
-            <td class="center">6</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td class="center"></td>
-        </tr>
-        <tr>
-            <td class="center">7</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td class="center"></td>
-        </tr>
-        <tr>
-            <td class="center">8</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td class="center"></td>
-        </tr>
-        <tr>
-            <td class="center">9</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td class="center"></td>
-        </tr>
-        <tr>
-            <td class="center">10</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td class="center"></td>
-        </tr>
-        <tr>
-            <td class="center">11</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td class="center"></td>
-        </tr>
-        <tr>
-            <td class="center">12</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td class="center"></td>
-        </tr>
-        <tr>
-            <td class="center">13</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td class="center"></td>
-        </tr>
-        <tr>
-            <td class="center">14</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td class="center"></td>
-        </tr>
-        <tr>
-            <td class="center">15</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td class="center"></td>
-        </tr>
-        <tr>
-            <td class="center">16</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td class="center"></td>
-        </tr>
-        <tr>
-            <td class="center">17</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td class="center"></td>
-        </tr>
-        <tr>
-            <td class="center">18</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td class="center"></td>
-        </tr>
-        <tr>
-            <td class="center">19</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td class="center"></td>
-        </tr>
-        <tr>
-            <td class="center">20</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td class="center"></td>
-        </tr>
-        <tr>
-            <td class="center">21</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td class="center"></td>
-        </tr>
-        <tr>
-            <td class="center">22</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td class="center"></td>
-        </tr>
-        <tr>
-            <td class="center">23</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td class="center"></td>
-        </tr>
-        <tr>
-            <td class="center">24</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td class="center"></td>
-        </tr>
-        <tr>
-            <td class="center">25</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td class="center"></td>
-        </tr>
-        <tr>
-            <td class="center">26</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td class="center"></td>
-        </tr>
-        <tr>
-            <td class="center">27</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td class="center"></td>
-        </tr>
-        <tr>
-            <td class="center">28</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td class="center"></td>
-        </tr>
-        <tr>
-            <td class="center">29</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td class="center"></td>
-        </tr>
-        <tr>
-            <td class="center">30</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td class="center"></td>
-        </tr>
-        <!-- Continúa igual hasta la fila 49 -->
-</table>
+
+  | Orden | User Story Id | Título | Descripción | Story (1/2/3/5/8) |
+| :--- | :--- | :--- | :--- | :---: |
+| 1 | EP01/US01 | Creación de cuenta de usuario | Como usuario nuevo, quiero registrarme en la plataforma utilizando mi correo electrónico y una contraseña para crear una cuenta personal y segura. | *3* |
+| 2 | EP01/US02 | Inicio de sesión de usuario | Como usuario registrado, quiero iniciar sesión en mi cuenta para acceder a mi información financiera. | *2* |
+| 3 | EP02/US01 | Registro de Ingresos | Como usuario, quiero registrar un nuevo ingreso de forma rápida para mantener mi saldo total actualizado. | *2* |
+| 4 | EP02/US02 | Registro de Egresos | Como usuario, quiero registrar un nuevo egreso y asignarle una categoría para facilitar el análisis de mis patrones de consumo. | *3* |
+| 5 | EP03/US01 | Dashboard Financiero | Como usuario, quiero acceder a un panel principal que resuma mi estado financiero para obtener una vista consolidada de mis finanzas. | *5* |
+| 6 | EP03/US02 | Reporte Gráfico por Categoría | Como usuario, quiero ver un gráfico de distribución de gastos por categoría para identificar las áreas de mayor egreso. | *5* |
+| 7 | EP05/US01 | Creación de Presupuestos | Como usuario, quiero establecer un límite de gasto mensual por categoría para gestionar proactivamente mis egresos. | *3* |
+| 8 | EP05/US02 | Alertas de Presupuesto | Como usuario, quiero recibir una alerta cuando mi gasto en una categoría se aproxime al límite del presupuesto para tomar decisiones informadas. | *5* |
+| 9 | EP04/US01 | Creación de Metas de Ahorro | Como estudiante, quiero crear una meta de ahorro con un nombre y monto objetivo para dar seguimiento a un objetivo específico. | *3* |
+| 10 | EP04/US02 | Contribución a Metas | Como usuario, quiero poder registrar aportes monetarios a una meta existente para actualizar el monto ahorrado. | *2* |
+| 11 | EP01/US03 | Recuperar Contraseña | Como usuario, quiero poder recuperar mi contraseña a través de mi correo electrónico en caso de que la olvide, para poder acceder nuevamente a mi cuenta. | *3* |
+| 12 | EP06/US01 | Editar Perfil de Usuario | Como usuario, quiero poder editar la información de mi perfil, como mi nombre y foto, para personalizar mi cuenta. | *2* |
+| 13 | EP02/US03 | Configurar Transacciones Recurrentes | Como usuario con gastos fijos, quiero configurar ingresos y egresos recurrentes (ej. sueldo, alquiler) para que se registren automáticamente. | *5* |
+| 14 | EP06/US02 | Personalizar Categorías | Como usuario, quiero poder crear, editar y eliminar mis propias categorías de gastos para que se ajusten mejor a mi realidad. | *3* |
+| 15 | EP03/US03 | Historial de Transacciones | Como usuario, quiero acceder a un historial completo de todas mis transacciones, con opciones para buscar y filtrar, para encontrar movimientos específicos. | *3* |
+| 16 | EP03/US04 | Filtrar Transacciones | Como usuario, quiero poder filtrar mi historial de transacciones por rango de fechas, categoría o tipo (ingreso/egreso) para un análisis más detallado. | *3* |
+| 17 | EP07/US01 | Registrar Deudas | Como usuario, quiero registrar mis deudas pendientes, incluyendo el monto total y el acreedor, para tener un control claro de mis pasivos. | *5* |
+| 18 | EP07/US02 | Registrar Pagos a Deudas | Como usuario con deudas registradas, quiero poder anotar los pagos que realizo a cada una para ver cómo disminuye el saldo pendiente. | *3* |
+| 19 | EP03/US05 | Exportar Reportes | Como usuario, quiero poder exportar mis reportes financieros (ej. gastos del mes) a un archivo CSV o PDF para mis registros personales. | *5* |
+| 20 | EP02/US04 | Adjuntar Recibos a Egresos | Como usuario, quiero poder adjuntar una imagen o foto de un recibo a un registro de egreso para tener un comprobante digital. | *5* |
+| 21 | EP08/US01 | Módulo de Educación Financiera | Como usuario, quiero acceder a una sección con artículos y consejos sobre finanzas personales para aprender a manejar mejor mi dinero. | *3* |
+| 22 | EP06/US03 | Cambiar Moneda | Como usuario internacional o viajero, quiero poder cambiar la moneda principal de la aplicación para registrar mis finanzas en la divisa local. | *2* |
+| 23 | EP03/US06 | Reporte Anual | Como usuario, quiero poder generar un reporte anual consolidado para analizar mis patrones de ingresos y gastos a largo plazo. | *5* |
+| 24 | EP01/US04 | Autenticación de Dos Factores (2FA) | Como usuario preocupado por la seguridad, quiero poder activar la autenticación de dos factores para proteger el acceso a mi cuenta. | *8* |
+| 25 | EP02/US05 | Dividir Gasto en Categorías | Como usuario, quiero poder dividir un único gasto en múltiples categorías (ej. una compra de supermercado en "Comida" y "Limpieza"). | *3* |
+| 26 | EP09/US01 | Compartir Cuenta Familiar | Como padre de familia, quiero poder invitar a mi pareja a una cuenta compartida para gestionar el presupuesto del hogar de forma colaborativa. | *8* |
+| 27 | EP04/US03 | Archivar Metas Cumplidas | Como usuario, quiero poder archivar mis metas de ahorro ya cumplidas para mantener limpia mi lista de metas activas, pero sin perder el historial. | *2* |
+| 28 | EP03/US07 | Búsqueda por Descripción | Como usuario, quiero poder buscar transacciones específicas usando palabras clave en la descripción para encontrarlas rápidamente. | *3* |
+| 29 | EP05/US03 | Ver Progreso del Presupuesto | Como usuario, quiero ver una barra de progreso visual para cada presupuesto que me indique fácilmente cuánto he gastado del límite. | *3* |
+| 30 | EP08/US02 | Recibir Notificaciones Educativas | Como usuario, quiero poder recibir notificaciones opcionales con consejos rápidos y datos interesantes sobre finanzas personales. | *2* |
 
 # Capítulo IV: Product Design
 ## 4.1. Style Guideline
