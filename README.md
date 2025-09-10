@@ -985,31 +985,31 @@ A continuación, se presenta el Impact Map para el proyecto TuCash.
 ### 4.6.2. Software Architecture Container Diagrams.
 
 
+## 4.7. Software Object Oriented Design.
 
+### 4.7.1. Class Diagram.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img src="resources/classDiagramV1.png" alt="Diagrama de clases" width="1000">  
 
 ### 4.7.2. Class Dictionary.
 
-
+| Class        | Bounded Context       | Entity/Value Object | Description | Attributes | Methods | Relationships |
+|--------------|----------------------|---------------------|-------------|------------|---------|----------------|
+| **User** | CRM | Entity | Representa a un usuario registrado en la plataforma | - userId: int<br>- name: string<br>- email: string<br>- passwordHash: string<br>- createdAt: Date<br>- updatedAt: Date | + register()<br>+ login()<br>+ updateProfile()<br>+ getAccounts()<br>+ getTransactions() | - 1 to N Account: el usuario es dueño de una o múltiples cuentas<br>- 1 to N Transaction: el usuario registra una o múltiples transacciones<br>- 1 to N Goal: el usuario puede definir uno o múltiples objetivos<br>- 1 to N Budget: el usuario puede definir uno o múltiples presupuestos<br>- 1 to N AuthSession: el usuario se autentica |
+| **Account** | CRM | Entity | Representa una cuenta financiera de un usuario (ej: cuenta corriente, ahorro, tarjeta de crédito) | - accountId: int<br>- userId: int<br>- name: string<br>- type: string<br>- balance: decimal<br>- currency: string<br>- createdAt: Date | + deposit(amount)<br>+ withdraw(amount)<br>+ transfer(toAcc, amount)<br>+ getTransactions() | - 1 to N Transaction: la cuenta contiene múltiples transacciones<br>- 1 to 1 User: la cuenta pertenece a un usuario |
+| **Transaction** | Finance Management | Entity | Representa un movimiento financiero individual (ingreso, gasto, ahorro, transferencia) | - transactionId: int<br>- accountId: int<br>- userId: int<br>- categoryId: int<br>- type: string<br>- amount: decimal<br>- date: Date<br>- description: string<br>- createdAt: Date | + create()<br>+ edit()<br>+ delete()<br>+ assignCategory() | - N to 1 Account: la transacción pertenece a una cuenta<br>- N to 1 User: la transacción fue creada por un usuario<br>- N to 1 Category: la transacción está categorizada |
+| **Category** | Finance Management | Value Object | Representa una etiqueta para agrupar transacciones (ej: Alimentación, Transporte, Sueldo) | - categoryId: int<br>- name: string<br>- type: string<br>- icon: string | + create()<br>+ edit()<br>+ delete() | - 1 to N Transaction: la categoría clasifica múltiples transacciones<br>- 1 to N Budget: la categoría agrupa múltiples presupuestos |
+| **Goal** | Finance Management | Entity | Representa un objetivo de ahorro definido por el usuario (ej: fondo de emergencia, viaje) | - goalId: int<br>- userId: int<br>- name: string<br>- targetAmount: decimal<br>- currentAmount: decimal<br>- deadline: Date<br>- createdAt: Date | + addProgress(amount)<br>+ edit()<br>+ delete()<br>+ getProgress() | - N to 1 User: el objetivo es definido por un usuario |
+| **Budget** | Finance Management | Entity | Representa una asignación de gasto mensual o por periodo, asociada a una categoría | - budgetId: int<br>- userId: int<br>- categoryId: int<br>- amount: decimal<br>- startDate: Date<br>- endDate: Date<br>- createdAt: Date | + trackSpending()<br>+ edit()<br>+ delete()<br>+ getRemaining() | - N to 1 User: el presupuesto es definido por un usuario<br>- N to 1 Category: el presupuesto aplica a una categoría |
+| **AuthSession** | CRM | Value Object | Representa una sesión de autenticación para validar la identidad del usuario | - sessionId: int<br>- userId: int<br>- token: string<br>- expiresAt: Date | + createSession()<br>+ validateSession()<br>+ endSession() | - N to 1 User: la sesión es creada por un usuario |
 
 
 ## 4.8. Database Design.
 
+
 ### 4.8.1. Database Diagram.
+
+<img src="resources/databaseDiagramV1.png" alt="Diagrama de clases" width="1000">  
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
