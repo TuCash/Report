@@ -584,41 +584,59 @@ El análisis competitivo resulta fundamental para comprender el panorama del mer
 
 ### 2.2.1 Diseño de entrevistas
 
-El objetivo de estas entrevistas es comprender las necesidades, dificultades y expectativas de los usuarios potenciales de **TuCash**, considerando dos segmentos principales: **estudiantes universitarios** y **padres/madres de familia**.  
+El objetivo de estas entrevistas es comprender las **necesidades, dificultades y expectativas** de los usuarios potenciales de **TuCash**, considerando tres segmentos principales:  
+
+**Estudiantes con mesada de los padres**  
+**Estudiantes que trabajan y estudian**  
+**Estudiantes becados**  
+---
+
+## Segmento 1: Estudiantes con mesada de los padres  
+
+**Preguntas principales:**  
+1. ¿De cuánto es aproximadamente tu mesada y con qué frecuencia la recibes (semanal, mensual)?  
+2. ¿Qué haces normalmente para administrar tu mesada: la gastas toda, intentas ahorrar o llevas un registro?  
+3. ¿En qué gastas más tu mesada (alimentación, transporte, ocio, materiales de estudio, salud)?  
+4. ¿Alguna vez te quedaste sin dinero antes de recibir tu siguiente mesada? ¿Qué pasó?  
+5. ¿Has usado alguna app o herramienta digital para organizar tu mesada? ¿Qué te gustó o no te gustó?  
+6. ¿Qué tan útil sería para ti que TuCash te envíe recordatorios cuando gastes demasiado?  
+7. ¿Qué tipo de metas de ahorro te motivarían más: metas pequeñas (ej. ahorrar para un libro) o metas grandes (ej. un viaje)?  
+8. ¿Cómo prefieres ver tu información: gráficos, reportes semanales o notificaciones rápidas?  
+9. ¿Qué tan importante es para ti que TuCash sea fácil de usar y rápida al registrar un gasto?  
+10. ¿Qué función extra haría que TuCash se vuelva tu app indispensable para manejar tu mesada?  
 
 ---
 
-#### Segmento 1: Estudiantes universitarios (16–24 años)
+## Segmento 2: Estudiantes que trabajan y estudian  
 
-**Preguntas principales:**
-
-1. ¿Cómo administras actualmente tus ingresos (mesada, trabajo parcial, becas, emprendimientos)?  
-2. ¿Con qué frecuencia llevas un registro de tus gastos (diario, semanal, mensual o nunca)?  
-3. ¿Qué categorías de gasto son más importantes para ti (alimentación, transporte, ocio, estudios, salud)?  
-4. ¿Has utilizado antes una aplicación o herramienta digital para controlar tus finanzas? Si la respuesta es **sí**, ¿qué te gustó o no te gustó?  
-5. ¿Qué dificultades enfrentas al organizar tus finanzas personales como estudiante?  
-6. ¿Qué funciones consideras más útiles en una app de control financiero (recordatorios, reportes automáticos, metas, consejos personalizados)?  
-7. ¿Qué te motivaría a usar **TuCash** de manera constante (simplicidad, notificaciones, recompensas, educación financiera)?  
-8. ¿Cómo te gustaría recibir la información financiera: en gráficos, notificaciones, reportes semanales, consejos cortos?  
-9. ¿Qué tan importante es para ti que la app sea segura y proteja tus datos personales?  
-10. Si existiera una versión Premium con funciones avanzadas, ¿qué te gustaría que incluya (ejemplo: metas personalizadas, recordatorios inteligentes, integración con billeteras digitales)?  
+**Preguntas principales:**  
+1. ¿Cómo organizas actualmente tu dinero entre ingresos del trabajo y gastos de la universidad?  
+2. ¿Llevas un registro de cuánto dinero te sobra o falta cada mes? ¿Cómo lo haces?  
+3. ¿Qué gastos fijos son los más importantes para ti (pensión universitaria, transporte, alimentación, servicios, deudas)?  
+4. ¿Has tenido dificultades para separar gastos personales de gastos académicos?  
+5. ¿Qué tan útil sería que TuCash te muestre un balance mensual de ingresos vs. gastos?  
+6. ¿Qué funciones te ayudarían más: recordatorios de pagos, metas de ahorro o alertas de gasto excesivo?  
+7. ¿Prefieres que TuCash te dé reportes simples o reportes más avanzados con detalles?  
+8. ¿Qué tan importante es que la app funcione también sin internet (modo offline)?  
+9. ¿Confiarías en ingresar tus ingresos y gastos reales dentro de TuCash? ¿Por qué sí o no?  
+10. Si TuCash tuviera una versión Premium, ¿qué te motivaría a pagarla (ej. reportes avanzados, integración con billeteras, asesoría financiera)?  
 
 ---
 
-#### Segmento 2: Padres/madres o tutores (25–45 años)
+##  Segmento 3: Estudiantes becados  
 
-**Preguntas principales:**
+**Preguntas principales:**  
+1. ¿Cómo administras actualmente el dinero que recibes de tu beca (ej. gastos básicos, ahorro, ocio)?  
+2. ¿Qué tan seguido llevas un registro de en qué usas tu beca (diario, semanal, nunca)?  
+3. ¿Qué gastos principales cubres con tu beca (alimentación, materiales, transporte, vivienda, salud)?  
+4. ¿Has tenido problemas para que el dinero de tu beca dure todo el mes o el ciclo académico?  
+5. ¿Qué tan útil sería que TuCash te ayude a planificar cuánto gastar y cuánto ahorrar de tu beca?  
+6. ¿Preferirías que TuCash te dé consejos automáticos de organización o solo un registro de tus movimientos?  
+7. ¿Qué tan importante es para ti que la app te muestre reportes fáciles de compartir con tus padres o tutores?  
+8. ¿Qué formato te sería más cómodo: notificaciones rápidas, gráficos sencillos o reportes detallados?  
+9. ¿Confiarías en una app como TuCash para organizar el dinero de tu beca? ¿Qué te daría más confianza?  
+10. Si TuCash ofreciera funciones Premium, ¿qué te gustaría que incluya (ej. ahorro de emergencias, metas personalizadas, integración con cuentas universitarias)?  
 
-1. ¿Cómo sueles organizar los ingresos y gastos del hogar (libretas, Excel, apps, memoria)?  
-2. ¿Qué tipo de gastos familiares son los más difíciles de controlar (servicios, educación, ocio, imprevistos, salud)?  
-3. ¿Qué medio de pago utilizas con mayor frecuencia (efectivo, tarjeta, billetera digital)?  
-4. ¿Qué tan importante es para ti enseñar a tus hijos sobre educación financiera desde temprana edad?  
-5. ¿Has probado antes alguna aplicación de finanzas personales? ¿Qué experiencias positivas o negativas tuviste?  
-6. ¿Qué problemas enfrentas al intentar mantener un presupuesto familiar?  
-7. ¿Qué funciones valorarías más en una app de gestión financiera (reportes automáticos, metas familiares, alertas de pagos, proyecciones)?  
-8. ¿Qué tipo de recordatorios financieros serían más útiles para ti (pago de servicios, vencimientos de colegios, seguros, deudas)?  
-9. ¿Qué expectativas tienes respecto a la seguridad de datos en este tipo de aplicaciones?  
-10. ¿Estarías dispuesto/a a pagar por una versión Premium de la app? Si la respuesta es **sí**, ¿qué debería incluir para que lo consideres justo (ejemplo: reportes detallados, multiusuario para la familia, integración con billeteras)?  
 
 
 ### 2.2.2 Registro de entrevistas
@@ -689,55 +707,53 @@ El objetivo de estas entrevistas es comprender las necesidades, dificultades y e
 
 ### 2.2.3 Análisis de entrevistas
 
-#### Análisis del segmento de estudiantes universitarios
+#### Análisis del segmento 
+- **Estudiantes con mesada de los padres (16–24 años):**  
+<br><br>  
+<br><br>  
+<br><br>  
+<br><br>  
+
+- **Estudiantes que trabajan y estudian (18–26 años):**  
 
 <br><br>  
 <br><br>  
 <br><br>  
 <br><br>  
 
-#### Análisis del segmento de padres/madres o tutores
+- **Estudiantes becados (18–25 años):**  
 
-<br><br>  
-<br><br>  
-<br><br>  
-<br><br>  
 
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
-**Administradores y dueños de cafeterias de especialidad**  
-<td><img src="public\assets\images\User Persona\UserPersona_FernandoGoijman.png" alt=""></td>
+**Estudiantes con mesada de los padres**  
 
-**Barista Profesional**  
-<td><img src="public\assets\images\User Persona\UserPersona_ValeriaRamos.png" alt=""></td>
+  <td><img src="resources/Estudiantes_con_mesada_de_los_padres.png" alt="Estudiantes con mesada de los padres" width="220"><br></td>
+
+ **Estudiantes que trabajan y estudian**  
+
+  <td><img src="resources/Estudiantes_trabajan_y_estudian.png" alt="Estudiantes que trabajan y estudian" width="220"><br></td>
+
+ **Estudiantes becados**
+  <td><img src="resources/Estudiantes_becado.png" alt="Estudiantes becado" width="220"><br></td>
 
 ### 2.3.2. User Task Matrix
 
-<p><br><br></p>
+| **Task** | **Estudiantes con mesada** <br>(16–24 años) |  | **Estudiantes que trabajan y estudian** <br>(18–26 años) |  | **Estudiantes becados** <br>(18–25 años) |  |
+|----------|---------------------------------------------|--|-----------------------------------------------------------|--|-------------------------------------------|--|
+|          | **Frequency** | **Importance** | **Frequency** | **Importance** | **Frequency** | Importance |
+| Registrar gastos diarios | Sometimes | Medium | Always | High | Often | High |
+| Registrar ingresos (mesada, trabajos, becas) | Always | High | Always | High | Always | High |
+| Ahorrar para metas específicas (viajes, estudios, emergencias) | Sometimes | Medium | Often | High | Often | High |
+| Controlar presupuesto mensual | Often | High | Always | High | Always | High |
+| Revisar historial de gastos | Sometimes | Medium | Often | High | Often | High |
+| Recibir alertas de pagos/recordatorios | Often | High | Always | High | Always | High |
+| Usar apps móviles para pagos o control financiero | Often | High | Always | High | Often | High |
+| Compartir gastos con amigos/familia | Often | Medium | Sometimes | Medium | Rarely | Low |
+| Planificar gastos futuros | Sometimes | Medium | Often | High | Often | High |
+| Manejo de deudas o préstamos | Rarely | Low | Often | High | Sometimes | Medium |
+| Educación financiera/autocapacitación | Sometimes | Medium | Often | High | Always | High |
 
-<table border="1" align="center">
-        <tr>
-            <th rowspan="2">TASK</th>
-            <th colspan="2">Barista Profesional</th>
-            <th colspan="2">Dueño de cafetería de especialidad</th>
-        </tr>
-        <tr>
-            <th>FRECUENCY</th>
-            <th>IMPORTANCE</th>
-            <th>FRECUENCY</th>
-            <th>IMPORTANCE</th>
-        </tr>
-        <tr>
-            <td><br><br></td>
-            <td><br><br></td>
-            <td><br><br></td>
-            <td><br><br></td>
-            <td><br><br></td>
-        </tr>
-        <!-- Repite filas según necesidad -->
-</table>
-
-<p><br><br></p>
 
 ### 2.3.3. User Journey Mapping
 <p><br><br></p>
