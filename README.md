@@ -909,45 +909,110 @@ A continuación, se presenta el Impact Map para el proyecto TuCash.
 | 29 | EP05/US03 | Ver Progreso del Presupuesto | Como usuario, quiero ver una barra de progreso visual para cada presupuesto que me indique fácilmente cuánto he gastado del límite. | *3* |
 | 30 | EP08/US02 | Recibir Notificaciones Educativas | Como usuario, quiero poder recibir notificaciones opcionales con consejos rápidos y datos interesantes sobre finanzas personales. | *2* |
 
+
+
+
+
 # Capítulo IV: Product Design
 ## 4.1. Style Guideline
 ### 4.1.1. General Style Guidelines
 
+- **Branding**: Definir colores, tipografía y logotipo alineados con la identidad de TuCash.  
+- **Typography**: Usar fuentes legibles y modernas, priorizando jerarquía visual entre títulos, subtítulos y cuerpo de texto.  
+- **Spacing**:  
+  - Espaciado entre líneas (line-height): suficiente para lectura cómoda.  
+  - Espaciado entre párrafos: claro para separar ideas.  
+  - Margen y espaciado alrededor de elementos de la interfaz: consistente para evitar saturación visual.  
+- **Navigation**:  
+  - Espaciado entre elementos de menú y navegación uniforme.  
+  - Estructura clara para guiar al usuario.  
+- **Imagery**:  
+  - Espaciado alrededor de imágenes e ilustraciones.  
+  - Uso de recursos visuales coherentes con el branding.  
+- **Consistency**: Mantener un diseño homogéneo en toda la aplicación.  
+- **Accessibility**: Colores y contrastes adecuados para personas con dificultades visuales, además de textos alternativos en imágenes.  
 
 ### 4.1.2. Web Style Guidelines
 
-**Tarjetas y visualizaciones:**
+- **Layout**:  
+  - Uso de diseño responsivo (responsive design) para adaptarse a distintos tamaños de pantalla.  
+  - Estructura basada en cuadrículas para mantener orden y jerarquía visual.  
+  - Incorporar suficiente espacio en blanco (white space) para evitar saturación de contenido.  
 
+- **Typography**:  
+  - Mantener coherencia con las fuentes definidas en las guías generales.  
+  - Tamaños escalables para títulos, subtítulos y contenido.  
+  - Asegurar contraste adecuado entre texto y fondo.  
 
-**Botones:**
+- **Color Scheme**:  
+  - Aplicar la paleta de colores institucional definida en el branding.  
+  - Usar colores de acento para botones, enlaces y llamadas a la acción (CTA).  
+  - Mantener coherencia cromática en toda la interfaz.  
 
+- **Navigation**:  
+  - Barra de navegación fija y accesible desde cualquier punto de la página.  
+  - Inclusión de breadcrumbs (migas de pan) para mejorar la orientación del usuario.  
+  - Menús y submenús claros, fáciles de entender e interactuar.  
 
+- **Interactive Elements**:  
+  - Botones con feedback visual al hacer hover o clic.  
+  - Enlaces destacados y accesibles.  
+  - Formularios simples con validación clara y mensajes de error comprensibles.  
 
-**Tablas:**
+- **Imagery and Media**:  
+  - Imágenes optimizadas para carga rápida sin perder calidad.  
+  - Uso de iconografía consistente con el estilo visual definido.  
+  - Integración de multimedia (videos o animaciones) solo cuando aporten valor.  
+
+- **Accessibility (WCAG)**:  
+  - Contraste de colores suficiente para usuarios con baja visión.  
+  - Inclusión de etiquetas ALT en imágenes.  
+  - Compatibilidad con lectores de pantalla y navegación por teclado.  
+
+- **Performance**:  
+  - Minimización de recursos (CSS, JS e imágenes).  
+  - Optimización para tiempos de carga rápidos.  
+  - Compatibilidad entre navegadores modernos.  
 
 
 
 **Pantallas emergentes:**
 
--## 4.2. Information Architecture
+## 4.2. Information Architecture
+
+#### 4.2.1. Organization Systems  
+- Clasificación de contenidos por categorías principales (ej. inicio, catálogo, servicios, contacto).  
+- Jerarquía clara para priorizar la información más relevante.  
+- Uso de estructuras en árbol para mantener la lógica de navegación.  
+- Consistencia en la organización entre diferentes secciones de la plataforma.  
+
+#### 4.2.2. Labeling Systems  
+- Etiquetas claras y descriptivas que permitan al usuario comprender de inmediato la función o contenido.  
+- Uso de lenguaje natural y cercano al usuario.  
+- Evitar tecnicismos innecesarios en los menús y botones.  
+- Estándar tipográfico para títulos, subtítulos y enlaces.  
+
+#### 4.2.3. SEO Tags and Meta Tags  
+- Implementación de títulos únicos y descripciones meta para cada página.  
+- Uso de **meta keywords** relevantes para mejorar la indexación.  
+- Inclusión de etiquetas **Open Graph (OG)** para optimizar la compartición en redes sociales.  
+- Aplicación de encabezados (H1, H2, H3) jerárquicos y semánticos.  
+- Uso de URLs amigables con palabras clave.  
+
+#### 4.2.4. Searching Systems  
+- Barra de búsqueda visible en la parte superior de la interfaz.  
+- Autocompletado y sugerencias para agilizar las consultas.  
+- Filtros y categorías para refinar resultados.  
+- Inclusión de historial de búsqueda y resultados relevantes.  
+
+#### 4.2.5. Navigation Systems  
+- Menú principal jerárquico y accesible desde todas las páginas.  
+- Inclusión de breadcrumbs (migas de pan) para orientar al usuario.  
+- Menú de pie de página (footer) con accesos rápidos a secciones clave.  
+- Consistencia en la ubicación y estilo de los elementos de navegación.  
+- Posibilidad de navegación móvil mediante menús desplegables (hamburger menu).  
 
 
-### 4.2.1. Organization Systems.
-
-
-### 4.2.2. Labeling Systems.
-
-### 4.2.3. SEO Tags and Meta Tags
-
-
-**Landing Page:**
-
-
-
-
-### 4.2.4. Searching Systems.
-
-### 4.2.5. Navigation Systems.
 
 ## 4.3. Landing Page UI Design.
 ### 4.3.1. Landing Page Wireframe.
