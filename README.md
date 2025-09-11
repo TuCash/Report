@@ -724,7 +724,9 @@ El objetivo de estas entrevistas es identificar y comprender las **necesidades, 
 **Estudiantes con mesada de los padres**  
 <img src="resources/Estudiantes con mesada de los padres.png" alt="User Journey Mapping Estudiantes con mesada de los padres">
 **Estudiantes que trabajan y estudian**  
- <img src="resources/Estudiantes que trabajan y estudian1.png" alt="User Journey Mapping Estudiantes que trabajan y estudian">
+ 
+ <img src="resources/User Journey Mapping  Estudiantes que trabajan y estudian1.png" alt="User Journey Mapping - Estudiantes que trabajan y estudian">
+
 **Estudiantes becados**
  <img src="resources/Estudiantes becado.png" alt="User Journey Mapping Estudiantes becado">
 
