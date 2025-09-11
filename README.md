@@ -1089,7 +1089,7 @@ A continuación, se presenta el Impact Map para el proyecto TuCash.
 
 ### 4.8.1. Database Diagram.
 
-<img src="resources/databaseDiagramV1.png" alt="Diagrama de clases" width="1000">  
+<img src="resources/databaseDiagramV1.PNG" alt="Diagrama de clases" width="1000">  
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
