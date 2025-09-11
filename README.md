@@ -515,11 +515,6 @@ Datos de sustento: según el INEI (2023), en Perú más del 65% de jóvenes entr
 
 # Capítulo II: Requirements Elicitation & Analysis
 
-## 2.1. Competidores
-**Cropster**: <br><br>
-**Artisan**: <br><br>
-**CoffeeMind**: <br><br>
-
 # Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1 Competidores
@@ -582,14 +577,14 @@ El análisis competitivo resulta fundamental para comprender el panorama del mer
     Enfoque en impacto social: mejorar la salud financiera de las familias peruanas.  
 ## 2.2 Entrevistas
 
-### 2.2.1 Diseño de entrevistas
+### 2.2.1. Diseño de entrevistas  
 
-El objetivo de estas entrevistas es comprender las **necesidades, dificultades y expectativas** de los usuarios potenciales de **TuCash**, considerando tres segmentos principales:  
+El objetivo de estas entrevistas es identificar y comprender las **necesidades, dificultades y expectativas** de los usuarios potenciales de **TuCash**. Para ello, se consideraron tres segmentos principales de estudiantes universitarios:  
 
-**Estudiantes con mesada de los padres**  
-**Estudiantes que trabajan y estudian**  
-**Estudiantes becados**  
----
+- **Estudiantes con mesada de los padres**  
+- **Estudiantes que trabajan y estudian**  
+- **Estudiantes becados**  
+
 
 ## Segmento 1: Estudiantes con mesada de los padres  
 
@@ -727,15 +722,11 @@ El objetivo de estas entrevistas es comprender las **necesidades, dificultades y
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
 **Estudiantes con mesada de los padres**  
-
-  <td><img src="resources/Estudiantes_con_mesada_de_los_padres.png" alt="Estudiantes con mesada de los padres" width="220"><br></td>
-
- **Estudiantes que trabajan y estudian**  
-
-  <td><img src="resources/Estudiantes_trabajan_y_estudian.png" alt="Estudiantes que trabajan y estudian" width="220"><br></td>
-
- **Estudiantes becados**
-  <td><img src="resources/Estudiantes_becado.png" alt="Estudiantes becado" width="220"><br></td>
+<img src="resources/Estudiantes con mesada de los padres.png" alt="User Journey Mapping Estudiantes con mesada de los padres">
+**Estudiantes que trabajan y estudian**  
+ <img src="resources/Estudiantes que trabajan y estudian.png" alt="User Journey Mapping Estudiantes que trabajan y estudian">
+**Estudiantes becados**
+ <img src="resources/Estudiantes becado.png" alt="User Journey Mapping Estudiantes becado">
 
 ### 2.3.2. User Task Matrix
 
@@ -756,13 +747,19 @@ El objetivo de estas entrevistas es comprender las **necesidades, dificultades y
 
 
 ### 2.3.3. User Journey Mapping
-<p><br><br></p>
+ 
+### Segmento 1: Estudiantes con mesada
+<img src="resources/User Journey Mapping Estudiantes con mesada.png" alt="User Journey Mapping - Estudiantes con mesada" >
 
-**Dueño de cafeteria:**  
-<td><img src="public\assets\images\JourneyMap\CustomerjourneymapFernandoGoijman.png" alt=""></td>
+### Segmento 2: Estudiantes que trabajan y estudian
+<img src="resources/User Journey Mapping  Estudiantes que trabajan y estudian.png" alt="User Journey Mapping - Estudiantes que trabajan y estudian" >
 
-**Barista Profesional:**  
-<td><img src="public\assets\images\JourneyMap\CustomerjourneymapValeriaRamos.png" alt=""></td>
+### Segmento 3: Estudiantes becados
+<img src="resources/User Journey Mapping studiantes becados.png" alt="User Journey Mapping - Estudiantes becados">
+
+
+
+
 
 ### 2.3.4. Empathy Mapping
 **Administradores y dueños de cafeterias de especialidad**  
