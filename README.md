@@ -635,22 +635,22 @@ El objetivo de estas entrevistas es identificar y comprender las **necesidades, 
 8. ¿Qué formato te sería más cómodo: notificaciones rápidas, gráficos sencillos o reportes detallados?  
 9. ¿Confiarías en una app como TuCash para organizar el dinero de tu beca? ¿Qué te daría más confianza?  
 10. Si TuCash ofreciera funciones Premium, ¿qué te gustaría que incluya (ej. ahorro de emergencias, metas personalizadas, integración con cuentas universitarias)?  
-
+---
 
 
 ### 2.2.2 Registro de entrevistas
 
 #### Entrevistas a estudiantes universitarios
 
-| Campo         | Información |
-|---------------|-------------|
-| Entrevistado 1 |             |
-| Edad          |             |
-| Distrito      |             |
-| Foto          | ![Foto entrevistado 1]() |
-| Timing        | [Ver grabación]() |
-
----
+| Campo        | Información |
+|--------------|-------------|
+| Entrevistado | Hany Pareja Berocal |
+| Edad         | 20 años |
+| Distrito     | Miraflores |
+| Foto         | ![entrevistatcash_hany.png](resources/entrevistatcash_hany.png) |
+| Timing       | [Ver grabación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c576_upc_edu_pe/EbEbqhF74AlOgf3ZwSKHMokBaIijzknO4A1UVOGBx3q5KA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=sMK4RD) |
+| Segmento     | Estudiantes con mesada de los padres |
+| Preguntas    | ¿De cuánto es tu mesada? / ¿Cómo la administras? / ¿En qué gastas más? / ¿Te quedaste sin dinero antes? / ¿Has usado apps? / ¿Qué tan útil serían recordatorios de gasto? / ¿Qué metas de ahorro te motivan más? / ¿Prefieres gráficos o reportes? / ¿Qué tan importante es la facilidad de uso? / ¿Qué función extra haría que TuCash sea indispensable para ti? |
 
 | Campo         | Información |
 |---------------|-------------|
@@ -707,11 +707,37 @@ El objetivo de estas entrevistas es identificar y comprender las **necesidades, 
 ### 2.2.3 Análisis de entrevistas
 
 #### Análisis del segmento 
-- **Estudiantes con mesada de los padres (16–24 años):**  
-<br><br>  
-<br><br>  
-<br><br>  
-<br><br>  
+
+**Segmento 1: Estudiantes con mesada de los padres (Hany, Miraflores)**
+
+#### Perfil
+- Hany, de 20 años, estudiante universitario en Miraflores.
+- Recibe mesada de sus padres y busca gestionar mejor su dinero.
+
+#### Insights clave
+- **Administración del dinero:** Hany intenta ahorrar, pero a veces gasta más de lo previsto, mostrando la dificultad de mantener un control financiero constante.
+- **Gastos principales:** Alimentación y transporte consumen la mayor parte de su mesada; ocio y materiales de estudio se gestionan según disponibilidad.
+- **Uso de apps:** Ha probado aplicaciones como Wallet y Spendee; valora los gráficos y la categorización de gastos, pero encuentra tedioso el registro manual y algunas funciones de pago limitantes.
+
+#### Estrategias actuales
+- Anota gastos grandes para no perder control.
+- Ajusta su consumo o pide apoyo adicional a sus padres cuando se queda sin dinero.
+
+#### Apertura a soluciones digitales
+- Interesado en recordatorios automáticos y funcionalidades que permitan monitorear y planificar sus gastos.
+- Valora integración con tarjetas o billeteras digitales y recomendaciones personalizadas.
+
+#### Necesidades
+- Herramientas para monitorear gastos diarios y evitar quedarse sin dinero antes de recibir la mesada.
+- Funciones de planificación de ahorro, con metas pequeñas y grandes, para motivar hábitos financieros positivos.
+- Visualización clara de gastos: gráficos, reportes semanales y notificaciones rápidas para facilitar la toma de decisiones.
+
+#### Oportunidades para TuCash
+- **Recordatorios automáticos:** Alertas cuando se aproxima al límite de gasto diario o mensual.
+- **Conexión con tarjetas/billeteras:** Registrar gastos automáticamente sin intervención manual.
+- **Recomendaciones personalizadas:** Consejos de ahorro, avisos sobre gastos excesivos y sugerencias para alcanzar metas de ahorro.
+- **Reportes visuales:** Gráficos intuitivos y resúmenes semanales que permitan entender hábitos de consumo.
+
 
 - **Estudiantes que trabajan y estudian (18–26 años):**  
 
