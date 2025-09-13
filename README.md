@@ -241,42 +241,38 @@
             <td style="border: 1px solid #ddd; vertical-align: top;">
             3.c1. Comunica oralmente con efectividad a diferentes rangos de audiencia</td>
             <td style="border: 1px solid #ddd; vertical-align: top;">
-                <strong>Guillermo Tantaleán</strong><br>
-                TP1: <br><br>
-                <strong>Henry Esteban</strong><br>
-                TP1: <br><br>
-                <strong>Adrian Donayre</strong><br>
-                TP1: <br><br>
-                <strong>Christian Inga</strong><br>
-                TP1: <br><br>
-                <strong>Carlos Fernandez</strong><br>
-                TP1: <br><br>
+                <strong>Milenio Huaman</strong><br>
+                TP1: Parte 1 hasta Segmento Objetivo<br><br>
+                <strong>Giussepe Taquiri</strong><br>
+                TP1: Capítulo II hasta User Journey Mapping<br><br>
+                <strong>Patricia Mejía</strong><br>
+                TP1: Empathy Mapping hasta Product Backlog<br><br>
                 <strong>Juan Diego Mondoñedo</strong><br>
-                TP1: <br><br>
+                TP1: Desde Product Backlog en adelante<br><br>
+                <strong>Harrison Payesa</strong><br>
+                TP1: Continuación de Product Backlog y revisiones finales<br><br>
             </td>
             <td style="border: 1px solid #ddd; vertical-align: top;">
-                <b>TP1:</b> <br><br>
+                <b>TP1:</b> Cada integrante contribuyó a secciones clave del informe, mostrando habilidades de comunicación oral al exponer sus aportes y explicar decisiones de diseño y análisis.
             </td>
         </tr>
         <tr>
             <td style="border: 1px solid #ddd; vertical-align: top;">
              3.c2. Comunica por escrito con efectividad a diferentes rangos de audiencia</td>
             <td style="border: 1px solid #ddd; vertical-align: top;">
-                <strong>Henry Esteban</strong><br>
-                TP1: <br><br>
-                <strong>Adrian Donayre</strong><br>
-                TP1: <br><br>
-                <strong>Christian Inga</strong><br>
-                TP1: <br><br>
-                <strong>Carlos Fernandez</strong><br>
-                TP1: <br><br>
-                <strong>Guillermo Fabián Tantaleán Mesta</strong><br>
-                TP1: <br><br>
-                <strong>Juan Diego Mondoñedo Rodriguez</strong><br>
-                TP1: <br><br>
+                <strong>Milenio Huaman</strong><br>
+                TP1: Parte 1 hasta Segmento Objetivo<br><br>
+                <strong>Giussepe Taquiri</strong><br>
+                TP1: Capítulo II hasta User Journey Mapping<br><br>
+                <strong>Patricia Mejía</strong><br>
+                TP1: Empathy Mapping hasta Product Backlog<br><br>
+                <strong>Juan Diego Mondoñedo</strong><br>
+                TP1: Desde Product Backlog en adelante<br><br>
+                <strong>Harrison Payesa</strong><br>
+                TP1: Continuación de Product Backlog y revisiones finales<br><br>
             </td>
             <td style="border: 1px solid #ddd; vertical-align: top;">
-                <b>TP1:</b> <br><br>
+                <b>TP1:</b> La documentación escrita fue organizada por secciones asignadas a cada miembro, garantizando claridad, coherencia y comunicación efectiva para distintos públicos.
             </td>
         </tr>
     </table>
