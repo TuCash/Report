@@ -482,36 +482,40 @@ Sabremos que hemos tenido éxito cuando al menos el 40% de los usuarios logren c
 ### Segmentación del Dominio del Problema
 La solución TuCash está orientada a dos segmentos principales de usuarios que enfrentan retos financieros en su vida diaria y que necesitan herramientas accesibles, visuales y confiables para mejorar el control de sus ingresos y gastos.
 
-#### 1. Estudiantes universitarios (16–24 años)
-**Demografía:**
-jóvenes que cursan estudios técnicos o universitarios, en su mayoría dependientes económicamente de sus padres o con ingresos parciales (trabajos de medio tiempo, prácticas profesionales o becas).
+#### 1. Estudiantes independientes (16–24 años)
+- **Demografía:**
+jóvenes entre 18 y 24 años que estudian y generan sus propios ingresos a través de trabajos de medio tiempo, emprendimientos o empleos formales.
 
-**Características:**
-- Manejan ingresos limitados y variables.
-- Alta afinidad con el uso de tecnología y aplicaciones móviles.
-- Buscan independencia y aprender a organizar su dinero desde etapas tempranas.
+- **Características:** 
+manejan ingresos variables y limitados, suelen cubrir gastos básicos como alimentación, transporte y en algunos casos vivienda. Priorizan la optimización de su dinero y buscan herramientas digitales que les ayuden a no perder el control.
 
-**Necesidades:**
-- Un sistema simple para registrar ingresos (mesadas, trabajos eventuales) y gastos diarios.
-- Herramientas visuales que les ayuden a identificar patrones de consumo.
-- Motivación para empezar a crear hábitos de ahorro.
+- **Necesidades:**
+un sistema ágil que les permita registrar ingresos, controlar egresos diarios y generar reportes visuales para mantener equilibrio financiero mes a mes.
 
-Datos de sustento: según el INEI (2023), en Perú más del 65% de jóvenes entre 18 y 24 años usa internet desde el celular para actividades financieras básicas, pero menos del 30% lleva un registro formal de sus finanzas.
-#### 2. Padres, madres o tutores (25–45 años)
-**Demografía:**
-- adultos con ingresos estables (formales o informales), responsables de la economía familiar.
+- **Sustento:** 
+según el INEI (2023), el 36% de jóvenes peruanos entre 18 y 24 años trabaja y estudia simultáneamente, lo que genera presión sobre su administración financiera.
 
-**aracterísticas:**
-- Manejan presupuestos familiares, con gastos recurrentes (alquiler, servicios, alimentación, educación).
-- Buscan mantener estabilidad financiera y planificar metas a mediano plazo.
-- Valoran herramientas que brinden claridad y seguridad.
+#### 2. Estudiantes con sustento familiar (16–24 años)
+- **Demografía:**
+jóvenes entre 16 y 24 años, dependientes económicamente de padres o tutores, con un ingreso mensual fijo o variable recibido como mesada o asignación familiar.
 
-**Necesidades:**
-- Un sistema confiable que les permita organizar gastos del hogar y anticipar pagos.
-- Alertas y recordatorios que ayuden a evitar sobreendeudamiento.
-- Metas financieras familiares (ahorrar para educación, vivienda, salud).
+- **Características:**
+ tienden a gastar en ocio, transporte, alimentación y educación; pocas veces llevan un control formal de esos gastos. Su reto no es generar ingresos, sino aprender a distribuirlos de manera responsable.
 
-**Datos de sustento:** el Banco Interamericano de Desarrollo (2022) señala que más del 45% de adultos en Latinoamérica con hijos declara tener dificultades para llegar a fin de mes, y un 38% carece de un método estructurado de control financiero.
+- **Necesidades:**
+ una herramienta que los motive a categorizar gastos, visualizar en qué se va el dinero y aprender hábitos de ahorro.
+
+- **Sustento:** 
+la ENAHO (INEI, 2022) muestra que más del 55% de jóvenes universitarios depende económicamente del hogar, lo que refleja la importancia de fomentar hábitos financieros desde la dependencia familiar.
+
+#### 3. Estudiantes becados (16–24 años)
+- **Demografía:** jóvenes entre 16 y 24 años que acceden a becas parciales o completas (estatales o privadas), muchas veces provenientes de contextos de vulnerabilidad socioeconómica.
+
+- **Características:** aunque su matrícula y pensiones pueden estar cubiertas, suelen tener ingresos reducidos para manutención y deben administrar con cuidado los recursos otorgados. Son más sensibles a los imprevistos financieros.
+
+- **Necesidades:** una plataforma que les ayude a priorizar gastos esenciales, planificar presupuestos ajustados y proyectar metas de ahorro pequeñas pero realistas.
+
+- **Sustento:** el Programa Nacional de Becas y Crédito Educativo (PRONABEC, 2023) indica que más de 60,000 jóvenes en Perú son beneficiarios de becas universitarias, con condiciones económicas que requieren herramientas de control financiero.
 
 # Capítulo II: Requirements Elicitation & Analysis
 
