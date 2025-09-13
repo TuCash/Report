@@ -916,105 +916,299 @@ A continuación, se presenta el Impact Map para el proyecto TuCash.
 
 
 
-
 # Capítulo IV: Product Design
+
 ## 4.1. Style Guideline
+
 ### 4.1.1. General Style Guidelines
 
-- **Branding**: Definir colores, tipografía y logotipo alineados con la identidad de TuCash.  
-- **Typography**: Usar fuentes legibles y modernas, priorizando jerarquía visual entre títulos, subtítulos y cuerpo de texto.  
-- **Spacing**:  
-  - Espaciado entre líneas (line-height): suficiente para lectura cómoda.  
-  - Espaciado entre párrafos: claro para separar ideas.  
-  - Margen y espaciado alrededor de elementos de la interfaz: consistente para evitar saturación visual.  
-- **Navigation**:  
-  - Espaciado entre elementos de menú y navegación uniforme.  
-  - Estructura clara para guiar al usuario.  
-- **Imagery**:  
-  - Espaciado alrededor de imágenes e ilustraciones.  
-  - Uso de recursos visuales coherentes con el branding.  
-- **Consistency**: Mantener un diseño homogéneo en toda la aplicación.  
-- **Accessibility**: Colores y contrastes adecuados para personas con dificultades visuales, además de textos alternativos en imágenes.  
+#### Branding
+
+La identidad de **TuCash** transmite **confianza, simplicidad y frescura**, reflejada en el isotipo del tucán, símbolo de visión y equilibrio.
+
+- **Logo**: versión principal con isotipo + tipografía, aplicada en interfaces digitales y materiales de comunicación.  
+  <img src="resources/tucash.jpeg" alt="Imagen de logo y variaciones" width="100">
+
+- **Isotipo**: cabeza del tucán, diseñado para íconos, app móvil y favicon.  
+  <img src="resources/Isotipo.png" alt="Isotipo de TuCash" width="100">
+
+- **Logotipo**: representación tipográfica de “TuCash”, adaptable a fondos claros y oscuros.  
+  <img src="resources/Logotipo.png" alt="Logotipo de TuCash" width="100">
+
+
+
+#### Typography
+
+La tipografía está diseñada para reflejar **modernidad, cercanía y solidez financiera**. Se combina **Mada** y **Koulen**, logrando equilibrio entre claridad de lectura e impacto visual.  
+
+<img src="resources/typography.png" alt="Tipografía TuCash" width="500">
+
+
+
+- **Fuente principal: Mada (sans-serif modernista)**  
+  - Uso: textos de cuerpo, botones, formularios y componentes.  
+  - Características: contornos abiertos, bajo contraste y excelente legibilidad.  
+  - Refuerza simplicidad y confianza.  
+
+- **Fuente secundaria: Koulen (display, sans-serif)**  
+  - Uso: títulos, subtítulos, banners y elementos destacados.  
+  - Características: estilo fuerte y ancho que transmite energía.  
+  - Perfecta para captar atención.  
+
+**Jerarquía tipográfica:**
+- **Títulos principales (H1, H2)** – Koulen  
+    Tamaño: 28–32 px  
+    Uso: encabezados principales y dashboards.  
+- **Subtítulos (H3, H4)** – Koulen / Mada Medium  
+    Tamaño: 20–24 px  
+    Uso: tarjetas, apartados y menús.  
+- **Texto de cuerpo** – Mada Regular  
+    Tamaño: 14–16 px  
+    Uso: descripciones, balances, transacciones.  
+- **Notas / Labels / Placeholders** – Mada Light o Regular  
+    Tamaño: 12–14 px  
+    Uso: formularios, etiquetas y tooltips.  
+
+
+### Iconografía
+
+Los íconos refuerzan **claridad, simplicidad y modernidad**, manteniendo coherencia con la identidad visual del tucán.  
+
+- **Estilo**: planos (flat), minimalistas y con trazos uniformes.  
+- **Consistencia**: mismo grosor de línea y proporción.  
+- **Aplicación**: menús, botones, estados y ayudas contextuales.  
+- **Colores**: gris oscuro o blanco, con resaltes en **Verde Cash (#2AB27B)**.  
+- **Accesibilidad**: cada ícono debe incluir `alt-text`.  
+
+
+
+<img src="resources/iconografia.png" alt="Iconografía TuCash" width="500">
+
+
+
+#### Colors
+
+La paleta cromática, inspirada en el tucán, transmite **seguridad, crecimiento y frescura**.  
+
+- **Paleta Principal:**  
+   Verde `#2AB27B` → Crecimiento y finanzas saludables.  
+   Azul oscuro `#1D2A3A` → Confianza y estabilidad.  
+
+- **Colores Secundarios:**  
+    Amarillo `#F6B93B` → Energía y motivación.  
+    Gris claro `#F4F6F8` → Fondos neutros y legibilidad.  
+    Blanco `#FFFFFF` → Claridad y simplicidad.  
+
+- **Colores de Apoyo:**  
+    Verde claro `#9FE6C3` → Estados positivos.  
+    Azul cielo `#3D9DF6` → Acciones secundarias y metas.  
+    Rojo coral `#FF6B6B` → Alertas y advertencias.  
+
+<img src="resources/color.png" alt="Colores TuCash" width="500">
+
+
+
+
 
 ### 4.1.2. Web Style Guidelines
 
-- **Layout**:  
-  - Uso de diseño responsivo (responsive design) para adaptarse a distintos tamaños de pantalla.  
-  - Estructura basada en cuadrículas para mantener orden y jerarquía visual.  
-  - Incorporar suficiente espacio en blanco (white space) para evitar saturación de contenido.  
+Para **TuCash**, se plantea una plataforma web con un enfoque en **simplicidad, confianza y accesibilidad**, que ofrezca una experiencia intuitiva y moderna para la **gestión financiera personal y familiar**.  
 
-- **Typography**:  
-  - Mantener coherencia con las fuentes definidas en las guías generales.  
-  - Tamaños escalables para títulos, subtítulos y contenido.  
-  - Asegurar contraste adecuado entre texto y fondo.  
+El diseño será **responsivo (Responsive Design)**, garantizando que la interfaz se adapte correctamente a diferentes dispositivos (desktop, tablet y móvil), manteniendo siempre **claridad visual y usabilidad óptima**.  
 
-- **Color Scheme**:  
-  - Aplicar la paleta de colores institucional definida en el branding.  
-  - Usar colores de acento para botones, enlaces y llamadas a la acción (CTA).  
-  - Mantener coherencia cromática en toda la interfaz.  
+#### Dashboard Financiero
+- Acceso centralizado a cuentas y saldos.  
+- Visualización de transacciones recientes y movimientos categorizados.  
+- Acceso directo a funciones clave: envío de dinero, ahorro, pagos y alertas.  
+- Gráficos interactivos para analizar gastos, ingresos y metas financieras.  
 
-- **Navigation**:  
-  - Barra de navegación fija y accesible desde cualquier punto de la página.  
-  - Inclusión de breadcrumbs (migas de pan) para mejorar la orientación del usuario.  
-  - Menús y submenús claros, fáciles de entender e interactuar.  
+#### Gestión de Finanzas
+- Registro y categorización automática de ingresos y egresos.  
+- Configuración de presupuestos por categorías.  
+- Seguimiento de ahorros y metas financieras.  
+- Botones de acción rápida para transferencias y pagos frecuentes.  
 
-- **Interactive Elements**:  
-  - Botones con feedback visual al hacer hover o clic.  
-  - Enlaces destacados y accesibles.  
-  - Formularios simples con validación clara y mensajes de error comprensibles.  
+#### Pagos y Servicios
+- Pago de servicios básicos (luz, agua, internet, telefonía).  
+- Recarga de celulares y billeteras digitales.  
+- Opciones de pago con un solo clic, integrando recordatorios para evitar retrasos.  
+- Uso de **íconos representativos** en tarjetas modulares que facilitan la identificación de cada servicio.  
 
-- **Imagery and Media**:  
-  - Imágenes optimizadas para carga rápida sin perder calidad.  
-  - Uso de iconografía consistente con el estilo visual definido.  
-  - Integración de multimedia (videos o animaciones) solo cuando aporten valor.  
+#### Alertas y Notificaciones
+- Avisos sobre vencimientos de pagos y presupuestos excedidos.  
+- Alertas de movimientos inusuales para reforzar la seguridad.  
+- Recordatorios configurables sobre metas de ahorro.  
+- Notificaciones destacadas en **Verde Cash (#2AB27B)** para resaltar estados positivos.  
 
-- **Accessibility (WCAG)**:  
-  - Contraste de colores suficiente para usuarios con baja visión.  
-  - Inclusión de etiquetas ALT en imágenes.  
-  - Compatibilidad con lectores de pantalla y navegación por teclado.  
+#### Educación Financiera y Soporte
+- Acceso a guías prácticas de ahorro y educación financiera.  
+- Sección de preguntas frecuentes (FAQ) organizada por categorías.  
+- Chat de asistencia en tiempo real para resolver dudas.  
+- Integración de recursos visuales e ilustraciones que refuercen la confianza y simplicidad.  
 
-- **Performance**:  
-  - Minimización de recursos (CSS, JS e imágenes).  
-  - Optimización para tiempos de carga rápidos.  
-  - Compatibilidad entre navegadores modernos.  
+---
+
+Este diseño garantiza **usabilidad, seguridad y frescura visual**, consolidando a **TuCash** como una fintech confiable y accesible en Latinoamérica, con el objetivo de promover **inclusión y educación financiera**.  
 
 
 
-**Pantallas emergentes:**
 
 ## 4.2. Information Architecture
 
-#### 4.2.1. Organization Systems  
-- Clasificación de contenidos por categorías principales (ej. inicio, catálogo, servicios, contacto).  
-- Jerarquía clara para priorizar la información más relevante.  
-- Uso de estructuras en árbol para mantener la lógica de navegación.  
-- Consistencia en la organización entre diferentes secciones de la plataforma.  
+### 4.2.1. Organization Systems
 
-#### 4.2.2. Labeling Systems  
-- Etiquetas claras y descriptivas que permitan al usuario comprender de inmediato la función o contenido.  
-- Uso de lenguaje natural y cercano al usuario.  
-- Evitar tecnicismos innecesarios en los menús y botones.  
-- Estándar tipográfico para títulos, subtítulos y enlaces.  
+#### Landing Page e Inicio de la Aplicación
+- **Tipo de organización: Jerárquica.**  
+- La landing page destacará: beneficios principales (ahorro, pagos rápidos, control de gastos), funcionalidades clave y testimonios de usuarios.  
+- En la pantalla de inicio se priorizan accesos rápidos a: saldos, últimos movimientos, metas de ahorro y alertas financieras relevantes.  
 
-#### 4.2.3. SEO Tags and Meta Tags  
-- Implementación de títulos únicos y descripciones meta para cada página.  
-- Uso de **meta keywords** relevantes para mejorar la indexación.  
-- Inclusión de etiquetas **Open Graph (OG)** para optimizar la compartición en redes sociales.  
-- Aplicación de encabezados (H1, H2, H3) jerárquicos y semánticos.  
-- Uso de URLs amigables con palabras clave.  
+#### Gestión de Finanzas y Pagos
+- **Tipo de organización: Secuencial.**  
+- Flujos: selección de servicio → monto → método de pago → confirmación.  
+- Garantiza simplicidad, seguridad y evita errores en transacciones.  
 
-#### 4.2.4. Searching Systems  
-- Barra de búsqueda visible en la parte superior de la interfaz.  
-- Autocompletado y sugerencias para agilizar las consultas.  
-- Filtros y categorías para refinar resultados.  
-- Inclusión de historial de búsqueda y resultados relevantes.  
+#### Presupuestos y Metas de Ahorro
+- **Tipo de organización: Matricial.**  
+- Acceso a presupuestos por categorías (alimentación, transporte, ocio, servicios).  
+- Exploración flexible por periodo, categoría o estado de cumplimiento de la meta.  
 
-#### 4.2.5. Navigation Systems  
-- Menú principal jerárquico y accesible desde todas las páginas.  
-- Inclusión de breadcrumbs (migas de pan) para orientar al usuario.  
-- Menú de pie de página (footer) con accesos rápidos a secciones clave.  
-- Consistencia en la ubicación y estilo de los elementos de navegación.  
-- Posibilidad de navegación móvil mediante menús desplegables (hamburger menu).  
+#### Alertas y Notificaciones
+- **Esquema de categorización: Por tópicos.**  
+- Categorías: gastos inusuales, vencimientos, metas de ahorro y promociones educativas.  
+- Permite priorizar atención inmediata en seguridad y control financiero.  
+
+#### Historial de Transacciones
+- **Esquema de categorización: Cronológico.**  
+- Registros de ingresos, egresos, pagos y ahorros ordenados por fecha.  
+- Visualización filtrable por categoría, monto o estado.  
+
+#### Contenido Personalizado por Perfil de Usuario
+- **Esquema de categorización: Según audiencia.**  
+  - **Estudiantes**: acceso rápido a presupuestos académicos, recargas de transporte y tips de ahorro.  
+  - **Familias**: administración de presupuestos familiares, cuentas compartidas y gestión de gastos del hogar.  
+  - **Usuarios generales**: control de ingresos/egresos, pago de servicios básicos, metas de ahorro personales.  
+
+#### Búsqueda de Transacciones y Servicios
+- **Esquema de categorización: Alfabético.**  
+- Localización rápida de servicios (luz, agua, internet), beneficiarios frecuentes y categorías de gasto.  
+
+
+### 4.2.2. Labeling Systems
+
+#### Landing Page
+- **Home/Inicio**: Propuesta de valor de TuCash.  
+- **Features/Características**: Funciones clave (gestión de gastos, metas de ahorro, pagos de servicios).  
+- **Benefits/Beneficios**: Simplicidad, seguridad, confianza y control financiero.  
+- **Testimonials/Testimonios**: Experiencias y casos de éxito de usuarios.  
+- **About/Acerca de**: Propósito de TuCash, misión y visión de inclusión financiera.  
+- **Contact/Contacto**: Soporte, redes sociales y correo de atención.  
+
+#### Web Application
+- **Home/Inicio**: Accesos rápidos a saldo disponible, últimos movimientos, metas de ahorro y alertas.  
+- **Perfil**: Gestión de información personal, métodos de pago, cuentas vinculadas y preferencias.  
+- **Finanzas**: Control de ingresos, egresos y presupuestos por categoría.  
+- **Pagos**: Servicios básicos, recargas y transferencias. Incluye historial de operaciones.  
+- **Ahorro/Metas**: Configuración y seguimiento de objetivos financieros (viajes, educación, emergencias).  
+- **Búsqueda**: Localización rápida de transacciones, servicios o beneficiarios.  
+- **Favoritos**: Acceso a servicios, categorías o metas más utilizadas.  
+- **Alertas/Notificaciones**: Gastos inusuales, vencimientos, metas alcanzadas o pendientes.  
+- **Soporte**: FAQs, guías de uso y contacto con atención al cliente.  
+
+# 4.2.3. SEO Tags and Meta Tags
+
+– TuCash
+
+## Landing Page
+
+Title: Texto visible en la parte superior del navegador y en los resultados de búsqueda.
+
+```html
+<title>TuCash – Finanzas simples y seguras para tu día a día</title>
+
+-Codificación de caracteres:
+<meta charset="utf-8">
+
+-Description: Breve descripción de la aplicación.
+<meta name="description" content="TuCash es tu app financiera confiable para gestionar tus gastos, ahorros y pagos de manera simple, inclusiva y segura."/>
+
+-Key Words: Palabras clave relacionadas con la app.
+<meta name="keywords" content="finanzas personales, control de gastos, ahorro, pagos digitales, inclusión financiera, educación financiera, Perú"/>
+
+-Author & Copyright:
+<meta name="author" content="TuCash Team"/>
+<meta name="copyright" content="Copyright TuCash Team" />
+
+
+-Web Application
+-Title:
+<title>TuCash</title>
+
+-Description
+<meta name="description" content="TuCash – Plataforma oficial para gestionar tus finanzas personales, ahorros y pagos de forma simple, inclusiva y segura."/>
+
+-Key Words:
+<meta name="keywords" content="TuCash, finanzas digitales, ahorro, pagos, educación financiera, inclusión, seguridad"/>
+
+-Author & Copyright:
+<meta name="author" content="TuCash Team"/>
+<meta name="copyright" content="Copyright TuCash Team" />
+```
+
+### 4.2.4. Searching Systems TuCash  
+
+**Barra de búsqueda general:**  
+Ubicada en la parte superior derecha de la plataforma web y dentro del menú principal de la app.  
+Permitirá acceder rápidamente a recursos como: gestión de gastos, historial financiero, presupuesto familiar, billetera digital y metas de ahorro.  
+
+**Sugerencias automáticas (autocompletado):**  
+El sistema mostrará resultados predictivos mientras el usuario escribe, basados en registros de transacciones, categorías de gasto más frecuentes y metas establecidas.  
+
+**Filtros de búsqueda:**  
+Se ofrecerán filtros que permitan refinar la búsqueda según:  
+- **Categorías:** Gastos, Ingresos, Presupuesto, Ahorros.  
+- **Contenido:** Transacciones, Reportes, Metas, Recibos.  
+- **Estado:** Activo, Pendiente, Cumplido.  
+
+**Filtros avanzados:**  
+Opciones adicionales como:  
+- Recientes / Más antiguos.  
+- Monto de transacción.  
+- Tipo de gasto (efectivo, tarjeta, billetera digital).  
+- Institución asociada (banco, comercio, servicio).  
+
+
+
+### 4.2.5. Navigation Systems – TuCash  
+
+**Landing Page**  
+La navegación en la landing page estará orientada a transmitir confianza y facilitar la descarga/registro.  
+Se implementará un menú superior con enlaces visibles hacia:  
+
+- **Inicio:** Presentación general de TuCash.  
+- **Características:** Explicación de las principales funciones (gestión de gastos, presupuesto, ahorro).  
+- **Beneficios:** Cómo ayuda al usuario a mejorar su control financiero con seguridad, inclusión y simplicidad.  
+- **Testimonios:** Opiniones de usuarios y casos de éxito en el manejo de sus finanzas.  
+- **Acerca de:** Información sobre el propósito, misión y visión de TuCash.  
+- **Contacto:** Formulario y canales de soporte.  
+
+El logotipo funcionará como acceso directo al inicio, asegurando navegación fluida.  
+
+**Web Application**  
+La navegación dentro de la aplicación web se organizará en torno a un **dashboard central** que aparecerá tras el inicio de sesión, mostrando accesos rápidos a las funciones principales.  
+
+- **Dashboard principal:** Vista general de saldos, gastos recientes, metas de ahorro y notificaciones.  
+
+**Panel lateral de navegación:**  
+- **Perfil:** Información personal, configuración y preferencias.  
+- **Transacciones:** Registro y categorización de ingresos y gastos.  
+- **Presupuesto:** Creación y seguimiento de presupuestos familiares o personales.  
+- **Ahorros:** Configuración de metas de ahorro y progreso alcanzado.  
+- **Historial:** Registros cronológicos de movimientos financieros.  
+- **Notificaciones:** Alertas sobre gastos inusuales, recordatorios de pagos o actualizaciones.  
+- **Soporte / Ayuda:** Acceso a FAQs, chat de soporte y contacto directo con asistencia.  
+
+
+
 
 
 
