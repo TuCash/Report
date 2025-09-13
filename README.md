@@ -38,11 +38,10 @@
 </div>
 
 ---
-
-
 <!--Registro de versiones-->
 <h1 align="left">Registro de versiones del Informe</h1>
 </br>
+
 <table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%;">
   <tr>
     <td align="center" style="border: 1px solid #ddd; padding: 8px;">Versión</td>
@@ -52,26 +51,30 @@
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px;">TB1</td>
-    <td style="border: 1px solid #ddd; padding: 8px;"></td>
+    <td style="border: 1px solid #ddd; padding: 8px;">26/04/2025</td>
     <td style="border: 1px solid #ddd; padding: 8px;">
       <ul>
-        
+        <li>Jhunior Giussepe Taquiri Calderon - u20221c576</li>
+        <li>Harrison Hubert Payesa Torres - u2022201024</li>
+        <li>Juan Diego Javier Mondoñedo Rodriguez - u202110373</li>
+        <li>Patricia Valeria Mejia Poma - u202523271</li>
+        <li>Milenio Huaman Hinostroza - u20211c245</li>
       </ul>
     </td>
     <td style="border: 1px solid #ddd; padding: 8px;">            
       <ul>
-        
+        <li>Capítulo I: Introducción</li>
+        <li>Capítulo II: Requirements Elicitation & Analysis</li>
+        <li>Capítulo III: Requirements Specification</li>
+        <li>Capítulo IV: Product Design</li>
+        <li>Capítulo V: Product Implementation, Validation & Deployment hasta el primer sprint</li>
+        <li>Avance de Conclusiones, Bibliografía y Anexos</li>
       </ul>
     </td>
   </tr>
-  <tr>
-    <td style="border: 1px solid #ddd; padding: 8px;">TP</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">15/05/2025</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">
-      <ul>
-        
-    
-</table><br>
+</table>
+<br>
+
 
 <!--Link al repositorio en la organización-->
 # Project Report Collaboration Insights
@@ -89,51 +92,50 @@
 
 <p>Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:</p>
 
+<!--Link al repositorio en la organización-->
+<h1>Project Report Collaboration Insights</h1>
+
+<h2>TB1</h2>
+
+<p>Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:</p>
+
 <table align="center" border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%;">
   <tr>
     <td align="center" style="border: 1px solid #ddd; padding: 8px;">Integrante</td>
     <td align="center" style="border: 1px solid #ddd; padding: 8px;">Tareas Asignadas</td>
   </tr>
   <tr>
-    <td style="border: 1px solid #ddd; padding: 8px;"></td>
-    <td style="border: 1px solid #ddd; padding: 8px;">.</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Milenio Huaman Hinostroza</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">
+      Redacté desde la Parte 1 del informe hasta el Segmento Objetivo.
+    </td>
   </tr>
   <tr>
-    <td style="border: 1px solid #ddd; padding: 8px;"></td>
-    <td style="border: 1px solid #ddd; padding: 8px;"></td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Jhunior Giussepe Taquiri Calderon</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">
+      Elaboré Capítulo II: Requirements Elicitation & Analysis, incluyendo user personas, user task matrix, user journey mapping hasta esa sección.
+    </td>
   </tr>
   <tr>
-    <td style="border: 1px solid #ddd; padding: 8px;"></td>
-    <td style="border: 1px solid #ddd; padding: 8px;"></td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Patricia Valeria Mejia Poma</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">
+      Encargada de Empathy Mapping, As-Is/To-Be Scenario Mapping y desarrollo del product backlog.
+    </td>
   </tr>
   <tr>
-    <td style="border: 1px solid #ddd; padding: 8px;"> </td>
-    <td style="border: 1px solid #ddd; padding: 8px;">.</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Juan Diego Javier Mondoñedo Rodriguez</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">
+      Desarrollo de Capítulo III: Requirements Specification, diseño de wireframes y mockups para la landing page y web application.
+    </td>
   </tr>
   <tr>
-    <td style="border: 1px solid #ddd; padding: 8px;"></td>
-    <td style="border: 1px solid #ddd; padding: 8px;"></td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Harrison Hubert Payesa Torres</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">
+      Elaboré análisis de entrevistas complementario, To-Be Scenario Mapping, algunas user stories, y participé en el diseño de wireframes y mockups de la landing page.
+    </td>
   </tr>
 </table>
 
-**TP1 Network Graph**
-<figure style="text-align: center;">
-    <img src="public\assets\images\Insights\neetworkgraphTP.png" alt="TB1 Network Graph">
-</figure>
-
-**TP1 Contributors**
-<figure style="text-align: center;">
-    <img src="public\assets\images\Insights\contributorsTP.png" alt="TB1 Contributors">
-</figure>
-
-**TP1 Pulse**
-<figure style="text-align: center;">
-    <img src="public\assets\images\Insights\pulseTP.png" alt="TB1 Pulse">
-</figure>
-
-<h1>TP</h1>
-
-<p>Para el desarrollo del informe perteneciente a la entrega TP, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:</p>
 
 
 <!--ÍNDICE-->
