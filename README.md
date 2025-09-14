@@ -983,7 +983,7 @@ El Impact Mapping es una técnica de planificación estratégica que nos permite
 
 A continuación, se presenta el Impact Map para el proyecto TuCash.
 
-<img width="1316" height="1981" alt="Impact map 1" src="https://github.com/user-attachments/assets/fea56845-297e-4c33-8479-10a20b745bfd" />
+<img src="resources/Impact Mapping.png" alt="Impact Mapping">
 
 
 ## 3.4. Product Backlog
