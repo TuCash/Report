@@ -985,43 +985,48 @@ A continuación, se presenta el Impact Map para el proyecto TuCash.
 
 <img src="resources/Impact Mapping.png" alt="Impact Mapping">
 
+### 3.4. Product Backlog 
 
-## 3.4. Product Backlog
+Nuestra estrategia de lanzamiento se basa en **releases temáticas**, permitiéndonos enfocar cada fase del desarrollo en un objetivo claro, validar nuestras hipótesis más importantes primero y construir sobre una base sólida.
 
-  | Orden | User Story Id | Título | Descripción | Story (1/2/3/5/8) |
-| :--- | :--- | :--- | :--- | :---: |
-| 1 | EP01/US01 | Creación de cuenta de usuario | Como usuario nuevo, quiero registrarme en la plataforma utilizando mi correo electrónico y una contraseña para crear una cuenta personal y segura. | *3* |
-| 2 | EP01/US02 | Inicio de sesión de usuario | Como usuario registrado, quiero iniciar sesión en mi cuenta para acceder a mi información financiera. | *2* |
-| 3 | EP02/US01 | Registro de Ingresos | Como usuario, quiero registrar un nuevo ingreso de forma rápida para mantener mi saldo total actualizado. | *2* |
-| 4 | EP02/US02 | Registro de Egresos | Como usuario, quiero registrar un nuevo egreso y asignarle una categoría para facilitar el análisis de mis patrones de consumo. | *3* |
-| 5 | EP03/US01 | Dashboard Financiero | Como usuario, quiero acceder a un panel principal que resuma mi estado financiero para obtener una vista consolidada de mis finanzas. | *5* |
-| 6 | EP03/US02 | Reporte Gráfico por Categoría | Como usuario, quiero ver un gráfico de distribución de gastos por categoría para identificar las áreas de mayor egreso. | *5* |
-| 7 | EP05/US01 | Creación de Presupuestos | Como usuario, quiero establecer un límite de gasto mensual por categoría para gestionar proactivamente mis egresos. | *3* |
-| 8 | EP05/US02 | Alertas de Presupuesto | Como usuario, quiero recibir una alerta cuando mi gasto en una categoría se aproxime al límite del presupuesto para tomar decisiones informadas. | *5* |
-| 9 | EP04/US01 | Creación de Metas de Ahorro | Como estudiante, quiero crear una meta de ahorro con un nombre y monto objetivo para dar seguimiento a un objetivo específico. | *3* |
-| 10 | EP04/US02 | Contribución a Metas | Como usuario, quiero poder registrar aportes monetarios a una meta existente para actualizar el monto ahorrado. | *2* |
-| 11 | EP01/US03 | Recuperar Contraseña | Como usuario, quiero poder recuperar mi contraseña a través de mi correo electrónico en caso de que la olvide, para poder acceder nuevamente a mi cuenta. | *3* |
-| 12 | EP06/US01 | Editar Perfil de Usuario | Como usuario, quiero poder editar la información de mi perfil, como mi nombre y foto, para personalizar mi cuenta. | *2* |
-| 13 | EP02/US03 | Configurar Transacciones Recurrentes | Como usuario con gastos fijos, quiero configurar ingresos y egresos recurrentes (ej. sueldo, alquiler) para que se registren automáticamente. | *5* |
-| 14 | EP06/US02 | Personalizar Categorías | Como usuario, quiero poder crear, editar y eliminar mis propias categorías de gastos para que se ajusten mejor a mi realidad. | *3* |
-| 15 | EP03/US03 | Historial de Transacciones | Como usuario, quiero acceder a un historial completo de todas mis transacciones, con opciones para buscar y filtrar, para encontrar movimientos específicos. | *3* |
-| 16 | EP03/US04 | Filtrar Transacciones | Como usuario, quiero poder filtrar mi historial de transacciones por rango de fechas, categoría o tipo (ingreso/egreso) para un análisis más detallado. | *3* |
-| 17 | EP07/US01 | Registrar Deudas | Como usuario, quiero registrar mis deudas pendientes, incluyendo el monto total y el acreedor, para tener un control claro de mis pasivos. | *5* |
-| 18 | EP07/US02 | Registrar Pagos a Deudas | Como usuario con deudas registradas, quiero poder anotar los pagos que realizo a cada una para ver cómo disminuye el saldo pendiente. | *3* |
-| 19 | EP03/US05 | Exportar Reportes | Como usuario, quiero poder exportar mis reportes financieros (ej. gastos del mes) a un archivo CSV o PDF para mis registros personales. | *5* |
-| 20 | EP02/US04 | Adjuntar Recibos a Egresos | Como usuario, quiero poder adjuntar una imagen o foto de un recibo a un registro de egreso para tener un comprobante digital. | *5* |
-| 21 | EP08/US01 | Módulo de Educación Financiera | Como usuario, quiero acceder a una sección con artículos y consejos sobre finanzas personales para aprender a manejar mejor mi dinero. | *3* |
-| 22 | EP06/US03 | Cambiar Moneda | Como usuario internacional o viajero, quiero poder cambiar la moneda principal de la aplicación para registrar mis finanzas en la divisa local. | *2* |
-| 23 | EP03/US06 | Reporte Anual | Como usuario, quiero poder generar un reporte anual consolidado para analizar mis patrones de ingresos y gastos a largo plazo. | *5* |
-| 24 | EP01/US04 | Autenticación de Dos Factores (2FA) | Como usuario preocupado por la seguridad, quiero poder activar la autenticación de dos factores para proteger el acceso a mi cuenta. | *8* |
-| 25 | EP02/US05 | Dividir Gasto en Categorías | Como usuario, quiero poder dividir un único gasto en múltiples categorías (ej. una compra de supermercado en "Comida" y "Limpieza"). | *3* |
-| 26 | EP09/US01 | Compartir Cuenta Familiar | Como padre de familia, quiero poder invitar a mi pareja a una cuenta compartida para gestionar el presupuesto del hogar de forma colaborativa. | *8* |
-| 27 | EP04/US03 | Archivar Metas Cumplidas | Como usuario, quiero poder archivar mis metas de ahorro ya cumplidas para mantener limpia mi lista de metas activas, pero sin perder el historial. | *2* |
-| 28 | EP03/US07 | Búsqueda por Descripción | Como usuario, quiero poder buscar transacciones específicas usando palabras clave en la descripción para encontrarlas rápidamente. | *3* |
-| 29 | EP05/US03 | Ver Progreso del Presupuesto | Como usuario, quiero ver una barra de progreso visual para cada presupuesto que me indique fácilmente cuánto he gastado del límite. | *3* |
-| 30 | EP08/US02 | Recibir Notificaciones Educativas | Como usuario, quiero poder recibir notificaciones opcionales con consejos rápidos y datos interesantes sobre finanzas personales. | *2* |
+---
 
+#### **Release 1: MVP - El Núcleo de la Conciencia Financiera (Must-Have)**
 
+**Objetivo Estratégico:** Validar la hipótesis fundamental del producto: *los estudiantes adoptarán el hábito de registrar sus finanzas si la experiencia es instantánea y les proporciona una revelación inmediata sobre su comportamiento.* Nos enfocamos en el ciclo **Registrar -> Visualizar -> Comprender**.
+
+| ID | Título de la Historia | Segmento Clave | Valor Estratégico / Hipótesis a Validar | Story Points |
+| :--- | :--- | :--- | :--- | :--- |
+| **EP01/US01-02** | Acceso a la Plataforma | Todos | **Valor:** Acceso fundamental y seguro a la herramienta. Es la puerta de entrada, debe ser impecable. | 5 |
+| **EP02/US01-02** | Registro de Transacciones | Todos | **Valor:** La acción central del sistema. <br>**Hipótesis:** Si el registro es <10 segundos, la tasa de adopción será alta. | 5 |
+| **EP03/US01** | Saber "cómo voy" de un vistazo | Todos (Hook p/ Est. con Sustento) | **Valor:** El "gancho" de valor inmediato. Responde la pregunta esencial del usuario. <br>**Hipótesis:** Un "Pulso Financiero" emocional aumentará el engagement diario. | 8 |
+| **EP03/US02** | Descubrir mis "fugas de capital" | Estudiante con Sustento Familiar | **Valor:** Genera el "momento ajá" que revela el problema de los gastos hormiga. <br>**Hipótesis:** Visualizar sus gastos por categoría motivará al usuario a querer tomar el control. | 5 |
+
+---
+
+#### **Release 2: Expansión - Control y Motivación (Should-Have)**
+
+**Objetivo Estratégico:** Una vez validado el hábito de registro, empoderamos al usuario con herramientas para actuar sobre sus nuevos insights. Pasamos del ciclo **Comprender -> Actuar y Planificar**.
+
+| ID | Título de la Historia | Segmento Clave | Valor Estratégico / Hipótesis a Validar | Story Points |
+| :--- | :--- | :--- | :--- | :--- |
+| **EP04/US01** | Ahorrar para algo que quiero | Todos (Motivador p/ Est. Becado) | **Valor:** Conecta el esfuerzo diario con una aspiración. Le da un propósito al uso de la app. <br>**Hipótesis:** La capacidad de crear metas aumentará la retención a mediano plazo. | 3 |
+| **EP05/US01** | Ponerme un límite de gasto | Estudiante Becado | **Valor:** La herramienta de control proactivo más solicitada. Es fundamental para el segmento más vulnerable. | 3 |
+| **EP05/US02**| Recibir un aviso antes de pasarme | Todos | **Valor:** Transforma el presupuesto de una herramienta pasiva a un "consejero" activo. <br>**Hipótesis:** Las alertas proactivas son capaces de modificar el comportamiento de gasto en tiempo real. | 5 |
+| **EP04/US02**| Ver crecer mis ahorros | Todos | **Valor:** Cierra el bucle de retroalimentación positiva. La visualización del progreso es un potente reforzador de hábitos. | 2 |
+
+---
+
+#### **Release 3: Social y Eficiencia (Could-Have)**
+
+**Objetivo Estratégico:** Abordar casos de uso más avanzados y sociales que aumentan la utilidad de la aplicación en el día a día y fomentan el crecimiento orgánico.
+
+| ID | Título de la Historia | Segmento Clave | Valor Estratégico / Hipótesis a Validar | Story Points |
+| :--- | :--- | :--- | :--- | :--- |
+| **EP02/US03**| Automatizar mis gastos fijos | Estudiante que Trabaja | **Valor:** Ahorro de tiempo y reducción drástica de la carga mental para usuarios con finanzas más estructuradas. Un "feature" premium clave. | 5 |
+| **EP10/US01**| Dividir la cuenta con amigos | Todos | **Valor:** Resuelve un dolor social extremadamente común en la vida universitaria. <br>**Hipótesis:** Las funciones sociales aumentarán el "boca a boca" y la viralidad del producto. | 8 |
+| **EP10/US02**| Llevar las cuentas claras | Todos | **Valor:** Completa la experiencia de gastos compartidos, asegurando que sea una solución robusta y confiable. | 5 |
+| **EP01/US03**| Recuperar mi acceso | Todos | **Valor:** Funcionalidad de soporte esencial para la experiencia de usuario a largo plazo, aunque no sea parte del flujo de valor principal del MVP. | 3 |
 
 
 # Capítulo IV: Product Design
