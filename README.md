@@ -358,70 +358,64 @@ En esta sección se brinda la descripción de nuestra startup, producto y miembr
 
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
-En la actualidad, gran parte de la población enfrenta dificultades para gestionar sus finanzas personales. Muchas personas desconocen exactamente en qué gastan su dinero, lo que impide llevar un control efectivo de ingresos, egresos, deudas y ahorros.
-•	En Latinoamérica, estudios muestran que más del 60% de trabajadores no lleva un registro formal de sus gastos.
-•	Las herramientas más usadas son Excel o notas manuales, pero suelen ser poco prácticas, requieren disciplina y carecen de alertas inteligentes.
-•	La falta de control financiero deriva en endeudamiento, poca capacidad de ahorro e imposibilidad de planificar metas económicas.
+En los últimos años, la situación financiera de los jóvenes universitarios en el Perú ha cobrado especial relevancia. Diversos estudios evidencian que este grupo presenta bajos niveles de educación financiera, lo que repercute directamente en su capacidad de administrar ingresos, controlar gastos y fomentar el ahorro.
+
+De acuerdo con la **Superintendencia de Banca, Seguros y AFP (SBS, 2023)** , la mayoría de jóvenes no cuenta con hábitos financieros formales, a pesar de que manejan recursos constantemente, ya sea a través de ingresos propios, asignaciones familiares o beneficios de becas. Asimismo, un informe de Infobae (2025) resalta que **menos del 50% de jóvenes ahorra regularmente**, reflejando una débil cultura de planificación económica.
+
+En este contexto, el acceso temprano al crédito sin preparación adecuada ha provocado casos de **endeudamiento juvenil (UCV, 2023)**, lo que incrementa el riesgo de estrés financiero y abandono de metas académicas. Incluso entre los universitarios becados, que cuentan con apoyo institucional, persiste la dificultad de gestionar los recursos limitados destinados a su manutención
 
 **Who (¿Quiénes?):** 
 <br>
-- Profesionales jóvenes y adultos con ingresos fijos o variables.
-- Emprendedores que mezclan finanzas personales y gastos de negocio.
-- Personas con deudas que necesitan visibilidad para mejorar su economía.
+- Estudiantes universitarios entre 16 y 24 años en el Perú, que pueden ser independientes, dependientes de sustento familiar o becados. Este grupo maneja recursos limitados y enfrenta dificultades para organizar sus ingresos, gastos y metas de ahorro.
 <br>
 
 **What (¿Qué sucede?):** 
 <br>
-- No cuentan con herramientas simples y automatizadas para registrar ingresos/egresos.
-- Les resulta difícil identificar patrones de gasto, fijar metas de ahorro o anticipar deudas.
-- Pierden control de su liquidez mensual y no toman decisiones financieras informadas.
+- Estos jóvenes carecen de hábitos financieros sólidos y no cuentan con herramientas simples y personalizadas para gestionar su dinero. El resultado es una baja capacidad de ahorro, descontrol en los egresos y, en algunos casos, endeudamiento prematuro.
 <br>
 
 **Where (¿Dónde ocurre?):**
 <br>
-- En contextos urbanos y semiurbanos de Latinoamérica, donde existe acceso a internet y smartphones, pero bajo uso de soluciones fintech avanzadas.
+- Principalmente en entornos urbanos y semiurbanos del Perú, donde los jóvenes acceden a educación superior, disponen de smartphones e internet, pero carecen de aplicaciones adaptadas a su contexto financiero estudiantil
 <br>
 
 **When (¿Cuándo ocurre?):** 
 <br>
-- De forma continua, ya que el manejo de ingresos y gastos es un proceso diario y recurrente.
-- Es más crítico a fin de mes o en fechas de pagos de deudas/servicios.
+- De manera continua a lo largo de su vida académica, en el manejo diario de mesadas, ingresos de trabajos eventuales o recursos de becas. El problema se intensifica en momentos clave como fin de mes, pagos de matrícula, servicios o imprevistos.
 <br>
 
 **Why (¿Por qué es un problema?):**
 <br>
-- La falta de control genera endeudamiento, estrés financiero y baja capacidad de ahorro.
-- No existe cultura de educación financiera clara ni accesible.
-- Las herramientas bancarias tradicionales no son inclusivas ni amigables para usuarios comunes.
+- La falta de educación y control financiero limita la autonomía económica de los jóvenes, genera estrés financiero, incrementa el riesgo de endeudamiento y compromete su capacidad de alcanzar objetivos académicos y personales.
 <br>
 
 **How (¿Cómo lo solucionan hoy?):**
 <br>
-- Personas gastan más de lo que ganan sin darse cuenta.
-- Usan múltiples medios (apps de bancos, Excel, notas) sin integración ni visión consolidada.
-- No reciben alertas ni métricas que los ayuden a cambiar su comportamiento.
+- Los estudiantes gastan sin un registro claro, no distinguen entre necesidades y deseos, y no planifican metas de ahorro. Las soluciones actuales (apps bancarias o Excel) resultan poco prácticas, impersonales o difíciles de mantener en el tiempo.
  <br>
 
 **How much (¿Cuánto cuesta no resolverlo?):**
 <br>
-- Según la CEPAL, más del 70% de personas en Latinoamérica carecen de hábitos de ahorro formal.
-- En Perú, menos del 40% de adultos llevan un registro financiero sistemático.
-- Esto implica una población objetivo potencial de millones de usuarios con necesidad de una solución accesible y escalable.
+- Según Infobae (2025), menos del 50% de jóvenes peruanos ahorra de forma regular.
+
+- La SBS (2023) reporta que la mayoría de jóvenes no cuenta con educación financiera suficiente.
+
+- El UCV (2023) advierte sobre el aumento del endeudamiento juvenil por falta de preparación económica.
+
+- Según la tesis UPC (Eyzaguirre et al., 2016), estudiantes de 17 instituciones de Lima obtuvieron solo 10.8 respuestas correctas de 20 en un test financiero, lo que evidencia conocimientos débiles y los hace altamente vulnerable
  <br>
 
 ### 1.2.2. Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
 Se ha detectado que, aunque los usuarios cuentan con diversas herramientas como Excel, aplicaciones bancarias o notas manuales, no logran mantener un control disciplinado y visualmente claro de su dinero. Como resultado, experimentan falta de claridad sobre sus gastos, baja motivación para registrar movimientos financieros, abandono prematuro de las herramientas existentes y poca percepción de valor en los resultados obtenidos es por ello que nos planteamos lo siguiente.
 
-¿Cómo podríamos diseñar una solución que permita a los usuarios llevar un registro simple y visual de sus finanzas, recibir recomendaciones y alertas personalizadas y fijar metas claras, de manera que perciban un mayor control de su dinero, aumenten la frecuencia de uso de la plataforma y logren mejores resultados en su bienestar financiero?
+¿Cómo podríamos diseñar una solución que permita a los estudiantes llevar un registro simple y visual de sus finanzas, recibir recomendaciones y alertas personalizadas y fijar metas claras, de manera que perciban un mayor control de su dinero, aumenten la frecuencia de uso de la plataforma y logren mejores resultados en su bienestar financiero?
 
 **Domain:**
 <br>Gestión de finanzas personales (personal finance management).<br>
 
 **Customer Segments:**
-<br>Jóvenes estudiantes con ingresos variantes que buscan organizar gastos y ahorrar.
-Adultos con gastos y deudas recurrentes que necesitan visualizar pagos y mejorar su liquidez.
-Emprendedores pequeños que mezclan gastos personales y de negocio.</br>
+<br>Jóvenes estudiantes con ingresos y gastos variantes y recurrentes que necesitan visualizar pagos y mejorar su liquidez.</br>
 
 **Pain Points (dolores):**
 <br>
@@ -442,10 +436,10 @@ Emprendedores pequeños que mezclan gastos personales y de negocio.</br>
 - Evolucionar hacia integraciones móviles, IoT y APIs bancarias para automatizar el proceso.</br>
 
 **Initial Segment:**
-<br>Estudiantes jóvenes (16–55 años) en Perú y Latinoamérica urbana, con acceso a internet y smartphones, pero sin hábitos financieros consolidados.</br>
+<br>Estudiantes jóvenes (16–25 años) en Perú y Latinoamérica urbana, con acceso a internet y smartphones, pero sin hábitos financieros consolidados.</br>
 
 #### 1.2.2.2. Lean UX Assumptions
-**¿Quién es el usuario?** <br>El usuario es principalmente un adulto joven o estudiante universitarios que recibe ingresos de manera regular, aunque en muchos casos enfrenta gastos variables, deudas recurrentes o dificultades para ahorrar. Es alguien que busca tener mayor control sobre su dinero, pero que hasta ahora no ha encontrado una herramienta sencilla y confiable que le permita organizarse sin invertir demasiado tiempo o esfuerzo.<br>
+**¿Quién es el usuario?** <br>El usuario es principalmente un joven estudiante universitarios que recibe ingresos de manera regular, aunque en muchos casos enfrenta gastos variables, deudas recurrentes o dificultades para ahorrar. Es alguien que busca tener mayor control sobre su dinero, pero que hasta ahora no ha encontrado una herramienta sencilla y confiable que le permita organizarse sin invertir demasiado tiempo o esfuerzo.<br>
 
 **¿Dónde encaja nuestro producto en su vida?** <br>Nuestro producto encaja en su vida diaria como un aliado silencioso: no pretende reemplazar su banco ni complicarle con procesos técnicos, sino convertirse en el espacio central donde pueda visualizar de forma clara y ordenada el estado de sus finanzas. Allí, el usuario podrá entender en qué se está yendo su dinero, fijar metas y recibir alertas que lo ayuden a tomar mejores decisiones<br>
 
@@ -531,7 +525,7 @@ El análisis competitivo resulta fundamental para comprender el panorama del mer
 
 | Perfil                        |  **Mi Plata**                                                |  **Controlar Gastos**                         |  **Monefy**                                        | **Kakeibo**                                   |  **TuCash (Perú)**                                    |
 |-----------------------------|---------------------------------------------------------------------------|------------------------------------------------------------|------------------------------------------------------------------|------------------------------------------------------------|------------------------------------------------------------------|
-| **Overview**                | App peruana para registrar ingresos/gastos y definir metas de ahorro.    | App simple de registro diario de gastos con reportes básicos. | App internacional con registro rápido y visual de ingresos/gastos. | Basada en el método japonés Kakeibo, con reflexión sobre gastos. | App peruana para estudiantes y familias, con control de ingresos, gastos, metas y educación financiera. |
+| **Overview**                | App peruana para registrar ingresos/gastos y definir metas de ahorro.    | App simple de registro diario de gastos con reportes básicos. | App internacional con registro rápido y visual de ingresos/gastos. | Basada en el método japonés Kakeibo, con reflexión sobre gastos. | App peruana para estudiantes, con control de ingresos, gastos, metas y educación financiera. |
 | **Ventaja competitiva**     | Facilidad de uso y metas claras de ahorro.                               | Muy sencilla y gratuita, ideal para principiantes.         | Visualización atractiva y rapidez.                               | Promueve consciencia y hábitos financieros saludables.      | Localización, accesibilidad y personalización (categorías y moneda local). |
 | **Clientes**                | Adultos jóvenes que desean control básico de dinero.                     | Usuarios que buscan simplicidad sin funciones avanzadas.   | Jóvenes y adultos que prefieren apps rápidas y gráficas.          | Personas interesadas en disciplina y ahorro consciente.      | Estudiantes universitarios y familias peruanas de ingresos medios. |
 | **Mercado objetivo**        | Usuarios no necesariamente bancarizados en Perú.                         | Usuarios básicos que valoran la simplicidad.                | Mercado internacional y usuarios tecnológicos.                    | Nicho en métodos alternativos de ahorro.                     | Jóvenes y familias peruanas que necesitan educación y control financiero. |
