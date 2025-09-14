@@ -820,31 +820,78 @@ El objetivo de estas entrevistas es identificar y comprender las **necesidades, 
 
 
 ## 2.4. Ubiquitous Language
-<p><br><br></p>
 
 **Glosario de Términos:**
-
 <table border = 1>
-  <thead>
-    <tr>
-      <th>Término (Inglés)</th>
-      <th>Término (Español)</th>
-      <th>Definición</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><br><br></td>
-      <td><br><br></td>
-      <td><br><br></td>
-    </tr>
-    <tr>
-      <td><br><br></td>
-      <td><br><br></td>
-      <td><br><br></td>
-    </tr>
-    <!-- Repite filas según necesidad -->
-  </tbody>
+  <thead>
+    <tr>
+      <th>Término (Inglés)</th>
+      <th>Término (Español)</th>
+      <th>Definición</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>User</td>
+      <td>Usuario</td>
+      <td>Estudiante peruano (de 16 a 26 años) que utiliza la aplicación Kashu para registrar, entender y mejorar la gestión de su dinero. Puede ser un estudiante con sustento familiar, uno que trabaja y estudia, o un becado.</td>
+    </tr>
+    <tr>
+      <td>Transaction</td>
+      <td>Transacción</td>
+      <td>Cualquier movimiento de dinero registrado en la aplicación. Es el registro fundamental y puede ser de dos tipos: un <b>Ingreso</b> o un <b>Egreso</b>.</td>
+    </tr>
+<tr>
+      <td>Income</td>
+      <td>Ingreso</td>
+      <td>Toda entrada de dinero que el <b>Usuario</b> registra. Proviene de fuentes como la mesada de sus padres, un sueldo de trabajo a tiempo parcial o el estipendio de una beca.</td>
+    </tr>
+<tr>
+      <td>Expense / Spend</td>
+      <td>Egreso (o Gasto)</td>
+      <td>Cualquier salida de dinero o gasto que el <b>Usuario</b> realiza. Cada <b>Egreso</b> debe ser asignado a una <b>Categoría</b> para su posterior análisis.</td>
+    </tr>
+<tr>
+      <td>Balance</td>
+      <td>Saldo</td>
+      <td>La cantidad total de dinero disponible que tiene el <b>Usuario</b>. Se calcula automáticamente como el total de <b>Ingresos</b> menos el total de <b>Egresos</b> registrados hasta la fecha.</td>
+    </tr>
+<tr>
+      <td>Category</td>
+      <td>Categoría</td>
+      <td>Una etiqueta que clasifica un <b>Egreso</b> para ayudar al <b>Usuario</b> a entender sus patrones de consumo. Ejemplos incluyen: "Alimentación", "Transporte", "Estudios", "Ocio".</td>
+    </tr>
+<tr>
+      <td>Budget</td>
+      <td>Presupuesto</td>
+      <td>Un límite de gasto monetario que el <b>Usuario</b> establece para una <b>Categoría</b> específica durante un período determinado (generalmente mensual).</td>
+    </tr>
+<tr>
+      <td>Savings Goal</td>
+      <td>Meta de Ahorro</td>
+      <td>Un objetivo financiero específico y cuantificable que el <b>Usuario</b> desea alcanzar. La aplicación visualiza el progreso hacia esta meta.</td>
+    </tr>
+<tr>
+      <td>Ant Spend</td>
+      <td>Gasto Hormiga</td>
+      <td>Un <b>Egreso</b> pequeño y frecuente que, por su bajo monto, pasa desapercibido, pero que sumado a lo largo del tiempo tiene un impacto significativo en las finanzas del <b>Usuario</b>.</td>
+    </tr>
+<tr>
+      <td>Report</td>
+      <td>Reporte</td>
+      <td>Una visualización gráfica (ej. un gráfico circular) que resume la actividad financiera del <b>Usuario</b> en un período de tiempo para ayudarlo a entender sus hábitos de consumo.</td>
+    </tr>
+<tr>
+      <td>Alert</td>
+      <td>Alerta</td>
+      <td>Una notificación proactiva generada por el sistema para informar al <b>Usuario</b> sobre un evento financiero importante, como estar cerca de exceder un <b>Presupuesto</b>.</td>
+    </tr>
+<tr>
+      <td>Dashboard</td>
+      <td>Panel Principal</td>
+      <td>La pantalla de inicio donde el <b>Usuario</b> ve un resumen de su estado financiero: <b>Saldo</b>, <b>Ingresos</b>/<b>Egresos</b> del mes, y progreso de sus <b>Metas de Ahorro</b>.</td>
+    </tr>
+  </tbody>
 </table>
 
 
