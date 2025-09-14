@@ -789,23 +789,35 @@ El objetivo de estas entrevistas es identificar y comprender las **necesidades, 
 
 
 
-
-
 ### 2.3.4. Empathy Mapping
-**Administradores y dueños de cafeterias de especialidad**  
-<td><img src="public\assets\images\Empaty Mapping\EmpatyMapping_FernandoGoijman.png" alt=""></td>
 
-**Barista Profesional**  
-<td><img src="public\assets\images\Empaty Mapping\EmpathyMapping_Valeria Ramos.png" alt=""></td>
+**Empathy Map: Estudiante con sustento familiar**  
+
+<img src="resources/EstudianteConSustentoFamiliar-EmpathyMapping.png" alt="Empathy Mapping Estudiantes con mesada de los padres">
+
+
+**Empathy Map: Estudiante que trabaja y estudia**  
+
+<img src="resources/EstudianteTrabajaEstudia-EmpathyMapping.png" alt="Empathy Mapping Estudiantes que trabajan y estudian">
+
+
+**Empathy Map: Estudiante becado**  
+
+<img src="resources/EstudianteBecado-EmpathyMapping.png" alt="Empathy Mapping Estudiantes becados">
+
 
 ### 2.3.5. As-is Scenario Mapping
 <p><br><br></p>
 
-**Administradores y dueños de cafeterías de especialidad**  
-<td><img src="public/assets/images/AS-IS/AS_IS_ADMINISTRADORES_Y_DUEÑOS_DE_CAFETERIAS_DE_ESPECIALIDAD.png" alt=""></td>
+**Estudiante con Sustento Familiar**  
+<img src="resources/EstudianteConSustentoFamiliar_As-is-Scenario.jpg" alt="As-is-Scenario Estudiantes con mesada de los padres">
 
-**Barista Profesional**  
-<td><img src="public/assets/images/AS-IS/AS_IS_BARISTA_PROFESIONAL.png" alt=""></td>
+**Estudiante que Trabaja y Estudia**  
+<img src="resources/EstudianteTrabajaEstudia_As-is-Scenario.jpg" alt="As-is-Scenario Estudiantes que trabajan y estudian">
+
+**Estudiante Becado**  
+<img src="resources/EstudianteBecado_As-is Scenario.jpg" alt="As-is Scenario Estudiantes becados">
+
 
 ## 2.4. Ubiquitous Language
 <p><br><br></p>
