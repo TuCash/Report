@@ -1365,15 +1365,15 @@ La navegación dentro de la aplicación web se organizará en torno a un **dashb
 
 ### 4.4.4. Web Applications User Flow Diagrams.
 
-## 4.6. Domain-Driven Software Architecture.
+## 4.6. Domain-Driven Software Architecture
+### 4.6.1. Software Architecture Context Diagram
+<img src="resources/Software Architecture Context Diagram.png" alt="Software Architecture Context Diagram">  
 
+### 4.6.2. Software Architecture Container Diagrams
+<img src="resources/Software Architecture Container Diagrams.png" alt="Software Architecture Container Diagrams">  
 
-
-### 4.6.1. Software Architecture Context Diagram.
-
-
-
-### 4.6.2. Software Architecture Container Diagrams.
+### 4.6.3. Software Architecture Components Diagrams
+<img src="resources/Software Architecture Components Diagrams.png" alt="Software Architecture Components Diagrams">  
 
 
 ## 4.7. Software Object Oriented Design.
