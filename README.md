@@ -898,27 +898,21 @@ El objetivo de estas entrevistas es identificar y comprender las **necesidades, 
 # Capítulo III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping
-El mapeo de escenarios “To-Be” nos permite visualizar cómo será el proceso o flujo de trabajo deseado del usuario una vez que implementemos nuestra solución. Basado en nuestros segmentos objetivo, elaboramos un To-Be Scenario Mapping para observar cómo TuCash aborda las necesidades de cada usuario, detallando sus acciones, pensamientos y emociones en cada fase de su viaje financiero.
+El mapeo de escenarios “To-Be” nos permite visualizar cómo será el proceso o flujo de trabajo deseado del usuario una vez que implementemos nuestra solución. Basado en nuestros segmentos objetivo, elaboramos un To-Be Scenario Mapping para observar cómo Kashu aborda las necesidades de cada usuario, detallando sus acciones, pensamientos y emociones en cada fase de su viaje financiero.
 
 ---
 
-#### Segmento 1: Estudiantes universitarios en busca de control financiero
+#### Segmento 1: Estudiantes sustento familiar
+<img src="resources/EstudianteSustentoFamiliar-to-be-sce-map.jpg" alt="To-Be Scenario Mapping Estudiantes con mesada de los padres">
 
-| PHASES | *1. Adopción y Registro Inicial* | *2. Análisis de Datos y Concienciación* | *3. Planificación y Seguimiento de Metas* |
-| :--- | :--- | :--- | :--- |
-| *DOING* | Realiza el proceso de alta en la plataforma. Registra sus transacciones financieras diarias (gastos e ingresos) utilizando las categorías predefinidas. | Accede al dashboard principal para revisar la data consolidada. Utiliza los filtros para visualizar la distribución de gastos por categoría en un período determinado. | Define una meta de ahorro con un monto y plazo específicos. Ingresa periódicamente los montos destinados a dicha meta y monitorea su avance. |
-| *THINKING* | "Evalúa si la simplicidad de la herramienta le permitirá ser constante en el registro de sus finanzas para obtener datos útiles." | "Identifica una oportunidad de ahorro significativa al visualizar el alto costo de una categoría de gasto específica." | "Considera que el plan de ahorro sugerido por la aplicación es una guía clara y alcanzable para cumplir su objetivo." |
-| *FEELING* | *Interesada, con expectativas moderadas sobre la utilidad de la herramienta. | **Sorprendida, pero con una mayor **sensación de control* al comprender sus patrones de consumo. | *Motivada, con un claro **sentido de logro* al observar el progreso hacia su objetivo financiero. |
 
----
+#### Segmento 2: Estudiantes que trabajan y estudian
+<img src="resources/EstudianteTrabajaEstudia-to-be-sce-map.jpg" alt="To-Be Scenario Mapping Estudiantes que trabajan y estudian">
 
-#### Segmento 2: Padres y madres de familia buscando estabilidad económica
 
-| PHASES | *1. Configuración del Presupuesto Familiar* | *2. Monitoreo y Gestión Continua* | *3. Planificación Financiera Estratégica* |
-| :--- | :--- | :--- | :--- |
-| *DOING* | Ingresa los ingresos fijos del hogar. Configura los gastos recurrentes (servicios, hipoteca, educación) estableciendo sus fechas de vencimiento. | Recibe notificaciones automáticas de próximos vencimientos. Registra los gastos variables de la familia conforme se realizan. | Analiza los reportes mensuales consolidados junto a su pareja. Establece una meta de ahorro a mediano plazo para un objetivo familiar. |
-| *THINKING* | "Piensa que registrar los gastos recurrentes desde el principio establecerá una base sólida para el control del presupuesto familiar." | "Valora la utilidad de los recordatorios para evitar recargos. Reconoce la eficiencia del registro inmediato de gastos." | "Confirma que la visualización de datos consolidados permite tomar decisiones informadas sobre el ahorro y la planificación." |
-| *FEELING* | *Aliviado, con una **sensación de orden* en la gestión financiera del hogar. | *Seguro* y con *menor estrés financiero* gracias a las alertas y al control constante. | *Optimista* y *alineado con los objetivos familiares* al contar con un plan financiero claro. |
+#### Segmento 3: Estudiantes becados
+<img src="resources/EstudianteBecado-to-be-sce-map.jpg" alt="To-Be Scenario Mapping Estudiantes becados">
+
 
 ## 3.2. User Stories
 
