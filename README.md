@@ -1322,9 +1322,6 @@ La navegación dentro de la aplicación web se organizará en torno a un **dashb
 
 
 
-
-
-
 ## 4.3. Landing Page UI Design.
 ### 4.3.1. Landing Page Wireframe.
 **Landing Page para Desktop Web Browser**
@@ -1341,29 +1338,161 @@ La navegación dentro de la aplicación web se organizará en torno a un **dashb
 
 **Landing Page para Mobile Web Browser**
 
+
 ## 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
 
 **Web Application para Desktop Web Browser**
+<br><br>
+<img src="resources/Web Application Desktop-wireframe.png" alt="Web Application Deskktop">
+
+*Iniciar sesión*<br>
+<img src="resources/Log In-wireframe.png" alt="Log in wireframe">
+
+*Crear cuenta*<br>
+<img src="resources/Register-wireframe.png" alt="Register wireframe">
+
+*Página Principal*<br>
+<img src="resources/Home-wireframe.png" alt="Home wireframe">
+
+*Todas las transacciones*<br>
+<img src="resources/All transacctions-wireframe.png" alt="All transacctions wireframe">
+
+*Perfil del usuario*<br>
+<img src="resources/Profile-wireframe.png" alt="Profile wireframe">
+
+*Editar Perfil*<br>
+<img src="resources/Edit Profile-wireframe.png" alt="Edit Profile wireframe">
+
+*Visualizar Planes y Precios*<br>
+<img src="resources/Plans and Prices-wireframe.png" alt="Edit Plans and Prices wireframe">
+
+*Gastos*<br>
+<img src="resources/Expenses-wireframe.png" alt="Expenses wireframe">
+
+*Agregar Gasto*<br>
+<img src="resources/Register Expenses-wireframe.png" alt="Register Expenses wireframe">
+
+*Ingresos*<br>
+<img src="resources/Income-wireframe.png" alt="Income wireframe">
+
+*Agregar Ingreso*<br>
+<img src="resources/Register Income-wireframe.png" alt="Register Income wireframe">
+
+*Metas de Ahorro*<br>
+<img src="resources/Goals-wireframe.png" alt="Goals wireframe">
+
+*Agregar Meta de Ahorro*<br>
+<img src="resources/Register Goals-wireframe.png" alt="Register Goals wireframe">
+
+*Agregar Dinero a una Meta de Ahorro*<br>
+<img src="resources/Increase Goal's Money-wireframe.png" alt="Increase Goal's Money wireframe">
+
+[Enlace para acceder al Figma](https://www.figma.com/design/0eoLdvvEddDNIvvujQJGfU/TuCash?node-id=0-1&t=69177qJUpEmGgCN0-1)
+<br><br>
 
 #### Web Application para Mobile Web Browser
 
-
+[Enlace para acceder al Figma](https://www.figma.com/design/0eoLdvvEddDNIvvujQJGfU/TuCash?node-id=0-1&t=69177qJUpEmGgCN0-1)
+<br><br>
 
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
+**User goal: Creación de cuenta**
+<img src="resources/Wireflow-01.png" alt="Wireflow-01">
+
+**User goal: Agregar Gasto**
+<img src="resources/Wireflow-02.png" alt="Wireflow-02">
+
+**User goal: Agregar Ingreso**
+<img src="resources/Wireflow-03.png" alt="Wireflow-03">
+
+**User goal: Agregar Meta de Ahorro**
+<img src="resources/Wireflow-04.png" alt="Wireflow-04">
+
+**User goal: Agregar Meta de Ahorro**
+<img src="resources/Wireflow-05.png" alt="Wireflow-05">
+
+[Enlace para acceder al Wireflow](https://lucid.app/lucidchart/6527f327-959e-4911-ae0c-6a1f5a520089/edit?invitationId=inv_58ad1103-5a51-4d9f-95bc-86c61f1e3d65)
+
 
 ### 4.4.3. Web Applications Mock-ups.
 #### Mock-ups for Desktops
+*Iniciar Sesión*
+<img src="resources/Log In-Mock Up.png" alt="Login mock up">
+
+*Crear de cuenta*
+<img src="resources/Register-Mock Up.png" alt="Register mock up">
+
+*Pagina Principal*<br>
+<img src="resources/Home-Mock Up.png" alt="Home mock up">
+
+*Ver Todas las Tnansacciones*<br>
+<img src="resources/All transacctions-Mock Up.png" alt="All transactions mock up">
+
+*Ingresos*<br>
+<img src="resources/Income-Mock Up.png" alt="Income mock up">
+
+*Registrar Ingreso*<br>
+<img src="resources/Register Income-Mock Up.png" alt="Register Income mock up">
+
+*Gastos*<br>
+<img src="resources/Expenses-Mock Up.png" alt="Expenses mock up">
+
+*Registrar Gasto*<br>
+<img src="resources/Register Expenses-Mock Up.png" alt="Register Expenses mock up">
+
+*Metas de Ahorro*<br>
+<img src="resources/Goals-Mock Up.png" alt="Goals mock up">
+
+*Registrar Meta de Ahorro*<br>
+<img src="resources/Register Goals-Mock Up.png" alt="Register Goals mock up">
+
+*Agregar Dinero a Meta de Ahorro*<br>
+<img src="resources/Increase Goal's Money-Mock Up.png" alt="Increase Goal's Money mock up">
 
 
+[Enlace para acceder al Figma](https://www.figma.com/design/0eoLdvvEddDNIvvujQJGfU/TuCash?node-id=2161-108&t=69177qJUpEmGgCN0-1)
+<br><br>
 
 #### Mock-ups for Mobiles
 
- 
+[Enlace para acceder al Figma](https://www.figma.com/design/0eoLdvvEddDNIvvujQJGfU/TuCash?node-id=2161-108&t=69177qJUpEmGgCN0-1)
+<br><br>
 
 
 ### 4.4.4. Web Applications User Flow Diagrams.
+**User goal: Registro de usuario**
+<td>Explicación del flujo: El usuario se registra en la aplicación, tras completar el registro es llevado automáticamente a la pestaña de inicio de sesión, allí ingresa sus credenciales y, una vez validadas, es redirigido a la página principal donde puede acceder a todas las funcionalidades.</td><br><br>
+<img src="resources/Userflow-01.png" alt="Userflow-01"><br>
+
+**User goal: Inicializacion de sesión**
+<td>Explicación del flujo: El usuario accede a la pestaña de iniciar sesión, ingresa su correo y contraseña y, si las credenciales son correctas, es redirigido a la página principal de la aplicación; en caso de que los datos sean incorrectos, el sistema muestra un mensaje de error y permanece en la misma pantalla hasta que los ingrese correctamente.</td><br><br>
+<img src="resources/Userflow-02.png" alt="Userflow-02"><br>
+
+**User goal: Agregar gasto**
+<td>Explicación del flujo: Desde la página principal el usuario navega a la pestaña de Gastos, allí selecciona el botón Agregar, se abre el formulario correspondiente, ingresa los datos del nuevo gasto y, al confirmar, este se registra en el sistema y aparece en la lista de gastos.</td><br><br>
+<img src="resources/Userflow-03.png" alt="Userflow-03"><br>
+
+**User goal: Agregar ingreso**
+<td>Explicación del flujo: Desde la página principal el usuario navega a la pestaña de Ingresos, allí selecciona el botón Agregar, se abre el formulario correspondiente, ingresa los datos del nuevo ingreso y, al confirmar, este se registra en el sistema y aparece en la lista de ingresos.</td><br><br>
+<img src="resources/Userflow-04.png" alt="Userflow-04"><br>
+
+**User goal: Agregar Meta de Ahorro**
+<td>Explicación del flujo: Desde la página principal el usuario navega a la pestaña de Metas, allí selecciona el botón Agregar, se abre el formulario correspondiente, ingresa los datos de la nueva meta de ahorro y, al confirmar, esta se registra en el sistema y aparece en la lista de metas.</td><br><br>
+<img src="resources/Userflow-05.png" alt="Userflow-05"><br>
+
+**User goal: Cambiar de Plan**
+<td>Explicación del flujo: Desde la página principal el usuario navega a la sección de Perfil, dentro accede a su información personal y entra a Editar perfil, allí selecciona el botón Actualizar a Premium, se despliega la lista de planes disponibles y, tras elegir uno, el sistema lo redirige a un módulo de pago externo para completar la transacción.</td><br><br>
+<img src="resources/Userflow-06.png" alt="Userflow-06"><br>
+
+[Enlace para acceder al Userflow](https://lucid.app/lucidchart/0d802203-8f9d-4b59-817f-3c6b7490bb7c/edit?viewport_loc=-87%2C-1314%2C3671%2C1795%2CpI4QGfYtSY~L&invitationId=inv_8cef57fc-6272-4261-ae91-e44b807ebd9f)
+
+
+## 4.5. Web Applications Prototyping
+Nuestro prototipo de la aplicación web:
+<img src="resources/Web Application Desktop-prototype.png" alt= "Web Application Desktop Prototype">
+
 
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Software Architecture Context Diagram
