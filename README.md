@@ -1227,7 +1227,7 @@ Este diseño garantiza **usabilidad, seguridad y frescura visual**, consolidando
 - **Alertas/Notificaciones**: Gastos inusuales, vencimientos, metas alcanzadas o pendientes.  
 - **Soporte**: FAQs, guías de uso y contacto con atención al cliente.  
 
-# 4.2.3. SEO Tags and Meta Tags
+### 4.2.3. SEO Tags and Meta Tags
 
 – TuCash
 
@@ -1342,7 +1342,7 @@ La navegación dentro de la aplicación web se organizará en torno a un **dashb
 ## 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
 
-**Web Application para Desktop Web Browser**
+#### Web Application para Desktop Web Browser
 <br><br>
 <img src="resources/Web Application Desktop-wireframe.png" alt="Web Application Deskktop">
 
