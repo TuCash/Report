@@ -366,7 +366,7 @@ En este contexto, el acceso temprano al crédito sin preparación adecuada ha pr
 
 **Who (¿Quiénes?):** 
 <br>
-- Estudiantes universitarios entre 16 y 24 años en el Perú, que pueden ser independientes, dependientes de sustento familiar o becados. Este grupo maneja recursos limitados y enfrenta dificultades para organizar sus ingresos, gastos y metas de ahorro.
+- Estudiantes universitarios entre 16 y 25 años en el Perú, que pueden ser independientes, dependientes de sustento familiar o becados. Este grupo maneja recursos limitados y enfrenta dificultades para organizar sus ingresos, gastos y metas de ahorro.
 <br>
 
 **What (¿Qué sucede?):** 
