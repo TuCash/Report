@@ -739,6 +739,40 @@ El objetivo de estas entrevistas es identificar y comprender las **necesidades, 
 - **Reportes visuales:** Gráficos intuitivos y resúmenes semanales que permitan entender hábitos de consumo.
 
 
+
+#### Perfil
+* **Nombre:** Brigitte Lorena Pablo Muñoz
+* **Edad:** 21 años
+* **Ocupación:** Estudiante de Derecho (8º ciclo)
+* **Fuente de Ingresos:** Mesada semanal de S/ 200 de sus padres.
+* 
+---
+
+#### Insights Clave
+* **Gestión Actual:** Administración **100% intuitiva y mental**. No usa herramientas. Su principal meta es evitar quedarse sin dinero.
+* **Patrón de Gasto:** Los gastos principales y recurrentes son **transporte y alimentación** en la universidad.
+* **Experiencia Digital:** **Cero experiencia** con apps de finanzas. Es un perfil "virgen", sin hábitos preexistentes.
+* **Preferencia de Comunicación:** Valora las **notificaciones rápidas y directas** por encima de los gráficos o reportes complejos. Busca inmediatez.
+
+---
+
+#### Necesidades 
+1.  **Registro de Gastos Ultra-Rápido:** Un método para añadir gastos en segundos, sin fricción.
+2.  **Feedback en Tiempo Real:** Notificaciones automáticas que le indiquen el estado de su presupuesto semanal.
+3.  **Metas de Ahorro Pequeñas:** Se motiva con objetivos a corto plazo y alcanzables (ej: "Ahorrar S/ 20 para el fin de semana").
+4.  **Visibilidad sin Esfuerzo:** Un resumen claro de "cuánto dinero le queda" sin necesidad de análisis.
+
+---
+
+#### Oportunidades para TuCash 
+* **Feature: "Quick Add"**: Botón principal para registrar un gasto en dos clics. **Prioridad: Velocidad**.
+* **Feature: Notificaciones Inteligentes**: Alertas automáticas y personalizadas.
+    * `"Has gastado el 50% de tu mesada."`
+    * `"Tu mayor gasto esta semana es en alimentación."`
+* **Feature: Micro-Metas de Ahorro**: Módulo para que el usuario defina y rastree pequeños objetivos de ahorro, fomentando el hábito.
+* **UI/UX:** Diseñar un **Dashboard simple y visual** centrado en una sola métrica: **"Dinero Restante"**.
+
+
 - **Estudiantes que trabajan y estudian (18–26 años):**  
 
 <br><br>  
