@@ -631,6 +631,7 @@ El objetivo de estas entrevistas es identificar y comprender las **necesidades, 
 ### 2.2.2 Registro de entrevistas
 
 #### Entrevistas a estudiantes universitarios
+---
 
 | Campo        | Información |
 |--------------|-------------|
@@ -666,7 +667,7 @@ El objetivo de estas entrevistas es identificar y comprender las **necesidades, 
 | Segmento     | Estudiantes Independientes |
 | Preguntas    | ¿Cómo organizas actualmente tu dinero? / ¿Llevas un registro de cuánto dinero te sobra o falta cada mes? / ¿Qué gastos fijos son los más importantes para ti? / ¿Has tenido dificultades para separar gastos personales de gastos académicos? / ¿Qué tan útil sería que TuCash te muestre un balance mensual? / ¿Qué funciones te ayudarían más: recordatorios de pagos, metas de ahorro o alertas de gasto excesivo? / ¿Prefieres que TuCash te dé reportes simples o reportes más avanzados con detalles? / ¿Qué tan importante es que la app funcione también sin internet? /¿Confiarías en ingresar tus ingresos y gastos reales dentro de TuCash?|
 
-#### Entrevistas a padres/madres o tutores
+---
 
 | Campo         | Información |
 |---------------|-------------|
@@ -675,7 +676,8 @@ El objetivo de estas entrevistas es identificar y comprender las **necesidades, 
 | Distrito      |     Villa el Salvador      |
 | Foto          | ![Foto entrevistado 1](resources/entrevistabecado.png)|
 | Timing        | [Ver grabación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c245_upc_edu_pe/Eflh5wAoWbxPpZSqmMyLJjEBJkN8X94tz-ldpcdm2yxGeg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=suvd4d) |
-
+|Segmento|Estudiantes becados
+|Preguntas|¿Cómo administras actualmente el dinero que recibes de tu beca (ej. gastos básicos, ahorro, ocio)? /¿Qué tan seguido llevas un registro de en qué usas tu beca (diario, semanal, nunca)? / ¿Qué gastos principales cubres con tu beca (alimentación, materiales, transporte, vivienda, salud)?/  ¿Has tenido problemas para que el dinero de tu beca dure todo el mes o el ciclo académico? /¿Qué tan útil sería que TuCash te ayude a planificar cuánto gastar y cuánto ahorrar de tu beca?  /¿Preferirías que TuCash te dé consejos automáticos de organización o solo un registro de tus movimientos? /¿Qué tan importante es para ti que la app te muestre reportes fáciles de compartir con tus padres o tutores?  /¿Qué formato te sería más cómodo: notificaciones rápidas, gráficos sencillos o reportes detallados?/¿Confiarías en una app como TuCash para organizar el dinero de tu beca? ¿Qué te daría más confianza?/Si TuCash ofreciera funciones Premium, ¿qué te gustaría que incluya (ej. ahorro de emergencias, metas personalizadas, integración con cuentas universitarias)?  |
 ---
 
 | Campo         | Información |
@@ -733,7 +735,7 @@ El objetivo de estas entrevistas es identificar y comprender las **necesidades, 
 - **Recomendaciones personalizadas:** Consejos de ahorro, avisos sobre gastos excesivos y sugerencias para alcanzar metas de ahorro.
 - **Reportes visuales:** Gráficos intuitivos y resúmenes semanales que permitan entender hábitos de consumo.
 
-
+---
 #### Entrevistado 2 (Brigitte  Pablo)
 #### Perfil
 * **Nombre:** Brigitte Lorena Pablo Muñoz
@@ -806,6 +808,31 @@ El objetivo de estas entrevistas es identificar y comprender las **necesidades, 
 <br/>
 
 **Estudiantes becados (18–25 años):**  
+### Entrevista (Heydi Ventura)
+#### Perfil
+- Hany, de 19 años, estudiante universitario en UPCH( Universidad Peruana Cayetano Heredia).
+- Es beneficiaria de la beca 18.
+
+#### Insights clave
+- **Administración del dinero:** Suele ser desordenada en cuanto a la administracion del dinero recibido de la beca y no lleva registros ni planificaicones de gastos.
+- **Gastos principales:** Aliemntacion, alquiler, comida, salud y pasajes, en ocasiones suele gastar en osico o diversion.
+- **Uso de apps:** No ah usado aplicaciones que le ayuden administrar su dinero, solo tiene algunas anotaciones en papel.
+
+#### Estrategias actuales
+- Anota gastos fijos para que no genere deudas.
+- Ajusta su consumo para llegar a fin de mes.
+
+#### Apertura a soluciones digitales
+- Interesado en notificaciones push por que suele ser descuidada.
+- Visualizacion de balance de ingresos y egresos.
+#### Necesidades
+- Herramientas para monitorear gastos diarios.
+- Visualización clara de gastos: gráficos, reportes semanales y notificaciones rápidas para facilitar la toma de decisiones.
+
+#### Oportunidades para TuCash
+- **Recordatorios automáticos:** notificaciones cuando se aproxima al límite de gasto diario o mensual.
+- **Reportes visuales:** Gráficos intuitivos y resúmenes semanales que permitan entender hábitos de consumo.
+- **Agente especializado** Un agente IA que mediante comando de voz llene la data de gastos.
 
 
 ## 2.3. Needfinding
