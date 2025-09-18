@@ -517,8 +517,6 @@ la ENAHO (INEI, 2022) muestra que más del 55% de jóvenes universitarios depend
 
 # Capítulo II: Requirements Elicitation & Analysis
 
-# Capítulo II: Requirements Elicitation & Analysis
-
 ## 2.1 Competidores
 
 ### ¿Por qué llevar a cabo este análisis?
@@ -633,7 +631,7 @@ El objetivo de estas entrevistas es identificar y comprender las **necesidades, 
 8. ¿Qué formato te sería más cómodo: notificaciones rápidas, gráficos sencillos o reportes detallados?  
 9. ¿Confiarías en una app como TuCash para organizar el dinero de tu beca? ¿Qué te daría más confianza?  
 10. Si TuCash ofreciera funciones Premium, ¿qué te gustaría que incluya (ej. ahorro de emergencias, metas personalizadas, integración con cuentas universitarias)?  
----
+ <br/><br/>
 
 
 ### 2.2.2 Registro de entrevistas
@@ -650,27 +648,29 @@ El objetivo de estas entrevistas es identificar y comprender las **necesidades, 
 | Segmento     | Estudiantes con mesada de los padres |
 | Preguntas    | ¿De cuánto es tu mesada? / ¿Cómo la administras? / ¿En qué gastas más? / ¿Te quedaste sin dinero antes? / ¿Has usado apps? / ¿Qué tan útil serían recordatorios de gasto? / ¿Qué metas de ahorro te motivan más? / ¿Prefieres gráficos o reportes? / ¿Qué tan importante es la facilidad de uso? / ¿Qué función extra haría que TuCash sea indispensable para ti? |
 
-| Campo         | Información |
-|---------------|-------------|
-| Entrevistado 2 |             |
-| Edad          |             |
-| Distrito      |             |
-| Foto          | ![Foto entrevistado 2]() |
-| Timing        | [Ver grabación]() |
-| Segmento      | Estudiante que trabaja y estudia |
-| Preguntas     | ¿Cómo organizas actualmente tu dinero entre ingresos del trabajo y gastos de la universidad? / ¿Llevas un registro de cuánto dinero te sobra o falta cada mes? ¿Cómo lo haces? / ¿Qué gastos fijos son los más importantes para ti (pensión universitaria, transporte, alimentación, servicios, deudas)? / ¿Has tenido dificultades para separar gastos personales de gastos académicos? / ¿Qué tan útil sería que TuCash te muestre un balance mensual de ingresos vs. gastos? / ¿Qué funciones te ayudarían más: recordatorios de pagos, metas de ahorro o alertas de gasto excesivo? / Prefieres que TuCash te dé reportes simples o reportes más avanzados con detalles? / ¿Qué tan importante es que la app funcione también sin internet (modo offline)? / ¿Confiarías en ingresar tus ingresos y gastos reales dentro de TuCash? ¿Por qué sí o no? / Si TuCash tuviera una versión Premium, ¿qué te motivaría a pagarla (ej. reportes avanzados, integración con billeteras, asesoría financiera)? |
 ---
 
 | Campo         | Información |
 |---------------|-------------|
-| Entrevistado 3 | Lorena Pablo Muñoz |
+| Entrevistado 2 | Lorena Pablo Muñoz |
 | Edad          |      21     |
 | Distrito      | Los Olivos  |
 | Foto          | ![entrevistatcash_lorena.png](resources/entrevistatcash_lorena.png) |
 | Timing        | [Ver grabación](https://utpedupe-my.sharepoint.com/:v:/g/personal/u22309749_utp_edu_pe/EZ2dLr3YzFRMj1QlKHfCVacB8w7LbHuiwvNOGSmRLtjUbQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Qiehwi) |
 | Segmento     | Estudiantes con mesada de los padres |
 | Preguntas    | ¿De cuánto es tu mesada? / ¿Cómo la administras? / ¿En qué gastas más? / ¿Te quedaste sin dinero antes? / ¿Has usado apps? / ¿Qué tan útil serían recordatorios de gasto? / ¿Qué metas de ahorro te motivan más? / ¿Prefieres gráficos o reportes? / ¿Qué tan importante es la facilidad de uso? / ¿Qué función extra haría que TuCash sea indispensable para ti? |
+
 ---
+
+| Campo        | Información |
+|--------------|-------------|
+| Entrevistado 3 | Julieta Cardenas |
+| Edad         | 22 años |
+| Distrito     | Surco |
+| Foto         | <img width="1450" height="690" alt="Entrevista estudiante independiente" src="https://github.com/user-attachments/assets/6f3af13d-e70c-449a-b703-7676024f5fcb" /> |
+| Timing       | [Ver grabación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221024_upc_edu_pe/Ed0AAD9c3W9FqLAdxgnqJV0BjQwIsRKgaxlTRZV2FGBUmA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=w2kESe) |
+| Segmento     | Estudiantes Independientes |
+| Preguntas    | ¿Cómo organizas actualmente tu dinero? / ¿Llevas un registro de cuánto dinero te sobra o falta cada mes? / ¿Qué gastos fijos son los más importantes para ti? / ¿Has tenido dificultades para separar gastos personales de gastos académicos? / ¿Qué tan útil sería que TuCash te muestre un balance mensual? / ¿Qué funciones te ayudarían más: recordatorios de pagos, metas de ahorro o alertas de gasto excesivo? / ¿Prefieres que TuCash te dé reportes simples o reportes más avanzados con detalles? / ¿Qué tan importante es que la app funcione también sin internet? /¿Confiarías en ingresar tus ingresos y gastos reales dentro de TuCash?|
 
 #### Entrevistas a padres/madres o tutores
 
