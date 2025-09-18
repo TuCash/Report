@@ -657,17 +657,19 @@ El objetivo de estas entrevistas es identificar y comprender las **necesidades, 
 | Distrito      |             |
 | Foto          | ![Foto entrevistado 2]() |
 | Timing        | [Ver grabación]() |
-
+| Segmento      | Estudiante que trabaja y estudia |
+| Preguntas     | ¿Cómo organizas actualmente tu dinero entre ingresos del trabajo y gastos de la universidad? / ¿Llevas un registro de cuánto dinero te sobra o falta cada mes? ¿Cómo lo haces? / ¿Qué gastos fijos son los más importantes para ti (pensión universitaria, transporte, alimentación, servicios, deudas)? / ¿Has tenido dificultades para separar gastos personales de gastos académicos? / ¿Qué tan útil sería que TuCash te muestre un balance mensual de ingresos vs. gastos? / ¿Qué funciones te ayudarían más: recordatorios de pagos, metas de ahorro o alertas de gasto excesivo? / Prefieres que TuCash te dé reportes simples o reportes más avanzados con detalles? / ¿Qué tan importante es que la app funcione también sin internet (modo offline)? / ¿Confiarías en ingresar tus ingresos y gastos reales dentro de TuCash? ¿Por qué sí o no? / Si TuCash tuviera una versión Premium, ¿qué te motivaría a pagarla (ej. reportes avanzados, integración con billeteras, asesoría financiera)? |
 ---
 
 | Campo         | Información |
 |---------------|-------------|
-| Entrevistado 3 |             |
-| Edad          |             |
-| Distrito      |             |
-| Foto          | ![Foto entrevistado 3]() |
-| Timing        | [Ver grabación]() |
-
+| Entrevistado 3 | Lorena Pablo Muñoz |
+| Edad          |      21     |
+| Distrito      | Los Olivos  |
+| Foto          | ![entrevistatcash_lorena.png](resources/entrevistatcash_lorena.png) |
+| Timing        | [Ver grabación](https://utpedupe-my.sharepoint.com/:v:/g/personal/u22309749_utp_edu_pe/EZ2dLr3YzFRMj1QlKHfCVacB8w7LbHuiwvNOGSmRLtjUbQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Qiehwi) |
+| Segmento     | Estudiantes con mesada de los padres |
+| Preguntas    | ¿De cuánto es tu mesada? / ¿Cómo la administras? / ¿En qué gastas más? / ¿Te quedaste sin dinero antes? / ¿Has usado apps? / ¿Qué tan útil serían recordatorios de gasto? / ¿Qué metas de ahorro te motivan más? / ¿Prefieres gráficos o reportes? / ¿Qué tan importante es la facilidad de uso? / ¿Qué función extra haría que TuCash sea indispensable para ti? |
 ---
 
 #### Entrevistas a padres/madres o tutores
