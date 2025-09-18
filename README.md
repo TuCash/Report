@@ -1639,16 +1639,168 @@ Nuestro prototipo de la aplicación web:
 
 
 #### Product UX/UI Design:
+<table border = "1">
+  <thead>
+    <tr>
+      <th scope="col">Producto</th>
+      <th scope="col">Proposito</th>
+      <th scope="col">Tipo/Ruta</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Figma</td>
+      <td>Prototipado de interfaces web/móvil, diseño visual, UX flow</td>
+      <td>SaaS <a href="https://www.figma.com/design/0eoLdvvEddDNIvvujQJGfU/TuCash?node-id=0-1&p=f&t=4wzMID1aOJqW6F2g-0" target="_blank">https://www.figma.com/</a></td>
+    </tr>
+    <tr>
+      <td>Canva</td>
+      <td>Diseño rápido de presentaciones y piezas visuales complementarias.</td>
+      <td>
+      SaaS
+      <a href="https://www.figma.com/design/0eoLdvvEddDNIvvujQJGfU/TuCash?node-id=0-1&p=f&t=4wzMID1aOJqW6F2g-0" target="_blanck">https://www.canva.com/</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 
 #### Software Development:
-
+<table border = "1">
+  <thead>
+    <tr>
+      <th scope="col">Producto</th>
+      <th scope="col">Proposito</th>
+      <th scope="col">Tipo/Ruta</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Visual Studio Code</td>
+      <td>Editor principal para frontend (Angular, TypeScript).</td>
+      <td><a href="https://code.visualstudio.com" target="_blank">Desktop – https://code.visualstudio.com</a></td>
+    </tr>
+    <tr>
+      <td>IntelliJ IDEA Community</td>
+      <td>Desarrollo backend (Spring Boot en Java).</td>
+      <td>
+      <a href="https://www.jetbrains.com/idea" target="_blanck">Desktop – https://www.jetbrains.com/idea</a>
+      </td>
+    </tr>
+     <tr>
+      <td>Angular CLI</td>
+      <td>Generación de componentes, servicios y módulos frontend.</td>
+      <td>
+      <a href="https://angular.dev" target="_blanck">Terminal – https://angular.dev</a>
+      </td>
+    </tr>
+     <tr>
+      <td>Postman</td>
+      <td>Pruebas y validación de APIs REST.</td>
+      <td>
+      <a href="https://postman.com" target="_blanck">Desktop/SaaS – https://postman.com</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 #### Software Documentation:
-
+<table border = "1">
+  <thead>
+    <tr>
+      <th scope="col">Producto</th>
+      <th scope="col">Proposito</th>
+      <th scope="col">Tipo/Ruta</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GitHub</td>
+      <td>Repositorio central y despliegue de documentación.</td>
+      <td>SaaS <a href="https://github.com/TuCash" target="_blank">https://github.com/</a></td>
+    </tr>
+    <tr>
+      <td>Trello</td>
+      <td>Organización visual de entregables académicos y checklists de equipo.</td>
+      <td>
+      SaaS
+      <a href="https://trello.com/b/Gaq5y139/tablero-trello-tucash" target="_blanck">https://trello.com/</a>
+      </td>
+    </tr>
+    </tr>
+    <tr>
+      <td>Miro</td>
+      <td>Creación de Empathy Maps, User Journeys, Event Storming.</td>
+      <td>
+      SaaS
+      <a href="https://miro.com/app/board/uXjVJL9MIK8=/?share_link_id=902556983183" target="_blanck">https://miro.com</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### 5.1.2. Source Code Management.
+Para el control de versiones y la colaboración del equipo se empleará GitHub como repositorio central. Cada producto digital tendrá su propio repositorio:
 
+- Report: https://github.com/TuCash/Report/
+
+- Landing Page: https://github.com/TuCash/Report/
+
+- Frontend Web Application: https://github.com/TuCash/webapp
+
+- Web Services (Backend + Tests): https://github.com/TuCash/backend
+
+#### Esquema de organización con GitFlow
+Nuestro equipo implementará el modelo de branching GitFlow, de acuerdo al artículo de Vincent Driessen “A successful Git branching model”. La organización de ramas será la siguiente:
+
+**main**
+
+Contiene la versión estable y lista para producción.
+
+Cada release terminado se integra aquí y se etiqueta con un número de versión siguiendo Semantic Versioning.
+
+**develop**
+
+Rama de integración, donde se fusionan todas las funcionalidades completas y probadas antes de preparar un release.
+
+feature/*
+
+Cada nueva funcionalidad, módulo o documento se desarrolla en su propia rama.
+
+Convención de nombres:
+
+release/*
+
+Se crean cuando se prepara una versión estable.
+
+Convención de nombres:
+
+release/vX.Y.Z (ejemplo: release/v1.0.0).
+
+hotfix/*
+
+Para atender correcciones urgentes en producción.
+
+Convención de nombres:
+
+hotfix/vX.Y.Z (ejemplo: hotfix/v1.0.1).
+
+#### Conventional Commits
+Los mensajes de commit seguirán la convención de Conventional Commits, lo que facilita trazabilidad y automatización:
+
+- feat: → nueva funcionalidad.
+
+- fix: → corrección de errores.
+
+- docs: → cambios en documentación.
+
+- style: → cambios de formato/código sin afectar lógica.
+
+- refactor: → refactorización sin añadir funcionalidad.
+
+- test: → inclusión o modificación de pruebas.
+
+- chore: → tareas menores, configuración.
 
 #### Front End Web Application Deployment
 
@@ -1659,43 +1811,391 @@ Nuestro prototipo de la aplicación web:
 ### 5.2.1. Sprint 1
 #### 5.2.1.1. Sprint Planning 1
 
-
+<table border="1">
+  <tr>
+    <th>Sprint 1</th>
+    <td>Sprint Planning</td>
+  </tr>
+  <tr>
+    <th colspan="2">Sprint Planning Background</th>
+  </tr>
+  <tr>
+    <th>Date</th>
+    <td>2025-09-09</td>
+  </tr>
+  <tr>
+    <th>Time</th>
+    <td>10:00 AM – 11:30 AM</td>
+  </tr>
+  <tr>
+    <th>Location</th>
+    <td>Reunión virtual vía Discord</td>
+  </tr>
+  <tr>
+    <th>Prepared By</th>
+    <td>Huaman Hinostroza, Milenio</td>
+  </tr>
+  <tr>
+    <th>Attendees (to planning meeting)</th>
+    <td>Jiménez Rosas, Arturo Eduardo / Rodríguez Peña, Jorge Andrés / …</td>
+  </tr>
+  <tr>
+    <th>Sprint 0 Review Summary</th>
+    <td>En el Sprint 0 se establecieron los cimientos del proyecto:
+    Configuración de repositorios en GitHub con GitFlow.Definición de convenciones de commits (Conventional Commits).rimera versión del documento con Startup Profile, Solution Profile y Segmentos Objetivo.
+    Diseño preliminar de la identidad visual (logo, isotipo, paleta de colores).
+    Feedback del Product Owner: se valoró la claridad del planteamiento del segmento objetivo, y se solicitó avanzar en la construcción de entrevistas y primeras historias de usuario</td>
+  </tr>
+  <tr>
+    <th>Sprint 0 Retrospective Summary</th>
+    <td>El equipo destacó como aciertos la rápida organización del flujo de trabajo con GitHub y la buena colaboración en la documentación inicial. Como oportunidades de mejora se identificó la necesidad de asignar mejor los roles para evitar solapamiento de tareas, y de calendarizar reuniones cortas diarias de seguimiento.</td>
+  </tr>
+  <tr>
+    <th colspan="2">Sprint Goal &amp; User Stories</th>
+  </tr>
+  <tr>
+    <th>Sprint 1 Goal</th>
+    <td>Our focus is on validar las necesidades financieras de los estudiantes universitarios mediante entrevistas y consolidar los primeros artefactos de requerimientos.
+We believe it delivers una base sólida para construir funcionalidades alineadas a los segmentos objetivo.
+This will be confirmed when se documenten al menos 6 entrevistas analizadas y derivadas en 3 User Personas y sus respectivos Empathy Maps</td>
+  </tr>
+  <tr>
+    <th>Sprint 1 Velocity</th>
+    <td>El equipo estableció un velocity de 5 story points, en base a la disponibilidad de los 5 integrantes.</td>
+  </tr>
+  <tr>
+    <th>Sum of Story Points</th>
+    <td>El Sprint incluye historias que suman 10 story points en total.</td>
+  </tr>
+</table>
 
 
 #### 5.2.1.2. Aspect Leaders and Collaborators.
 
+<table border = "1">
+  <tr>
+    <th>Team Member (Last Name, First Name)</th>
+    <th>GitHub Username</th>
+    <th>Aspect 1 (L/C)</th>
+    <th>Aspect 2 (L/C)</th>
+    <th>Aspect n (L/C)</th>
+  </tr>
+  <tr>
+    <td>Jiménez Rosas, Arturo Eduardo</td>
+    <td>ajimenezrosas</td>
+    <td>L</td>
+    <td>C</td>
+    <td>…</td>
+  </tr>
+  <tr>
+    <td>Rodríguez Peña, Jorge Andrés</td>
+    <td>Japr91</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+  </tr>
+</table>
 
 #### 5.2.1.3. Sprint Backlog 1.
 
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse; width:100%;">
+  <thead>
+    <tr>
+      <th colspan="2">User Story</th>
+      <th colspan="2">Work-Item / Task</th>
+      <th>Description</th>
+      <th>Estimation (Hours)</th>
+      <th>Assigned To</th>
+      <th>Status (To-do / In-Process / To-Review / Done)</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Id</th>
+      <th>Title</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US01</td>
+      <td>Registro de ingresos y egresos (independiente)</td>
+      <td>T-101</td>
+      <td>Definir categorías base</td>
+      <td>Listado inicial de categorías y etiquetas (Income/Expense).</td>
+      <td>3</td>
+      <td>Milenio</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US01</td>
+      <td>Registro de ingresos y egresos (independiente)</td>
+      <td>T-102</td>
+      <td>Wireframe flujo de registro</td>
+      <td>Prototipo de 2 pasos: monto + categoría + nota.</td>
+      <td>5</td>
+      <td>Jorge</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>US01</td>
+      <td>Registro de ingresos y egresos (independiente)</td>
+      <td>T-103</td>
+      <td>Endpoint mock /api/transactions</td>
+      <td>Mock API (JSON) para pruebas de UI.</td>
+      <td>4</td>
+      <td>Anthony</td>
+      <td>In-Process</td>
+    </tr>
+    <tr>
+      <td>US02</td>
+      <td>Categorización de gastos (sustento familiar)</td>
+      <td>T-201</td>
+      <td>Entrevistas (3 students)</td>
+      <td>Guía + ejecución de 3 entrevistas y notas.</td>
+      <td>6</td>
+      <td>Arturo</td>
+      <td>In-Process</td>
+    </tr>
+    <tr>
+      <td>US02</td>
+      <td>Categorización de gastos (sustento familiar)</td>
+      <td>T-202</td>
+      <td>Persona + Empathy Map</td>
+      <td>Construcción de 1 persona y su mapa de empatía.</td>
+      <td>4</td>
+      <td>Milenio</td>
+      <td>To-Review</td>
+    </tr>
+    <tr>
+      <td>US03</td>
+      <td>Metas de ahorro (becado)</td>
+      <td>T-301</td>
+      <td>Definir modelo de metas</td>
+      <td>Atributos: nombre, monto, fecha objetivo, progreso.</td>
+      <td>3</td>
+      <td>Jorge</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>US03</td>
+      <td>Metas de ahorro (becado)</td>
+      <td>T-302</td>
+      <td>UI componente “Goal Card”</td>
+      <td>Diseño y estilos de tarjeta de meta con barra de avance.</td>
+      <td>5</td>
+      <td>Arturo</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>—</td>
+      <td>—</td>
+      <td>T-900</td>
+      <td>Configuración CI (lint/tests)</td>
+      <td>Pipeline en GitHub Actions para lint y unit tests.</td>
+      <td>4</td>
+      <td>Anthony</td>
+      <td>To-do</td>
+    </tr>
+  </tbody>
+</table>
+
 #### 5.2.1.4. Development Evidence for Sprint Review.
 
+<h3>Development Evidence for Sprint Review – Sprint 1</h3>
+
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse; width:100%;">
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Commited on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>tucash-landing</td>
+      <td>feature/setup-landing</td>
+      <td>a1b2c3d</td>
+      <td>feat(landing): add initial HTML structure</td>
+      <td>Se agregó la estructura inicial del Landing Page con encabezado y secciones básicas.</td>
+      <td>2025-09-18</td>
+    </tr>
+    <tr>
+      <td>tucash-webapp</td>
+      <td>feature/ui-components</td>
+      <td>d4e5f6g</td>
+      <td>feat(ui): configure Angular Material</td>
+      <td>Configuración inicial de Angular Material e importación de módulos para componentes básicos.</td>
+      <td>2025-09-18</td>
+    </tr>
+    <tr>
+      <td>tucash-api</td>
+      <td>feature/setup-api</td>
+      <td>h7i8j9k</td>
+      <td>feat(api): create mock transaction endpoint</td>
+      <td>Se creó un endpoint GET /transactions para pruebas iniciales de integración.</td>
+      <td>2025-09-19</td>
+    </tr>
+    <tr>
+      <td>tucash-docs</td>
+      <td>feature/doc-introduction</td>
+      <td>m1n2o3p</td>
+      <td>docs(intro): add Solution Profile draft</td>
+      <td>Se añadió el borrador de la sección de antecedentes, problemática y segmentos objetivo.</td>
+      <td>2025-09-19</td>
+    </tr>
+  </tbody>
+</table>
 
 #### 5.2.1.5. Execution Evidence for Sprint Review.
-
-
+Durante el Sprint 1, el equipo logró implementar la estructura inicial del Landing Page con encabezado, menú de navegación y secciones básicas de presentación. En la aplicación web se configuró Angular Material e implementamos el primer componente de registro de transacciones en modo prototipo. En el backend se habilitó un endpoint mock de API (/transactions) para validar la integración entre frontend y backend.
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
-
+Durante el Sprint 1 se documentó el primer servicio de Web Services TuCash relacionado con transacciones financieras. Se configuró un proyecto en Spring Boot con soporte para OpenAPI/Swagger y se implementó un endpoint de prueba /transactions. La documentación está disponible en Swagger UI (ejecutada localmente).
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+Durante el Sprint 1, el equipo realizó la configuración inicial de despliegue para los tres productos del proyecto TuCash. Se crearon las cuentas en GitHub, Vercel y Firebase, además de configurar repositorios separados para Landing Page, Web Application y Web Services. Se ejecutó un primer despliegue del Landing Page en Vercel como versión de prueba, y se configuró un endpoint mock de los Web Services en Spring Boot de manera local, documentado con Swagger.
 
+Actividades realizadas:
+
+Landing Page:
+
+Repositorio creado en GitHub (tucash-landing).
+
+Conexión del repositorio a Vercel.
+
+Deploy inicial accesible en: https://tucash-landing.vercel.app
+ (ejemplo).
+
+Evidencia: Captura del dashboard de Vercel mostrando deploy exitoso.
+
+Web Application (Frontend Angular):
+
+Repositorio creado en GitHub (tucash-webapp).
+
+Configuración de entorno Node.js en Vercel.
+
+Deploy preliminar en: https://tucash-webapp.vercel.app
+.
+
+Evidencia: Captura del log de build en Vercel.
+
+Web Services (Backend Spring Boot):
+
+Proyecto creado en IntelliJ con dependencias básicas.
+
+Swagger configurado y probado en entorno local: http://localhost:8080/swagger-ui.html
+.
+
+Evidencia: Captura de Swagger mostrando endpoint GET /transactions.
+
+Automatización (CI/CD):
+
+Se añadió un workflow de GitHub Actions en repositorios de frontend y backend.
+
+El pipeline ejecuta: npm install && npm run build (frontend) y mvn test (backend).
+
+Evidencia: Captura del log de ejecución en GitHub Actions.
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 
+Durante el Sprint 1, el equipo colaboró activamente mediante reuniones virtuales (Microsoft Teams) y el uso de GitHub Projects para dar seguimiento a las tareas. Cada miembro del equipo realizó contribuciones a los diferentes productos: Landing Page, Web Application y Web Services.
+
+La evidencia de colaboración se muestra en las estadísticas de GitHub (commits y Pull Requests). Se confirma que todos los integrantes participaron en la implementación, asegurando consistencia con la metodología ágil y el enfoque colaborativo del proyecto.
+
+<h3>Team Collaboration Insights – Sprint 1</h3>
+
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse; width:100%;">
+  <thead">
+    <tr>
+      <th>Team Member</th>
+      <th>Landing Page</th>
+      <th>Web Application</th>
+      <th>Web Services</th>
+      <th>Documentation & QA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Huamán Hinostroza, Milenio</td>
+      <td>Commits en HTML inicial</td>
+      <td>Componentes Angular básicos</td>
+      <td>Colaboración en endpoint mock</td>
+      <td>Docs (Solution Profile)</td>
+    </tr>
+    <tr>
+      <td>Jiménez Rosas, Arturo</td>
+      <td>Soporte en estilos CSS</td>
+      <td>Colaboración en UI forms</td>
+      <td>Test con Postman</td>
+      <td>QA y retro de equipo</td>
+    </tr>
+    <tr>
+      <td>Rodríguez Peña, Jorge</td>
+      <td>Navbar y routing</td>
+      <td>Diseño de Dashboard</td>
+      <td>Configuración Swagger</td>
+      <td>User Personas</td>
+    </tr>
+    <tr>
+      <td>Palacios Tarrillo, Anthony</td>
+      <td>Soporte responsive</td>
+      <td>Configuración Angular Material</td>
+      <td>Setup Spring Boot API</td>
+      <td>Testing</td>
+    </tr>
+  </tbody>
+</table>
 
 
 # Video About-the-Product
-
-
-
 
 # Conclusiones y Recomendaciones
 
 ## Conclusiones
 
+Los resultados del análisis confirmaron que los estudiantes universitarios (independientes, con sustento familiar y becados) enfrentan baja educación financiera, dificultades para planificar gastos y ausencia de hábitos de ahorro, lo que valida plenamente los Problem Statements planteados en la fase inicial.
+
+Assumptions contrastados:
+
+La suposición de que los jóvenes no utilizan herramientas de control financiero se confirmó: menos del 50% de los encuestados lleva un registro formal.
+
+Se corroboró que valoran soluciones simples y visuales en lugar de herramientas complejas como Excel o apps bancarias.
+
+Hypotheses verificadas parcialmente:
+
+El registro rápido de ingresos/egresos y los reportes visuales fueron valorados positivamente en los prototipos iniciales.
+
+Las notificaciones y metas de ahorro aún no fueron validadas en profundidad, quedando como hipótesis para los siguientes sprints.
+
+Criterios de éxito iniciales:
+
+Se logró un primer nivel de éxito al comprobar el interés de los usuarios en interactuar con prototipos simples y en recibir retroalimentación visual inmediata.
+
+La frecuencia de uso y el cumplimiento de metas de ahorro deberán medirse en los próximos ciclos de validación.
 
 
 ## Recomendaciones
 
+Ampliar la muestra de entrevistas y pruebas de prototipos con estudiantes para robustecer las hipótesis no validadas.
 
+Avanzar con integración técnica temprana:
+Priorizar el desarrollo de endpoints básicos en los Web Services para habilitar pruebas reales de registro y consulta de transacciones en el próximo sprint.
 
+Mejorar la motivación del usuario:
+Incorporar mecánicas de gamificación (barras de progreso, badges) en las metas financieras para aumentar el compromiso.
+
+Definir Roadmap incremental:
+
+Corto plazo (próximos 2 sprints): consolidar el registro de transacciones, reportes visuales y categorías personalizadas.
+
+Mediano plazo (próximos 3–4 sprints): integrar metas de ahorro y notificaciones personalizadas.
+
+Largo plazo: expandir a aplicación móvil e IoT, integrando recordatorios contextuales (ej. alertas en smartwatch).
 
 # Video About-the-Team.
 
@@ -1704,10 +2204,34 @@ Nuestro prototipo de la aplicación web:
 **Título:**
 
 - **YouTube:** 
-- **Microsoft Stream:** [
+- **Microsoft Stream:** 
 
 # Bibliografía
+- Álvarez, M. (2023). Educación financiera en jóvenes universitarios. Dialnet. https://dialnet.unirioja.es/servlet/articulo?codigo=10086675
 
+- Infobae. (2025, marzo 23). Menos del 50% de jóvenes ahorran regularmente y los expertos piden mejorar la educación financiera. Infobae Perú. https://www.infobae.com/peru/2025/03/23/menos-del-50-de-jovenes-ahorran-regularmente-y-los-expertos-piden-mejorar-la-educacion-financiera/
+
+- Palacios Tarrillo, A. J., & Bendezu García, N. Y. (2024). Impacto de la educación financiera en jóvenes emprendedores: Una revisión de la literatura [Trabajo de investigación, Universidad Autónoma del Perú]. Repositorio Institucional de la Universidad Autónoma del Perú.
+
+- Superintendencia de Banca, Seguros y AFP. (2023, octubre 31). SBS promueve educación financiera digital para jóvenes. SBS Noticias. https://www.sbs.gob.pe/noticia/detallenoticia/idnoticia/2658
+
+- Universidad César Vallejo. (2023, diciembre 4). El endeudamiento juvenil en el Perú. UCV Noticias. https://www.ucv.edu.pe/noticias/el-endeudamiento-juvenil-en-el-peru
+
+- Eyzaguirre, J., et al. (2016). Educación financiera en jóvenes estudiantes de educación superior en Lima Metropolitana [Tesis de Maestría, Universidad Peruana de Ciencias Aplicadas]. Repositorio UPC.
+
+- Driessen, V. (2010). A successful Git branching model. Nvie. https://nvie.com/posts/a-successful-git-branching-model/
+
+- Conventional Commits. (2019). Conventional Commits 1.0.0. https://www.conventionalcommits.org
+
+- Preston-Werner, T. (2013). Semantic Versioning 2.0.0. https://semver.org
+
+- W3Schools. (n.d.). HTML Style Guide and Coding Conventions. https://www.w3schools.com/html/html5_syntax.asp
+
+- Google. (n.d.). Google Java Style Guide. https://google.github.io/styleguide/javaguide.html
+
+- Angular. (2024). Angular coding style guide. Angular.io. https://angular.io/guide/styleguide
+
+- Spring. (2024). Spring Boot Features. Spring.io. https://docs.spring.io/spring-boot/docs/current/reference/html/features.html
 # Anexos
 
 -
