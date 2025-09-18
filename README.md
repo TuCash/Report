@@ -1532,7 +1532,7 @@ Nuestro prototipo de la aplicación web:
 
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Software Architecture Context Diagram
-<img src="resources/Software Architecture Context Diagram.png" alt="Software Architecture Context Diagram2">  
+<img src="resources/Software Architecture Context Diagram2.png" alt="Software Architecture Context Diagram2">  
 
 ### 4.6.2. Software Architecture Container Diagrams
 <img src="resources/Software Architecture Container Diagrams.png" alt="Software Architecture Container Diagrams">  
