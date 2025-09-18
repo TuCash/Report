@@ -1837,7 +1837,7 @@ Los mensajes de commit seguirán la convención de Conventional Commits, lo que 
   </tr>
   <tr>
     <th>Attendees (to planning meeting)</th>
-    <td>Jiménez Rosas, Arturo Eduardo / Rodríguez Peña, Jorge Andrés / …</td>
+    <td>Jhunior Giussepe / Harrison Hubert / Javier Mondoñedo / Valeria Mejia</td>
   </tr>
   <tr>
     <th>Sprint 0 Review Summary</th>
@@ -1881,15 +1881,36 @@ This will be confirmed when se documenten al menos 6 entrevistas analizadas y de
     <th>Aspect n (L/C)</th>
   </tr>
   <tr>
-    <td>Jiménez Rosas, Arturo Eduardo</td>
-    <td>ajimenezrosas</td>
+    <td>Milenio Huaman Hinostroza</td>
+    <td>Milenioupc</td>
     <td>L</td>
     <td>C</td>
     <td>…</td>
   </tr>
   <tr>
-    <td>Rodríguez Peña, Jorge Andrés</td>
-    <td>Japr91</td>
+    <td>Jhunior Giussepe Taquiri Calderon</td>
+    <td>GiussepeTC0410</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+  </tr>
+  <tr>
+    <td>Harrison Hubert Payesa Torres</td>
+    <td>Harrison1024</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+  </tr>
+  <tr>
+    <td>Juan Diego Javier Mondoñedo Rodriguez</td>
+    <td>Jmondonedor</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+  </tr>
+  <tr>
+    <td>Patricia Valeria Mejia Poma</td>
+    <td>patriciavmp</td>
     <td>C</td>
     <td>C</td>
     <td>L</td>
@@ -1937,7 +1958,7 @@ This will be confirmed when se documenten al menos 6 entrevistas analizadas y de
       <td>Wireframe flujo de registro</td>
       <td>Prototipo de 2 pasos: monto + categoría + nota.</td>
       <td>5</td>
-      <td>Jorge</td>
+      <td>Patricia</td>
       <td>To-do</td>
     </tr>
     <tr>
@@ -1947,7 +1968,7 @@ This will be confirmed when se documenten al menos 6 entrevistas analizadas y de
       <td>Endpoint mock /api/transactions</td>
       <td>Mock API (JSON) para pruebas de UI.</td>
       <td>4</td>
-      <td>Anthony</td>
+      <td>Giussepe</td>
       <td>In-Process</td>
     </tr>
     <tr>
@@ -1957,7 +1978,7 @@ This will be confirmed when se documenten al menos 6 entrevistas analizadas y de
       <td>Entrevistas (3 students)</td>
       <td>Guía + ejecución de 3 entrevistas y notas.</td>
       <td>6</td>
-      <td>Arturo</td>
+      <td>Harrison</td>
       <td>In-Process</td>
     </tr>
     <tr>
@@ -1977,7 +1998,7 @@ This will be confirmed when se documenten al menos 6 entrevistas analizadas y de
       <td>Definir modelo de metas</td>
       <td>Atributos: nombre, monto, fecha objetivo, progreso.</td>
       <td>3</td>
-      <td>Jorge</td>
+      <td>Juan Diego</td>
       <td>To-do</td>
     </tr>
     <tr>
@@ -1997,7 +2018,7 @@ This will be confirmed when se documenten al menos 6 entrevistas analizadas y de
       <td>Configuración CI (lint/tests)</td>
       <td>Pipeline en GitHub Actions para lint y unit tests.</td>
       <td>4</td>
-      <td>Anthony</td>
+      <td>Giussepe</td>
       <td>To-do</td>
     </tr>
   </tbody>
@@ -2121,28 +2142,35 @@ La evidencia de colaboración se muestra en las estadísticas de GitHub (commits
   </thead>
   <tbody>
     <tr>
-      <td>Huamán Hinostroza, Milenio</td>
+      <td>Huaman Hinostroza, Milenio</td>
       <td>Commits en HTML inicial</td>
       <td>Componentes Angular básicos</td>
       <td>Colaboración en endpoint mock</td>
       <td>Docs (Solution Profile)</td>
     </tr>
     <tr>
-      <td>Jiménez Rosas, Arturo</td>
+      <td>Harrison Hubert Payesa Torres</td>
       <td>Soporte en estilos CSS</td>
       <td>Colaboración en UI forms</td>
       <td>Test con Postman</td>
       <td>QA y retro de equipo</td>
     </tr>
     <tr>
-      <td>Rodríguez Peña, Jorge</td>
+      <td>Juan Diego Javier Mondoñedo Rodriguez</td>
       <td>Navbar y routing</td>
       <td>Diseño de Dashboard</td>
       <td>Configuración Swagger</td>
       <td>User Personas</td>
     </tr>
     <tr>
-      <td>Palacios Tarrillo, Anthony</td>
+      <td>Patricia Valeria Mejia Poma</td>
+      <td>Soporte responsive</td>
+      <td>Configuración Angular Material</td>
+      <td>Setup Spring Boot API</td>
+      <td>Testing</td>
+    </tr>
+     <tr>
+      <td>Jhunior Giussepe Taquiri Calderon</td>
       <td>Soporte responsive</td>
       <td>Configuración Angular Material</td>
       <td>Setup Spring Boot API</td>
