@@ -702,14 +702,15 @@ El objetivo de estas entrevistas es identificar y comprender las **necesidades, 
 | Foto          | ![Foto entrevistado 3]() |
 | Timing        | [Ver grabación]() |
 
----
+<br/>
 
 ### 2.2.3 Análisis de entrevistas
 
 #### Análisis del segmento 
 
-**Segmento 1: Estudiantes con mesada de los padres (Hany, Miraflores)**
+**Segmento 1: Estudiantes con mesada de los padres**
 
+#### Entrevistado 1 (Hany Berrocal)
 #### Perfil
 - Hany, de 20 años, estudiante universitario en Miraflores.
 - Recibe mesada de sus padres y busca gestionar mejor su dinero.
@@ -739,14 +740,12 @@ El objetivo de estas entrevistas es identificar y comprender las **necesidades, 
 - **Reportes visuales:** Gráficos intuitivos y resúmenes semanales que permitan entender hábitos de consumo.
 
 
-
+#### Entrevistado 2 (Brigitte  Pablo)
 #### Perfil
 * **Nombre:** Brigitte Lorena Pablo Muñoz
 * **Edad:** 21 años
 * **Ocupación:** Estudiante de Derecho (8º ciclo)
 * **Fuente de Ingresos:** Mesada semanal de S/ 200 de sus padres.
-* 
----
 
 #### Insights Clave
 * **Gestión Actual:** Administración **100% intuitiva y mental**. No usa herramientas. Su principal meta es evitar quedarse sin dinero.
@@ -754,15 +753,11 @@ El objetivo de estas entrevistas es identificar y comprender las **necesidades, 
 * **Experiencia Digital:** **Cero experiencia** con apps de finanzas. Es un perfil "virgen", sin hábitos preexistentes.
 * **Preferencia de Comunicación:** Valora las **notificaciones rápidas y directas** por encima de los gráficos o reportes complejos. Busca inmediatez.
 
----
-
 #### Necesidades 
 1.  **Registro de Gastos Ultra-Rápido:** Un método para añadir gastos en segundos, sin fricción.
 2.  **Feedback en Tiempo Real:** Notificaciones automáticas que le indiquen el estado de su presupuesto semanal.
 3.  **Metas de Ahorro Pequeñas:** Se motiva con objetivos a corto plazo y alcanzables (ej: "Ahorrar S/ 20 para el fin de semana").
 4.  **Visibilidad sin Esfuerzo:** Un resumen claro de "cuánto dinero le queda" sin necesidad de análisis.
-
----
 
 #### Oportunidades para TuCash 
 * **Feature: "Quick Add"**: Botón principal para registrar un gasto en dos clics. **Prioridad: Velocidad**.
@@ -772,15 +767,51 @@ El objetivo de estas entrevistas es identificar y comprender las **necesidades, 
 * **Feature: Micro-Metas de Ahorro**: Módulo para que el usuario defina y rastree pequeños objetivos de ahorro, fomentando el hábito.
 * **UI/UX:** Diseñar un **Dashboard simple y visual** centrado en una sola métrica: **"Dinero Restante"**.
 
+---
 
-- **Estudiantes que trabajan y estudian (18–26 años):**  
+**Segmento 2: Estudiante independiente**
 
-<br><br>  
-<br><br>  
-<br><br>  
-<br><br>  
+#### Entrevistado 3 (Julieta Cardenas)
+#### Perfil
+- Julieta Cardenas, estudiante universitario de 20 años, trabaja y financia sus estudios de manera independiente.
+- Maneja ingresos propios que distribuye entre pensión universitaria, transporte, alimentación y gastos personales.
+- Tiene experiencia básica con herramientas de registro como Excel o bloc de notas.
 
-- **Estudiantes becados (18–25 años):**  
+#### Insights clave
+- **Administración del dinero:** Organiza sus ingresos priorizando la pensión universitaria, luego transporte y alimentación. Sin embargo, presenta dificultades para separar gastos académicos de los personales.
+- **Gastos principales:** Pensión universitaria, transporte, alimentación y plan de celular.
+- **Registro financiero:** Usa métodos básicos (Excel y notas en el celular), lo que le permite calcular excedentes, pero no llevar un control profundo.
+- **Confianza y seguridad:** Dispuesto a ingresar datos reales en TuCash siempre que la seguridad esté garantizada, destacando su conocimiento del sector financiero.
+
+#### Estrategias actuales
+- Separa inicialmente la pensión universitaria y algunos gastos fijos.
+- Recurre a registros simples (Excel, notas) para identificar sobrantes.
+- Ajusta entre gastos personales y académicos, aunque a veces se desordena y compromete pagos importantes.
+
+#### Apertura a soluciones digitales
+- Interesado en recordatorios automáticos de pagos como prioridad para evitar retrasos.
+- Aprecia reportes simples, pero con la opción de acceder a mayor detalle bajo demanda.
+- Da mucha importancia a que la app tenga modo offline para seguir registrando gastos sin internet.
+- Considera atractiva la integración con billeteras digitales y asesoría financiera personalizada en una versión Premium.
+
+#### Necesidades
+- Recordatorios de fechas de pago (pensión, servicios, celular) para evitar atrasos.
+- Balance mensual claro de ingresos vs. gastos para identificar excesos y oportunidades de ahorro.
+- Separación clara entre gastos académicos y personales.
+- Funcionalidad offline para registrar transacciones sin conexión.
+- Seguridad confiable para ingresar información financiera real.
+
+#### Oportunidades para TuCash
+- **Recordatorios automáticos de pagos:** Notificaciones previas a vencimientos (ej. pensión universitaria, celular).
+- **Balance mensual simple + detallado:** Vista clara de ingresos y gastos con opción de profundizar.
+- **Modo offline:** Registro de transacciones sin depender de internet.
+- **Integración con billeteras digitales:** Automatizar registro de gastos y mejorar la experiencia.
+- **Funciones Premium:** Reportes avanzados y asesoría financiera personalizada para usuarios con ingresos propios.
+
+
+<br/>
+
+**Estudiantes becados (18–25 años):**  
 
 
 ## 2.3. Needfinding
