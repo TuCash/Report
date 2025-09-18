@@ -670,11 +670,11 @@ El objetivo de estas entrevistas es identificar y comprender las **necesidades, 
 
 | Campo         | Información |
 |---------------|-------------|
-| Entrevistado 1 |             |
-| Edad          |             |
-| Distrito      |             |
-| Foto          | ![Foto entrevistado 1]() |
-| Timing        | [Ver grabación]() |
+| Entrevistado  |    Heydi Ventura Huerta         |
+| Edad          |     19        |
+| Distrito      |     Villa el Salvador      |
+| Foto          | ![Foto entrevistado 1](resources/entrevistabecado.png)|
+| Timing        | [Ver grabación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c245_upc_edu_pe/Eflh5wAoWbxPpZSqmMyLJjEBJkN8X94tz-ldpcdm2yxGeg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=suvd4d) |
 
 ---
 
@@ -1453,7 +1453,19 @@ La navegación dentro de la aplicación web se organizará en torno a un **dashb
 <br><br>
 
 #### Web Application para Mobile Web Browser
-
+![wireframe mobile](resources/image.png)
+<br>*Login*</br>
+![login](resources/image-0.png)
+<br>*Perfil*</br>
+![user](resources/image-1.png)
+<br>*Home*</br>
+![home](resources/image-2.png)
+<br>*Ingresos*</br>
+![ingresos](resources/image-3.png)
+<br>*Gastos*</br>
+![gastos](resources/image-4.png)
+<br>*Metas*</br>
+![metas](resources/image-5.png)
 [Enlace para acceder al Figma](https://www.figma.com/design/0eoLdvvEddDNIvvujQJGfU/TuCash?node-id=0-1&t=69177qJUpEmGgCN0-1)
 <br><br>
 
