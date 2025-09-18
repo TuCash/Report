@@ -1412,12 +1412,22 @@ La navegación dentro de la aplicación web se organizará en torno a un **dashb
 
 ## 4.3. Landing Page UI Design.
 ### 4.3.1. Landing Page Wireframe.
+
+La versión wireframe de nuestra landing page presenta una estructura básica compuesta por diversos elementos fundamentales. En la parte superior se ubica la navegación principal representada mediante bloques simples que indican secciones como Beneficios, Planes, Contáctanos, Iniciar sesión y el selector de idioma. Las visualizaciones de datos se representan mediante áreas designadas para dashboards y gráficos, utilizando rectángulos con líneas básicas en su interior. Asimismo, los planes de suscripción se organizan en tarjetas. Finalmente, la sección de testimonios se muestra con bloques para imágenes de perfil y áreas de texto para citas.
+
 **Landing Page para Desktop Web Browser**
 
+<img src="resources/landingWireframe1.png" alt="Landing Page Wireframe 1">
+<img src="resources/landingWireframe2.png" alt="Landing Page Wireframe 2">
+<img src="resources/landingWireframe3.png" alt="Landing Page Wireframe 3">
+<img src="resources/landingWireframe4.png" alt="Landing Page Wireframe 4">
+<img src="resources/landingWireframe5.png" alt="Landing Page Wireframe 5">
+<img src="resources/landingWireframe6.png" alt="Landing Page Wireframe 6">
+<img src="resources/landingWireframe7.png" alt="Landing Page Wireframe 7">
 
 **Landing Page para Mobile Web Browser**
 
-
+<img src="resources/landingWireframe8.png" alt="Landing Page Wireframe 8">
 
 ### 4.3.2. Landing Page Mock-up.
 **Landing Page para Desktop Web Browser**
