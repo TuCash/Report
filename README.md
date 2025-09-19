@@ -1431,12 +1431,8 @@ La versión wireframe de nuestra landing page presenta una estructura básica co
 <img src="resources/landingWireframe8.png" alt="Landing Page Wireframe 8">
 
 ### 4.3.2. Landing Page Mock-up.
-**Landing Page para Desktop Web Browser**
 
-
-
-**Landing Page para Mobile Web Browser**
-
+Enlace para acceder a nuestra Landing Page, desplegada en Github Pages: [TuCash Landing Page](https://tucash.github.io/landingPage/)
 
 ## 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
