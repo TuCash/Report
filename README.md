@@ -337,7 +337,8 @@ En esta sección se brinda la descripción de nuestra startup, producto y miembr
   </tr>
 
   <tr>
-    <td><img src="resources/patricia.jpg" alt="Patricia Valeria Mejia Poma" width="200"></td>
+    <td><img width="593" height="559" alt="image" src="https://github.com/user-attachments/assets/8204a050-0eca-42f8-a398-5ba0adf6eb06" />
+</td>
     <td>
       <b>Patricia Valeria Mejia Poma (U202523271)</b><br>
       Soy estudiante de Ingeniería de Software en la UPC. Mi experiencia abarca el desarrollo backend con tecnologías como Java y C#, y la gestión de bases de datos como MySQL y PostgreSQL. Además, tengo conocimientos en el desarrollo frontend con HTML, CSS y framework como Tailwind CSS. 
