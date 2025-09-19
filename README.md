@@ -2004,6 +2004,9 @@ Como norma general, todo el código del proyecto debe escribirse en **inglés**,
 ### 5.2.1. Sprint 1
 #### 5.2.1.1. Sprint Planning 1
 
+<img width="1920" height="913" alt="image" src="https://github.com/user-attachments/assets/64fe990e-3540-4f43-a04c-e24634b916d7" />
+
+
 <table border="1">
   <tr>
     <th>Sprint 1</th>
@@ -2274,6 +2277,8 @@ Durante el Sprint 1, el equipo logró implementar la estructura inicial del Land
 Durante el Sprint 1 se documentó el primer servicio de Web Services TuCash relacionado con transacciones financieras. Se configuró un proyecto en Spring Boot con soporte para OpenAPI/Swagger y se implementó un endpoint de prueba /transactions. La documentación está disponible en Swagger UI (ejecutada localmente).
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 Durante el Sprint 1, el equipo realizó la configuración inicial de despliegue para los tres productos del proyecto TuCash. Se crearon las cuentas en GitHub, Vercel y Firebase, además de configurar repositorios separados para Landing Page, Web Application y Web Services. Se ejecutó un primer despliegue del Landing Page en Vercel como versión de prueba, y se configuró un endpoint mock de los Web Services en Spring Boot de manera local, documentado con Swagger.
+
+
 
 Actividades realizadas:
 
