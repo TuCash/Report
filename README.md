@@ -2276,7 +2276,7 @@ Durante el Sprint 1, el equipo logró implementar la estructura inicial del Land
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 Durante el Sprint 1 se documentó el primer servicio de Web Services TuCash relacionado con transacciones financieras. Se configuró un proyecto en Spring Boot con soporte para OpenAPI/Swagger y se implementó un endpoint de prueba /transactions. La documentación está disponible en Swagger UI (ejecutada localmente).
 
-### 5.2.1.7. Software Deployment Evidence for Sprint Review
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
 Durante el **Sprint 1**, el equipo realizó la configuración inicial del entorno de despliegue y únicamente se desplegó el **Landing Page** como primer entregable accesible en línea.
 
@@ -2287,9 +2287,8 @@ Durante el **Sprint 1**, el equipo realizó la configuración inicial del entorn
   * Repositorio creado en GitHub (`https://github.com/TuCash/landingPage`).
   * Configuración de GitHub Pages como plataforma de despliegue.
   * Deploy inicial accesible en: https://tucash.github.io/landingPage/.
-  * **Evidencia:** captura del repositorio en GitHub mostrando la rama `gh-pages` habilitada y la URL activa.
- 
-<img width="1905" height="956" alt="image" src="https://github.com/user-attachments/assets/9c5688a2-a619-4e2c-af5b-f7b2bd075c64" />
+  * 
+<img width="1742" height="945" alt="image" src="https://github.com/user-attachments/assets/29d655e9-978d-4fde-90f6-289d033dec75" />
 
 **Nota:**
 
