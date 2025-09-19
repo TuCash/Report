@@ -113,7 +113,8 @@
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px;">Jhunior Giussepe Taquiri Calderon</td>
     <td style="border: 1px solid #ddd; padding: 8px;">
-      Elaboré Capítulo II: Requirements Elicitation & Analysis, incluyendo user personas, user task matrix, user journey mapping hasta esa sección.
+      Me encargué de elaborar de forma completa el Capítulo II: Requirements Elicitation & Analysis, incluyendo la construcción de user personas, user task matrix y user journey mapping.  
+Asimismo, desarrollé las secciones asignadas del Capítulo IV: Product Design, desde Style Guidelines hasta Navigation Systems, asegurando coherencia, estructura y alineación con los objetivos del proyecto.
     </td>
   </tr>
   <tr>
