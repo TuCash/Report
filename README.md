@@ -1991,11 +1991,13 @@ Como norma general, todo el código del proyecto debe escribirse en **inglés**,
 
 - Creación Landing Page:<br>
 1. Se crea un repositorio remoto en GitHub
-![creation-of-repository-lp](<img width="1009" height="534" alt="Image" src="https://github.com/user-attachments/assets/427cd331-6cbb-4537-8fc2-fb8275fb5866" />)
+<img width="1009" height="534" alt="Image" src="https://github.com/user-attachments/assets/427cd331-6cbb-4537-8fc2-fb8275fb5866" />
 2. Agregar a participantes
-![adding-members-screenshot-lp](<img width="1244" height="587" alt="Image" src="https://github.com/user-attachments/assets/68080716-03d2-4154-9866-715fa83a6f87" />)
-3. Habilitamos GitHub Pages en branch "master" y ruta "/(root)"
-![deploying-repository-in-github-pages-lp](<img width="993" height="828" alt="Image" src="https://github.com/user-attachments/assets/8d7ec97d-3c4f-416a-bf73-f112961de83e" />)
+<img width="1244" height="587" alt="Image" src="https://github.com/user-attachments/assets/68080716-03d2-4154-9866-715fa83a6f87" />
+3. Habilitamos GitHub Pages
+<img width="993" height="828" alt="Image" src="https://github.com/user-attachments/assets/8d7ec97d-3c4f-416a-bf73-f112961de83e" />
+
+---
 
 ## 5.2. Landing Page, Services & Applications Implementation
 ### 5.2.1. Sprint 1
@@ -2450,7 +2452,7 @@ Largo plazo: expandir a aplicación móvil e IoT, integrando recordatorios conte
 - Angular. (2024). Angular coding style guide. Angular.io. https://angular.io/guide/styleguide
 
 - Spring. (2024). Spring Boot Features. Spring.io. https://docs.spring.io/spring-boot/docs/current/reference/html/features.html
-- 
+
 # Anexos
 - Anexo 1: [Organización en GitHub](https://github.com/TuCash)
 - Anexo 2: [Mockups - Wireframe](https://www.figma.com/design/0eoLdvvEddDNIvvujQJGfU/TuCash?node-id=49-11&t=jhD9FD51vkhbVsPx-1)
