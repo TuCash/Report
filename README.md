@@ -337,7 +337,7 @@ En esta sección se brinda la descripción de nuestra startup, producto y miembr
   </tr>
 
   <tr>
-    <td><img width="593" height="559" alt="image" src="https://github.com/user-attachments/assets/8204a050-0eca-42f8-a398-5ba0adf6eb06" />
+    <td><img width="929" height="1317" alt="imagen 02" src="https://github.com/user-attachments/assets/5c865f1d-c0f7-4a6a-9989-67e3b76fbdb8" />
 </td>
     <td>
       <b>Patricia Valeria Mejia Poma (U202523271)</b><br>
