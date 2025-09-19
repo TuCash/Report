@@ -2004,9 +2004,6 @@ Como norma general, todo el código del proyecto debe escribirse en **inglés**,
 ### 5.2.1. Sprint 1
 #### 5.2.1.1. Sprint Planning 1
 
-<img width="1920" height="913" alt="image" src="https://github.com/user-attachments/assets/64fe990e-3540-4f43-a04c-e24634b916d7" />
-
-
 <table border="1">
   <tr>
     <th>Sprint 1</th>
@@ -2114,6 +2111,8 @@ This will be confirmed when se documenten al menos 6 entrevistas analizadas y de
 </table>
 
 #### 5.2.1.3. Sprint Backlog 1.
+
+<img width="1920" height="913" alt="image" src="https://github.com/user-attachments/assets/64fe990e-3540-4f43-a04c-e24634b916d7" />
 
 <table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse; width:100%;">
   <thead>
