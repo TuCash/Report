@@ -1286,9 +1286,9 @@ Este diseño garantiza **usabilidad, seguridad y frescura visual**, consolidando
 
 #### Contenido Personalizado por Perfil de Usuario
 - **Esquema de categorización: Según audiencia.**  
-  - **Estudiantes**: acceso rápido a presupuestos académicos, recargas de transporte y tips de ahorro.  
-  - **Familias**: administración de presupuestos familiares, cuentas compartidas y gestión de gastos del hogar.  
-  - **Usuarios generales**: control de ingresos/egresos, pago de servicios básicos, metas de ahorro personales.  
+   - **Estudiantes (mesada):** presupuestos académicos, recargas de transporte, **Dinero restante semanal + Top 3 categorías + Quick Add/micro-metas**; **alertas** 50%/85% y gasto inusual; **acciones** crear micro-meta y       ajustar límite.
+   - **Quienes trabajan y estudian:** recordatorios de pagos (pensión/servicios), **Calendario de pagos + balance simple→detalle + estado offline**; **alertas** de vencimientos (–3 días / día D) y sobre-ejecución al 85%;            **acciones** registrar pago y marcar gasto recurrente.
+   - **Becados:** plan mensual priorizado (básicos), **control de ingresos/egresos, pago de servicios y metas de ahorro**; **duración estimada de fondos + ahorro de emergencia + reporte compartible**; **alertas** de             quedarse corto (-7 días), fin de mes e hitos de beca; **acciones** priorizar esenciales, aportar a emergencia y compartir reporte.
 
 #### Búsqueda de Transacciones y Servicios
 - **Esquema de categorización: Alfabético.**  
@@ -1300,21 +1300,23 @@ Este diseño garantiza **usabilidad, seguridad y frescura visual**, consolidando
 #### Landing Page
 - **Home/Inicio**: Propuesta de valor de TuCash.  
 - **Features/Características**: Funciones clave (gestión de gastos, metas de ahorro, pagos de servicios).  
-- **Benefits/Beneficios**: Simplicidad, seguridad, confianza y control financiero.  
+- **Benefits/Beneficios**: Simplicidad, seguridad, confianza y control financiero.
+- **Plans & Pricing /Planes y Precios**: Detalle y comparación de planes (ver sección más abajo).  
 - **Testimonials/Testimonios**: Experiencias y casos de éxito de usuarios.  
 - **About/Acerca de**: Propósito de TuCash, misión y visión de inclusión financiera.  
 - **Contact/Contacto**: Soporte, redes sociales y correo de atención.  
 
 #### Web Application
 - **Home/Inicio**: Accesos rápidos a saldo disponible, últimos movimientos, metas de ahorro y alertas.  
-- **Perfil**: Gestión de información personal, métodos de pago, cuentas vinculadas y preferencias.  
-- **Finanzas**: Control de ingresos, egresos y presupuestos por categoría.  
-- **Pagos**: Servicios básicos, recargas y transferencias. Incluye historial de operaciones.  
-- **Ahorro/Metas**: Configuración y seguimiento de objetivos financieros (viajes, educación, emergencias).  
-- **Búsqueda**: Localización rápida de transacciones, servicios o beneficiarios.  
-- **Favoritos**: Acceso a servicios, categorías o metas más utilizadas.  
-- **Alertas/Notificaciones**: Gastos inusuales, vencimientos, metas alcanzadas o pendientes.  
-- **Soporte**: FAQs, guías de uso y contacto con atención al cliente.  
+- **Profile/Perfil**: Gestión de información personal, métodos de pago, cuentas vinculadas y preferencias.  
+- **Finance/Finanzas**: Control de ingresos, egresos y presupuestos por categoría.  
+- **Payments/Pagos**: Servicios básicos, recargas y transferencias. Incluye historial de operaciones.  
+- **Savings/Goals/Ahorro/Metas**: Configuración y seguimiento de objetivos financieros (viajes, educación, emergencias).  
+- **Search/Búsqueda**: Localización rápida de transacciones, servicios o beneficiarios.  
+- **Favorites/Favoritos**: Acceso a servicios, categorías o metas más utilizadas.  
+- **Alerts/Notifications/Alertas/Notificaciones**: Gastos inusuales, vencimientos, metas alcanzadas o pendientes.  
+- **Support/Soporte**: FAQs, guías de uso y contacto con atención al cliente.  
+- **Plans/Planes**: Gestión del plan actual, upgrades/downgrades y facturación.
 
 ### 4.2.3. SEO Tags and Meta Tags
 
@@ -1389,7 +1391,8 @@ Se implementará un menú superior con enlaces visibles hacia:
 - **Inicio:** Presentación general de TuCash.  
 - **Características:** Explicación de las principales funciones (gestión de gastos, presupuesto, ahorro).  
 - **Beneficios:** Cómo ayuda al usuario a mejorar su control financiero con seguridad, inclusión y simplicidad.  
-- **Testimonios:** Opiniones de usuarios y casos de éxito en el manejo de sus finanzas.  
+- **Testimonios:** Opiniones de usuarios y casos de éxito en el manejo de sus finanzas.
+- **Planes y Precios** — Free / Premium (S/ 9.99) / Pro (S/ 14.99) con tabla comparativa y CTA.
 - **Acerca de:** Información sobre el propósito, misión y visión de TuCash.  
 - **Contacto:** Formulario y canales de soporte.  
 
@@ -1406,7 +1409,8 @@ La navegación dentro de la aplicación web se organizará en torno a un **dashb
 - **Presupuesto:** Creación y seguimiento de presupuestos familiares o personales.  
 - **Ahorros:** Configuración de metas de ahorro y progreso alcanzado.  
 - **Historial:** Registros cronológicos de movimientos financieros.  
-- **Notificaciones:** Alertas sobre gastos inusuales, recordatorios de pagos o actualizaciones.  
+- **Notificaciones:** Alertas sobre gastos inusuales, recordatorios de pagos o actualizaciones.
+- **Planes (Plans)** — **Plan actual**, **Comparar planes**, **Cambiar plan**, **Facturación** y **Comprobantes**.
 - **Soporte / Ayuda:** Acceso a FAQs, chat de soporte y contacto directo con asistencia.  
 
 
