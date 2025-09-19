@@ -332,7 +332,7 @@ En esta sección se brinda la descripción de nuestra startup, producto y miembr
     <td><img src="resources/JD.jpg" alt="Juan Diego Javier Mondoñedo Rodriguez" width="200"></td>
     <td>
       <b>Juan Diego Javier Mondoñedo Rodriguez (U202110373)</b><br>
-      <!-- Aquí va su descripción -->
+      Mi nombre es Juan Diego Mondoñedo, tengo 21 años y soy estudiante de la carrera de Ingenieria de Software. Soy una persona adaptable a las circunstancias y puedo amoldar mis estrategias de trabajo para cumplir las expectativas de cualquier equipo.
     </td>
   </tr>
 
