@@ -2271,7 +2271,25 @@ This will be confirmed when se documenten al menos 6 entrevistas analizadas y de
 </table>
 
 #### 5.2.1.5. Execution Evidence for Sprint Review.
-Durante el Sprint 1, el equipo logró implementar la estructura inicial del Landing Page con encabezado, menú de navegación y secciones básicas de presentación. En la aplicación web se configuró Angular Material e implementamos el primer componente de registro de transacciones en modo prototipo. En el backend se habilitó un endpoint mock de API (/transactions) para validar la integración entre frontend y backend.
+Durante el **Sprint 1**, el equipo ejecutó y validó las siguientes implementaciones:
+
+* **Landing Page:**
+
+  * Se construyó la estructura inicial con encabezado, menú de navegación y secciones básicas de presentación (home y about).
+  * Se validó el despliegue exitoso en GitHub Pages, quedando accesible públicamente.
+
+<img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/fc788aef-f3f0-46ec-88ae-0d99e2179aac" />
+
+<img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/4c53d4e4-0f80-4888-a8f7-bdf585383e85" />
+
+<img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/abbdd30b-2e23-468a-8ec2-a41638fa1430" />
+
+<img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/ad1c0d6d-cf76-4b67-94f2-176223a44b4a" />
+
+<img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/28ab4ef7-68ea-4de7-8b6c-92a09f4c71d6" />
+
+<img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/3ae6404c-22ff-43f7-a56e-fbdece80afbf" />
+
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 Durante el Sprint 1 se documentó el primer servicio de Web Services TuCash relacionado con transacciones financieras. Se configuró un proyecto en Spring Boot con soporte para OpenAPI/Swagger y se implementó un endpoint de prueba /transactions. La documentación está disponible en Swagger UI (ejecutada localmente).
