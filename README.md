@@ -1530,37 +1530,37 @@ Enlace para acceder a nuestra Landing Page, desplegada en Github Pages: [TuCash 
 ### 4.4.3. Web Applications Mock-ups.
 #### Mock-ups for Desktops
 *Iniciar Sesión*
-<img src="resources/Log In-Mock Up.png" alt="Login mock up">
+<img width="1400" height="900" alt="Image" src="https://github.com/user-attachments/assets/627031a5-6a4f-4f23-b92f-815b2be5f877" />
 
 *Crear de cuenta*
-<img src="resources/Register-Mock Up.png" alt="Register mock up">
+<img width="1400" height="900" alt="Image" src="https://github.com/user-attachments/assets/f8493da0-10bb-4623-89f0-7b15daa5e28d" />
 
 *Pagina Principal*<br>
-<img src="resources/Home-Mock Up.png" alt="Home mock up">
+<img width="1400" height="900" alt="Image" src="https://github.com/user-attachments/assets/976a08b4-6c22-4ed0-b32d-bac427cbdc1a" />
 
 *Ver Todas las Tnansacciones*<br>
-<img src="resources/All transacctions-Mock Up.png" alt="All transactions mock up">
+<img width="1400" height="900" alt="Image" src="https://github.com/user-attachments/assets/e8709db9-a210-4d78-b4c4-b184e4c0def6" />
 
 *Ingresos*<br>
-<img src="resources/Income-Mock Up.png" alt="Income mock up">
+<img width="1400" height="900" alt="Image" src="https://github.com/user-attachments/assets/39059aa6-0be4-4ce4-a305-b0d88c97c24d" />
 
 *Registrar Ingreso*<br>
-<img src="resources/Register Income-Mock Up.png" alt="Register Income mock up">
+<img width="1400" height="900" alt="Image" src="https://github.com/user-attachments/assets/85907ad2-3969-4807-9107-ff948ed41e1e" />
 
 *Gastos*<br>
-<img src="resources/Expenses-Mock Up.png" alt="Expenses mock up">
+<img width="1400" height="900" alt="Image" src="https://github.com/user-attachments/assets/0dfc2d07-48e1-4e35-800c-9d79dc7f94c2" />
 
 *Registrar Gasto*<br>
-<img src="resources/Register Expenses-Mock Up.png" alt="Register Expenses mock up">
+<img width="1400" height="900" alt="Image" src="https://github.com/user-attachments/assets/5d7cfdc4-b072-4f77-9ae1-66c23d745d82" />
 
 *Metas de Ahorro*<br>
-<img src="resources/Goals-Mock Up.png" alt="Goals mock up">
+<img width="1400" height="900" alt="Image" src="https://github.com/user-attachments/assets/94ade9c1-eba2-469a-84ce-803e7db7f68a" />
 
 *Registrar Meta de Ahorro*<br>
-<img src="resources/Register Goals-Mock Up.png" alt="Register Goals mock up">
+<img width="1400" height="900" alt="Image" src="https://github.com/user-attachments/assets/80385b52-82b6-4c7f-a382-982ae4e41c89" />
 
 *Agregar Dinero a Meta de Ahorro*<br>
-<img src="resources/Increase Goal's Money-Mock Up.png" alt="Increase Goal's Money mock up">
+<img width="1400" height="900" alt="Image" src="https://github.com/user-attachments/assets/91001544-4a78-40cb-8b71-9b66ce591e3a" />
 
 
 [Enlace para acceder al Figma](https://www.figma.com/design/0eoLdvvEddDNIvvujQJGfU/TuCash?node-id=2161-108&t=69177qJUpEmGgCN0-1)
