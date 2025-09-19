@@ -2450,9 +2450,8 @@ Largo plazo: expandir a aplicación móvil e IoT, integrando recordatorios conte
 - Angular. (2024). Angular coding style guide. Angular.io. https://angular.io/guide/styleguide
 
 - Spring. (2024). Spring Boot Features. Spring.io. https://docs.spring.io/spring-boot/docs/current/reference/html/features.html
-# Anexos
-
--
-- **Usuarios con los diferentes planes:**
-
 - 
+# Anexos
+- Anexo 1: [Organización en GitHub](https://github.com/TuCash)
+- Anexo 2: [Mockups - Wireframe](https://www.figma.com/design/0eoLdvvEddDNIvvujQJGfU/TuCash?node-id=49-11&t=jhD9FD51vkhbVsPx-1)
+- Anexo 3: [User-Flow - WireFlow Diagram](https://lucid.app/lucidchart/6527f327-959e-4911-ae0c-6a1f5a520089/edit?viewport_loc=-1573%2C-4542%2C4989%2C2439%2C8M5xaniXGb-W&invitationId=inv_58ad1103-5a51-4d9f-95bc-86c61f1e3d65)
