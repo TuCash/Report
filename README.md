@@ -113,7 +113,8 @@
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px;">Jhunior Giussepe Taquiri Calderon</td>
     <td style="border: 1px solid #ddd; padding: 8px;">
-      Elaboré Capítulo II: Requirements Elicitation & Analysis, incluyendo user personas, user task matrix, user journey mapping hasta esa sección.
+      Me encargué de elaborar de forma completa el Capítulo II: Requirements Elicitation & Analysis, incluyendo la construcción de user personas, user task matrix y user journey mapping.  
+Asimismo, desarrollé las secciones asignadas del Capítulo IV: Product Design, desde Style Guidelines hasta Navigation Systems, asegurando coherencia, estructura y alineación con los objetivos del proyecto.
     </td>
   </tr>
   <tr>
@@ -309,7 +310,7 @@ En esta sección se brinda la descripción de nuestra startup, producto y miembr
 <tr><th>Nombre</th><th>Biografía del los integrantes del equipo</th></tr>
 
   <tr>
-    <td><img src="resources/giussepe.jpg" alt="Jhunior Giussepe Taquiri Calderon" width="200"></td>
+    <td><img src="resources/giussepe.png" alt="Jhunior Giussepe Taquiri Calderon" width="200"></td>
     <td>
       <b>🧑‍💻 Jhunior Giussepe Taquiri Calderon (U20221C576)</b><br><br>
       Soy estudiante del sexto ciclo de Ingeniería de Software en la UPC, con una formación orientada al desarrollo de software y al uso de diversas tecnologías. 
@@ -1285,9 +1286,9 @@ Este diseño garantiza **usabilidad, seguridad y frescura visual**, consolidando
 
 #### Contenido Personalizado por Perfil de Usuario
 - **Esquema de categorización: Según audiencia.**  
-  - **Estudiantes**: acceso rápido a presupuestos académicos, recargas de transporte y tips de ahorro.  
-  - **Familias**: administración de presupuestos familiares, cuentas compartidas y gestión de gastos del hogar.  
-  - **Usuarios generales**: control de ingresos/egresos, pago de servicios básicos, metas de ahorro personales.  
+   - **Estudiantes (mesada):** presupuestos académicos, recargas de transporte, **Dinero restante semanal + Top 3 categorías + Quick Add/micro-metas**; **alertas** 50%/85% y gasto inusual; **acciones** crear micro-meta y       ajustar límite.
+   - **Quienes trabajan y estudian:** recordatorios de pagos (pensión/servicios), **Calendario de pagos + balance simple→detalle + estado offline**; **alertas** de vencimientos (–3 días / día D) y sobre-ejecución al 85%;            **acciones** registrar pago y marcar gasto recurrente.
+   - **Becados:** plan mensual priorizado (básicos), **control de ingresos/egresos, pago de servicios y metas de ahorro**; **duración estimada de fondos + ahorro de emergencia + reporte compartible**; **alertas** de             quedarse corto (-7 días), fin de mes e hitos de beca; **acciones** priorizar esenciales, aportar a emergencia y compartir reporte.
 
 #### Búsqueda de Transacciones y Servicios
 - **Esquema de categorización: Alfabético.**  
@@ -1299,21 +1300,23 @@ Este diseño garantiza **usabilidad, seguridad y frescura visual**, consolidando
 #### Landing Page
 - **Home/Inicio**: Propuesta de valor de TuCash.  
 - **Features/Características**: Funciones clave (gestión de gastos, metas de ahorro, pagos de servicios).  
-- **Benefits/Beneficios**: Simplicidad, seguridad, confianza y control financiero.  
+- **Benefits/Beneficios**: Simplicidad, seguridad, confianza y control financiero.
+- **Plans & Pricing /Planes y Precios**: Detalle y comparación de planes (ver sección más abajo).  
 - **Testimonials/Testimonios**: Experiencias y casos de éxito de usuarios.  
 - **About/Acerca de**: Propósito de TuCash, misión y visión de inclusión financiera.  
 - **Contact/Contacto**: Soporte, redes sociales y correo de atención.  
 
 #### Web Application
 - **Home/Inicio**: Accesos rápidos a saldo disponible, últimos movimientos, metas de ahorro y alertas.  
-- **Perfil**: Gestión de información personal, métodos de pago, cuentas vinculadas y preferencias.  
-- **Finanzas**: Control de ingresos, egresos y presupuestos por categoría.  
-- **Pagos**: Servicios básicos, recargas y transferencias. Incluye historial de operaciones.  
-- **Ahorro/Metas**: Configuración y seguimiento de objetivos financieros (viajes, educación, emergencias).  
-- **Búsqueda**: Localización rápida de transacciones, servicios o beneficiarios.  
-- **Favoritos**: Acceso a servicios, categorías o metas más utilizadas.  
-- **Alertas/Notificaciones**: Gastos inusuales, vencimientos, metas alcanzadas o pendientes.  
-- **Soporte**: FAQs, guías de uso y contacto con atención al cliente.  
+- **Profile/Perfil**: Gestión de información personal, métodos de pago, cuentas vinculadas y preferencias.  
+- **Finance/Finanzas**: Control de ingresos, egresos y presupuestos por categoría.  
+- **Payments/Pagos**: Servicios básicos, recargas y transferencias. Incluye historial de operaciones.  
+- **Savings/Goals/Ahorro/Metas**: Configuración y seguimiento de objetivos financieros (viajes, educación, emergencias).  
+- **Search/Búsqueda**: Localización rápida de transacciones, servicios o beneficiarios.  
+- **Favorites/Favoritos**: Acceso a servicios, categorías o metas más utilizadas.  
+- **Alerts/Notifications/Alertas/Notificaciones**: Gastos inusuales, vencimientos, metas alcanzadas o pendientes.  
+- **Support/Soporte**: FAQs, guías de uso y contacto con atención al cliente.  
+- **Plans/Planes**: Gestión del plan actual, upgrades/downgrades y facturación.
 
 ### 4.2.3. SEO Tags and Meta Tags
 
@@ -1388,7 +1391,8 @@ Se implementará un menú superior con enlaces visibles hacia:
 - **Inicio:** Presentación general de TuCash.  
 - **Características:** Explicación de las principales funciones (gestión de gastos, presupuesto, ahorro).  
 - **Beneficios:** Cómo ayuda al usuario a mejorar su control financiero con seguridad, inclusión y simplicidad.  
-- **Testimonios:** Opiniones de usuarios y casos de éxito en el manejo de sus finanzas.  
+- **Testimonios:** Opiniones de usuarios y casos de éxito en el manejo de sus finanzas.
+- **Planes y Precios** — Free / Premium (S/ 9.99) / Pro (S/ 14.99) con tabla comparativa y CTA.
 - **Acerca de:** Información sobre el propósito, misión y visión de TuCash.  
 - **Contacto:** Formulario y canales de soporte.  
 
@@ -1405,7 +1409,8 @@ La navegación dentro de la aplicación web se organizará en torno a un **dashb
 - **Presupuesto:** Creación y seguimiento de presupuestos familiares o personales.  
 - **Ahorros:** Configuración de metas de ahorro y progreso alcanzado.  
 - **Historial:** Registros cronológicos de movimientos financieros.  
-- **Notificaciones:** Alertas sobre gastos inusuales, recordatorios de pagos o actualizaciones.  
+- **Notificaciones:** Alertas sobre gastos inusuales, recordatorios de pagos o actualizaciones.
+- **Planes (Plans)** — **Plan actual**, **Comparar planes**, **Cambiar plan**, **Facturación** y **Comprobantes**.
 - **Soporte / Ayuda:** Acceso a FAQs, chat de soporte y contacto directo con asistencia.  
 
 
@@ -1430,12 +1435,8 @@ La versión wireframe de nuestra landing page presenta una estructura básica co
 <img src="resources/landingWireframe8.png" alt="Landing Page Wireframe 8">
 
 ### 4.3.2. Landing Page Mock-up.
-**Landing Page para Desktop Web Browser**
 
-
-
-**Landing Page para Mobile Web Browser**
-
+Enlace para acceder a nuestra Landing Page, desplegada en Github Pages: [TuCash Landing Page](https://tucash.github.io/landingPage/)
 
 ## 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
@@ -1649,63 +1650,773 @@ Nuestro prototipo de la aplicación web:
 
 
 #### Product UX/UI Design:
+<table border = "1">
+  <thead>
+    <tr>
+      <th scope="col">Producto</th>
+      <th scope="col">Proposito</th>
+      <th scope="col">Tipo/Ruta</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Figma</td>
+      <td>Prototipado de interfaces web/móvil, diseño visual, UX flow</td>
+      <td>SaaS <a href="https://www.figma.com/design/0eoLdvvEddDNIvvujQJGfU/TuCash?node-id=0-1&p=f&t=4wzMID1aOJqW6F2g-0" target="_blank">https://www.figma.com/</a></td>
+    </tr>
+    <tr>
+      <td>Canva</td>
+      <td>Diseño rápido de presentaciones y piezas visuales complementarias.</td>
+      <td>
+      SaaS
+      <a href="https://www.figma.com/design/0eoLdvvEddDNIvvujQJGfU/TuCash?node-id=0-1&p=f&t=4wzMID1aOJqW6F2g-0" target="_blanck">https://www.canva.com/</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 
 #### Software Development:
-
+<table border = "1">
+  <thead>
+    <tr>
+      <th scope="col">Producto</th>
+      <th scope="col">Proposito</th>
+      <th scope="col">Tipo/Ruta</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Visual Studio Code</td>
+      <td>Editor principal para frontend (Angular, TypeScript).</td>
+      <td><a href="https://code.visualstudio.com" target="_blank">Desktop – https://code.visualstudio.com</a></td>
+    </tr>
+    <tr>
+      <td>IntelliJ IDEA Community</td>
+      <td>Desarrollo backend (Spring Boot en Java).</td>
+      <td>
+      <a href="https://www.jetbrains.com/idea" target="_blanck">Desktop – https://www.jetbrains.com/idea</a>
+      </td>
+    </tr>
+     <tr>
+      <td>Angular CLI</td>
+      <td>Generación de componentes, servicios y módulos frontend.</td>
+      <td>
+      <a href="https://angular.dev" target="_blanck">Terminal – https://angular.dev</a>
+      </td>
+    </tr>
+     <tr>
+      <td>Postman</td>
+      <td>Pruebas y validación de APIs REST.</td>
+      <td>
+      <a href="https://postman.com" target="_blanck">Desktop/SaaS – https://postman.com</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 #### Software Documentation:
-
+<table border = "1">
+  <thead>
+    <tr>
+      <th scope="col">Producto</th>
+      <th scope="col">Proposito</th>
+      <th scope="col">Tipo/Ruta</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GitHub</td>
+      <td>Repositorio central y despliegue de documentación.</td>
+      <td>SaaS <a href="https://github.com/TuCash" target="_blank">https://github.com/</a></td>
+    </tr>
+    <tr>
+      <td>Trello</td>
+      <td>Organización visual de entregables académicos y checklists de equipo.</td>
+      <td>
+      SaaS
+      <a href="https://trello.com/b/Gaq5y139/tablero-trello-tucash" target="_blanck">https://trello.com/</a>
+      </td>
+    </tr>
+    </tr>
+    <tr>
+      <td>Miro</td>
+      <td>Creación de Empathy Maps, User Journeys, Event Storming.</td>
+      <td>
+      SaaS
+      <a href="https://miro.com/app/board/uXjVJL9MIK8=/?share_link_id=902556983183" target="_blanck">https://miro.com</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### 5.1.2. Source Code Management.
+Para el control de versiones y la colaboración del equipo se empleará GitHub como repositorio central. Cada producto digital tendrá su propio repositorio:
 
+- Report: https://github.com/TuCash/Report/
+
+- Landing Page: https://github.com/TuCash/Report/
+
+- Frontend Web Application: https://github.com/TuCash/webapp
+
+- Web Services (Backend + Tests): https://github.com/TuCash/backend
+
+#### Esquema de organización con GitFlow
+Nuestro equipo implementará el modelo de branching GitFlow, de acuerdo al artículo de Vincent Driessen “A successful Git branching model”. La organización de ramas será la siguiente:
+
+**main**
+
+Contiene la versión estable y lista para producción.
+
+Cada release terminado se integra aquí y se etiqueta con un número de versión siguiendo Semantic Versioning.
+
+**develop**
+
+Rama de integración, donde se fusionan todas las funcionalidades completas y probadas antes de preparar un release.
+
+feature/*
+
+Cada nueva funcionalidad, módulo o documento se desarrolla en su propia rama.
+
+Convención de nombres:
+
+release/*
+
+Se crean cuando se prepara una versión estable.
+
+Convención de nombres:
+
+release/vX.Y.Z (ejemplo: release/v1.0.0).
+
+hotfix/*
+
+Para atender correcciones urgentes en producción.
+
+Convención de nombres:
+
+hotfix/vX.Y.Z (ejemplo: hotfix/v1.0.1).
+
+#### Conventional Commits
+Los mensajes de commit seguirán la convención de Conventional Commits, lo que facilita trazabilidad y automatización:
+
+- feat: → nueva funcionalidad.
+
+- fix: → corrección de errores.
+
+- docs: → cambios en documentación.
+
+- style: → cambios de formato/código sin afectar lógica.
+
+- refactor: → refactorización sin añadir funcionalidad.
+
+- test: → inclusión o modificación de pruebas.
+
+- chore: → tareas menores, configuración.
 
 #### Front End Web Application Deployment
 
+### 5.1.3. Source Code Style Guide & Conventions.
 
+Como norma general, todo el código del proyecto debe escribirse en **inglés**, tanto para etiquetas, funciones, variables, como para comentarios técnicos.
 
+### HTML
+
+* **Use lowercase element names**
+  Todo el marcado HTML debe estar escrito en minúsculas.
+
+  ```html
+  <body>
+    <section class="hero"></section>
+  </body>
+  ```
+
+* **Close all HTML elements**
+  Todos los elementos deben cerrarse correctamente, incluso si no es obligatorio en HTML5.
+
+  ```html
+  <p>This is a paragraph</p>
+  ```
+
+* **Use lowercase attribute names**
+  Los atributos deben escribirse en minúsculas.
+
+  ```html
+  <img src="assets/img/logo-nobg.png" alt="TuCash Logo">
+  ```
+
+* **Always specify `alt`, `width`, and `height` for images**
+  Todas las imágenes deben tener atributo `alt` y, de ser posible, valores explícitos de `width` y `height`. Esto mejora accesibilidad y rendimiento.
+
+  ```html
+  <img src="assets/img/dashboard.jpg" alt="Dashboard TuCash" width="600" height="400">
+  ```
+
+* **Spaces and equal signs**
+  No se debe dejar espacio alrededor del `=` en los atributos, excepto dentro de valores entre comillas.
+
+  ```html
+  <link rel="stylesheet" href="assets/css/styles.css">
+  ```
+
+* **Language consistency**
+  Aunque el `lang="es"` es válido para el sitio, todos los identificadores (`class`, `id`, atributos, nombres de archivos) deben redactarse en inglés.
+
+  ```html
+  <section id="benefits" class="benefits"></section>
+  ```
+
+---
+
+### JavaScript
+
+* **Use expanded syntax**
+  Cada bloque de código debe abrir llaves en la misma línea de la declaración y cerrarlas en línea nueva.
+
+  ```javascript
+  function handleLogoClick() {
+    console.log('Logo clicked');
+  }
+  ```
+
+* **Variable naming**
+  Se debe usar **lowerCamelCase** para nombrar variables.
+
+  ```javascript
+  let playerScore = 0;
+  let windowWidth = window.innerWidth;
+  ```
+
+* **Function naming**
+  Los nombres de las funciones deben usar **lowerCamelCase**, expresando claramente su propósito.
+
+  ```javascript
+  function toggleMobileMenu() { ... }
+  function closeMobileMenu() { ... }
+  ```
+
+* **Declaring variables**
+  Usar `const` y `let` en lugar de `var`.
+
+  ```javascript
+  const mobileNav = document.getElementById('mobileNav');
+  let windowWidth = window.innerWidth;
+  ```
+
+* **Event listeners**
+  Se recomienda usar funciones flecha cuando no se necesite `this`, y mantener consistencia en la forma de declarar funciones.
+
+  ```javascript
+  document.addEventListener('DOMContentLoaded', () => {
+    window.addEventListener('resize', () => { ... });
+  });
+  ```
+
+---
+
+### CSS
+
+* **Selectors naming**
+  Se utiliza **lowercase con guiones (`kebab-case`)** para clases e identificadores.
+
+  ```css
+  .hero-content { ... }
+  .beneficio-card__heading { ... }
+  ```
+
+* **Class and ID usage**
+  Priorizar el uso de **clases** sobre **IDs** para facilitar la reutilización y escalabilidad de estilos.
+
+* **Indentation**
+  Usar **2 espacios** para indentación. No usar tabulaciones.
+
+  ```css
+  .hero {
+    display: flex;
+    justify-content: center;
+  }
+  ```
+
+* **Property order**
+  Seguir el orden lógico:
+
+  1. Propiedades de posición (`position`, `top`, `left`, etc.)
+  2. Modelo de caja (`display`, `flex`, `width`, `height`, `margin`, `padding`)
+  3. Tipografía (`font-family`, `font-size`, `line-height`, `color`)
+  4. Estilo visual (`background`, `border`, `box-shadow`)
+  5. Transiciones y animaciones
+
+* **Consistent units**
+  Usar `rem` o `px` de forma consistente, evitando `em` y `%` salvo en casos específicos.
+
+  ```css
+  .hero-title {
+    font-size: 80px;
+    line-height: 90px;
+  }
+  ```
+
+* **Colors and variables**
+  Colores escritos en formato **hexadecimal en mayúsculas** (`#FFFFFF`). Se recomienda uso de variables CSS (`:root`) en proyectos grandes.
+
+  ```css
+  body {
+    background-color: #F4F6F8;
+    color: #1D2A3A;
+  }
+  ```
+
+* **Responsive design**
+  Los `@media` queries deben colocarse al final del archivo y seguir un orden descendente (desktop → tablet → mobile).
+
+  ```css
+  @media (max-width: 768px) {
+    .hero-title {
+      font-size: 40px;
+    }
+  }
+  ```
+
+* **Font usage**
+  Definir siempre tipografía, peso y familia en cada bloque relevante.
+
+  ```css
+  .beneficios__title {
+    font-family: 'Koulen', sans-serif;
+    font-size: 3.5rem;
+  }
+  ```
+
+---
+
+### 5.1.4. Software Deployment Configuration.
+
+- Creación Landing Page:<br>
+1. Se crea un repositorio remoto en GitHub
+<img width="1009" height="534" alt="Image" src="https://github.com/user-attachments/assets/427cd331-6cbb-4537-8fc2-fb8275fb5866" />
+2. Agregar a participantes
+<img width="1244" height="587" alt="Image" src="https://github.com/user-attachments/assets/68080716-03d2-4154-9866-715fa83a6f87" />
+3. Habilitamos GitHub Pages
+<img width="993" height="828" alt="Image" src="https://github.com/user-attachments/assets/8d7ec97d-3c4f-416a-bf73-f112961de83e" />
+
+---
 
 ## 5.2. Landing Page, Services & Applications Implementation
 ### 5.2.1. Sprint 1
 #### 5.2.1.1. Sprint Planning 1
 
-
+<table border="1">
+  <tr>
+    <th>Sprint 1</th>
+    <td>Sprint Planning</td>
+  </tr>
+  <tr>
+    <th colspan="2">Sprint Planning Background</th>
+  </tr>
+  <tr>
+    <th>Date</th>
+    <td>2025-09-09</td>
+  </tr>
+  <tr>
+    <th>Time</th>
+    <td>10:00 AM – 11:30 AM</td>
+  </tr>
+  <tr>
+    <th>Location</th>
+    <td>Reunión virtual vía Discord</td>
+  </tr>
+  <tr>
+    <th>Prepared By</th>
+    <td>Huaman Hinostroza, Milenio</td>
+  </tr>
+  <tr>
+    <th>Attendees (to planning meeting)</th>
+    <td>Jhunior Giussepe / Harrison Hubert / Javier Mondoñedo / Valeria Mejia</td>
+  </tr>
+  <tr>
+    <th>Sprint 0 Review Summary</th>
+    <td>En el Sprint 0 se establecieron los cimientos del proyecto:
+    Configuración de repositorios en GitHub con GitFlow.Definición de convenciones de commits (Conventional Commits).rimera versión del documento con Startup Profile, Solution Profile y Segmentos Objetivo.
+    Diseño preliminar de la identidad visual (logo, isotipo, paleta de colores).
+    Feedback del Product Owner: se valoró la claridad del planteamiento del segmento objetivo, y se solicitó avanzar en la construcción de entrevistas y primeras historias de usuario</td>
+  </tr>
+  <tr>
+    <th>Sprint 0 Retrospective Summary</th>
+    <td>El equipo destacó como aciertos la rápida organización del flujo de trabajo con GitHub y la buena colaboración en la documentación inicial. Como oportunidades de mejora se identificó la necesidad de asignar mejor los roles para evitar solapamiento de tareas, y de calendarizar reuniones cortas diarias de seguimiento.</td>
+  </tr>
+  <tr>
+    <th colspan="2">Sprint Goal &amp; User Stories</th>
+  </tr>
+  <tr>
+    <th>Sprint 1 Goal</th>
+    <td>Our focus is on validar las necesidades financieras de los estudiantes universitarios mediante entrevistas y consolidar los primeros artefactos de requerimientos.
+We believe it delivers una base sólida para construir funcionalidades alineadas a los segmentos objetivo.
+This will be confirmed when se documenten al menos 6 entrevistas analizadas y derivadas en 3 User Personas y sus respectivos Empathy Maps</td>
+  </tr>
+  <tr>
+    <th>Sprint 1 Velocity</th>
+    <td>El equipo estableció un velocity de 5 story points, en base a la disponibilidad de los 5 integrantes.</td>
+  </tr>
+  <tr>
+    <th>Sum of Story Points</th>
+    <td>El Sprint incluye historias que suman 10 story points en total.</td>
+  </tr>
+</table>
 
 
 #### 5.2.1.2. Aspect Leaders and Collaborators.
 
+<table border = "1">
+  <tr>
+    <th>Team Member (Last Name, First Name)</th>
+    <th>GitHub Username</th>
+    <th>Aspect 1 (L/C)</th>
+    <th>Aspect 2 (L/C)</th>
+    <th>Aspect n (L/C)</th>
+  </tr>
+  <tr>
+    <td>Milenio Huaman Hinostroza</td>
+    <td>Milenioupc</td>
+    <td>L</td>
+    <td>C</td>
+    <td>…</td>
+  </tr>
+  <tr>
+    <td>Jhunior Giussepe Taquiri Calderon</td>
+    <td>GiussepeTC0410</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+  </tr>
+  <tr>
+    <td>Harrison Hubert Payesa Torres</td>
+    <td>Harrison1024</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+  </tr>
+  <tr>
+    <td>Juan Diego Javier Mondoñedo Rodriguez</td>
+    <td>Jmondonedor</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+  </tr>
+  <tr>
+    <td>Patricia Valeria Mejia Poma</td>
+    <td>patriciavmp</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+  </tr>
+</table>
 
 #### 5.2.1.3. Sprint Backlog 1.
 
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse; width:100%;">
+  <thead>
+    <tr>
+      <th colspan="2">User Story</th>
+      <th colspan="2">Work-Item / Task</th>
+      <th>Description</th>
+      <th>Estimation (Hours)</th>
+      <th>Assigned To</th>
+      <th>Status (To-do / In-Process / To-Review / Done)</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Id</th>
+      <th>Title</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US01</td>
+      <td>Registro de ingresos y egresos (independiente)</td>
+      <td>T-101</td>
+      <td>Definir categorías base</td>
+      <td>Listado inicial de categorías y etiquetas (Income/Expense).</td>
+      <td>3</td>
+      <td>Milenio</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US01</td>
+      <td>Registro de ingresos y egresos (independiente)</td>
+      <td>T-102</td>
+      <td>Wireframe flujo de registro</td>
+      <td>Prototipo de 2 pasos: monto + categoría + nota.</td>
+      <td>5</td>
+      <td>Patricia</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>US01</td>
+      <td>Registro de ingresos y egresos (independiente)</td>
+      <td>T-103</td>
+      <td>Endpoint mock /api/transactions</td>
+      <td>Mock API (JSON) para pruebas de UI.</td>
+      <td>4</td>
+      <td>Giussepe</td>
+      <td>In-Process</td>
+    </tr>
+    <tr>
+      <td>US02</td>
+      <td>Categorización de gastos (sustento familiar)</td>
+      <td>T-201</td>
+      <td>Entrevistas (3 students)</td>
+      <td>Guía + ejecución de 3 entrevistas y notas.</td>
+      <td>6</td>
+      <td>Harrison</td>
+      <td>In-Process</td>
+    </tr>
+    <tr>
+      <td>US02</td>
+      <td>Categorización de gastos (sustento familiar)</td>
+      <td>T-202</td>
+      <td>Persona + Empathy Map</td>
+      <td>Construcción de 1 persona y su mapa de empatía.</td>
+      <td>4</td>
+      <td>Milenio</td>
+      <td>To-Review</td>
+    </tr>
+    <tr>
+      <td>US03</td>
+      <td>Metas de ahorro (becado)</td>
+      <td>T-301</td>
+      <td>Definir modelo de metas</td>
+      <td>Atributos: nombre, monto, fecha objetivo, progreso.</td>
+      <td>3</td>
+      <td>Juan Diego</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>US03</td>
+      <td>Metas de ahorro (becado)</td>
+      <td>T-302</td>
+      <td>UI componente “Goal Card”</td>
+      <td>Diseño y estilos de tarjeta de meta con barra de avance.</td>
+      <td>5</td>
+      <td>Arturo</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>—</td>
+      <td>—</td>
+      <td>T-900</td>
+      <td>Configuración CI (lint/tests)</td>
+      <td>Pipeline en GitHub Actions para lint y unit tests.</td>
+      <td>4</td>
+      <td>Giussepe</td>
+      <td>To-do</td>
+    </tr>
+  </tbody>
+</table>
+
 #### 5.2.1.4. Development Evidence for Sprint Review.
 
+<h3>Development Evidence for Sprint Review – Sprint 1</h3>
+
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse; width:100%;">
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Commited on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>tucash-landing</td>
+      <td>feature/setup-landing</td>
+      <td>a1b2c3d</td>
+      <td>feat(landing): add initial HTML structure</td>
+      <td>Se agregó la estructura inicial del Landing Page con encabezado y secciones básicas.</td>
+      <td>2025-09-18</td>
+    </tr>
+    <tr>
+      <td>tucash-webapp</td>
+      <td>feature/ui-components</td>
+      <td>d4e5f6g</td>
+      <td>feat(ui): configure Angular Material</td>
+      <td>Configuración inicial de Angular Material e importación de módulos para componentes básicos.</td>
+      <td>2025-09-18</td>
+    </tr>
+    <tr>
+      <td>tucash-api</td>
+      <td>feature/setup-api</td>
+      <td>h7i8j9k</td>
+      <td>feat(api): create mock transaction endpoint</td>
+      <td>Se creó un endpoint GET /transactions para pruebas iniciales de integración.</td>
+      <td>2025-09-19</td>
+    </tr>
+    <tr>
+      <td>tucash-docs</td>
+      <td>feature/doc-introduction</td>
+      <td>m1n2o3p</td>
+      <td>docs(intro): add Solution Profile draft</td>
+      <td>Se añadió el borrador de la sección de antecedentes, problemática y segmentos objetivo.</td>
+      <td>2025-09-19</td>
+    </tr>
+  </tbody>
+</table>
 
 #### 5.2.1.5. Execution Evidence for Sprint Review.
-
-
+Durante el Sprint 1, el equipo logró implementar la estructura inicial del Landing Page con encabezado, menú de navegación y secciones básicas de presentación. En la aplicación web se configuró Angular Material e implementamos el primer componente de registro de transacciones en modo prototipo. En el backend se habilitó un endpoint mock de API (/transactions) para validar la integración entre frontend y backend.
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
-
+Durante el Sprint 1 se documentó el primer servicio de Web Services TuCash relacionado con transacciones financieras. Se configuró un proyecto en Spring Boot con soporte para OpenAPI/Swagger y se implementó un endpoint de prueba /transactions. La documentación está disponible en Swagger UI (ejecutada localmente).
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+Durante el Sprint 1, el equipo realizó la configuración inicial de despliegue para los tres productos del proyecto TuCash. Se crearon las cuentas en GitHub, Vercel y Firebase, además de configurar repositorios separados para Landing Page, Web Application y Web Services. Se ejecutó un primer despliegue del Landing Page en Vercel como versión de prueba, y se configuró un endpoint mock de los Web Services en Spring Boot de manera local, documentado con Swagger.
 
+Actividades realizadas:
+
+Landing Page:
+
+Repositorio creado en GitHub (tucash-landing).
+
+Conexión del repositorio a Vercel.
+
+Deploy inicial accesible en: https://tucash-landing.vercel.app
+ (ejemplo).
+
+Evidencia: Captura del dashboard de Vercel mostrando deploy exitoso.
+
+Web Application (Frontend Angular):
+
+Repositorio creado en GitHub (tucash-webapp).
+
+Configuración de entorno Node.js en Vercel.
+
+Deploy preliminar en: https://tucash-webapp.vercel.app
+.
+
+Evidencia: Captura del log de build en Vercel.
+
+Web Services (Backend Spring Boot):
+
+Proyecto creado en IntelliJ con dependencias básicas.
+
+Swagger configurado y probado en entorno local: http://localhost:8080/swagger-ui.html
+.
+
+Evidencia: Captura de Swagger mostrando endpoint GET /transactions.
+
+Automatización (CI/CD):
+
+Se añadió un workflow de GitHub Actions en repositorios de frontend y backend.
+
+El pipeline ejecuta: npm install && npm run build (frontend) y mvn test (backend).
+
+Evidencia: Captura del log de ejecución en GitHub Actions.
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 
+Durante el Sprint 1, el equipo colaboró activamente mediante reuniones virtuales (Microsoft Teams) y el uso de GitHub Projects para dar seguimiento a las tareas. Cada miembro del equipo realizó contribuciones a los diferentes productos: Landing Page, Web Application y Web Services.
+
+La evidencia de colaboración se muestra en las estadísticas de GitHub (commits y Pull Requests). Se confirma que todos los integrantes participaron en la implementación, asegurando consistencia con la metodología ágil y el enfoque colaborativo del proyecto.
+
+<h3>Team Collaboration Insights – Sprint 1</h3>
+
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse; width:100%;">
+  <thead">
+    <tr>
+      <th>Team Member</th>
+      <th>Landing Page</th>
+      <th>Web Application</th>
+      <th>Web Services</th>
+      <th>Documentation & QA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Huaman Hinostroza, Milenio</td>
+      <td>Commits en HTML inicial</td>
+      <td>Componentes Angular básicos</td>
+      <td>Colaboración en endpoint mock</td>
+      <td>Docs (Solution Profile)</td>
+    </tr>
+    <tr>
+      <td>Harrison Hubert Payesa Torres</td>
+      <td>Soporte en estilos CSS</td>
+      <td>Colaboración en UI forms</td>
+      <td>Test con Postman</td>
+      <td>QA y retro de equipo</td>
+    </tr>
+    <tr>
+      <td>Juan Diego Javier Mondoñedo Rodriguez</td>
+      <td>Navbar y routing</td>
+      <td>Diseño de Dashboard</td>
+      <td>Configuración Swagger</td>
+      <td>User Personas</td>
+    </tr>
+    <tr>
+      <td>Patricia Valeria Mejia Poma</td>
+      <td>Soporte responsive</td>
+      <td>Configuración Angular Material</td>
+      <td>Setup Spring Boot API</td>
+      <td>Testing</td>
+    </tr>
+     <tr>
+      <td>Jhunior Giussepe Taquiri Calderon</td>
+      <td>Soporte responsive</td>
+      <td>Configuración Angular Material</td>
+      <td>Setup Spring Boot API</td>
+      <td>Testing</td>
+    </tr>
+  </tbody>
+</table>
 
 
 # Video About-the-Product
-
-
-
 
 # Conclusiones y Recomendaciones
 
 ## Conclusiones
 
+Los resultados del análisis confirmaron que los estudiantes universitarios (independientes, con sustento familiar y becados) enfrentan baja educación financiera, dificultades para planificar gastos y ausencia de hábitos de ahorro, lo que valida plenamente los Problem Statements planteados en la fase inicial.
+
+Assumptions contrastados:
+
+La suposición de que los jóvenes no utilizan herramientas de control financiero se confirmó: menos del 50% de los encuestados lleva un registro formal.
+
+Se corroboró que valoran soluciones simples y visuales en lugar de herramientas complejas como Excel o apps bancarias.
+
+Hypotheses verificadas parcialmente:
+
+El registro rápido de ingresos/egresos y los reportes visuales fueron valorados positivamente en los prototipos iniciales.
+
+Las notificaciones y metas de ahorro aún no fueron validadas en profundidad, quedando como hipótesis para los siguientes sprints.
+
+Criterios de éxito iniciales:
+
+Se logró un primer nivel de éxito al comprobar el interés de los usuarios en interactuar con prototipos simples y en recibir retroalimentación visual inmediata.
+
+La frecuencia de uso y el cumplimiento de metas de ahorro deberán medirse en los próximos ciclos de validación.
 
 
 ## Recomendaciones
 
+Ampliar la muestra de entrevistas y pruebas de prototipos con estudiantes para robustecer las hipótesis no validadas.
 
+Avanzar con integración técnica temprana:
+Priorizar el desarrollo de endpoints básicos en los Web Services para habilitar pruebas reales de registro y consulta de transacciones en el próximo sprint.
 
+Mejorar la motivación del usuario:
+Incorporar mecánicas de gamificación (barras de progreso, badges) en las metas financieras para aumentar el compromiso.
+
+Definir Roadmap incremental:
+
+Corto plazo (próximos 2 sprints): consolidar el registro de transacciones, reportes visuales y categorías personalizadas.
+
+Mediano plazo (próximos 3–4 sprints): integrar metas de ahorro y notificaciones personalizadas.
+
+Largo plazo: expandir a aplicación móvil e IoT, integrando recordatorios contextuales (ej. alertas en smartwatch).
 
 # Video About-the-Team.
 
@@ -1714,13 +2425,36 @@ Nuestro prototipo de la aplicación web:
 **Título:**
 
 - **YouTube:** 
-- **Microsoft Stream:** [
+- **Microsoft Stream:** 
 
 # Bibliografía
+- Álvarez, M. (2023). Educación financiera en jóvenes universitarios. Dialnet. https://dialnet.unirioja.es/servlet/articulo?codigo=10086675
+
+- Infobae. (2025, marzo 23). Menos del 50% de jóvenes ahorran regularmente y los expertos piden mejorar la educación financiera. Infobae Perú. https://www.infobae.com/peru/2025/03/23/menos-del-50-de-jovenes-ahorran-regularmente-y-los-expertos-piden-mejorar-la-educacion-financiera/
+
+- Palacios Tarrillo, A. J., & Bendezu García, N. Y. (2024). Impacto de la educación financiera en jóvenes emprendedores: Una revisión de la literatura [Trabajo de investigación, Universidad Autónoma del Perú]. Repositorio Institucional de la Universidad Autónoma del Perú.
+
+- Superintendencia de Banca, Seguros y AFP. (2023, octubre 31). SBS promueve educación financiera digital para jóvenes. SBS Noticias. https://www.sbs.gob.pe/noticia/detallenoticia/idnoticia/2658
+
+- Universidad César Vallejo. (2023, diciembre 4). El endeudamiento juvenil en el Perú. UCV Noticias. https://www.ucv.edu.pe/noticias/el-endeudamiento-juvenil-en-el-peru
+
+- Eyzaguirre, J., et al. (2016). Educación financiera en jóvenes estudiantes de educación superior en Lima Metropolitana [Tesis de Maestría, Universidad Peruana de Ciencias Aplicadas]. Repositorio UPC.
+
+- Driessen, V. (2010). A successful Git branching model. Nvie. https://nvie.com/posts/a-successful-git-branching-model/
+
+- Conventional Commits. (2019). Conventional Commits 1.0.0. https://www.conventionalcommits.org
+
+- Preston-Werner, T. (2013). Semantic Versioning 2.0.0. https://semver.org
+
+- W3Schools. (n.d.). HTML Style Guide and Coding Conventions. https://www.w3schools.com/html/html5_syntax.asp
+
+- Google. (n.d.). Google Java Style Guide. https://google.github.io/styleguide/javaguide.html
+
+- Angular. (2024). Angular coding style guide. Angular.io. https://angular.io/guide/styleguide
+
+- Spring. (2024). Spring Boot Features. Spring.io. https://docs.spring.io/spring-boot/docs/current/reference/html/features.html
 
 # Anexos
-
--
-- **Usuarios con los diferentes planes:**
-
-- 
+- Anexo 1: [Organización en GitHub](https://github.com/TuCash)
+- Anexo 2: [Mockups - Wireframe](https://www.figma.com/design/0eoLdvvEddDNIvvujQJGfU/TuCash?node-id=49-11&t=jhD9FD51vkhbVsPx-1)
+- Anexo 3: [User-Flow - WireFlow Diagram](https://lucid.app/lucidchart/6527f327-959e-4911-ae0c-6a1f5a520089/edit?viewport_loc=-1573%2C-4542%2C4989%2C2439%2C8M5xaniXGb-W&invitationId=inv_58ad1103-5a51-4d9f-95bc-86c61f1e3d65)
