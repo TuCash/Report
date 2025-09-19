@@ -1814,8 +1814,188 @@ Los mensajes de commit seguirán la convención de Conventional Commits, lo que 
 
 #### Front End Web Application Deployment
 
+### 5.1.3. Source Code Style Guide & Conventions.
 
+Como norma general, todo el código del proyecto debe escribirse en **inglés**, tanto para etiquetas, funciones, variables, como para comentarios técnicos.
 
+### HTML
+
+* **Use lowercase element names**
+  Todo el marcado HTML debe estar escrito en minúsculas.
+
+  ```html
+  <body>
+    <section class="hero"></section>
+  </body>
+  ```
+
+* **Close all HTML elements**
+  Todos los elementos deben cerrarse correctamente, incluso si no es obligatorio en HTML5.
+
+  ```html
+  <p>This is a paragraph</p>
+  ```
+
+* **Use lowercase attribute names**
+  Los atributos deben escribirse en minúsculas.
+
+  ```html
+  <img src="assets/img/logo-nobg.png" alt="TuCash Logo">
+  ```
+
+* **Always specify `alt`, `width`, and `height` for images**
+  Todas las imágenes deben tener atributo `alt` y, de ser posible, valores explícitos de `width` y `height`. Esto mejora accesibilidad y rendimiento.
+
+  ```html
+  <img src="assets/img/dashboard.jpg" alt="Dashboard TuCash" width="600" height="400">
+  ```
+
+* **Spaces and equal signs**
+  No se debe dejar espacio alrededor del `=` en los atributos, excepto dentro de valores entre comillas.
+
+  ```html
+  <link rel="stylesheet" href="assets/css/styles.css">
+  ```
+
+* **Language consistency**
+  Aunque el `lang="es"` es válido para el sitio, todos los identificadores (`class`, `id`, atributos, nombres de archivos) deben redactarse en inglés.
+
+  ```html
+  <section id="benefits" class="benefits"></section>
+  ```
+
+---
+
+### JavaScript
+
+* **Use expanded syntax**
+  Cada bloque de código debe abrir llaves en la misma línea de la declaración y cerrarlas en línea nueva.
+
+  ```javascript
+  function handleLogoClick() {
+    console.log('Logo clicked');
+  }
+  ```
+
+* **Variable naming**
+  Se debe usar **lowerCamelCase** para nombrar variables.
+
+  ```javascript
+  let playerScore = 0;
+  let windowWidth = window.innerWidth;
+  ```
+
+* **Function naming**
+  Los nombres de las funciones deben usar **lowerCamelCase**, expresando claramente su propósito.
+
+  ```javascript
+  function toggleMobileMenu() { ... }
+  function closeMobileMenu() { ... }
+  ```
+
+* **Declaring variables**
+  Usar `const` y `let` en lugar de `var`.
+
+  ```javascript
+  const mobileNav = document.getElementById('mobileNav');
+  let windowWidth = window.innerWidth;
+  ```
+
+* **Event listeners**
+  Se recomienda usar funciones flecha cuando no se necesite `this`, y mantener consistencia en la forma de declarar funciones.
+
+  ```javascript
+  document.addEventListener('DOMContentLoaded', () => {
+    window.addEventListener('resize', () => { ... });
+  });
+  ```
+
+---
+
+### CSS
+
+* **Selectors naming**
+  Se utiliza **lowercase con guiones (`kebab-case`)** para clases e identificadores.
+
+  ```css
+  .hero-content { ... }
+  .beneficio-card__heading { ... }
+  ```
+
+* **Class and ID usage**
+  Priorizar el uso de **clases** sobre **IDs** para facilitar la reutilización y escalabilidad de estilos.
+
+* **Indentation**
+  Usar **2 espacios** para indentación. No usar tabulaciones.
+
+  ```css
+  .hero {
+    display: flex;
+    justify-content: center;
+  }
+  ```
+
+* **Property order**
+  Seguir el orden lógico:
+
+  1. Propiedades de posición (`position`, `top`, `left`, etc.)
+  2. Modelo de caja (`display`, `flex`, `width`, `height`, `margin`, `padding`)
+  3. Tipografía (`font-family`, `font-size`, `line-height`, `color`)
+  4. Estilo visual (`background`, `border`, `box-shadow`)
+  5. Transiciones y animaciones
+
+* **Consistent units**
+  Usar `rem` o `px` de forma consistente, evitando `em` y `%` salvo en casos específicos.
+
+  ```css
+  .hero-title {
+    font-size: 80px;
+    line-height: 90px;
+  }
+  ```
+
+* **Colors and variables**
+  Colores escritos en formato **hexadecimal en mayúsculas** (`#FFFFFF`). Se recomienda uso de variables CSS (`:root`) en proyectos grandes.
+
+  ```css
+  body {
+    background-color: #F4F6F8;
+    color: #1D2A3A;
+  }
+  ```
+
+* **Responsive design**
+  Los `@media` queries deben colocarse al final del archivo y seguir un orden descendente (desktop → tablet → mobile).
+
+  ```css
+  @media (max-width: 768px) {
+    .hero-title {
+      font-size: 40px;
+    }
+  }
+  ```
+
+* **Font usage**
+  Definir siempre tipografía, peso y familia en cada bloque relevante.
+
+  ```css
+  .beneficios__title {
+    font-family: 'Koulen', sans-serif;
+    font-size: 3.5rem;
+  }
+  ```
+
+---
+
+### 5.1.4. Software Deployment Configuration.
+
+- Creación Landing Page:<br>
+1. Se crea un repositorio remoto en GitHub
+![creation-of-repository-lp](<img width="1009" height="534" alt="Image" src="https://github.com/user-attachments/assets/427cd331-6cbb-4537-8fc2-fb8275fb5866" />)
+2. Agregar a participantes
+![adding-members-screenshot-lp](<img width="1244" height="587" alt="Image" src="https://github.com/user-attachments/assets/68080716-03d2-4154-9866-715fa83a6f87" />)
+3. Habilitamos GitHub Pages en branch "master" y ruta "/(root)"
+![deploying-repository-in-github-pages-lp](<img width="993" height="828" alt="Image" src="https://github.com/user-attachments/assets/8d7ec97d-3c4f-416a-bf73-f112961de83e" />)
 
 ## 5.2. Landing Page, Services & Applications Implementation
 ### 5.2.1. Sprint 1
