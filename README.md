@@ -309,7 +309,7 @@ En esta sección se brinda la descripción de nuestra startup, producto y miembr
 <tr><th>Nombre</th><th>Biografía del los integrantes del equipo</th></tr>
 
   <tr>
-    <td><img src="resources/giussepe.jpg" alt="Jhunior Giussepe Taquiri Calderon" width="200"></td>
+    <td><img src="resources/giussepe.png" alt="Jhunior Giussepe Taquiri Calderon" width="200"></td>
     <td>
       <b>🧑‍💻 Jhunior Giussepe Taquiri Calderon (U20221C576)</b><br><br>
       Soy estudiante del sexto ciclo de Ingeniería de Software en la UPC, con una formación orientada al desarrollo de software y al uso de diversas tecnologías. 
