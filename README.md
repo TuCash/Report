@@ -321,10 +321,10 @@ En esta sección se brinda la descripción de nuestra startup, producto y miembr
     </td>
   </tr>
   <tr>
-    <td><img src="resources/harrison.png" alt="Harrison Hubert Payesa Torres" width="200"></td></td>
+    <td><img width="650" height="872" alt="Image" src="https://github.com/user-attachments/assets/55fa2ce1-b068-4481-92a4-ed3c4e313cee" /></td></td>
     <td>
       <b>Harrison Hubert Payesa Torres (U2022201024)</b><br>
-      <!-- Aquí va su descripción -->
+      Mi nombre es Harrison Payesa. Soy estudiante de la carrera de Ingeniería de Software. Tengo conocimientos en lenguaje Python, C++ y JavaScript, ademas de haber hecho proyectos con FrontEnd usando HTML, CSS y JS. En mi tiempo libre suelo ver películas y escuchar 
     </td>
   </tr>
 
