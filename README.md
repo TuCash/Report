@@ -2272,53 +2272,29 @@ This will be confirmed when se documenten al menos 6 entrevistas analizadas y de
 
 #### 5.2.1.5. Execution Evidence for Sprint Review.
 Durante el Sprint 1, el equipo logró implementar la estructura inicial del Landing Page con encabezado, menú de navegación y secciones básicas de presentación. En la aplicación web se configuró Angular Material e implementamos el primer componente de registro de transacciones en modo prototipo. En el backend se habilitó un endpoint mock de API (/transactions) para validar la integración entre frontend y backend.
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 Durante el Sprint 1 se documentó el primer servicio de Web Services TuCash relacionado con transacciones financieras. Se configuró un proyecto en Spring Boot con soporte para OpenAPI/Swagger y se implementó un endpoint de prueba /transactions. La documentación está disponible en Swagger UI (ejecutada localmente).
-#### 5.2.1.7. Software Deployment Evidence for Sprint Review.
-Durante el Sprint 1, el equipo realizó la configuración inicial de despliegue para los tres productos del proyecto TuCash. Se crearon las cuentas en GitHub, Vercel y Firebase, además de configurar repositorios separados para Landing Page, Web Application y Web Services. Se ejecutó un primer despliegue del Landing Page en Vercel como versión de prueba, y se configuró un endpoint mock de los Web Services en Spring Boot de manera local, documentado con Swagger.
 
+### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
+Durante el **Sprint 1**, el equipo realizó la configuración inicial del entorno de despliegue y únicamente se desplegó el **Landing Page** como primer entregable accesible en línea.
 
-Actividades realizadas:
+**Actividades realizadas:**
 
-Landing Page:
+* **Landing Page**
 
-Repositorio creado en GitHub (tucash-landing).
+  * Repositorio creado en GitHub (`https://github.com/TuCash/landingPage`).
+  * Configuración de GitHub Pages como plataforma de despliegue.
+  * Deploy inicial accesible en: https://tucash.github.io/landingPage/.
+  * **Evidencia:** captura del repositorio en GitHub mostrando la rama `gh-pages` habilitada y la URL activa.
+ 
+<img width="1905" height="956" alt="image" src="https://github.com/user-attachments/assets/9c5688a2-a619-4e2c-af5b-f7b2bd075c64" />
 
-Conexión del repositorio a Vercel.
+**Nota:**
 
-Deploy inicial accesible en: https://tucash-landing.vercel.app
- (ejemplo).
-
-Evidencia: Captura del dashboard de Vercel mostrando deploy exitoso.
-
-Web Application (Frontend Angular):
-
-Repositorio creado en GitHub (tucash-webapp).
-
-Configuración de entorno Node.js en Vercel.
-
-Deploy preliminar en: https://tucash-webapp.vercel.app
-.
-
-Evidencia: Captura del log de build en Vercel.
-
-Web Services (Backend Spring Boot):
-
-Proyecto creado en IntelliJ con dependencias básicas.
-
-Swagger configurado y probado en entorno local: http://localhost:8080/swagger-ui.html
-.
-
-Evidencia: Captura de Swagger mostrando endpoint GET /transactions.
-
-Automatización (CI/CD):
-
-Se añadió un workflow de GitHub Actions en repositorios de frontend y backend.
-
-El pipeline ejecuta: npm install && npm run build (frontend) y mvn test (backend).
-
-Evidencia: Captura del log de ejecución en GitHub Actions.
+* La **Web Application (Frontend Angular)** y los **Web Services (Backend Spring Boot)** no fueron desplegados en este sprint. Únicamente se avanzó en su configuración inicial a nivel de repositorio para futuros despliegues.
+* La **automatización (CI/CD)** está pendiente de configuración en próximos sprints.
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 
 Durante el Sprint 1, el equipo colaboró activamente mediante reuniones virtuales (Microsoft Teams) y el uso de GitHub Projects para dar seguimiento a las tareas. Cada miembro del equipo realizó contribuciones a los diferentes productos: Landing Page, Web Application y Web Services.
