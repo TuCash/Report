@@ -72,8 +72,35 @@
       </ul>
     </td>
   </tr>
+
 </table>
 <br>
+<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+  <tr>
+    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Versión</td>
+    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Fecha</td>
+    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Autores</td>
+    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Descripción</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px;">TP1</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">09/10/2025</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">
+      <ul style="margin: 0; padding-left: 18px;">
+        <li>Jhunior Giussepe Taquiri Calderon - u20221c576</li>
+        <li>Harrison Hubert Payesa Torres - u2022201024</li>
+        <li>Juan Diego Javier Mondoñedo Rodriguez - u202110373</li>
+        <li>Patricia Valeria Mejia Poma - u202523271</li>
+        <li>Milenio Huaman Hinostroza - u20211c245</li>
+      </ul>
+    </td>
+    <td style="border: 1px solid #ddd; padding: 8px;">
+      <ul style="margin: 0; padding-left: 18px;">
+        <li>Capítulo V: Product Implementation, Validation &amp; Deployment — <strong>Sprint 2</strong></li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 
 <!--Link al repositorio en la organización-->
@@ -136,6 +163,36 @@ Asimismo, desarrollé las secciones asignadas del Capítulo IV: Product Design, 
     </td>
   </tr>
 </table>
+
+<h2>TP1 — Sprint 2: Asignación de módulos</h2>
+
+<table align="center" border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+  <tr>
+    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Integrante</td>
+    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Módulo / Responsabilidad (Sprint 2)</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px;">Taquiri Calderon, Jhunior Giussepe</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Expenses (Gestión de Gastos)</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px;">Payesa Torres, Harrison Hubert</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Incomes (Gestión de Ingresos)</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px;">Mondoñedo Rodriguez, Juan Diego Javier</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Goals (Metas)</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px;">Huaman Hinostroza, Milenio</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Home &amp; Login</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px;">Mejia Poma, Patricia Valeria</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Profile (Perfil de Usuario &amp; Configuración)</td>
+  </tr>
+</table>
+
 
 
 
