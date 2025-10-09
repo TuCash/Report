@@ -1687,14 +1687,28 @@ Nuestro prototipo de la aplicación web:
 
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Software Architecture Context Diagram
-<img src="resources/Software Architecture Context Diagram.png" alt="Software Architecture Context Diagram2">  
+<img src="resources/structurizr-SystemContext-001.png" alt="Software Architecture Context Diagram2">  
 
 ### 4.6.2. Software Architecture Container Diagrams
-<img src="resources/Software Architecture Container Diagrams.png" alt="Software Architecture Container Diagrams">  
+<img src="resources/structurizr-Containers.png" alt="Software Architecture Container Diagrams">  
 
 ### 4.6.3. Software Architecture Components Diagrams
-<img src="resources/Software Architecture Components Diagrams.png" alt="Software Architecture Components Diagrams">  
+<img src="resources/structurizr-ComponentsAll.png" alt="Software Architecture All Components Diagram">  
 
+#### Dashboard
+<img src="resources/structurizr-DashboardReportingContext.png" alt="Dashboard Components Diagram">
+
+#### Transactions
+<img src="resources/structurizr-FinancialTransactionsContext.png" alt="Transactions Components Diagram">
+
+#### IAM
+<img src="resources/structurizr-IdentityAccessContext.png" alt="IAM Components Diagram">
+
+#### Savings
+<img src="resources/structurizr-SavingsGoalsContext.png" alt="Savings Components Diagram">
+
+#### Shared
+<img src="resources/structurizr-SharedKernelContext.png" alt="Shared Components Diagram">
 
 ## 4.7. Software Object Oriented Design.
 
