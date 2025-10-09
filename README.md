@@ -751,15 +751,6 @@ El objetivo de estas entrevistas es identificar y comprender las **necesidades, 
 
 ---
 
-| Campo         | Información |
-|---------------|-------------|
-| Entrevistado 3 |             |
-| Edad          |             |
-| Distrito      |             |
-| Foto          | ![Foto entrevistado 3]() |
-| Timing        | [Ver grabación]() |
-
-<br/>
 
 ### 2.2.3 Análisis de entrevistas
 
@@ -2528,12 +2519,12 @@ La evidencia de colaboración se muestra en las estadísticas de GitHub (commits
 - **Docs:** actualización de **Cap. V (TP1)**, criterios de aceptación y evidencias.
 
 **Evidencias (capturas) — reemplazar rutas por las reales del repo:**
-- ![Landing - revisión UI](assets/sprint2/landing-review.png)
-- ![Expenses - formulario y lista](assets/sprint2/expenses-form-list.png)
-- ![Incomes - formulario](assets/sprint2/incomes-form.png)
-- ![Goals - progreso de metas](assets/sprint2/goals-progress.png)
-- ![Profile - edición de perfil](assets/sprint2/profile-edit.png)
-- ![Home & Login - flujo completo](assets/sprint2/home-login-flow.png)
+- ![Landing - revisión UI](resources/landingMockup1.PNG)
+- ![Expenses - formulario y lista](resources/expense.png)
+- ![Incomes - formulario](resources/income.png)
+- ![Goals - progreso de metas](resources/goals.png)
+- ![Profile - edición de perfil](resources/profile.png)
+- ![Home & Login - flujo completo](resources/login.png)
 
 ---
 
@@ -2541,15 +2532,6 @@ La evidencia de colaboración se muestra en las estadísticas de GitHub (commits
 
 **Resumen de alcance logrado:**  
 Se habilitó un recorrido MVP: **Login → Home → Expenses/Incomes → Goals → Profile**, con persistencia en MySQL y feedback visual. Se cerraron bugs de navegación, se mejoró accesibilidad (contraste/labels) y se añadió i18n base (EN/ES).
-
-**Evidencias (screenshots principales):**
-- ![Dashboard](assets/sprint2/dashboard.png)
-- ![Lista de gastos](assets/sprint2/expenses-list.png)
-- ![Crear ingreso](assets/sprint2/income-create.png)
-- ![Detalle meta](assets/sprint2/goal-detail.png)
-- ![Perfil del usuario](assets/sprint2/profile.png)
-
----
 
 ## 5.2.2.6. Services Documentation Evidence for Sprint Review
 
