@@ -684,11 +684,11 @@ El objetivo de estas entrevistas es identificar y comprender las **necesidades, 
 
 | Campo         | Información |
 |---------------|-------------|
-| Entrevistado 2 |             |
-| Edad          |             |
-| Distrito      |             |
-| Foto          | ![Foto entrevistado 2]() |
-| Timing        | [Ver grabación]() |
+| Entrevistado 2| Alessandra Almeyda Mejia |
+| Edad          | 21          |
+| Distrito      | Los Olivos  |
+| Foto          | ![Foto entrevistado 2](resources/entrevistatcash_alessandra.png) |
+| Timing        | [Ver grabación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202523271_upc_edu_pe/EQdfdZ1EYHtCsdXzgAVgoDEBEDnTcRB2mqtOc-EbKGrTjg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=A56EXR) |
 
 ---
 
