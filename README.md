@@ -1025,49 +1025,69 @@ Para elaborar user stories que pertenecen a un epic. A continuación, las epics 
 
 #### Desglose de Historias de Usuario por Épica
 
-##### **EP01: Gestión de Cuentas de Usuario**
+### EP01: Gestión de Cuentas de Usuario
 
 | Story ID | Título de la Historia | Descripción (Situación y Motivación) | Criterios de Aceptación |
 | :--- | :--- | :--- | :--- |
-| **EP01/US01** | Crear mi espacio financiero | **Cuando** descargo la app por primera vez, **quiero** poder registrarme fácilmente, **para poder** empezar a organizar mi dinero. | **Dado** que soy un usuario nuevo,<br>**cuando** ingreso mi correo y una contraseña segura,<br>**entonces** mi cuenta se crea y veo la pantalla principal. |
-| **EP01/US02** | Entrar a mi cuenta | **Cuando** ya tengo una cuenta, **quiero** iniciar sesión rápidamente, **para poder** ver mi información o registrar un gasto al instante. | **Dado** que ya estoy registrado,<br>**cuando** pongo mi correo y contraseña correctos,<br>**entonces** puedo entrar y ver mi Panel Principal. |
-| **EP01/US03** | Recuperar mi acceso | **Cuando** olvido mi contraseña, **quiero** poder recuperarla usando mi correo, **para poder** volver a entrar a mi cuenta sin perder mis datos. | **Dado** que olvidé mi contraseña,<br>**cuando** pido recuperarla y sigo los pasos que me llegan al correo,<br>**entonces** puedo poner una nueva contraseña y volver a entrar. |
+| **EP01/US01** | Crear mi espacio financiero | **Cuando** descargo la app por primera vez, **quiero** poder registrarme fácilmente, **para poder** empezar a organizar mi dinero. | **Dado** que soy un usuario nuevo, **cuando** ingreso mi correo y una contraseña segura, **entonces** mi cuenta se crea y veo la pantalla principal. |
+| **EP01/US02** | Entrar a mi cuenta | **Cuando** ya tengo una cuenta, **quiero** iniciar sesión rápidamente, **para poder** ver mi información o registrar un gasto al instante. | **Dado** que ya estoy registrado, **cuando** pongo mi correo y contraseña correctos, **entonces** puedo entrar y ver mi Panel Principal. |
+| **EP01/US03** | Recuperar mi acceso | **Cuando** olvido mi contraseña, **quiero** poder recuperarla usando mi correo, **para poder** volver a entrar a mi cuenta sin perder mis datos. | **Dado** que olvidé mi contraseña, **cuando** pido recuperarla y sigo los pasos que me llegan al correo, **entonces** puedo poner una nueva contraseña y volver a entrar. |
+| **EP01/US04** | Personalizar mi perfil | **Cuando** ya tengo mi cuenta, **quiero** poder editar mis datos personales (nombre, foto), **para poder** sentir la aplicación más mía y personalizada. | **Dado** que estoy en mi perfil, **cuando** cambio mi nombre de usuario y subo una foto, **entonces** los cambios se guardan y se reflejan en la app. |
+| **EP01/US05** | Configurar mis preferencias | **Cuando** uso la app, **quiero** poder cambiar la moneda principal (ej. de Soles a Dólares), **para poder** alinear la app con mis finanzas si manejo diferentes divisas. | **Dado** que estoy en la sección de configuración, **cuando** selecciono una nueva moneda principal, **entonces** todos los montos en la app se muestran en la moneda elegida. |
 
-##### **EP02: Gestión de Transacciones**
-
-| Story ID | Título de la Historia | Descripción (Situación y Motivación) | Criterios de Aceptación |
-| :--- | :--- | :--- | :--- |
-| **EP02/US01** | Registrar el dinero que recibo | **Cuando** me pagan o me dan mi mesada, **quiero** anotarlo de forma simple, **para poder** saber cuánto dinero tengo disponible en total. | **Dado** que estoy en la app,<br>**cuando** añado un nuevo ingreso con un monto y descripción,<br>**entonces** mi saldo total se actualiza y el ingreso aparece en mi historial. |
-| **EP02/US02** | Anotar mis gastos diarios | **Cuando** compro algo, **quiero** registrar el gasto y ponerle una categoría en pocos segundos, **para poder** llevar un control real de a dónde se va mi dinero. | **Dado** que estoy en la app,<br>**cuando** añado un nuevo gasto, le pongo un monto y elijo una categoría (ej. "Comida"),<br>**entonces** el gasto se guarda, mi saldo se actualiza y aparece en el historial. |
-| **EP02/US03** | Automatizar mis gastos fijos | **Cuando** tengo gastos que se repiten cada mes (como la pensión de la U o mi plan de celular), **quiero** configurarlos una sola vez, **para poder** ahorrar tiempo y evitar olvidarme de registrarlos. | **Dado** que tengo un gasto fijo,<br>**cuando** lo configuro como un gasto recurrente para una fecha específica,<br>**entonces** la app lo registrará automáticamente cada mes en esa fecha. |
-
-##### **EP03: Visualización de Datos y Reportes**
+---
+### EP02: Gestión de Transacciones
 
 | Story ID | Título de la Historia | Descripción (Situación y Motivación) | Criterios de Aceptación |
 | :--- | :--- | :--- | :--- |
-| **EP03/US01** | Saber "cómo voy" de un vistazo | **Cuando** abro la app, **quiero** ver un resumen fácil de entender de mis finanzas, **para poder** saber rápidamente si estoy bien o si estoy gastando mucho. | **Dado** que he registrado ingresos y gastos,<br>**cuando** voy al Panel Principal,<br>**entonces** veo mi saldo actual y un resumen simple de cuánto he ganado y gastado este mes. |
-| **EP03/US02** | Descubrir en qué gasto más | **Cuando** siento que el dinero se me escapa, **quiero** ver un gráfico de mis gastos, **para poder** darme cuenta fácilmente en qué categoría se me está yendo más la plata. | **Dado** que he registrado gastos en varias categorías,<br>**cuando** voy a la sección de Reportes,<br>**entonces** veo un gráfico (ej. de torta) que me muestra mis gastos por categoría. |
+| **EP02/US01** | Registrar el dinero que recibo | **Cuando** me pagan o me dan mi mesada, **quiero** anotarlo de forma simple, **para poder** saber cuánto dinero tengo disponible en total. | **Dado** que estoy en la app, **cuando** añado un nuevo ingreso con un monto y descripción, **entonces** mi saldo total se actualiza y el ingreso aparece en mi historial. |
+| **EP02/US02** | Anotar mis gastos diarios | **Cuando** compro algo, **quiero** registrar el gasto y ponerle una categoría en pocos segundos, **para poder** llevar un control real de a dónde se va mi dinero. | **Dado** que estoy en la app, **cuando** añado un nuevo gasto, le pongo un monto y elijo una categoría (ej. "Comida"), **entonces** el gasto se guarda, mi saldo se actualiza y aparece en el historial. |
+| **EP02/US03** | Automatizar mis gastos fijos | **Cuando** tengo gastos que se repiten cada mes (como la pensión de la U o mi plan de celular), **quiero** configurarlos una sola vez, **para poder** ahorrar tiempo y evitar olvidarme de registrarlos. | **Dado** que tengo un gasto fijo, **cuando** lo configuro como un gasto recurrente para una fecha específica, **entonces** la app lo registrará automáticamente cada mes en esa fecha. |
+| **EP02/US04** | Corregir un registro | **Cuando** me equivoco al registrar un gasto (puse mal el monto o la categoría), **quiero** poder editarlo fácilmente, **para poder** mantener mi información financiera precisa. | **Dado** que tengo un gasto registrado, **cuando** lo selecciono y modifico su monto o categoría, **entonces** el registro se actualiza en mi historial y mi saldo se corrige. |
+| **EP02/US05** | Filtrar mis movimientos | **Cuando** quiero analizar mis finanzas, **quiero** poder buscar y filtrar mis transacciones (por fecha, categoría o tipo), **para poder** encontrar rápidamente la información que necesito. | **Dado** que estoy en mi historial de transacciones, **cuando** aplico un filtro por "Comida" para el mes pasado, **entonces** solo veo los gastos de esa categoría en ese rango de fechas. |
 
-##### **EP04: Planificación y Metas Financieras**
+---
 
-| Story ID | Título de la Historia | Descripción (Situación y Motivación) | Criterios de Aceptación |
-| :--- | :--- | :--- | :--- |
-| **EP04/US01** | Ahorrar para algo que quiero | **Cuando** quiero comprarme algo (un libro, una entrada a un concierto), **quiero** crear una meta de ahorro, **para poder** tener una motivación clara y ver cómo me voy acercando. | **Dado** que estoy en la sección de Metas,<br>**cuando** creo una nueva meta con un nombre y un monto,<br>**entonces** la meta aparece en mi lista con un progreso de 0%. |
-| **EP04/US02** | Ver crecer mis ahorros | **Cuando** decido ahorrar un poco de dinero, **quiero** poder añadirlo a mi meta, **para poder** ver cómo la barrita de progreso avanza y sentir que estoy logrando algo. | **Dado** que tengo una meta creada,<br>**cuando** le asigno un monto de dinero,<br>**entonces** el total ahorrado de la meta aumenta y la barra de progreso se actualiza. |
-
-##### **EP05: Presupuestos y Notificaciones**
+### EP03: Visualización de Datos y Reportes
 
 | Story ID | Título de la Historia | Descripción (Situación y Motivación) | Criterios de Aceptación |
 | :--- | :--- | :--- | :--- |
-| **EP05/US01** | Ponerme un límite de gasto | **Cuando** sé que tiendo a gastar mucho en algo (como en salidas), **quiero** ponerme un límite mensual para esa categoría, **para poder** controlarme y no pasarme. | **Dado** que estoy en la sección de Presupuestos,<br>**cuando** elijo una categoría y le pongo un monto límite para el mes,<br>**entonces** el presupuesto queda guardado y activo. |
-| **EP05/US02** | Recibir un aviso antes de pasarme | **Cuando** estoy cerca de llegar a mi límite de gasto, **quiero** que la app me avise, **para poder** frenar a tiempo y tomar mejores decisiones. | **Dado** que tengo un presupuesto activo,<br>**cuando** mis gastos en esa categoría superan el 85% del límite,<br>**entonces** recibo una notificación que me alerta sobre esto. |
+| **EP03/US01** | Saber "cómo voy" de un vistazo | **Cuando** abro la app, **quiero** ver un resumen fácil de entender de mis finanzas, **para poder** saber rápidamente si estoy bien o si estoy gastando mucho. | **Dado** que he registrado ingresos y gastos, **cuando** voy al Panel Principal, **entonces** veo mi saldo actual y un resumen simple de cuánto he ganado y gastado este mes. |
+| **EP03/US02** | Descubrir en qué gasto más | **Cuando** siento que el dinero se me escapa, **quiero** ver un gráfico de mis gastos, **para poder** darme cuenta fácilmente en qué categoría se me está yendo más la plata. | **Dado** que he registrado gastos en varias categorías, **cuando** voy a la sección de Reportes, **entonces** veo un gráfico (ej. de torta) que me muestra mis gastos por categoría. |
+| **EP03/US03** | Comparar mi progreso | **Cuando** quiero saber si estoy mejorando, **quiero** poder comparar mis gastos e ingresos entre diferentes meses, **para poder** ver si mis hábitos financieros están cambiando para bien. | **Dado** que tengo datos de varios meses, **cuando** selecciono el reporte de comparación mensual, **entonces** veo un gráfico de barras que muestra mis gastos totales de este mes contra los del mes pasado. |
+| **EP03/US04** | Ver la evolución de mis finanzas | **Cuando** planifico a largo plazo, **quiero** ver un reporte de tendencias de mis ingresos vs. mis gastos a lo largo del tiempo, **para poder** entender mi situación financiera general y tomar mejores decisiones. | **Dado** que tengo datos de los últimos 6 meses, **cuando** voy a la sección de reportes de tendencias, **entonces** veo un gráfico de líneas que muestra la evolución de mis ingresos y gastos durante ese periodo. |
 
-##### **EP10: Gestión de Gastos Compartidos**
+---
+
+### EP04: Planificación y Metas Financieras
 
 | Story ID | Título de la Historia | Descripción (Situación y Motivación) | Criterios de Aceptación |
 | :--- | :--- | :--- | :--- |
-| **EP10/US01** | Dividir la cuenta con amigos | **Cuando** salimos en grupo y uno paga todo, **quiero** poder registrar ese gasto y dividirlo, **para poder** saber fácil y rápido quién le debe a quién, sin tener que hacer cálculos o tener conversaciones incómodas. | **Dado** que hice un gasto de S/ 100 para un grupo de 4 personas,<br>**cuando** uso la función "Dividir Gasto" y selecciono a los 3 amigos,<br>**entonces** la app registra que yo gasté S/ 25 y que cada amigo me debe S/ 25. |
-| **EP10/US02** | Llevar las cuentas claras | **Cuando** alguien me paga lo que me debía, **quiero** poder marcar esa deuda como pagada, **para poder** mantener un control claro y evitar malentendidos. | **Dado** que un amigo me debe S/ 25,<br>**cuando** me paga y yo marco la deuda como "saldada",<br>**entonces** la deuda desaparece y el balance con ese amigo vuelve a cero. |
+| **EP04/US01** | Ahorrar para algo que quiero | **Cuando** quiero comprarme algo (un libro, una entrada a un concierto), **quiero** crear una meta de ahorro, **para poder** tener una motivación clara y ver cómo me voy acercando. | **Dado** que estoy en la sección de Metas, **cuando** creo una nueva meta con un nombre y un monto, **entonces** la meta aparece en mi lista con un progreso de 0%. |
+| **EP04/US02** | Ver crecer mis ahorros | **Cuando** decido ahorrar un poco de dinero, **quiero** poder añadirlo a mi meta, **para poder** ver cómo la barrita de progreso avanza y sentir que estoy logrando algo. | **Dado** que tengo una meta creada, **cuando** le asigno un monto de dinero, **entonces** el total ahorrado de la meta aumenta y la barra de progreso se actualiza. |
+| **EP04/US03** | Ajustar mis metas | **Cuando** mis planes cambian (ej. el precio del producto subió), **quiero** poder editar el monto o la fecha de mi meta, **para poder** adaptar mi plan de ahorro a la realidad. | **Dado** que tengo una meta activa, **cuando** edito su monto objetivo, **entonces** el nuevo monto se guarda y el porcentaje de progreso se recalcula. |
+| **EP04/US04** | Celebrar un logro | **Cuando** completo una meta de ahorro, **quiero** que la app me felicite y me permita marcarla como "lograda", **para poder** sentir la satisfacción de haber cumplido mi objetivo. | **Dado** que una meta ha llegado al 100% de su progreso, **cuando** la marco como completada, **entonces** aparece una animación de celebración y la meta se mueve al historial de logros. |
+
+---
+
+### EP05: Presupuestos y Notificaciones
+
+| Story ID | Título de la Historia | Descripción (Situación y Motivación) | Criterios de Aceptación |
+| :--- | :--- | :--- | :--- |
+| **EP05/US01** | Ponerme un límite de gasto | **Cuando** sé que tiendo a gastar mucho en algo (como en salidas), **quiero** ponerme un límite mensual para esa categoría, **para poder** controlarme y no pasarme. | **Dado** que estoy en la sección de Presupuestos, **cuando** elijo una categoría y le pongo un monto límite para el mes, **entonces** el presupuesto queda guardado y activo. |
+| **EP05/US02** | Recibir un aviso antes de pasarme | **Cuando** estoy cerca de llegar a mi límite de gasto, **quiero** que la app me avise, **para poder** frenar a tiempo y tomar mejores decisiones. | **Dado** que tengo un presupuesto activo, **cuando** mis gastos en esa categoría superan el 85% del límite, **entonces** recibo una notificación que me alerta sobre esto. |
+| **EP05/US03** | Revisar el estado de mis presupuestos | **Cuando** quiero planificar mis próximas compras, **quiero** ver un resumen de todos mis presupuestos y cuánto me queda en cada uno, **para poder** tomar decisiones informadas sobre si puedo gastar o no. | **Dado** que he definido varios presupuestos, **cuando** voy a la sección de Presupuestos, **entonces** veo una lista de todas las categorías con su límite, lo gastado hasta ahora y una barra de estado visual. |
+
+---
+### EP10: Gestión de Gastos Compartidos
+
+| Story ID | Título de la Historia | Descripción (Situación y Motivación) | Criterios de Aceptación |
+| :--- | :--- | :--- | :--- |
+| **EP10/US01** | Dividir la cuenta con amigos | **Cuando** salimos en grupo y uno paga todo, **quiero** poder registrar ese gasto y dividirlo, **para poder** saber fácil y rápido quién le debe a quién. | **Dado** que hice un gasto de S/ 100 para un grupo de 4 personas, **cuando** uso la función "Dividir Gasto" y selecciono a los 3 amigos, **entonces** la app registra que yo gasté S/ 25 y que cada amigo me debe S/ 25. |
+| **EP10/US02** | Llevar las cuentas claras | **Cuando** alguien me paga lo que me debía, **quiero** poder marcar esa deuda como pagada, **para poder** mantener un control claro y evitar malentendidos. | **Dado** que un amigo me debe S/ 25, **cuando** me paga y yo marco la deuda como "saldada", **entonces** la deuda desaparece y el balance con ese amigo vuelve a cero. |
+| **EP10/US03** | Ver a quién le debo y quién me debe | **Cuando** tengo varios gastos compartidos, **quiero** ver un panel que resuma todas mis deudas y lo que me deben, **para poder** tener una visión clara de mis cuentas con amigos. | **Dado** que tengo deudas pendientes por pagar y por cobrar, **cuando** voy a la sección de "Gastos Compartidos", **entonces** veo dos listas: "Me deben" y "Debo", con los montos totales y el detalle por persona. |
+| **EP10/US04** | Enviar un recordatorio amigable | **Cuando** un amigo se ha demorado en pagarme, **quiero** poder enviarle un recordatorio desde la app, **para poder** evitar la conversación incómoda de cobrarle en persona. | **Dado** que un amigo tiene una deuda pendiente conmigo, **cuando** presiono el botón de "Recordar", **entonces** la app le envía una notificación amigable sobre el pago pendiente. |
+
 
 ## 3.3. Impact Mapping
 
