@@ -582,52 +582,75 @@ El análisis competitivo resulta fundamental para comprender el panorama del mer
 
 ### Competitive Analysis
 
-| Perfil                        |  **Mi Plata**                                                |  **Controlar Gastos**                         |  **Monefy**                                        | **Kakeibo**                                   |  **TuCash (Perú)**                                    |
-|-----------------------------|---------------------------------------------------------------------------|------------------------------------------------------------|------------------------------------------------------------------|------------------------------------------------------------|------------------------------------------------------------------|
-| **Overview**                | App peruana para registrar ingresos/gastos y definir metas de ahorro.    | App simple de registro diario de gastos con reportes básicos. | App internacional con registro rápido y visual de ingresos/gastos. | Basada en el método japonés Kakeibo, con reflexión sobre gastos. | App peruana para estudiantes, con control de ingresos, gastos, metas y educación financiera. |
-| **Ventaja competitiva**     | Facilidad de uso y metas claras de ahorro.                               | Muy sencilla y gratuita, ideal para principiantes.         | Visualización atractiva y rapidez.                               | Promueve consciencia y hábitos financieros saludables.      | Localización, accesibilidad y personalización (categorías y moneda local). |
-| **Clientes**                | Adultos jóvenes que desean control básico de dinero.                     | Usuarios que buscan simplicidad sin funciones avanzadas.   | Jóvenes y adultos que prefieren apps rápidas y gráficas.          | Personas interesadas en disciplina y ahorro consciente.      | Estudiantes universitarios y familias peruanas de ingresos medios. |
-| **Mercado objetivo**        | Usuarios no necesariamente bancarizados en Perú.                         | Usuarios básicos que valoran la simplicidad.                | Mercado internacional y usuarios tecnológicos.                    | Nicho en métodos alternativos de ahorro.                     | Jóvenes y familias peruanas que necesitan educación y control financiero. |
-| **Estrategia de marketing** | Redes sociales y tiendas de apps.                                         | Boca a boca y app stores.                                  | Marketing global y fuerte presencia en tiendas digitales.         | Enfocada en un nicho minimalista.                           | Campañas en redes sociales, alianzas con universidades y enfoque educativo. |
-| **Productos & Servicios**   | Registro de gastos/ingresos y metas de ahorro.                           | Registro manual con reportes simples.                        | Registro visual de ingresos/gastos con gráficos.                   | Registro manual con categorías reflexivas.                   | Control de ingresos/gastos, metas, recordatorios, reportes y educación financiera. |
-| **Precios**                 | Gratuita / Premium accesible.                                             | Gratuita.                                                   | Gratis / Pro con pago único.                                      | Gratuita o de bajo costo.                                   | Freemium: básica gratuita + Premium económico en soles.         |
-| **Canales de distribución** | App móvil (iOS/Android).                                                  | App móvil.                                                  | App móvil.                                                        | App móvil.                                                  | App móvil (iOS/Android); futura versión web.                    |
 
----
+| **Perfil**                    | **Mi Plata**                                                | **Controlar Gastos**                         | **Monefy**                                        | **Interbank (Banco, Perú)**                                                                 | **TuCash (Perú)**                                                                 |
+|------------------------------|--------------------------------------------------------------|----------------------------------------------|---------------------------------------------------|----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| **Overview**                 | App peruana para registrar ingresos/gastos y definir metas. | App simple de registro diario con reportes.  | App internacional con registro visual rápido.     | App bancaria para clientes Interbank: cuentas, tarjetas, pagos, transferencias y vista de gastos. | App peruana para estudiantes: ingresos, gastos, metas y contenido de educación financiera. |
+| **Ventaja competitiva**      | Facilidad de uso y metas claras.                            | Muy sencilla y gratuita.                     | Visualización atractiva y rapidez.                | Integración directa con cuentas/tarjetas, saldos en tiempo real, seguridad bancaria.          | Localización (moneda/categorías locales), accesibilidad y personalización para jóvenes.   |
+| **Clientes**                 | Adultos jóvenes que buscan control básico.                  | Usuarios que valoran simplicidad.            | Jóvenes/adultos que prefieren apps gráficas.      | Clientes de banca retail que quieren operar y controlar gastos desde su banco.               | Estudiantes universitarios y familias peruanas de ingresos medios.               |
+| **Mercado objetivo**         | Usuarios no bancarizados en Perú.                           | Usuarios básicos.                            | Mercado internacional y tech-savvy.               | Mercado masivo en Perú (banca digital y móvil).                                              | Jóvenes en Perú que necesitan educación y control financiero.                    |
+| **Estrategia de marketing**  | Redes sociales y app stores.                                | Boca a boca y tiendas de apps.               | Marketing global en tiendas digitales.            | Canales propios del banco (app/web), campañas digitales y red de agencias/ATMs.              | Campañas en redes sociales, alianzas con universidades y enfoque educativo.       |
+| **Productos & Servicios**    | Registro de ingresos/gastos y metas.                        | Registro manual y reportes simples.          | Registro visual con gráficos.                     | Cuentas, tarjetas, pagos/servicios, préstamos; alertas y categorización básica/insights.     | Control de ingresos/gastos, metas, recordatorios, reportes y micro-tips educativos. |
+| **Precios**                  | Gratuita / Premium accesible.                               | Gratuita.                                    | Gratis / Pro de pago único.                       | App sin costo; comisiones según producto/operación bancaria.                                 | Freemium: básica gratis + Premium económico en soles.                            |
+| **Canales de distribución**  | App móvil (iOS/Android).                                     | App móvil.                                   | App móvil.                                        | App móvil (iOS/Android), banca por internet y red de agencias/ATMs.                           | App móvil (iOS/Android); futura versión web.                                     |
+
+
+
+
 
 ## Análisis SWOT – TuCash
 
-| Categoría       | Descripción |
-|----------------|-------------|
-| **Fortalezas** | - Enfoque 100 % local (Perú).<br>- Interfaz sencilla e intuitiva.<br>- Personalización (categorías, moneda local).<br>- Precios accesibles adaptados al mercado peruano. |
-| **Debilidades**| - Competencia con más recursos (apps internacionales).<br>- Bajo reconocimiento de marca.<br>- Recursos limitados en marketing masivo. |
-| **Oportunidades** | - Crecimiento del ecosistema fintech en Perú y LATAM.<br>- Escasa oferta de apps peruanas para estudiantes/familias.<br>- Potencial integración con billeteras digitales y bancos locales. |
-| **Amenazas**   | - Entrada de grandes competidores internacionales.<br>- Desconfianza de usuarios en privacidad de datos.<br>- Cambios regulatorios en apps financieras digitales. |
+| **Categoría**   | **Descripción** |
+|-----------------|------------------|
+| **Fortalezas**  | - Enfoque 100% local (Perú) con segmentación en estudiantes y jóvenes.<br>- UX sencilla e intuitiva con onboarding rápido.<br>- Personalización: categorías locales, moneda PEN e i18n (ES/EN).<br>- Modelo freemium accesible y mensajes adaptados al contexto peruano.<br>- Énfasis en educación financiera, metas y recordatorios útiles.<br>- Roadmap multiplataforma (móvil hoy; web en desarrollo). |
+| **Debilidades** | - Sin integración bancaria automática aún (mayor fricción por carga manual).<br>- Bajo reconocimiento de marca y comunidad en crecimiento.<br>- Recursos limitados para marketing y soporte 24/7.<br>- Analítica/insights básicos si no se instrumenta correctamente.<br>- Dependencia de tiendas . |
+| **Oportunidades** | - Open Finance/APIs locales para importar y categorizar movimientos.<br>- Alianzas con universidades, becas y programas de inclusión financiera.<br>- Crecimiento de pagos digitales y educación financiera en Perú/LATAM.<br>- Diferenciación con gamificación (retos, rachas) y contenidos contextuales.<br>- Canales orgánicos (TikTok/IG) y programas de referidos para adquisición. |
+| **Amenazas**    | - Apps internacionales y bancarias ampliando funcionalidades PFM.<br>- Desconfianza por privacidad de datos y riesgo de incidentes de seguridad.<br>- Cambios regulatorios (protección de datos, KYC/AML) y políticas de iOS/Android.<br>- Costos de adquisición crecientes y saturación de la categoría.<br>- Volatilidad económica que puede afectar la disposición a pagar. |
+
+
 
 ---
 
 ## 2.1.2 Estrategias y tácticas frente a competidores
 
-1. **Diferenciación por localización**  
-   TuCash se dirige exclusivamente al contexto peruano, con categorías, precios y lenguaje alineados al usuario local.
+### Diferenciación por localización
+- Categorías y subcategorías propias del contexto peruano (transporte público, recargas, menú universitario, pensión, etc.).
+- Moneda **PEN** por defecto, formatos locales y feriados/regímenes académicos del país.
+- Tono y microcopys en español peruano; glosario simple de conceptos financieros.
+- Soporte e-learning breve dentro de la app (tips en 15–30 palabras) contextualizado al mercado local.
 
-2. **Simplicidad con educación financiera**  
-   Combina la interfaz ágil y funcional de Monefy con un componente educativo que la hace única en el mercado.
+### Simplicidad con educación financiera
+- **UX “rápida y visual”** (registro en 2–3 toques, autocompletar, favoritos, plantillas).
+- Flujos sin fricción: ingreso/egreso, metas y presupuesto en una sola vista.
+- Módulo educativo integrado: microcursos, retos de ahorro y “consejo del día” dentro del dashboard.
+- Onboarding guiado con objetivos (ahorro, control de gastos hormiga) y checklist inicial.
 
-3. **Segmentación clara**  
-   Apunta a estudiantes universitarios y familias de ingresos medios—aquellos menos atendidos por otras apps.
+### Segmentación clara
+- Foco en:
+  - **Estudiantes con mesada**, **estudiantes independientes** y **becados**.
+- Tácticas:
+  - Packs de categorías preconfiguradas por segmento.
+  - Recordatorios y retos alineados al ciclo universitario (inicios de ciclo, exámenes, matrículas).
+  - Beneficios y contenidos específicos (p. ej., “kit de supervivencia de fin de mes”).
 
-4. **Modelo freemium atractivo**  
-   **Gratis**: acceso completo a funciones básicas.  
-   **Premium económico en soles**: metas personalizadas, reportes automáticos, recordatorios inteligentes y herramientas educativas.
+### Modelo freemium atractivo
+- **Gratis (core):** registro de ingresos/egresos, categorías básicas, metas simples, reportes esenciales, exportación CSV.
+- **Premium (en soles):** metas avanzadas, presupuestos por categoría, reportes automáticos, recordatorios inteligentes, reglas de auto-categorización, microcursos y retos ampliados.
+- Paywall claro, sin fricciones, con prueba limitada por tiempo o funcionalidades.
 
-5. **Confianza y transparencia**  
-   Mensajes claros sobre privacidad y protección de datos, adecuados para usuarios no técnicos.
+### Confianza y transparencia
+- Política de privacidad clara y en lenguaje no técnico; centro de control de datos dentro de la app.
+- Cifrado en tránsito y en reposo; mínimos permisos; anonimización para analítica.
+- Cumplimiento con normativa local de datos personales; registro de cambios y auditoría básica.
+- Página de **estatus** y canal de soporte visible en la app.
 
-6. **Marketing educativo**  
-     Alianzas con universidades para penetración en el público estudiantil.  
-    Contenido útil en redes sociales: consejos financieros, microcursos y retos de ahorro.  
-    Enfoque en impacto social: mejorar la salud financiera de las familias peruanas.  
+### Marketing educativo
+- **Alianzas con universidades** (charlas, talleres express, códigos de referido).
+- Contenido útil en redes: consejos financieros, microcursos, retos semanales y testimonios.
+- Narrativa de impacto social: mejora de hábitos financieros en jóvenes y familias.
+
+---
+
 ## 2.2 Entrevistas
 
 ### 2.2.1. Diseño de entrevistas  
