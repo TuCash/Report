@@ -2696,28 +2696,60 @@ Se habilitó un recorrido MVP: **Login → Home → Expenses/Incomes → Goals �
 
 ## 5.2.2.7. Software Deployment Evidence for Sprint Review
 
-**Resumen de deployment (Sprint 2):**
+En nuestro segundo sprint, hemos avanzado con las principales secciones del Font-End. Estará mejorada para el tercer sprint.
+#### Landing page:
+El despliegue de la landin page se mantiene en el mismo repositorio donde se realizo el despliegue de la misma:
 
-- **CI/CD:** GitHub Actions con jobs de *build* (front/back), *test* y *publish artifacts*.
-- **Entornos:**  
-  - **Testing:** front desplegado en hosting estático; back en contenedor (Railway/Render/Docker local).  
-  - **Producción (MVP):** etiqueta `v0.2.0-sprint2` con imágenes publicadas.
-- **Infra breve:** `.env` versionado seguro, variables de conexión MySQL, `CORS` habilitado por dominio.
+<img width="636" height="117" alt="Image" src="https://github.com/user-attachments/assets/3e5b77e9-72bd-4a86-a908-4947f1d9e4f7" />
 
-**Evidencias:**
+<img width="1901" height="1080" alt="Image" src="https://github.com/user-attachments/assets/88217c9b-6c60-48a5-9694-7017823fe038" />
 
-- ![Pipeline CI/CD verde](resources/ci.png)
-- ![Pipeline CI/CD verde](resources/deploy.png)
-- ![Release v0.2.0-sprint2](resources/release.png)
+#### Web Application:
+
+<img width="1920" height="959" alt="Image" src="https://github.com/user-attachments/assets/a77904a1-d3dc-4f5c-baab-9307d781fc5d" />
+
+<img width="1903" height="955" alt="Image" src="https://github.com/user-attachments/assets/8ba40db9-2581-4c83-8a9b-1f344614fd5f" />
+
+<img width="1902" height="958" alt="Image" src="https://github.com/user-attachments/assets/e353a3a4-1668-4454-bfa3-708b824c4cd9" />
+
+<img width="1920" height="956" alt="Image" src="https://github.com/user-attachments/assets/62ffd284-6140-48a3-95a5-8a199ab8c0ee" />
+
+<img width="1904" height="959" alt="Image" src="https://github.com/user-attachments/assets/34499840-d90a-4ebb-b3e9-3e5ef3794385" />
+
+<img width="1920" height="959" alt="Image" src="https://github.com/user-attachments/assets/50834018-c98f-4a13-9e27-7044c2c8c35c" />
+
+<img width="1903" height="958" alt="Image" src="https://github.com/user-attachments/assets/b78ca154-cc35-4740-bfc6-49ad10db4711" />
 
 ---
 
 ## 5.2.2.8. Team Collaboration Insights during Sprint
 
-**Cómo trabajó el equipo:**  
-Pareos cortos por módulo, *daily sync* en Discord (15 min), PRs con 1+ reviewer obligatorio, *demos* al cierre del día. Se siguió tablero Kanban (To-do / In Process / To-Review / Done) y checklist de accesibilidad.
-
-**Analíticos y commits (adjuntar capturas):**
+<table border="1">
+  <tr>
+    <th>Alumno</th>
+    <th>Actividad</th>
+  </tr>
+  <tr>
+    <td>Taquiri Calderon, Jhunior Giussepe </td>
+    <td>Creación y desarrollo del modulo Expenses (Gestión de Gastos).</td>
+  </tr>
+  <tr>
+    <td>Payesa Torres, Harrison Hubert</td>
+    <td>Creación y desarrollo del modulo Incomes (Gestión de Ingresos).</td>
+  </tr>
+  <tr>
+    <td>Mondoñedo Rodriguez, Juan Diego Javier</td>
+    <td>Creación y desarrollo del modulo Goals (Metas).</td>
+  </tr>
+  <tr>
+    <td>Huaman Hinostroza, Milenio</td>
+    <td>Creación y desarrollo de los moduloos Home & Login, asi mismo se encargo del deployment</td>
+  </tr>
+  <tr>
+    <td>Mejia Poma, Patricia Valeria</td>
+    <td>Creación y desarrollo del modulo Profile (Perfil de Usuario & Configuración).</td>
+  </tr>
+</table>
 
 - ![Contribuciones por integrante](resources/colab.png)
 - ![Actividad de PRs y issues](/resources/insi.png)
