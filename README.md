@@ -2664,13 +2664,32 @@ El despliegue de la landin page se mantiene en el mismo repositorio donde se rea
 
 ## 5.2.2.8. Team Collaboration Insights during Sprint
 
-**Cómo trabajó el equipo:**  
-Pareos cortos por módulo, *daily sync* en Discord (15 min), PRs con 1+ reviewer obligatorio, *demos* al cierre del día. Se siguió tablero Kanban (To-do / In Process / To-Review / Done) y checklist de accesibilidad.
-
-**Analíticos y commits (adjuntar capturas):**
-- ![Contribuciones por integrante](assets/sprint2/github-contribs.png)
-- ![Actividad de PRs y issues](assets/sprint2/github-pr-issues.png)
-- ![Burndown del sprint](assets/sprint2/burndown.png)
+<table border="1">
+  <tr>
+    <th>Alumno</th>
+    <th>Actividad</th>
+  </tr>
+  <tr>
+    <td>Taquiri Calderon, Jhunior Giussepe </td>
+    <td>Creación y desarrollo del modulo Expenses (Gestión de Gastos).</td>
+  </tr>
+  <tr>
+    <td>Payesa Torres, Harrison Hubert</td>
+    <td>Creación y desarrollo del modulo Incomes (Gestión de Ingresos).</td>
+  </tr>
+  <tr>
+    <td>Mondoñedo Rodriguez, Juan Diego Javier</td>
+    <td>Creación y desarrollo del modulo Goals (Metas).</td>
+  </tr>
+  <tr>
+    <td>Huaman Hinostroza, Milenio</td>
+    <td>Creación y desarrollo de los moduloos Home & Login, asi mismo se encargo del deployment</td>
+  </tr>
+  <tr>
+    <td>Mejia Poma, Patricia Valeria</td>
+    <td>Creación y desarrollo del modulo Profile (Perfil de Usuario & Configuración).</td>
+  </tr>
+</table>
 
 
 
