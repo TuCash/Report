@@ -2636,16 +2636,14 @@ Se habilitó un recorrido MVP: **Login → Home → Expenses/Incomes → Goals �
 
 ## 5.2.2.7. Software Deployment Evidence for Sprint Review
 
-**Resumen de deployment (Sprint 2):**
-- **CI/CD:** GitHub Actions con jobs de *build* (front/back), *test* y *publish artifacts*.
-- **Entornos:**  
-  - **Testing:** front desplegado en hosting estático; back en contenedor (Railway/Render/Docker local).  
-  - **Producción (MVP):** etiqueta `v0.2.0-sprint2` con imágenes publicadas.
-- **Infra breve:** `.env` versionado seguro, variables de conexión MySQL, `CORS` habilitado por dominio.
+En nuestro segundo sprint, hemos avanzado con las principales secciones del Font-End. Estará mejorada para el tercer sprint.
+#### Landing page:
+El despliegue de la landin page se mantiene en el mismo repositorio donde se realizo el despliegue de la misma:
 
-**Evidencias:**
-- ![Pipeline CI/CD verde](assets/sprint2/cicd-pipeline.png)
-- ![Release v0.2.0-sprint2](assets/sprint2/release.png)
+<img width="636" height="117" alt="Image" src="https://github.com/user-attachments/assets/3e5b77e9-72bd-4a86-a908-4947f1d9e4f7" />
+
+<img width="1901" height="1080" alt="Image" src="https://github.com/user-attachments/assets/88217c9b-6c60-48a5-9694-7017823fe038" />
+
 
 ---
 
