@@ -204,7 +204,9 @@ Asimismo, desarrollé las secciones asignadas del Capítulo IV: Product Design, 
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px;">Payesa Torres, Harrison Hubert</td>
     <td style="border: 1px solid #ddd; padding: 8px;">Incomes (Gestión de Ingresos)</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">—</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">
+      Corrigió y actualizó la presentación y secciones del Sprint 02
+    </td>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px;">Mondoñedo Rodriguez, Juan Diego Javier</td>
