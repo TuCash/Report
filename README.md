@@ -106,14 +106,22 @@
 <!--Link al repositorio en la organización-->
 # Project Report Collaboration Insights
 
-**TB1 Network Graph**
-<figure style="text-align: center;">
-    <img src= alt="">
-</figure>
 
-**TB1 Contributors**
-<figure style="text-align: center;">
-    < alt="">
+
+**Tb1 Network Graph**
+
+<td><img src="resources/Tb1-Network graph.png" alt="Network-graph"></td>
+
+
+**Tb1 Contributors**
+
+<td><img src="resources/tb1-Contributors.png" alt="TP1 Contributors"></td>
+
+**Tb1 Pulse**
+
+<td><img src="resources/Tb-1Pulse.png" alt="TP1 Pulse"></td>
+
+
 </figure>
 
 
