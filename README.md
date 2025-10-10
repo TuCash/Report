@@ -164,32 +164,54 @@ Asimismo, desarrollé las secciones asignadas del Capítulo IV: Product Design, 
   </tr>
 </table>
 
+  
+  **TP1 Network Graph**
+
+<td><img src="resources/TP-network-graph.png" alt="Network-graph"></td>
+
+
+**TP1 Contributors**
+
+<td><img src="resources/tp1-contributors.png" alt="TP1 Contributors"></td>
+
+**TP1 Pulse**
+
+<td><img src="resources/tp01-pulse.png" alt="TP1 Pulse"></td>
+
 <h2>TP1 — Sprint 2: Asignación de módulos</h2>
 
 <table align="center" border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%;">
   <tr>
     <td align="center" style="border: 1px solid #ddd; padding: 8px;">Integrante</td>
     <td align="center" style="border: 1px solid #ddd; padding: 8px;">Módulo / Responsabilidad (Sprint 2)</td>
+    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Cambios / Notas</td>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px;">Taquiri Calderon, Jhunior Giussepe</td>
     <td style="border: 1px solid #ddd; padding: 8px;">Expenses (Gestión de Gastos)</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">
+      Corrigió y actualizó el análisis competitivo (tabla comparativa de apps) y secciones relacionadas.
+    </td>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px;">Payesa Torres, Harrison Hubert</td>
     <td style="border: 1px solid #ddd; padding: 8px;">Incomes (Gestión de Ingresos)</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">—</td>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px;">Mondoñedo Rodriguez, Juan Diego Javier</td>
     <td style="border: 1px solid #ddd; padding: 8px;">Goals (Metas)</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">—</td>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px;">Huaman Hinostroza, Milenio</td>
     <td style="border: 1px solid #ddd; padding: 8px;">Home &amp; Login</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">—</td>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px;">Mejia Poma, Patricia Valeria</td>
     <td style="border: 1px solid #ddd; padding: 8px;">Profile (Perfil de Usuario &amp; Configuración)</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">—</td>
   </tr>
 </table>
 
