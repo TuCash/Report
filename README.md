@@ -2463,6 +2463,137 @@ La evidencia de colaboración se muestra en las estadísticas de GitHub (commits
   </tbody>
 </table>
 
+# 5.2.2. Sprint 2
+
+> **Proyecto:** TuCash (TP1)  
+> **Objetivo general del Sprint 2:** Consolidar implementación, validación y despliegue de los módulos **Expenses**, **Incomes**, **Goals**, **Home & Login** y **Profile**, entregando una landing funcional y flujo mínimo operable (MVP) para registro/visualización de transacciones y metas.
+
+---
+
+## 5.2.2.1. Sprint Planning 2
+
+| Campo | Detalle |
+|---|---|
+| **Sprint** | Sprint 2 |
+| **Fecha** | 2025-10-09 |
+| **Hora** | 5:00 PM (America/Lima) |
+| **Lugar** | Servidor de Discord del equipo |
+| **Preparado por** | Jhunior Giussepe Taquiri Calderon |
+| **Asistentes (planning)** | Taquiri Calderon, Jhunior Giussepe · Payesa Torres, Harrison Hubert · Mondoñedo Rodriguez, Juan Diego Javier · Mejia Poma, Patricia Valeria · Huaman Hinostroza, Milenio |
+| **Sprint 2 Review (resumen)** | Se revisó el avance del **Dashboard** y la **Landing**, cierre de bugs del Sprint 1, y la integración front–back de **Expenses**/**Incomes**. Se acordó priorizar **Home & Login** y **Profile** para flujo de autenticación completo. |
+| **Sprint 2 Retrospective (resumen)** | Mejoras en coordinación (pareo por módulos), definición de criterios de aceptación por historia y checklist de accesibilidad. Se acordó cerrar PRs con revisión cruzada y demos cortas al final de cada día. |
+| **Meta del Sprint 2** | Entregar una **Landing** funcional y un **MVP navegable** con autenticación (Home & Login), registro/edición de gastos/ingresos, visualización de metas y gestión básica de perfil; documentación y despliegue en ambiente de pruebas. |
+| **Velocidad (planeada)** | 7 |
+| **Suma de Story Points** | 7 |
+
+---
+
+## 5.2.2.2. Aspect Leaders and Collaborators (LACX)
+
+| Aspecto | Líder | Colaboradores |
+|---|---|---|
+| **Expenses (Gestión de Gastos)** | **J. G. Taquiri** | H. Payesa, P. Mejia |
+| **Incomes (Gestión de Ingresos)** | **H. Payesa** | J. G. Taquiri |
+| **Goals (Metas de Ahorro)** | **J. D. Mondoñedo** | J. G. Taquiri |
+| **Home & Login** | **M. Huaman** | H. Payesa |
+| **Profile (Perfil & Settings)** | **P. Mejia** | J. D. Mondoñedo |
+| **QA/UAT & Accesibilidad** | **P. Mejia** | Todo el equipo |
+| **CI/CD & Deploy** | **H. Payesa** | M. Huaman |
+| **Documentación (TP1/Cap. V)** | **J. G. Taquiri** | Todo el equipo |
+
+---
+
+## 5.2.2.3. Sprint Backlog 2
+
+> Introducción: El backlog del Sprint 2 se centra en un **MVP** que conecte autenticación, gestión de movimientos (gastos/ingresos), metas y perfil, con despliegue y evidencias de validación.
+
+| Sprint # | User Story | Work-Item/Task | Descripción | Estimación (SP) | Asignado a | Estado |
+|---|---|---|---|---:|---|---|
+| Sprint 2 | **US-EXP-01** — Registrar gastos | **UT-EXP-API** — Integrar `/api/transactions/expenses` | Conectar formulario de gastos con servicio y validaciones, listar y editar. | 2 | **J. G. Taquiri** | In Process |
+| Sprint 2 | **US-INC-01** — Registrar ingresos | **UT-INC-API** — Integrar `/api/transactions/incomes` | Alta/edición de ingresos y sincronización con dashboard. | 1 | **H. Payesa** | In Process |
+| Sprint 2 | **US-GOAL-01** — Metas de ahorro | **UT-GOAL-UI** — Vista de metas | Crear/editar metas y progreso; enlazar con ingresos/gastos. | 2 | **J. D. Mondoñedo** | To-Review |
+| Sprint 2 | **US-AUTH-01** — Autenticación | **UT-AUTH-UI** — Home & Login | Flujo de login y home inicial con guardas de ruta. | 1 | **M. Huaman** | Done |
+| Sprint 2 | **US-PROFILE-01** — Perfil de usuario | **UT-PROFILE-UI** — Vista de perfil | Actualizar datos básicos y preferencias i18n/tema. | 1 | **P. Mejia** | In Process |
+
+> **Nota:** Total comprometido = **7 SP** (Velocidad planeada).
+
+---
+
+## 5.2.2.4. Development Evidence for Sprint Review
+
+**Alcance técnico implementado (resumen):**
+- **Front-end (Vue 3 + PrimeVue/i18n):** formularios de **Expenses/Incomes**, **Home & Login**, **Profile**, **Goals** (progreso básico), toasts/validaciones.
+- **Back-end (Spring Boot + MySQL):** endpoints CRUD de transacciones y metas; autenticación JWT; CORS; documentación OpenAPI.
+- **Pruebas:** unitarias en front (validadores) y back (servicios/repositorios); smoke tests de integración.
+- **Docs:** actualización de **Cap. V (TP1)**, criterios de aceptación y evidencias.
+
+**Evidencias (capturas) — reemplazar rutas por las reales del repo:**
+- ![Landing - revisión UI](assets/sprint2/landing-review.png)
+- ![Expenses - formulario y lista](assets/sprint2/expenses-form-list.png)
+- ![Incomes - formulario](assets/sprint2/incomes-form.png)
+- ![Goals - progreso de metas](assets/sprint2/goals-progress.png)
+- ![Profile - edición de perfil](assets/sprint2/profile-edit.png)
+- ![Home & Login - flujo completo](assets/sprint2/home-login-flow.png)
+
+---
+
+## 5.2.2.5. Execution Evidence for Sprint Review
+
+**Resumen de alcance logrado:**  
+Se habilitó un recorrido MVP: **Login → Home → Expenses/Incomes → Goals → Profile**, con persistencia en MySQL y feedback visual. Se cerraron bugs de navegación, se mejoró accesibilidad (contraste/labels) y se añadió i18n base (EN/ES).
+
+**Evidencias (screenshots principales):**
+- ![Dashboard](assets/sprint2/dashboard.png)
+- ![Lista de gastos](assets/sprint2/expenses-list.png)
+- ![Crear ingreso](assets/sprint2/income-create.png)
+- ![Detalle meta](assets/sprint2/goal-detail.png)
+- ![Perfil del usuario](assets/sprint2/profile.png)
+
+---
+
+## 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+**Endpoints documentados (OpenAPI):**
+- `POST /api/auth/login` — Iniciar sesión (JWT)
+- `GET /api/users/me` — Perfil autenticado
+- `GET /api/transactions/expenses` · `POST /api/transactions/expenses`
+- `GET /api/transactions/incomes` · `POST /api/transactions/incomes`
+- `GET /api/goals` · `POST /api/goals` · `PATCH /api/goals/{id}`
+
+**Referencias OpenAPI/Swagger del proyecto:**
+- UI: `/swagger-ui.html`
+- Docs JSON: `/v3/api-docs`
+
+> Adjuntar captura: `assets/sprint2/openapi-catalog.png`.
+
+---
+
+## 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+**Resumen de deployment (Sprint 2):**
+- **CI/CD:** GitHub Actions con jobs de *build* (front/back), *test* y *publish artifacts*.
+- **Entornos:**  
+  - **Testing:** front desplegado en hosting estático; back en contenedor (Railway/Render/Docker local).  
+  - **Producción (MVP):** etiqueta `v0.2.0-sprint2` con imágenes publicadas.
+- **Infra breve:** `.env` versionado seguro, variables de conexión MySQL, `CORS` habilitado por dominio.
+
+**Evidencias:**
+- ![Pipeline CI/CD verde](assets/sprint2/cicd-pipeline.png)
+- ![Release v0.2.0-sprint2](assets/sprint2/release.png)
+
+---
+
+## 5.2.2.8. Team Collaboration Insights during Sprint
+
+**Cómo trabajó el equipo:**  
+Pareos cortos por módulo, *daily sync* en Discord (15 min), PRs con 1+ reviewer obligatorio, *demos* al cierre del día. Se siguió tablero Kanban (To-do / In Process / To-Review / Done) y checklist de accesibilidad.
+
+**Analíticos y commits (adjuntar capturas):**
+- ![Contribuciones por integrante](assets/sprint2/github-contribs.png)
+- ![Actividad de PRs y issues](assets/sprint2/github-pr-issues.png)
+- ![Burndown del sprint](assets/sprint2/burndown.png)
+
+
 
 # Video About-the-Product
 
