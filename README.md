@@ -732,6 +732,7 @@ El objetivo de estas entrevistas es identificar y comprender las **necesidades, 
  <br/><br/>
 
 
+
 ### 2.2.2 Registro de entrevistas
 
 #### Entrevistas a estudiantes universitarios
@@ -798,11 +799,11 @@ El objetivo de estas entrevistas es identificar y comprender las **necesidades, 
 
 | Campo         | Información |
 |---------------|-------------|
-| Entrevistado 2 |   Yvonne Ramos          |
+| Entrevistado  |   Yvonne Ramos          |
 | Edad          |      20       |
 | Distrito      |       Ate       |
 | Segmento      |  Estudiantes becados|
-| Foto          | ![Foto entrevistado 2](resources/entrevistayvone.png) |
+| Foto          | ![Foto entrevistado ](resources/entrevistayvone01.png) |
 | Timing        | [Ver grabación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c576_upc_edu_pe/EbkrCYgV7aZHmHPcA-XlWzQB9m_6yofDWtGXL2oeLx4QZw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=EEfR2w) |
 
 
