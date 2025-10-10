@@ -2,9 +2,9 @@
 
 ### Universidad Peruana de Ciencias Aplicadas
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="Logo UPC" width="250">  
+![Logo UPC](https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png)
 
-**CARRERA** </br> Ingeniería de Software 
+**CARRERA** </br> Ingeniería de Software
 
 **CICLO** </br> 2025-02
 
@@ -30,7 +30,7 @@
 | Mejia Poma, Patricia Valeria | u202523271 |
 | Huaman Hinostroza, Milenio | u20211c245 |
 
-**AGOSTO** 
+## AGOSTO
 
 **2025**
 </br>
@@ -61,7 +61,7 @@
         <li>Milenio Huaman Hinostroza - u20211c245</li>
       </ul>
     </td>
-    <td style="border: 1px solid #ddd; padding: 8px;">            
+    <td style="border: 1px solid #ddd; padding: 8px;">
       <ul>
         <li>Capítulo I: Introducción</li>
         <li>Capítulo II: Requirements Elicitation & Analysis</li>
@@ -102,16 +102,12 @@
   </tr>
 </table>
 
-
 <!--Link al repositorio en la organización-->
 # Project Report Collaboration Insights
-
-
 
 **Tb1 Network Graph**
 
 <td><img src="resources/Tb1-Network graph.png" alt="Network-graph"></td>
-
 
 **Tb1 Contributors**
 
@@ -121,9 +117,7 @@
 
 <td><img src="resources/Tb-1Pulse.png" alt="TP1 Pulse"></td>
 
-
 </figure>
-
 
 <p>Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:</p>
 
@@ -172,11 +166,9 @@ Asimismo, desarrollé las secciones asignadas del Capítulo IV: Product Design, 
   </tr>
 </table>
 
-  
   **TP1 Network Graph**
 
 <td><img src="resources/TP-network-graph.png" alt="Network-graph"></td>
-
 
 **TP1 Contributors**
 
@@ -225,14 +217,13 @@ Asimismo, desarrollé las secciones asignadas del Capítulo IV: Product Design, 
   </tr>
 </table>
 
-
-
-
 <!--ÍNDICE-->
-# Contenido 
+# Contenido
+
 [Student Outcome](#student-outcome)
 
 [Capítulo I: Introducción](#capítulo-i-introducción)
+
 - [1.1. Startup Profile](#11-startup-profile)
   - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
   - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
@@ -323,10 +314,6 @@ Asimismo, desarrollé las secciones asignadas del Capítulo IV: Product Design, 
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
   
-
-
-
-
 <!--STUDENT OUTCOME-->
 
 # Student Outcome
@@ -336,20 +323,23 @@ Asimismo, desarrollé las secciones asignadas del Capítulo IV: Product Design, 
 | **3.c1. Comunica oralmente con efectividad a diferentes rangos de audiencia** | **Milenio Huaman**<br>TB1: Parte 1 hasta Segmento Objetivo     .<br>TP1: Presenté el pitch del problema, moderé entrevistas iniciales y expuse la definición de segmentos objetivo al equipo y al docente .<br><br>**Giussepe Taquiri**<br>TB1:Capítulo II hasta User Journey Mapping. .<br>TP1: Conduje reuniones de coordinación, expliqué el flujo general (As-Is/To-Be) y prioricé el backlog para alinear al equipo   <br><br>**Patricia Mejía**<br>TB1: Socialicé hallazgos de entrevistas y presenté el enfoque del Empathy Map y Journey preliminar al grupo.<br>TP1: Empathy Mapping hasta Product Backlog.<br><br>**Juan Diego Mondoñedo**<br>TB1: Expliqué criterios de aceptación y facilité la revisión del Product Backlog con el equipo.<br>TP1: Desde Product Backlog en adelante.<br><br>**Harrison Payesa**<br>TB1: Cerré el Sprint 1 con demo de landing básica y comuniqué observaciones de QA para el siguiente sprint.<br>TP1: Continuación de Product Backlog y revisiones finales. | **TB1:** Se demostró comunicación oral efectiva al presentar problema, segmentos y primeras decisiones de diseño; se adaptó el lenguaje a audiencias técnicas y no técnicas.<br><br>**TP1:** Cada integrante expuso sus avances asignados y justificó decisiones (backlog, journey y artefactos), consolidando un entendimiento común del alcance. |
 | **3.c2. Comunica por escrito con efectividad a diferentes rangos de audiencia** | **Milenio Huaman**<br>TB1: Redacté la problemática y segmentos con lenguaje claro para lectores no técnicos y técnicos.<br>TP1: Parte 1 hasta Segmento Objetivo.<br><br>**Giussepe Taquiri**<br>TB1: Documenté el Cap. II (visión/alcance) y registré acuerdos del equipo con trazabilidad en el repositorio.<br>TP1: Capítulo II hasta User Journey Mapping.<br><br>**Patricia Mejía**<br>TB1: Elaboré plantillas y redacción del Empathy Map y Journey inicial con criterios de claridad y coherencia.<br>TP1: Empathy Mapping hasta Product Backlog.<br><br>**Juan Diego Mondoñedo**<br>TB1: Escribí el Product Backlog con historias, criterios de aceptación y prioridades.<br>TP1: Desde Product Backlog en adelante.<br><br>**Harrison Payesa**<br>TB1: Registré observaciones de QA y checklist de correcciones en el documento del sprint.<br>TP1: Continuación de Product Backlog y revisiones finales. | **TB1:** La redacción de antecedentes, segmentos, mapas y backlog mantuvo coherencia, ortografía y estilo técnico adecuados para distintos públicos.<br><br>**TP1:** La documentación por secciones aseguró claridad y trazabilidad de decisiones, facilitando revisión y continuidad del trabajo. |
 
-
-
 <!--TODAS LAS SECCIONES A COMPLETAR-->
 
 # Capítulo I: Introducción
+
 ## 1.1. Startup Profile
+
 En esta sección se brinda la descripción de nuestra startup, producto y miembros de equipo.
+
 ### 1.1.1. Descripción de la Startup
+
 **Nombre de la Startup:** <br>KASHU<br>
 **Descripción:** <br>Kashu es una empresa emergente Fintech enfocada en desarrollar soluciones digitales innovadoras que promuevan la inclusión financiera y la gestión responsable del dinero en Latinoamérica.<br>
 **Misión:** <br>Nuestra visión es convertirnos en una plataforma tecnológica de referencia para el manejo financiero personal y familiar, ofreciendo herramientas accesibles, intuitivas y escalables que empoderen a los usuarios a tomar mejores decisiones económicas.<br>
 **Visión:** <br>Nuestra misión es democratizar el acceso a la educación y control financiero mediante productos digitales sencillos, inclusivos y seguros, que puedan evolucionar hacia aplicaciones móviles, servicios conectados a IoT y futuras integraciones con ecosistemas financieros.<br>
 
-#### Logo, isotipo y logotipo:
+#### Logo, isotipo y logotipo
+
 <img src="resources/LOGOS.png" alt="LOGO" width="100"><br>
 **LOGO**
 
@@ -372,7 +362,7 @@ En esta sección se brinda la descripción de nuestra startup, producto y miembr
     <td><img src="resources/giussepe.png" alt="Jhunior Giussepe Taquiri Calderon" width="200"></td>
     <td>
       <b>🧑‍💻 Jhunior Giussepe Taquiri Calderon (U20221C576)</b><br><br>
-      Soy estudiante del sexto ciclo de Ingeniería de Software en la UPC, con una formación orientada al desarrollo de software y al uso de diversas tecnologías. 
+      Soy estudiante del sexto ciclo de Ingeniería de Software en la UPC, con una formación orientada al desarrollo de software y al uso de diversas tecnologías.
       Tengo experiencia en C++, Python, Java y SQL, además de bases en HTML, CSS y JavaScript, lo que me ha permitido trabajar tanto en lógica de programación como en aspectos de desarrollo web. <br><br>
       Me considero una persona responsable, organizada y comprometida, con facilidad para el trabajo en equipo y con interés en seguir aprendiendo para fortalecer mi perfil profesional. <br><br>
       Mis expectativas para el curso de Aplicaciones Web son muy altas, ya que representa una oportunidad para profundizar en el desarrollo frontend y backend, así como para aprender
@@ -383,7 +373,7 @@ En esta sección se brinda la descripción de nuestra startup, producto y miembr
     <td><img width="650" height="872" alt="Image" src="https://github.com/user-attachments/assets/55fa2ce1-b068-4481-92a4-ed3c4e313cee" /></td></td>
     <td>
       <b>Harrison Hubert Payesa Torres (U2022201024)</b><br>
-      Mi nombre es Harrison Payesa. Soy estudiante de la carrera de Ingeniería de Software. Tengo conocimientos en lenguaje Python, C++ y JavaScript, ademas de haber hecho proyectos con FrontEnd usando HTML, CSS y JS. En mi tiempo libre suelo ver películas y escuchar 
+      Mi nombre es Harrison Payesa. Soy estudiante de la carrera de Ingeniería de Software. Tengo conocimientos en lenguaje Python, C++ y JavaScript, ademas de haber hecho proyectos con FrontEnd usando HTML, CSS y JS. En mi tiempo libre suelo ver películas y escuchar
     </td>
   </tr>
 
@@ -400,7 +390,7 @@ En esta sección se brinda la descripción de nuestra startup, producto y miembr
 </td>
     <td>
       <b>Patricia Valeria Mejia Poma (U202523271)</b><br>
-      Soy estudiante de Ingeniería de Software en la UPC. Mi experiencia abarca el desarrollo backend con tecnologías como Java y C#, y la gestión de bases de datos como MySQL y PostgreSQL. Además, tengo conocimientos en el desarrollo frontend con HTML, CSS y framework como Tailwind CSS. 
+      Soy estudiante de Ingeniería de Software en la UPC. Mi experiencia abarca el desarrollo backend con tecnologías como Java y C#, y la gestión de bases de datos como MySQL y PostgreSQL. Además, tengo conocimientos en el desarrollo frontend con HTML, CSS y framework como Tailwind CSS.
       Me defino como una persona responsable y comprometida con el trabajo en equipo. Tengo un gran interés en seguir aprendiendo para fortalecer mi perfil profesional, aplicando mis habilidades para aportar soluciones innovadoras. Espero que este curso me permita profundizar en el desarrollo de aplicaciones web y consolidar mi formación como futura ingeniera.
     </td>
   </tr>
@@ -416,47 +406,55 @@ En esta sección se brinda la descripción de nuestra startup, producto y miembr
   </tr>
 </table>
 
-
 ## 1.2. Solution Profile
+
 ### 1.2.1. Antecedentes y problemática
+
 En los últimos años, la situación financiera de los jóvenes universitarios en el Perú ha cobrado especial relevancia. Diversos estudios evidencian que este grupo presenta bajos niveles de educación financiera, lo que repercute directamente en su capacidad de administrar ingresos, controlar gastos y fomentar el ahorro.
 
 De acuerdo con la **Superintendencia de Banca, Seguros y AFP (SBS, 2023)** , la mayoría de jóvenes no cuenta con hábitos financieros formales, a pesar de que manejan recursos constantemente, ya sea a través de ingresos propios, asignaciones familiares o beneficios de becas. Asimismo, un informe de Infobae (2025) resalta que **menos del 50% de jóvenes ahorra regularmente**, reflejando una débil cultura de planificación económica.
 
 En este contexto, el acceso temprano al crédito sin preparación adecuada ha provocado casos de **endeudamiento juvenil (UCV, 2023)**, lo que incrementa el riesgo de estrés financiero y abandono de metas académicas. Incluso entre los universitarios becados, que cuentan con apoyo institucional, persiste la dificultad de gestionar los recursos limitados destinados a su manutención
 
-**Who (¿Quiénes?):** 
+**Who (¿Quiénes?):**
 <br>
+
 - Estudiantes universitarios entre 16 y 25 años en el Perú, que pueden ser independientes, dependientes de sustento familiar o becados. Este grupo maneja recursos limitados y enfrenta dificultades para organizar sus ingresos, gastos y metas de ahorro.
 <br>
 
-**What (¿Qué sucede?):** 
+**What (¿Qué sucede?):**
 <br>
+
 - Estos jóvenes carecen de hábitos financieros sólidos y no cuentan con herramientas simples y personalizadas para gestionar su dinero. El resultado es una baja capacidad de ahorro, descontrol en los egresos y, en algunos casos, endeudamiento prematuro.
 <br>
 
 **Where (¿Dónde ocurre?):**
 <br>
+
 - Principalmente en entornos urbanos y semiurbanos del Perú, donde los jóvenes acceden a educación superior, disponen de smartphones e internet, pero carecen de aplicaciones adaptadas a su contexto financiero estudiantil
 <br>
 
-**When (¿Cuándo ocurre?):** 
+**When (¿Cuándo ocurre?):**
 <br>
+
 - De manera continua a lo largo de su vida académica, en el manejo diario de mesadas, ingresos de trabajos eventuales o recursos de becas. El problema se intensifica en momentos clave como fin de mes, pagos de matrícula, servicios o imprevistos.
 <br>
 
 **Why (¿Por qué es un problema?):**
 <br>
+
 - La falta de educación y control financiero limita la autonomía económica de los jóvenes, genera estrés financiero, incrementa el riesgo de endeudamiento y compromete su capacidad de alcanzar objetivos académicos y personales.
 <br>
 
 **How (¿Cómo lo solucionan hoy?):**
 <br>
+
 - Los estudiantes gastan sin un registro claro, no distinguen entre necesidades y deseos, y no planifican metas de ahorro. Las soluciones actuales (apps bancarias o Excel) resultan poco prácticas, impersonales o difíciles de mantener en el tiempo.
  <br>
 
 **How much (¿Cuánto cuesta no resolverlo?):**
 <br>
+
 - Según Infobae (2025), menos del 50% de jóvenes peruanos ahorra de forma regular.
 
 - La SBS (2023) reporta que la mayoría de jóvenes no cuenta con educación financiera suficiente.
@@ -467,7 +465,9 @@ En este contexto, el acceso temprano al crédito sin preparación adecuada ha pr
  <br>
 
 ### 1.2.2. Lean UX Process
+
 #### 1.2.2.1. Lean UX Problem Statements
+
 Se ha detectado que, aunque los usuarios cuentan con diversas herramientas como Excel, aplicaciones bancarias o notas manuales, no logran mantener un control disciplinado y visualmente claro de su dinero. Como resultado, experimentan falta de claridad sobre sus gastos, baja motivación para registrar movimientos financieros, abandono prematuro de las herramientas existentes y poca percepción de valor en los resultados obtenidos es por ello que nos planteamos lo siguiente.
 
 ¿Cómo podríamos diseñar una solución que permita a los estudiantes llevar un registro simple y visual de sus finanzas, recibir recomendaciones y alertas personalizadas y fijar metas claras, de manera que perciban un mayor control de su dinero, aumenten la frecuencia de uso de la plataforma y logren mejores resultados en su bienestar financiero?
@@ -480,6 +480,7 @@ Se ha detectado que, aunque los usuarios cuentan con diversas herramientas como 
 
 **Pain Points (dolores):**
 <br>
+
 - Falta de claridad sobre en qué se gasta el dinero.
 - Dificultad para llevar un registro disciplinado en Excel o manual.
 - Ausencia de alertas cuando se supera un presupuesto o se acerca un pago importante.
@@ -487,12 +488,14 @@ Se ha detectado que, aunque los usuarios cuentan con diversas herramientas como 
 
 **Gap (brecha actual):**
 <br>
+
 - Existen apps bancarias, pero no son inclusivas ni flexibles.
 - Las soluciones globales (ej. Mint, Fintonic) no están adaptadas al contexto latinoamericano (moneda local, idioma, accesibilidad).
 - El mercado latinoamericano aún carece de herramientas sencillas, visuales e inclusivas.</br>
 
 **Vision/Strategy:**
 <br>
+
 - Brindar una plataforma digital inclusiva, simple y visual que ayude a las personas a registrar, categorizar y analizar sus finanzas personales.
 - Evolucionar hacia integraciones móviles, IoT y APIs bancarias para automatizar el proceso.</br>
 
@@ -500,6 +503,7 @@ Se ha detectado que, aunque los usuarios cuentan con diversas herramientas como 
 <br>Estudiantes jóvenes (16–25 años) en Perú y Latinoamérica urbana, con acceso a internet y smartphones, pero sin hábitos financieros consolidados.</br>
 
 #### 1.2.2.2. Lean UX Assumptions
+
 **¿Quién es el usuario?** <br>El usuario es principalmente un joven estudiante universitarios que recibe ingresos de manera regular, aunque en muchos casos enfrenta gastos variables, deudas recurrentes o dificultades para ahorrar. Es alguien que busca tener mayor control sobre su dinero, pero que hasta ahora no ha encontrado una herramienta sencilla y confiable que le permita organizarse sin invertir demasiado tiempo o esfuerzo.<br>
 
 **¿Dónde encaja nuestro producto en su vida?** <br>Nuestro producto encaja en su vida diaria como un aliado silencioso: no pretende reemplazar su banco ni complicarle con procesos técnicos, sino convertirse en el espacio central donde pueda visualizar de forma clara y ordenada el estado de sus finanzas. Allí, el usuario podrá entender en qué se está yendo su dinero, fijar metas y recibir alertas que lo ayuden a tomar mejores decisiones<br>
@@ -513,6 +517,7 @@ Se ha detectado que, aunque los usuarios cuentan con diversas herramientas como 
 **¿Cómo debe verse nuestro producto y cómo debe comportarse?** <br>El producto debe verse moderno y confiable, con un diseño amigable y profesional que inspire seguridad, pero también accesible para cualquier persona, incluso quienes no tienen experiencia en herramientas financieras. Su comportamiento debe ser fluido y coherente: ágil al momento de registrar datos, consistente en sus reportes y proactivo al enviar recomendaciones personalizadas.<br>
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
+
 **Hypothesis Statement 1:** <br>**Creemos que** si ofrecemos una forma rápida y sencilla de registrar ingresos y egresos, los usuarios mantendrán un registro constante de su vida financiera.
 **Sabremos que** hemos tenido éxito **cuando** al menos el 60% de los usuarios registre movimientos al menos tres veces por semana.<br>
 
@@ -527,28 +532,33 @@ Sabremos que hemos tenido éxito cuando al menos el 40% de los usuarios logren c
 </br>
 
 #### 1.2.2.4. Lean UX Canvas
+
 <td><img src="resources/canvas.png" alt="LeanUxCanvas"></td>
 
 [Enlace para accerder al canva](https://miro.com/app/board/uXjVJL9MIK8=/?share_link_id=902556983183)
 
 ## 1.3. Segmentos objetivo
+
 ### Segmentación del Dominio del Problema
+
 La solución TuCash está orientada a dos segmentos principales de usuarios que enfrentan retos financieros en su vida diaria y que necesitan herramientas accesibles, visuales y confiables para mejorar el control de sus ingresos y gastos.
 
 #### 1. Estudiantes independientes (16–24 años)
+
 - **Demografía:**
 jóvenes entre 18 y 24 años que estudian y generan sus propios ingresos a través de trabajos de medio tiempo, emprendimientos o empleos formales.
 
-- **Características:** 
+- **Características:**
 manejan ingresos variables y limitados, suelen cubrir gastos básicos como alimentación, transporte y en algunos casos vivienda. Priorizan la optimización de su dinero y buscan herramientas digitales que les ayuden a no perder el control.
 
 - **Necesidades:**
 un sistema ágil que les permita registrar ingresos, controlar egresos diarios y generar reportes visuales para mantener equilibrio financiero mes a mes.
 
-- **Sustento:** 
+- **Sustento:**
 según el INEI (2023), el 36% de jóvenes peruanos entre 18 y 24 años trabaja y estudia simultáneamente, lo que genera presión sobre su administración financiera.
 
 #### 2. Estudiantes con sustento familiar (16–24 años)
+
 - **Demografía:**
 jóvenes entre 16 y 24 años, dependientes económicamente de padres o tutores, con un ingreso mensual fijo o variable recibido como mesada o asignación familiar.
 
@@ -558,10 +568,11 @@ jóvenes entre 16 y 24 años, dependientes económicamente de padres o tutores, 
 - **Necesidades:**
  una herramienta que los motive a categorizar gastos, visualizar en qué se va el dinero y aprender hábitos de ahorro.
 
-- **Sustento:** 
+- **Sustento:**
 la ENAHO (INEI, 2022) muestra que más del 55% de jóvenes universitarios depende económicamente del hogar, lo que refleja la importancia de fomentar hábitos financieros desde la dependencia familiar.
 
 #### 3. Estudiantes becados (16–24 años)
+
 - **Demografía:** jóvenes entre 16 y 24 años que acceden a becas parciales o completas (estatales o privadas), muchas veces provenientes de contextos de vulnerabilidad socioeconómica.
 
 - **Características:** aunque su matrícula y pensiones pueden estar cubiertas, suelen tener ingresos reducidos para manutención y deben administrar con cuidado los recursos otorgados. Son más sensibles a los imprevistos financieros.
@@ -584,7 +595,6 @@ El análisis competitivo resulta fundamental para comprender el panorama del mer
 
 ### Competitive Analysis
 
-
 | **Perfil**                    | **Mi Plata**                                                | **Controlar Gastos**                         | **Monefy**                                        | **Interbank (Banco, Perú)**                                                                 | **TuCash (Perú)**                                                                 |
 |------------------------------|--------------------------------------------------------------|----------------------------------------------|---------------------------------------------------|----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | **Overview**                 | App peruana para registrar ingresos/gastos y definir metas. | App simple de registro diario con reportes.  | App internacional con registro visual rápido.     | App bancaria para clientes Interbank: cuentas, tarjetas, pagos, transferencias y vista de gastos. | App peruana para estudiantes: ingresos, gastos, metas y contenido de educación financiera. |
@@ -596,10 +606,6 @@ El análisis competitivo resulta fundamental para comprender el panorama del mer
 | **Precios**                  | Gratuita / Premium accesible.                               | Gratuita.                                    | Gratis / Pro de pago único.                       | App sin costo; comisiones según producto/operación bancaria.                                 | Freemium: básica gratis + Premium económico en soles.                            |
 | **Canales de distribución**  | App móvil (iOS/Android).                                     | App móvil.                                   | App móvil.                                        | App móvil (iOS/Android), banca por internet y red de agencias/ATMs.                           | App móvil (iOS/Android); futura versión web.                                     |
 
-
-
-
-
 ## Análisis SWOT – TuCash
 
 | **Categoría**   | **Descripción** |
@@ -609,25 +615,26 @@ El análisis competitivo resulta fundamental para comprender el panorama del mer
 | **Oportunidades** | - Open Finance/APIs locales para importar y categorizar movimientos.<br>- Alianzas con universidades, becas y programas de inclusión financiera.<br>- Crecimiento de pagos digitales y educación financiera en Perú/LATAM.<br>- Diferenciación con gamificación (retos, rachas) y contenidos contextuales.<br>- Canales orgánicos (TikTok/IG) y programas de referidos para adquisición. |
 | **Amenazas**    | - Apps internacionales y bancarias ampliando funcionalidades PFM.<br>- Desconfianza por privacidad de datos y riesgo de incidentes de seguridad.<br>- Cambios regulatorios (protección de datos, KYC/AML) y políticas de iOS/Android.<br>- Costos de adquisición crecientes y saturación de la categoría.<br>- Volatilidad económica que puede afectar la disposición a pagar. |
 
-
-
 ---
 
 ## 2.1.2 Estrategias y tácticas frente a competidores
 
 ### Diferenciación por localización
+
 - Categorías y subcategorías propias del contexto peruano (transporte público, recargas, menú universitario, pensión, etc.).
 - Moneda **PEN** por defecto, formatos locales y feriados/regímenes académicos del país.
 - Tono y microcopys en español peruano; glosario simple de conceptos financieros.
 - Soporte e-learning breve dentro de la app (tips en 15–30 palabras) contextualizado al mercado local.
 
 ### Simplicidad con educación financiera
+
 - **UX “rápida y visual”** (registro en 2–3 toques, autocompletar, favoritos, plantillas).
 - Flujos sin fricción: ingreso/egreso, metas y presupuesto en una sola vista.
 - Módulo educativo integrado: microcursos, retos de ahorro y “consejo del día” dentro del dashboard.
 - Onboarding guiado con objetivos (ahorro, control de gastos hormiga) y checklist inicial.
 
 ### Segmentación clara
+
 - Foco en:
   - **Estudiantes con mesada**, **estudiantes independientes** y **becados**.
 - Tácticas:
@@ -636,17 +643,20 @@ El análisis competitivo resulta fundamental para comprender el panorama del mer
   - Beneficios y contenidos específicos (p. ej., “kit de supervivencia de fin de mes”).
 
 ### Modelo freemium atractivo
+
 - **Gratis (core):** registro de ingresos/egresos, categorías básicas, metas simples, reportes esenciales, exportación CSV.
 - **Premium (en soles):** metas avanzadas, presupuestos por categoría, reportes automáticos, recordatorios inteligentes, reglas de auto-categorización, microcursos y retos ampliados.
 - Paywall claro, sin fricciones, con prueba limitada por tiempo o funcionalidades.
 
 ### Confianza y transparencia
+
 - Política de privacidad clara y en lenguaje no técnico; centro de control de datos dentro de la app.
 - Cifrado en tránsito y en reposo; mínimos permisos; anonimización para analítica.
 - Cumplimiento con normativa local de datos personales; registro de cambios y auditoría básica.
 - Página de **estatus** y canal de soporte visible en la app.
 
 ### Marketing educativo
+
 - **Alianzas con universidades** (charlas, talleres express, códigos de referido).
 - Contenido útil en redes: consejos financieros, microcursos, retos semanales y testimonios.
 - Narrativa de impacto social: mejora de hábitos financieros en jóvenes y familias.
@@ -663,10 +673,10 @@ El objetivo de estas entrevistas es identificar y comprender las **necesidades, 
 - **Estudiantes que trabajan y estudian**  
 - **Estudiantes becados**  
 
-
 ## Segmento 1: Estudiantes con mesada de los padres  
 
 **Preguntas principales:**  
+
 1. ¿De cuánto es aproximadamente tu mesada y con qué frecuencia la recibes (semanal, mensual)?  
 2. ¿Qué haces normalmente para administrar tu mesada: la gastas toda, intentas ahorrar o llevas un registro?  
 3. ¿En qué gastas más tu mesada (alimentación, transporte, ocio, materiales de estudio, salud)?  
@@ -683,6 +693,7 @@ El objetivo de estas entrevistas es identificar y comprender las **necesidades, 
 ## Segmento 2: Estudiantes que trabajan y estudian  
 
 **Preguntas principales:**  
+
 1. ¿Cómo organizas actualmente tu dinero entre ingresos del trabajo y gastos de la universidad?  
 2. ¿Llevas un registro de cuánto dinero te sobra o falta cada mes? ¿Cómo lo haces?  
 3. ¿Qué gastos fijos son los más importantes para ti (pensión universitaria, transporte, alimentación, servicios, deudas)?  
@@ -696,9 +707,10 @@ El objetivo de estas entrevistas es identificar y comprender las **necesidades, 
 
 ---
 
-##  Segmento 3: Estudiantes becados  
+## Segmento 3: Estudiantes becados  
 
 **Preguntas principales:**  
+
 1. ¿Cómo administras actualmente el dinero que recibes de tu beca (ej. gastos básicos, ahorro, ocio)?  
 2. ¿Qué tan seguido llevas un registro de en qué usas tu beca (diario, semanal, nunca)?  
 3. ¿Qué gastos principales cubres con tu beca (alimentación, materiales, transporte, vivienda, salud)?  
@@ -711,11 +723,10 @@ El objetivo de estas entrevistas es identificar y comprender las **necesidades, 
 10. Si TuCash ofreciera funciones Premium, ¿qué te gustaría que incluya (ej. ahorro de emergencias, metas personalizadas, integración con cuentas universitarias)?  
  <br/><br/>
 
-
-
 ### 2.2.2 Registro de entrevistas
 
 #### Entrevistas a estudiantes universitarios
+
 ---
 
 | Campo        | Información |
@@ -763,6 +774,7 @@ El objetivo de estas entrevistas es identificar y comprender las **necesidades, 
 | Timing        | [Ver grabación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c245_upc_edu_pe/Eflh5wAoWbxPpZSqmMyLJjEBJkN8X94tz-ldpcdm2yxGeg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=suvd4d) |
 |Segmento|Estudiantes becados
 |Preguntas|¿Cómo administras actualmente el dinero que recibes de tu beca (ej. gastos básicos, ahorro, ocio)? /¿Qué tan seguido llevas un registro de en qué usas tu beca (diario, semanal, nunca)? / ¿Qué gastos principales cubres con tu beca (alimentación, materiales, transporte, vivienda, salud)?/  ¿Has tenido problemas para que el dinero de tu beca dure todo el mes o el ciclo académico? /¿Qué tan útil sería que TuCash te ayude a planificar cuánto gastar y cuánto ahorrar de tu beca?  /¿Preferirías que TuCash te dé consejos automáticos de organización o solo un registro de tus movimientos? /¿Qué tan importante es para ti que la app te muestre reportes fáciles de compartir con tus padres o tutores?  /¿Qué formato te sería más cómodo: notificaciones rápidas, gráficos sencillos o reportes detallados?/¿Confiarías en una app como TuCash para organizar el dinero de tu beca? ¿Qué te daría más confianza?/Si TuCash ofreciera funciones Premium, ¿qué te gustaría que incluya (ej. ahorro de emergencias, metas personalizadas, integración con cuentas universitarias)?  |
+
 ---
 
 | Campo         | Información |
@@ -786,103 +798,119 @@ El objetivo de estas entrevistas es identificar y comprender las **necesidades, 
 | Foto          | ![Foto entrevistado ](resources/entrevistayvone01.png) |
 | Timing        | [Ver grabación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c576_upc_edu_pe/EbkrCYgV7aZHmHPcA-XlWzQB9m_6yofDWtGXL2oeLx4QZw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=EEfR2w) |
 
-
-
-
-
-
-
 ### 2.2.3 Análisis de entrevistas
 
-#### Análisis del segmento 
+#### Análisis del segmento
 
 **Segmento 1: Estudiantes con mesada de los padres**
 
 #### Entrevistado 1 (Hany Berrocal)
+
 #### Perfil
+
 - Hany, de 20 años, estudiante universitario en Miraflores.
 - Recibe mesada de sus padres y busca gestionar mejor su dinero.
 
 #### Insights clave
+
 - **Administración del dinero:** Hany intenta ahorrar, pero a veces gasta más de lo previsto, mostrando la dificultad de mantener un control financiero constante.
 - **Gastos principales:** Alimentación y transporte consumen la mayor parte de su mesada; ocio y materiales de estudio se gestionan según disponibilidad.
 - **Uso de apps:** Ha probado aplicaciones como Wallet y Spendee; valora los gráficos y la categorización de gastos, pero encuentra tedioso el registro manual y algunas funciones de pago limitantes.
 
 #### Estrategias actuales
+
 - Anota gastos grandes para no perder control.
 - Ajusta su consumo o pide apoyo adicional a sus padres cuando se queda sin dinero.
 
 #### Apertura a soluciones digitales
+
 - Interesado en recordatorios automáticos y funcionalidades que permitan monitorear y planificar sus gastos.
 - Valora integración con tarjetas o billeteras digitales y recomendaciones personalizadas.
 
 #### Necesidades
+
 - Herramientas para monitorear gastos diarios y evitar quedarse sin dinero antes de recibir la mesada.
 - Funciones de planificación de ahorro, con metas pequeñas y grandes, para motivar hábitos financieros positivos.
 - Visualización clara de gastos: gráficos, reportes semanales y notificaciones rápidas para facilitar la toma de decisiones.
 
 #### Oportunidades para TuCash
+
 - **Recordatorios automáticos:** Alertas cuando se aproxima al límite de gasto diario o mensual.
 - **Conexión con tarjetas/billeteras:** Registrar gastos automáticamente sin intervención manual.
 - **Recomendaciones personalizadas:** Consejos de ahorro, avisos sobre gastos excesivos y sugerencias para alcanzar metas de ahorro.
 - **Reportes visuales:** Gráficos intuitivos y resúmenes semanales que permitan entender hábitos de consumo.
 
 ---
+
 #### Entrevistado 2 (Brigitte  Pablo)
+
 #### Perfil
-* **Nombre:** Brigitte Lorena Pablo Muñoz
-* **Edad:** 21 años
-* **Ocupación:** Estudiante de Derecho (8º ciclo)
-* **Fuente de Ingresos:** Mesada semanal de S/ 200 de sus padres.
+
+- **Nombre:** Brigitte Lorena Pablo Muñoz
+
+- **Edad:** 21 años
+- **Ocupación:** Estudiante de Derecho (8º ciclo)
+- **Fuente de Ingresos:** Mesada semanal de S/ 200 de sus padres.
 
 #### Insights Clave
-* **Gestión Actual:** Administración **100% intuitiva y mental**. No usa herramientas. Su principal meta es evitar quedarse sin dinero.
-* **Patrón de Gasto:** Los gastos principales y recurrentes son **transporte y alimentación** en la universidad.
-* **Experiencia Digital:** **Cero experiencia** con apps de finanzas. Es un perfil "virgen", sin hábitos preexistentes.
-* **Preferencia de Comunicación:** Valora las **notificaciones rápidas y directas** por encima de los gráficos o reportes complejos. Busca inmediatez.
 
-#### Necesidades 
-1.  **Registro de Gastos Ultra-Rápido:** Un método para añadir gastos en segundos, sin fricción.
-2.  **Feedback en Tiempo Real:** Notificaciones automáticas que le indiquen el estado de su presupuesto semanal.
-3.  **Metas de Ahorro Pequeñas:** Se motiva con objetivos a corto plazo y alcanzables (ej: "Ahorrar S/ 20 para el fin de semana").
-4.  **Visibilidad sin Esfuerzo:** Un resumen claro de "cuánto dinero le queda" sin necesidad de análisis.
+- **Gestión Actual:** Administración **100% intuitiva y mental**. No usa herramientas. Su principal meta es evitar quedarse sin dinero.
 
-#### Oportunidades para TuCash 
-* **Feature: "Quick Add"**: Botón principal para registrar un gasto en dos clics. **Prioridad: Velocidad**.
-* **Feature: Notificaciones Inteligentes**: Alertas automáticas y personalizadas.
-    * `"Has gastado el 50% de tu mesada."`
-    * `"Tu mayor gasto esta semana es en alimentación."`
-* **Feature: Micro-Metas de Ahorro**: Módulo para que el usuario defina y rastree pequeños objetivos de ahorro, fomentando el hábito.
-* **UI/UX:** Diseñar un **Dashboard simple y visual** centrado en una sola métrica: **"Dinero Restante"**.
+- **Patrón de Gasto:** Los gastos principales y recurrentes son **transporte y alimentación** en la universidad.
+- **Experiencia Digital:** **Cero experiencia** con apps de finanzas. Es un perfil "virgen", sin hábitos preexistentes.
+- **Preferencia de Comunicación:** Valora las **notificaciones rápidas y directas** por encima de los gráficos o reportes complejos. Busca inmediatez.
+
+#### Necesidades
+
+1. **Registro de Gastos Ultra-Rápido:** Un método para añadir gastos en segundos, sin fricción.
+2. **Feedback en Tiempo Real:** Notificaciones automáticas que le indiquen el estado de su presupuesto semanal.
+3. **Metas de Ahorro Pequeñas:** Se motiva con objetivos a corto plazo y alcanzables (ej: "Ahorrar S/ 20 para el fin de semana").
+4. **Visibilidad sin Esfuerzo:** Un resumen claro de "cuánto dinero le queda" sin necesidad de análisis.
+
+#### Oportunidades para TuCash
+
+- **Feature: "Quick Add"**: Botón principal para registrar un gasto en dos clics. **Prioridad: Velocidad**.
+
+- **Feature: Notificaciones Inteligentes**: Alertas automáticas y personalizadas.
+  - `"Has gastado el 50% de tu mesada."`
+  - `"Tu mayor gasto esta semana es en alimentación."`
+- **Feature: Micro-Metas de Ahorro**: Módulo para que el usuario defina y rastree pequeños objetivos de ahorro, fomentando el hábito.
+- **UI/UX:** Diseñar un **Dashboard simple y visual** centrado en una sola métrica: **"Dinero Restante"**.
 
 ---
 
 **Segmento 2: Estudiante independiente**
 
 #### Entrevistado 3 (Julieta Cardenas)
+
 #### Perfil
+
 - Julieta Cardenas, estudiante universitario de 20 años, trabaja y financia sus estudios de manera independiente.
 - Maneja ingresos propios que distribuye entre pensión universitaria, transporte, alimentación y gastos personales.
 - Tiene experiencia básica con herramientas de registro como Excel o bloc de notas.
 
 #### Insights clave
+
 - **Administración del dinero:** Organiza sus ingresos priorizando la pensión universitaria, luego transporte y alimentación. Sin embargo, presenta dificultades para separar gastos académicos de los personales.
 - **Gastos principales:** Pensión universitaria, transporte, alimentación y plan de celular.
 - **Registro financiero:** Usa métodos básicos (Excel y notas en el celular), lo que le permite calcular excedentes, pero no llevar un control profundo.
 - **Confianza y seguridad:** Dispuesto a ingresar datos reales en TuCash siempre que la seguridad esté garantizada, destacando su conocimiento del sector financiero.
 
 #### Estrategias actuales
+
 - Separa inicialmente la pensión universitaria y algunos gastos fijos.
 - Recurre a registros simples (Excel, notas) para identificar sobrantes.
 - Ajusta entre gastos personales y académicos, aunque a veces se desordena y compromete pagos importantes.
 
 #### Apertura a soluciones digitales
+
 - Interesado en recordatorios automáticos de pagos como prioridad para evitar retrasos.
 - Aprecia reportes simples, pero con la opción de acceder a mayor detalle bajo demanda.
 - Da mucha importancia a que la app tenga modo offline para seguir registrando gastos sin internet.
 - Considera atractiva la integración con billeteras digitales y asesoría financiera personalizada en una versión Premium.
 
 #### Necesidades
+
 - Recordatorios de fechas de pago (pensión, servicios, celular) para evitar atrasos.
 - Balance mensual claro de ingresos vs. gastos para identificar excesos y oportunidades de ahorro.
 - Separación clara entre gastos académicos y personales.
@@ -890,56 +918,64 @@ El objetivo de estas entrevistas es identificar y comprender las **necesidades, 
 - Seguridad confiable para ingresar información financiera real.
 
 #### Oportunidades para TuCash
+
 - **Recordatorios automáticos de pagos:** Notificaciones previas a vencimientos (ej. pensión universitaria, celular).
 - **Balance mensual simple + detallado:** Vista clara de ingresos y gastos con opción de profundizar.
 - **Modo offline:** Registro de transacciones sin depender de internet.
 - **Integración con billeteras digitales:** Automatizar registro de gastos y mejorar la experiencia.
 - **Funciones Premium:** Reportes avanzados y asesoría financiera personalizada para usuarios con ingresos propios.
 
-
 <br/>
 
 **Estudiantes becados (18–25 años):**  
+
 ### Entrevista (Heydi Ventura)
+
 #### Perfil
+
 - Hany, de 19 años, estudiante universitario en UPCH( Universidad Peruana Cayetano Heredia).
 - Es beneficiaria de la beca 18.
 
 #### Insights clave
+
 - **Administración del dinero:** Suele ser desordenada en cuanto a la administracion del dinero recibido de la beca y no lleva registros ni planificaicones de gastos.
 - **Gastos principales:** Aliemntacion, alquiler, comida, salud y pasajes, en ocasiones suele gastar en osico o diversion.
 - **Uso de apps:** No ah usado aplicaciones que le ayuden administrar su dinero, solo tiene algunas anotaciones en papel.
 
 #### Estrategias actuales
+
 - Anota gastos fijos para que no genere deudas.
 - Ajusta su consumo para llegar a fin de mes.
 
 #### Apertura a soluciones digitales
+
 - Interesado en notificaciones push por que suele ser descuidada.
 - Visualizacion de balance de ingresos y egresos.
+
 #### Necesidades
+
 - Herramientas para monitorear gastos diarios.
 - Visualización clara de gastos: gráficos, reportes semanales y notificaciones rápidas para facilitar la toma de decisiones.
 
 #### Oportunidades para TuCash
+
 - **Recordatorios automáticos:** notificaciones cuando se aproxima al límite de gasto diario o mensual.
 - **Reportes visuales:** Gráficos intuitivos y resúmenes semanales que permitan entender hábitos de consumo.
 - **Agente especializado** Un agente IA que mediante comando de voz llene la data de gastos.
 
-
 ---
-
-
 
 ### Entrevista (Yvonne Ramos)
 
 #### Perfil
+
 - **Nombre:** Yvonne Ramos
-- **Programa:** Estudia Ingeniería Civil en la UTP 
+- **Programa:** Estudia Ingeniería Civil en la UTP
 - **Situación:** Universitaria con **ingreso principal por beca.
 - **Responsabilidades de gasto:** Alimentación, transporte, materiales académicos; gastos ocasionales en salud; ocio solo con lo que sobra.
 
 #### Insights clave
+
 - **Registro intermitente:** Control semanal en libreta, no diario → baja constancia y poca visibilidad fina.
 - **Dolor de mes a mes:** La beca no siempre alcanza por gastos inesperados (fotocopias, proyectos, salidas de campo), subida de pasajes y salud.
 - **Necesidad de guía, no solo registro:** Prefiere consejos automáticos y alertas sobre un simple log.
@@ -948,13 +984,16 @@ El objetivo de estas entrevistas es identificar y comprender las **necesidades, 
 - **Preferencias de UI:** Gráficos sencillos para el día a día + reporte mensual detallado.
 
 #### Estrategias actuales
+
 - **Presupuesto mental por “partes”:** básicos (alimentación/transporte), materiales y un pequeño ahorro.
 - **Ajuste de consumo** cuando el mes se complica.
 
 #### Apertura a soluciones digitales
+
 - **Alta**, siempre que la app sea **simple, segura** y ofrezca **alertas y recomendaciones** prácticas.
 
 #### Necesidades
+
 - **Monitoreo de gastos diarios** con mínima fricción.
 - **Planificación** de cuánto gastar/ahorrar de la beca.
 - **Visualizaciones claras** (gráficos y resúmenes) + notificaciones rápidas.
@@ -962,6 +1001,7 @@ El objetivo de estas entrevistas es identificar y comprender las **necesidades, 
 - **Funciones Premium básicas:** fondo de emergencias y metas sencillas (p. ej., materiales).
 
 #### Oportunidades para TuCash
+
 - **Presupuesto por sobres (buckets):** básicos, materiales, transporte, salud, ocio.
 - **Alertas inteligentes:** “Estás a 80% del presupuesto de transporte”, “Gasto inusual en materiales esta semana”.
 - **Planificador de beca:** sugerir % para gasto vs. ahorro al inicio del mes (p. ej., 70/20/10).
@@ -970,13 +1010,14 @@ El objetivo de estas entrevistas es identificar y comprender las **necesidades, 
 - **Metas simples:** “Ahorrar S/ X para material Y en N semanas” con barra de progreso.
 - **Respaldo institucional:** espacio para sello/aval de la universidad o convenios.
 
-
 ## 2.3. Needfinding
+
 ### 2.3.1. User Personas
+
 **Estudiantes con mesada de los padres**  
 <img src="resources/Estudiantes con mesada de los padres.png" alt="User Journey Mapping Estudiantes con mesada de los padres">
 **Estudiantes que trabajan y estudian**  
- 
+
  <img src="resources/User Journey Mapping  Estudiantes que trabajan y estudian1.png" alt="User Journey Mapping - Estudiantes que trabajan y estudian">
 
 **Estudiantes becados**
@@ -999,19 +1040,19 @@ El objetivo de estas entrevistas es identificar y comprender las **necesidades, 
 | Manejo de deudas o préstamos | Rarely | Low | Often | High | Sometimes | Medium |
 | Educación financiera/autocapacitación | Sometimes | Medium | Often | High | Always | High |
 
-
 ### 2.3.3. User Journey Mapping
- 
+
 ### Segmento 1: Estudiantes con mesada
+
 <img src="resources/User Journey Mapping Estudiantes con mesada.png" alt="User Journey Mapping - Estudiantes con mesada" >
 
 ### Segmento 2: Estudiantes que trabajan y estudian
+
 <img src="resources/User Journey Mapping  Estudiantes que trabajan y estudian.png" alt="User Journey Mapping - Estudiantes que trabajan y estudian" >
 
 ### Segmento 3: Estudiantes becados
+
 <img src="resources/User Journey Mapping studiantes becados.png" alt="User Journey Mapping - Estudiantes becados">
-
-
 
 ### 2.3.4. Empathy Mapping
 
@@ -1019,18 +1060,16 @@ El objetivo de estas entrevistas es identificar y comprender las **necesidades, 
 
 <img src="resources/EstudianteConSustentoFamiliar-EmpathyMapping.png" alt="Empathy Mapping Estudiantes con mesada de los padres">
 
-
 **Empathy Map: Estudiante que trabaja y estudia**  
 
 <img src="resources/EstudianteTrabajaEstudia-EmpathyMapping.png" alt="Empathy Mapping Estudiantes que trabajan y estudian">
-
 
 **Empathy Map: Estudiante becado**  
 
 <img src="resources/EstudianteBecado-EmpathyMapping.png" alt="Empathy Mapping Estudiantes becados">
 
-
 ### 2.3.5. As-is Scenario Mapping
+
 <p><br><br></p>
 
 **Estudiante con Sustento Familiar**  
@@ -1041,7 +1080,6 @@ El objetivo de estas entrevistas es identificar y comprender las **necesidades, 
 
 **Estudiante Becado**  
 <img src="resources/EstudianteBecado_As-is Scenario.jpg" alt="As-is Scenario Estudiantes becados">
-
 
 ## 2.4. Ubiquitous Language
 
@@ -1118,25 +1156,25 @@ El objetivo de estas entrevistas es identificar y comprender las **necesidades, 
   </tbody>
 </table>
 
-
 # Capítulo III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping
+
 El mapeo de escenarios “To-Be” nos permite visualizar cómo será el proceso o flujo de trabajo deseado del usuario una vez que implementemos nuestra solución. Basado en nuestros segmentos objetivo, elaboramos un To-Be Scenario Mapping para observar cómo Kashu aborda las necesidades de cada usuario, detallando sus acciones, pensamientos y emociones en cada fase de su viaje financiero.
 
 ---
 
 #### Segmento 1: Estudiantes sustento familiar
+
 <img src="resources/EstudianteSustentoFamiliar-to-be-sce-map.jpg" alt="To-Be Scenario Mapping Estudiantes con mesada de los padres">
 
-
 #### Segmento 2: Estudiantes que trabajan y estudian
+
 <img src="resources/EstudianteTrabajaEstudia-to-be-sce-map.jpg" alt="To-Be Scenario Mapping Estudiantes que trabajan y estudian">
 
-
 #### Segmento 3: Estudiantes becados
-<img src="resources/EstudianteBecado-to-be-sce-map.jpg" alt="To-Be Scenario Mapping Estudiantes becados">
 
+<img src="resources/EstudianteBecado-to-be-sce-map.jpg" alt="To-Be Scenario Mapping Estudiantes becados">
 
 ## 3.2. User Stories
 
@@ -1168,6 +1206,7 @@ Para elaborar user stories que pertenecen a un epic. A continuación, las epics 
 | **EP01/US05** | Configurar mis preferencias | **Cuando** uso la app, **quiero** poder cambiar la moneda principal (ej. de Soles a Dólares), **para poder** alinear la app con mis finanzas si manejo diferentes divisas. | **Dado** que estoy en la sección de configuración, **cuando** selecciono una nueva moneda principal, **entonces** todos los montos en la app se muestran en la moneda elegida. |
 
 ---
+
 ### EP02: Gestión de Transacciones
 
 | Story ID | Título de la Historia | Descripción (Situación y Motivación) | Criterios de Aceptación |
@@ -1211,6 +1250,7 @@ Para elaborar user stories que pertenecen a un epic. A continuación, las epics 
 | **EP05/US03** | Revisar el estado de mis presupuestos | **Cuando** quiero planificar mis próximas compras, **quiero** ver un resumen de todos mis presupuestos y cuánto me queda en cada uno, **para poder** tomar decisiones informadas sobre si puedo gastar o no. | **Dado** que he definido varios presupuestos, **cuando** voy a la sección de Presupuestos, **entonces** veo una lista de todas las categorías con su límite, lo gastado hasta ahora y una barra de estado visual. |
 
 ---
+
 ### EP10: Gestión de Gastos Compartidos
 
 | Story ID | Título de la Historia | Descripción (Situación y Motivación) | Criterios de Aceptación |
@@ -1220,7 +1260,6 @@ Para elaborar user stories que pertenecen a un epic. A continuación, las epics 
 | **EP10/US03** | Ver a quién le debo y quién me debe | **Cuando** tengo varios gastos compartidos, **quiero** ver un panel que resuma todas mis deudas y lo que me deben, **para poder** tener una visión clara de mis cuentas con amigos. | **Dado** que tengo deudas pendientes por pagar y por cobrar, **cuando** voy a la sección de "Gastos Compartidos", **entonces** veo dos listas: "Me deben" y "Debo", con los montos totales y el detalle por persona. |
 | **EP10/US04** | Enviar un recordatorio amigable | **Cuando** un amigo se ha demorado en pagarme, **quiero** poder enviarle un recordatorio desde la app, **para poder** evitar la conversación incómoda de cobrarle en persona. | **Dado** que un amigo tiene una deuda pendiente conmigo, **cuando** presiono el botón de "Recordar", **entonces** la app le envía una notificación amigable sobre el pago pendiente. |
 
-
 ## 3.3. Impact Mapping
 
 El Impact Mapping es una técnica de planificación estratégica que nos permite visualizar cómo las funcionalidades del producto se conectan con los objetivos del negocio. Nos ayuda a asegurar que estamos construyendo las características correctas para generar el impacto deseado en el comportamiento de nuestros usuarios y, en última instancia, alcanzar nuestras metas.
@@ -1229,7 +1268,7 @@ A continuación, se presenta el Impact Map para el proyecto TuCash.
 
 <img src="resources/Impact Mapping.png" alt="Impact Mapping">
 
-### 3.4. Product Backlog 
+### 3.4. Product Backlog
 
 Nuestra estrategia de lanzamiento se basa en **releases temáticas**, permitiéndonos enfocar cada fase del desarrollo en un objetivo claro, validar nuestras hipótesis más importantes primero y construir sobre una base sólida.
 
@@ -1272,7 +1311,6 @@ Nuestra estrategia de lanzamiento se basa en **releases temáticas**, permitién
 | **EP10/US02**| Llevar las cuentas claras | Todos | **Valor:** Completa la experiencia de gastos compartidos, asegurando que sea una solución robusta y confiable. | 5 |
 | **EP01/US03**| Recuperar mi acceso | Todos | **Valor:** Funcionalidad de soporte esencial para la experiencia de usuario a largo plazo, aunque no sea parte del flujo de valor principal del MVP. | 3 |
 
-
 # Capítulo IV: Product Design
 
 ## 4.1. Style Guideline
@@ -1292,15 +1330,11 @@ La identidad de **TuCash** transmite **confianza, simplicidad y frescura**, refl
 - **Logotipo**: representación tipográfica de “TuCash”, adaptable a fondos claros y oscuros.  
   <img src="resources/Logotipo.png" alt="Logotipo de TuCash" width="100">
 
-
-
 #### Typography
 
 La tipografía está diseñada para reflejar **modernidad, cercanía y solidez financiera**. Se combina **Mada** y **Koulen**, logrando equilibrio entre claridad de lectura e impacto visual.  
 
 <img src="resources/typography.png" alt="Tipografía TuCash" width="500">
-
-
 
 - **Fuente principal: Mada (sans-serif modernista)**  
   - Uso: textos de cuerpo, botones, formularios y componentes.  
@@ -1313,6 +1347,7 @@ La tipografía está diseñada para reflejar **modernidad, cercanía y solidez f
   - Perfecta para captar atención.  
 
 **Jerarquía tipográfica:**
+
 - **Títulos principales (H1, H2)** – Koulen  
     Tamaño: 28–32 px  
     Uso: encabezados principales y dashboards.  
@@ -1326,7 +1361,6 @@ La tipografía está diseñada para reflejar **modernidad, cercanía y solidez f
     Tamaño: 12–14 px  
     Uso: formularios, etiquetas y tooltips.  
 
-
 ### Iconografía
 
 Los íconos refuerzan **claridad, simplicidad y modernidad**, manteniendo coherencia con la identidad visual del tucán.  
@@ -1337,11 +1371,7 @@ Los íconos refuerzan **claridad, simplicidad y modernidad**, manteniendo cohere
 - **Colores**: gris oscuro o blanco, con resaltes en **Verde Cash (#2AB27B)**.  
 - **Accesibilidad**: cada ícono debe incluir `alt-text`.  
 
-
-
 <img src="resources/iconografia.png" alt="Iconografía TuCash" width="500">
-
-
 
 #### Colors
 
@@ -1363,10 +1393,6 @@ La paleta cromática, inspirada en el tucán, transmite **seguridad, crecimiento
 
 <img src="resources/color.png" alt="Colores TuCash" width="500">
 
-
-
-
-
 ### 4.1.2. Web Style Guidelines
 
 Para **TuCash**, se plantea una plataforma web con un enfoque en **simplicidad, confianza y accesibilidad**, que ofrezca una experiencia intuitiva y moderna para la **gestión financiera personal y familiar**.  
@@ -1374,30 +1400,35 @@ Para **TuCash**, se plantea una plataforma web con un enfoque en **simplicidad, 
 El diseño será **responsivo (Responsive Design)**, garantizando que la interfaz se adapte correctamente a diferentes dispositivos (desktop, tablet y móvil), manteniendo siempre **claridad visual y usabilidad óptima**.  
 
 #### Dashboard Financiero
+
 - Acceso centralizado a cuentas y saldos.  
 - Visualización de transacciones recientes y movimientos categorizados.  
 - Acceso directo a funciones clave: envío de dinero, ahorro, pagos y alertas.  
 - Gráficos interactivos para analizar gastos, ingresos y metas financieras.  
 
 #### Gestión de Finanzas
+
 - Registro y categorización automática de ingresos y egresos.  
 - Configuración de presupuestos por categorías.  
 - Seguimiento de ahorros y metas financieras.  
 - Botones de acción rápida para transferencias y pagos frecuentes.  
 
 #### Pagos y Servicios
+
 - Pago de servicios básicos (luz, agua, internet, telefonía).  
 - Recarga de celulares y billeteras digitales.  
 - Opciones de pago con un solo clic, integrando recordatorios para evitar retrasos.  
 - Uso de **íconos representativos** en tarjetas modulares que facilitan la identificación de cada servicio.  
 
 #### Alertas y Notificaciones
+
 - Avisos sobre vencimientos de pagos y presupuestos excedidos.  
 - Alertas de movimientos inusuales para reforzar la seguridad.  
 - Recordatorios configurables sobre metas de ahorro.  
 - Notificaciones destacadas en **Verde Cash (#2AB27B)** para resaltar estados positivos.  
 
 #### Educación Financiera y Soporte
+
 - Acceso a guías prácticas de ahorro y educación financiera.  
 - Sección de preguntas frecuentes (FAQ) organizada por categorías.  
 - Chat de asistencia en tiempo real para resolver dudas.  
@@ -1407,52 +1438,56 @@ El diseño será **responsivo (Responsive Design)**, garantizando que la interfa
 
 Este diseño garantiza **usabilidad, seguridad y frescura visual**, consolidando a **TuCash** como una fintech confiable y accesible en Latinoamérica, con el objetivo de promover **inclusión y educación financiera**.  
 
-
-
-
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems
 
 #### Landing Page e Inicio de la Aplicación
+
 - **Tipo de organización: Jerárquica.**  
 - La landing page destacará: beneficios principales (ahorro, pagos rápidos, control de gastos), funcionalidades clave y testimonios de usuarios.  
 - En la pantalla de inicio se priorizan accesos rápidos a: saldos, últimos movimientos, metas de ahorro y alertas financieras relevantes.  
 
 #### Gestión de Finanzas y Pagos
+
 - **Tipo de organización: Secuencial.**  
 - Flujos: selección de servicio → monto → método de pago → confirmación.  
 - Garantiza simplicidad, seguridad y evita errores en transacciones.  
 
 #### Presupuestos y Metas de Ahorro
+
 - **Tipo de organización: Matricial.**  
 - Acceso a presupuestos por categorías (alimentación, transporte, ocio, servicios).  
 - Exploración flexible por periodo, categoría o estado de cumplimiento de la meta.  
 
 #### Alertas y Notificaciones
+
 - **Esquema de categorización: Por tópicos.**  
 - Categorías: gastos inusuales, vencimientos, metas de ahorro y promociones educativas.  
 - Permite priorizar atención inmediata en seguridad y control financiero.  
 
 #### Historial de Transacciones
+
 - **Esquema de categorización: Cronológico.**  
 - Registros de ingresos, egresos, pagos y ahorros ordenados por fecha.  
 - Visualización filtrable por categoría, monto o estado.  
 
 #### Contenido Personalizado por Perfil de Usuario
+
 - **Esquema de categorización: Según audiencia.**  
-   - **Estudiantes (mesada):** presupuestos académicos, recargas de transporte, **Dinero restante semanal + Top 3 categorías + Quick Add/micro-metas**; **alertas** 50%/85% y gasto inusual; **acciones** crear micro-meta y       ajustar límite.
-   - **Quienes trabajan y estudian:** recordatorios de pagos (pensión/servicios), **Calendario de pagos + balance simple→detalle + estado offline**; **alertas** de vencimientos (–3 días / día D) y sobre-ejecución al 85%;            **acciones** registrar pago y marcar gasto recurrente.
-   - **Becados:** plan mensual priorizado (básicos), **control de ingresos/egresos, pago de servicios y metas de ahorro**; **duración estimada de fondos + ahorro de emergencia + reporte compartible**; **alertas** de             quedarse corto (-7 días), fin de mes e hitos de beca; **acciones** priorizar esenciales, aportar a emergencia y compartir reporte.
+  - **Estudiantes (mesada):** presupuestos académicos, recargas de transporte, **Dinero restante semanal + Top 3 categorías + Quick Add/micro-metas**; **alertas** 50%/85% y gasto inusual; **acciones** crear micro-meta y       ajustar límite.
+  - **Quienes trabajan y estudian:** recordatorios de pagos (pensión/servicios), **Calendario de pagos + balance simple→detalle + estado offline**; **alertas** de vencimientos (–3 días / día D) y sobre-ejecución al 85%;            **acciones** registrar pago y marcar gasto recurrente.
+  - **Becados:** plan mensual priorizado (básicos), **control de ingresos/egresos, pago de servicios y metas de ahorro**; **duración estimada de fondos + ahorro de emergencia + reporte compartible**; **alertas** de             quedarse corto (-7 días), fin de mes e hitos de beca; **acciones** priorizar esenciales, aportar a emergencia y compartir reporte.
 
 #### Búsqueda de Transacciones y Servicios
+
 - **Esquema de categorización: Alfabético.**  
 - Localización rápida de servicios (luz, agua, internet), beneficiarios frecuentes y categorías de gasto.  
-
 
 ### 4.2.2. Labeling Systems
 
 #### Landing Page
+
 - **Home/Inicio**: Propuesta de valor de TuCash.  
 - **Features/Características**: Funciones clave (gestión de gastos, metas de ahorro, pagos de servicios).  
 - **Benefits/Beneficios**: Simplicidad, seguridad, confianza y control financiero.
@@ -1462,6 +1497,7 @@ Este diseño garantiza **usabilidad, seguridad y frescura visual**, consolidando
 - **Contact/Contacto**: Soporte, redes sociales y correo de atención.  
 
 #### Web Application
+
 - **Home/Inicio**: Accesos rápidos a saldo disponible, últimos movimientos, metas de ahorro y alertas.  
 - **Profile/Perfil**: Gestión de información personal, métodos de pago, cuentas vinculadas y preferencias.  
 - **Finance/Finanzas**: Control de ingresos, egresos y presupuestos por categoría.  
@@ -1524,18 +1560,18 @@ El sistema mostrará resultados predictivos mientras el usuario escribe, basados
 
 **Filtros de búsqueda:**  
 Se ofrecerán filtros que permitan refinar la búsqueda según:  
+
 - **Categorías:** Gastos, Ingresos, Presupuesto, Ahorros.  
 - **Contenido:** Transacciones, Reportes, Metas, Recibos.  
 - **Estado:** Activo, Pendiente, Cumplido.  
 
 **Filtros avanzados:**  
 Opciones adicionales como:  
+
 - Recientes / Más antiguos.  
 - Monto de transacción.  
 - Tipo de gasto (efectivo, tarjeta, billetera digital).  
 - Institución asociada (banco, comercio, servicio).  
-
-
 
 ### 4.2.5. Navigation Systems – TuCash  
 
@@ -1559,6 +1595,7 @@ La navegación dentro de la aplicación web se organizará en torno a un **dashb
 - **Dashboard principal:** Vista general de saldos, gastos recientes, metas de ahorro y notificaciones.  
 
 **Panel lateral de navegación:**  
+
 - **Perfil:** Información personal, configuración y preferencias.  
 - **Transacciones:** Registro y categorización de ingresos y gastos.  
 - **Presupuesto:** Creación y seguimiento de presupuestos familiares o personales.  
@@ -1568,10 +1605,9 @@ La navegación dentro de la aplicación web se organizará en torno a un **dashb
 - **Planes (Plans)** — **Plan actual**, **Comparar planes**, **Cambiar plan**, **Facturación** y **Comprobantes**.
 - **Soporte / Ayuda:** Acceso a FAQs, chat de soporte y contacto directo con asistencia.  
 
+## 4.3. Landing Page UI Design
 
-
-## 4.3. Landing Page UI Design.
-### 4.3.1. Landing Page Wireframe.
+### 4.3.1. Landing Page Wireframe
 
 La versión wireframe de nuestra landing page presenta una estructura básica compuesta por diversos elementos fundamentales. En la parte superior se ubica la navegación principal representada mediante bloques simples que indican secciones como Beneficios, Planes, Contáctanos, Iniciar sesión y el selector de idioma. Las visualizaciones de datos se representan mediante áreas designadas para dashboards y gráficos, utilizando rectángulos con líneas básicas en su interior. Asimismo, los planes de suscripción se organizan en tarjetas. Finalmente, la sección de testimonios se muestra con bloques para imágenes de perfil y áreas de texto para citas.
 
@@ -1589,14 +1625,16 @@ La versión wireframe de nuestra landing page presenta una estructura básica co
 
 <img src="resources/landingWireframe8.png" alt="Landing Page Wireframe 8">
 
-### 4.3.2. Landing Page Mock-up.
+### 4.3.2. Landing Page Mock-up
 
 Enlace para acceder a nuestra Landing Page, desplegada en Github Pages: [TuCash Landing Page](https://tucash.github.io/landingPage/)
 
-## 4.4. Web Applications UX/UI Design.
-### 4.4.1. Web Applications Wireframes.
+## 4.4. Web Applications UX/UI Design
+
+### 4.4.1. Web Applications Wireframes
 
 #### Web Application para Desktop Web Browser
+
 <br><br>
 <img src="resources/Web Application Desktop-wireframe.png" alt="Web Application Deskktop">
 
@@ -1646,6 +1684,7 @@ Enlace para acceder a nuestra Landing Page, desplegada en Github Pages: [TuCash 
 <br><br>
 
 #### Web Application para Mobile Web Browser
+
 ![wireframe mobile](resources/image.png)
 <br>*Login*</br>
 ![login](resources/image-0.png)
@@ -1662,8 +1701,8 @@ Enlace para acceder a nuestra Landing Page, desplegada en Github Pages: [TuCash 
 [Enlace para acceder al Figma](https://www.figma.com/design/0eoLdvvEddDNIvvujQJGfU/TuCash?node-id=0-1&t=69177qJUpEmGgCN0-1)
 <br><br>
 
+### 4.4.2. Web Applications Wireflow Diagrams
 
-### 4.4.2. Web Applications Wireflow Diagrams.
 **User goal: Creación de cuenta**
 <img src="resources/Wireflow-01.png" alt="Wireflow-01">
 
@@ -1681,9 +1720,10 @@ Enlace para acceder a nuestra Landing Page, desplegada en Github Pages: [TuCash 
 
 [Enlace para acceder al Wireflow](https://lucid.app/lucidchart/6527f327-959e-4911-ae0c-6a1f5a520089/edit?invitationId=inv_58ad1103-5a51-4d9f-95bc-86c61f1e3d65)
 
+### 4.4.3. Web Applications Mock-ups
 
-### 4.4.3. Web Applications Mock-ups.
 #### Mock-ups for Desktops
+
 *Iniciar Sesión*
 <img width="1400" height="900" alt="Image" src="https://github.com/user-attachments/assets/627031a5-6a4f-4f23-b92f-815b2be5f877" />
 
@@ -1717,7 +1757,6 @@ Enlace para acceder a nuestra Landing Page, desplegada en Github Pages: [TuCash 
 *Agregar Dinero a Meta de Ahorro*<br>
 <img width="1400" height="900" alt="Image" src="https://github.com/user-attachments/assets/91001544-4a78-40cb-8b71-9b66ce591e3a" />
 
-
 [Enlace para acceder al Figma](https://www.figma.com/design/0eoLdvvEddDNIvvujQJGfU/TuCash?node-id=2161-108&t=69177qJUpEmGgCN0-1)
 <br><br>
 
@@ -1726,8 +1765,8 @@ Enlace para acceder a nuestra Landing Page, desplegada en Github Pages: [TuCash 
 [Enlace para acceder al Figma](https://www.figma.com/design/0eoLdvvEddDNIvvujQJGfU/TuCash?node-id=2161-108&t=69177qJUpEmGgCN0-1)
 <br><br>
 
+### 4.4.4. Web Applications User Flow Diagrams
 
-### 4.4.4. Web Applications User Flow Diagrams.
 **User goal: Registro de usuario**
 <td>Explicación del flujo: El usuario se registra en la aplicación, tras completar el registro es llevado automáticamente a la pestaña de inicio de sesión, allí ingresa sus credenciales y, una vez validadas, es redirigido a la página principal donde puede acceder a todas las funcionalidades.</td><br><br>
 <img src="resources/Userflow-01.png" alt="Userflow-01"><br>
@@ -1754,44 +1793,52 @@ Enlace para acceder a nuestra Landing Page, desplegada en Github Pages: [TuCash 
 
 [Enlace para acceder al Userflow](https://lucid.app/lucidchart/0d802203-8f9d-4b59-817f-3c6b7490bb7c/edit?viewport_loc=-87%2C-1314%2C3671%2C1795%2CpI4QGfYtSY~L&invitationId=inv_8cef57fc-6272-4261-ae91-e44b807ebd9f)
 
-
 ## 4.5. Web Applications Prototyping
+
 Nuestro prototipo de la aplicación web:
 <img src="resources/Web Application Desktop-prototype.png" alt= "Web Application Desktop Prototype">
 
-
 ## 4.6. Domain-Driven Software Architecture
+
 ### 4.6.1. Software Architecture Context Diagram
+
 <img src="resources/structurizr-SystemContext-001.png" alt="Software Architecture Context Diagram2">  
 
 ### 4.6.2. Software Architecture Container Diagrams
+
 <img src="resources/structurizr-Containers.png" alt="Software Architecture Container Diagrams">  
 
 ### 4.6.3. Software Architecture Components Diagrams
+
 <img src="resources/structurizr-ComponentsAll.png" alt="Software Architecture All Components Diagram">  
 
 #### Dashboard
+
 <img src="resources/structurizr-DashboardReportingContext.png" alt="Dashboard Components Diagram">
 
 #### Transactions
+
 <img src="resources/structurizr-FinancialTransactionsContext.png" alt="Transactions Components Diagram">
 
 #### IAM
+
 <img src="resources/structurizr-IdentityAccessContext.png" alt="IAM Components Diagram">
 
 #### Savings
+
 <img src="resources/structurizr-SavingsGoalsContext.png" alt="Savings Components Diagram">
 
 #### Shared
+
 <img src="resources/structurizr-SharedKernelContext.png" alt="Shared Components Diagram">
 
-## 4.7. Software Object Oriented Design.
+## 4.7. Software Object Oriented Design
 
-### 4.7.1. Class Diagram.
+### 4.7.1. Class Diagram
 
 <img src="resources/classDiagramV1.png" alt="Diagrama de clases" width="1000">  
 
-### 4.7.2. Class Dictionary.
+### 4.7.2. Class Dictionary
 
 | Class        | Bounded Context       | Entity/Value Object | Description | Attributes | Methods | Relationships |
 |--------------|----------------------|---------------------|-------------|------------|---------|----------------|
@@ -1803,22 +1850,22 @@ Nuestro prototipo de la aplicación web:
 | **Budget** | Finance Management | Entity | Representa una asignación de gasto mensual o por periodo, asociada a una categoría | - budgetId: int<br>- userId: int<br>- categoryId: int<br>- amount: decimal<br>- startDate: Date<br>- endDate: Date<br>- createdAt: Date | + trackSpending()<br>+ edit()<br>+ delete()<br>+ getRemaining() | - N to 1 User: el presupuesto es definido por un usuario<br>- N to 1 Category: el presupuesto aplica a una categoría |
 | **AuthSession** | CRM | Value Object | Representa una sesión de autenticación para validar la identidad del usuario | - sessionId: int<br>- userId: int<br>- token: string<br>- expiresAt: Date | + createSession()<br>+ validateSession()<br>+ endSession() | - N to 1 User: la sesión es creada por un usuario |
 
+## 4.8. Database Design
 
-## 4.8. Database Design.
-
-
-### 4.8.1. Database Diagram.
+### 4.8.1. Database Diagram
 
 <img src="resources/databaseDiagramV1.PNG" alt="Diagrama de clases" width="1000">  
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
-## 5.1. Software Configuration Management.
-### 5.1.1. Software Development Environment Configuration.
+## 5.1. Software Configuration Management
+
+### 5.1.1. Software Development Environment Configuration
+
 #### Project Management
 
+#### Product UX/UI Design
 
-#### Product UX/UI Design:
 <table border = "1">
   <thead>
     <tr>
@@ -1844,8 +1891,8 @@ Nuestro prototipo de la aplicación web:
   </tbody>
 </table>
 
+#### Software Development
 
-#### Software Development:
 <table border = "1">
   <thead>
     <tr>
@@ -1884,7 +1931,8 @@ Nuestro prototipo de la aplicación web:
   </tbody>
 </table>
 
-#### Software Documentation:
+#### Software Documentation
+
 <table border = "1">
   <thead>
     <tr>
@@ -1919,18 +1967,20 @@ Nuestro prototipo de la aplicación web:
   </tbody>
 </table>
 
-### 5.1.2. Source Code Management.
+### 5.1.2. Source Code Management
+
 Para el control de versiones y la colaboración del equipo se empleará GitHub como repositorio central. Cada producto digital tendrá su propio repositorio:
 
-- Report: https://github.com/TuCash/Report/
+- Report: <https://github.com/TuCash/Report/>
 
-- Landing Page: https://github.com/TuCash/Report/
+- Landing Page: <https://github.com/TuCash/Report/>
 
-- Frontend Web Application: https://github.com/TuCash/webapp
+- Frontend Web Application: <https://github.com/TuCash/webapp>
 
-- Web Services (Backend + Tests): https://github.com/TuCash/backend
+- Web Services (Backend + Tests): <https://github.com/TuCash/backend>
 
 #### Esquema de organización con GitFlow
+
 Nuestro equipo implementará el modelo de branching GitFlow, de acuerdo al artículo de Vincent Driessen “A successful Git branching model”. La organización de ramas será la siguiente:
 
 **main**
@@ -1966,6 +2016,7 @@ Convención de nombres:
 hotfix/vX.Y.Z (ejemplo: hotfix/v1.0.1).
 
 #### Conventional Commits
+
 Los mensajes de commit seguirán la convención de Conventional Commits, lo que facilita trazabilidad y automatización:
 
 - feat: → nueva funcionalidad.
@@ -1984,13 +2035,13 @@ Los mensajes de commit seguirán la convención de Conventional Commits, lo que 
 
 #### Front End Web Application Deployment
 
-### 5.1.3. Source Code Style Guide & Conventions.
+### 5.1.3. Source Code Style Guide & Conventions
 
 Como norma general, todo el código del proyecto debe escribirse en **inglés**, tanto para etiquetas, funciones, variables, como para comentarios técnicos.
 
 ### HTML
 
-* **Use lowercase element names**
+- **Use lowercase element names**
   Todo el marcado HTML debe estar escrito en minúsculas.
 
   ```html
@@ -1999,35 +2050,35 @@ Como norma general, todo el código del proyecto debe escribirse en **inglés**,
   </body>
   ```
 
-* **Close all HTML elements**
+- **Close all HTML elements**
   Todos los elementos deben cerrarse correctamente, incluso si no es obligatorio en HTML5.
 
   ```html
   <p>This is a paragraph</p>
   ```
 
-* **Use lowercase attribute names**
+- **Use lowercase attribute names**
   Los atributos deben escribirse en minúsculas.
 
   ```html
   <img src="assets/img/logo-nobg.png" alt="TuCash Logo">
   ```
 
-* **Always specify `alt`, `width`, and `height` for images**
+- **Always specify `alt`, `width`, and `height` for images**
   Todas las imágenes deben tener atributo `alt` y, de ser posible, valores explícitos de `width` y `height`. Esto mejora accesibilidad y rendimiento.
 
   ```html
   <img src="assets/img/dashboard.jpg" alt="Dashboard TuCash" width="600" height="400">
   ```
 
-* **Spaces and equal signs**
+- **Spaces and equal signs**
   No se debe dejar espacio alrededor del `=` en los atributos, excepto dentro de valores entre comillas.
 
   ```html
   <link rel="stylesheet" href="assets/css/styles.css">
   ```
 
-* **Language consistency**
+- **Language consistency**
   Aunque el `lang="es"` es válido para el sitio, todos los identificadores (`class`, `id`, atributos, nombres de archivos) deben redactarse en inglés.
 
   ```html
@@ -2038,7 +2089,7 @@ Como norma general, todo el código del proyecto debe escribirse en **inglés**,
 
 ### JavaScript
 
-* **Use expanded syntax**
+- **Use expanded syntax**
   Cada bloque de código debe abrir llaves en la misma línea de la declaración y cerrarlas en línea nueva.
 
   ```javascript
@@ -2047,7 +2098,7 @@ Como norma general, todo el código del proyecto debe escribirse en **inglés**,
   }
   ```
 
-* **Variable naming**
+- **Variable naming**
   Se debe usar **lowerCamelCase** para nombrar variables.
 
   ```javascript
@@ -2055,7 +2106,7 @@ Como norma general, todo el código del proyecto debe escribirse en **inglés**,
   let windowWidth = window.innerWidth;
   ```
 
-* **Function naming**
+- **Function naming**
   Los nombres de las funciones deben usar **lowerCamelCase**, expresando claramente su propósito.
 
   ```javascript
@@ -2063,7 +2114,7 @@ Como norma general, todo el código del proyecto debe escribirse en **inglés**,
   function closeMobileMenu() { ... }
   ```
 
-* **Declaring variables**
+- **Declaring variables**
   Usar `const` y `let` en lugar de `var`.
 
   ```javascript
@@ -2071,7 +2122,7 @@ Como norma general, todo el código del proyecto debe escribirse en **inglés**,
   let windowWidth = window.innerWidth;
   ```
 
-* **Event listeners**
+- **Event listeners**
   Se recomienda usar funciones flecha cuando no se necesite `this`, y mantener consistencia en la forma de declarar funciones.
 
   ```javascript
@@ -2084,7 +2135,7 @@ Como norma general, todo el código del proyecto debe escribirse en **inglés**,
 
 ### CSS
 
-* **Selectors naming**
+- **Selectors naming**
   Se utiliza **lowercase con guiones (`kebab-case`)** para clases e identificadores.
 
   ```css
@@ -2092,10 +2143,10 @@ Como norma general, todo el código del proyecto debe escribirse en **inglés**,
   .beneficio-card__heading { ... }
   ```
 
-* **Class and ID usage**
+- **Class and ID usage**
   Priorizar el uso de **clases** sobre **IDs** para facilitar la reutilización y escalabilidad de estilos.
 
-* **Indentation**
+- **Indentation**
   Usar **2 espacios** para indentación. No usar tabulaciones.
 
   ```css
@@ -2105,7 +2156,7 @@ Como norma general, todo el código del proyecto debe escribirse en **inglés**,
   }
   ```
 
-* **Property order**
+- **Property order**
   Seguir el orden lógico:
 
   1. Propiedades de posición (`position`, `top`, `left`, etc.)
@@ -2114,7 +2165,7 @@ Como norma general, todo el código del proyecto debe escribirse en **inglés**,
   4. Estilo visual (`background`, `border`, `box-shadow`)
   5. Transiciones y animaciones
 
-* **Consistent units**
+- **Consistent units**
   Usar `rem` o `px` de forma consistente, evitando `em` y `%` salvo en casos específicos.
 
   ```css
@@ -2124,7 +2175,7 @@ Como norma general, todo el código del proyecto debe escribirse en **inglés**,
   }
   ```
 
-* **Colors and variables**
+- **Colors and variables**
   Colores escritos en formato **hexadecimal en mayúsculas** (`#FFFFFF`). Se recomienda uso de variables CSS (`:root`) en proyectos grandes.
 
   ```css
@@ -2134,7 +2185,7 @@ Como norma general, todo el código del proyecto debe escribirse en **inglés**,
   }
   ```
 
-* **Responsive design**
+- **Responsive design**
   Los `@media` queries deben colocarse al final del archivo y seguir un orden descendente (desktop → tablet → mobile).
 
   ```css
@@ -2145,7 +2196,7 @@ Como norma general, todo el código del proyecto debe escribirse en **inglés**,
   }
   ```
 
-* **Font usage**
+- **Font usage**
   Definir siempre tipografía, peso y familia en cada bloque relevante.
 
   ```css
@@ -2157,9 +2208,10 @@ Como norma general, todo el código del proyecto debe escribirse en **inglés**,
 
 ---
 
-### 5.1.4. Software Deployment Configuration.
+### 5.1.4. Software Deployment Configuration
 
 - Creación Landing Page:<br>
+
 1. Se crea un repositorio remoto en GitHub
 <img width="1009" height="534" alt="Image" src="https://github.com/user-attachments/assets/427cd331-6cbb-4537-8fc2-fb8275fb5866" />
 2. Agregar a participantes
@@ -2170,7 +2222,9 @@ Como norma general, todo el código del proyecto debe escribirse en **inglés**,
 ---
 
 ## 5.2. Landing Page, Services & Applications Implementation
+
 ### 5.2.1. Sprint 1
+
 #### 5.2.1.1. Sprint Planning 1
 
 <table border="1">
@@ -2231,8 +2285,7 @@ This will be confirmed when se documenten al menos 6 entrevistas analizadas y de
   </tr>
 </table>
 
-
-#### 5.2.1.2. Aspect Leaders and Collaborators.
+#### 5.2.1.2. Aspect Leaders and Collaborators
 
 <table border = "1">
   <tr>
@@ -2279,7 +2332,7 @@ This will be confirmed when se documenten al menos 6 entrevistas analizadas y de
   </tr>
 </table>
 
-#### 5.2.1.3. Sprint Backlog 1.
+#### 5.2.1.3. Sprint Backlog 1
 
 <img width="1920" height="913" alt="image" src="https://github.com/user-attachments/assets/64fe990e-3540-4f43-a04c-e24634b916d7" />
 
@@ -2388,7 +2441,7 @@ This will be confirmed when se documenten al menos 6 entrevistas analizadas y de
   </tbody>
 </table>
 
-#### 5.2.1.4. Development Evidence for Sprint Review.
+#### 5.2.1.4. Development Evidence for Sprint Review
 
 <h3>Development Evidence for Sprint Review – Sprint 1</h3>
 
@@ -2439,13 +2492,14 @@ This will be confirmed when se documenten al menos 6 entrevistas analizadas y de
   </tbody>
 </table>
 
-#### 5.2.1.5. Execution Evidence for Sprint Review.
+#### 5.2.1.5. Execution Evidence for Sprint Review
+
 Durante el **Sprint 1**, el equipo ejecutó y validó las siguientes implementaciones:
 
-* **Landing Page:**
+- **Landing Page:**
 
-  * Se construyó la estructura inicial con encabezado, menú de navegación y secciones básicas de presentación (home y about).
-  * Se validó el despliegue exitoso en GitHub Pages, quedando accesible públicamente.
+  - Se construyó la estructura inicial con encabezado, menú de navegación y secciones básicas de presentación (home y about).
+  - Se validó el despliegue exitoso en GitHub Pages, quedando accesible públicamente.
 
 <img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/fc788aef-f3f0-46ec-88ae-0d99e2179aac" />
 
@@ -2459,8 +2513,8 @@ Durante el **Sprint 1**, el equipo ejecutó y validó las siguientes implementac
 
 <img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/3ae6404c-22ff-43f7-a56e-fbdece80afbf" />
 
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
-#### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 Durante el Sprint 1 se documentó el primer servicio de Web Services TuCash relacionado con transacciones financieras. Se configuró un proyecto en Spring Boot con soporte para OpenAPI/Swagger y se implementó un endpoint de prueba /transactions. La documentación está disponible en Swagger UI (ejecutada localmente).
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
@@ -2469,19 +2523,21 @@ Durante el **Sprint 1**, el equipo realizó la configuración inicial del entorn
 
 **Actividades realizadas:**
 
-* **Landing Page**
+- **Landing Page**
 
-  * Repositorio creado en GitHub (`https://github.com/TuCash/landingPage`).
-  * Configuración de GitHub Pages como plataforma de despliegue.
-  * Deploy inicial accesible en: https://tucash.github.io/landingPage/.
-  * 
+  - Repositorio creado en GitHub (`https://github.com/TuCash/landingPage`).
+  - Configuración de GitHub Pages como plataforma de despliegue.
+  - Deploy inicial accesible en: <https://tucash.github.io/landingPage/>.
+  -
+
 <img width="1742" height="945" alt="image" src="https://github.com/user-attachments/assets/29d655e9-978d-4fde-90f6-289d033dec75" />
 
 **Nota:**
 
-* La **Web Application (Frontend Angular)** y los **Web Services (Backend Spring Boot)** no fueron desplegados en este sprint. Únicamente se avanzó en su configuración inicial a nivel de repositorio para futuros despliegues.
-* La **automatización (CI/CD)** está pendiente de configuración en próximos sprints.
-#### 5.2.1.8. Team Collaboration Insights during Sprint.
+- La **Web Application (Frontend Angular)** y los **Web Services (Backend Spring Boot)** no fueron desplegados en este sprint. Únicamente se avanzó en su configuración inicial a nivel de repositorio para futuros despliegues.
+- La **automatización (CI/CD)** está pendiente de configuración en próximos sprints.
+
+#### 5.2.1.8. Team Collaboration Insights during Sprint
 
 Durante el Sprint 1, el equipo colaboró activamente mediante reuniones virtuales (Microsoft Teams) y el uso de GitHub Projects para dar seguimiento a las tareas. Cada miembro del equipo realizó contribuciones a los diferentes productos: Landing Page, Web Application y Web Services.
 
@@ -2597,12 +2653,14 @@ La evidencia de colaboración se muestra en las estadísticas de GitHub (commits
 ## 5.2.2.4. Development Evidence for Sprint Review
 
 **Alcance técnico implementado (resumen):**
+
 - **Front-end (Vue 3 + PrimeVue/i18n):** formularios de **Expenses/Incomes**, **Home & Login**, **Profile**, **Goals** (progreso básico), toasts/validaciones.
 - **Back-end (Spring Boot + MySQL):** endpoints CRUD de transacciones y metas; autenticación JWT; CORS; documentación OpenAPI.
 - **Pruebas:** unitarias en front (validadores) y back (servicios/repositorios); smoke tests de integración.
 - **Docs:** actualización de **Cap. V (TP1)**, criterios de aceptación y evidencias.
 
 **Evidencias (capturas) — reemplazar rutas por las reales del repo:**
+
 - ![Landing - revisión UI](resources/landingMockup1.PNG)
 - ![Expenses - formulario y lista](resources/expense.png)
 - ![Incomes - formulario](resources/income.png)
@@ -2620,6 +2678,7 @@ Se habilitó un recorrido MVP: **Login → Home → Expenses/Incomes → Goals �
 ## 5.2.2.6. Services Documentation Evidence for Sprint Review
 
 **Endpoints documentados (OpenAPI):**
+
 - `POST /api/auth/login` — Iniciar sesión (JWT)
 - `GET /api/users/me` — Perfil autenticado
 - `GET /api/transactions/expenses` · `POST /api/transactions/expenses`
@@ -2627,6 +2686,7 @@ Se habilitó un recorrido MVP: **Login → Home → Expenses/Incomes → Goals �
 - `GET /api/goals` · `POST /api/goals` · `PATCH /api/goals/{id}`
 
 **Referencias OpenAPI/Swagger del proyecto:**
+
 - UI: `/swagger-ui.html`
 - Docs JSON: `/v3/api-docs`
 
@@ -2637,6 +2697,7 @@ Se habilitó un recorrido MVP: **Login → Home → Expenses/Incomes → Goals �
 ## 5.2.2.7. Software Deployment Evidence for Sprint Review
 
 **Resumen de deployment (Sprint 2):**
+
 - **CI/CD:** GitHub Actions con jobs de *build* (front/back), *test* y *publish artifacts*.
 - **Entornos:**  
   - **Testing:** front desplegado en hosting estático; back en contenedor (Railway/Render/Docker local).  
@@ -2644,8 +2705,10 @@ Se habilitó un recorrido MVP: **Login → Home → Expenses/Incomes → Goals �
 - **Infra breve:** `.env` versionado seguro, variables de conexión MySQL, `CORS` habilitado por dominio.
 
 **Evidencias:**
-- ![Pipeline CI/CD verde](assets/sprint2/cicd-pipeline.png)
-- ![Release v0.2.0-sprint2](assets/sprint2/release.png)
+
+- ![Pipeline CI/CD verde](resources/ci.png)
+- ![Pipeline CI/CD verde](resources/deploy.png)
+- ![Release v0.2.0-sprint2](resources/release.png)
 
 ---
 
@@ -2655,11 +2718,9 @@ Se habilitó un recorrido MVP: **Login → Home → Expenses/Incomes → Goals �
 Pareos cortos por módulo, *daily sync* en Discord (15 min), PRs con 1+ reviewer obligatorio, *demos* al cierre del día. Se siguió tablero Kanban (To-do / In Process / To-Review / Done) y checklist de accesibilidad.
 
 **Analíticos y commits (adjuntar capturas):**
-- ![Contribuciones por integrante](assets/sprint2/github-contribs.png)
-- ![Actividad de PRs y issues](assets/sprint2/github-pr-issues.png)
-- ![Burndown del sprint](assets/sprint2/burndown.png)
 
-
+- ![Contribuciones por integrante](resources/colab.png)
+- ![Actividad de PRs y issues](/resources/insi.png)
 
 # Video About-the-Product
 
@@ -2687,7 +2748,6 @@ Se logró un primer nivel de éxito al comprobar el interés de los usuarios en 
 
 La frecuencia de uso y el cumplimiento de metas de ahorro deberán medirse en los próximos ciclos de validación.
 
-
 ## Recomendaciones
 
 Ampliar la muestra de entrevistas y pruebas de prototipos con estudiantes para robustecer las hipótesis no validadas.
@@ -2706,43 +2766,45 @@ Mediano plazo (próximos 3–4 sprints): integrar metas de ahorro y notificacion
 
 Largo plazo: expandir a aplicación móvil e IoT, integrando recordatorios contextuales (ej. alertas en smartwatch).
 
-# Video About-the-Team.
+# Video About-the-Team
 
-#### 
+####
 
 **Título:**
 
-- **YouTube:** 
-- **Microsoft Stream:** 
+- **YouTube:**
+- **Microsoft Stream:**
 
 # Bibliografía
-- Álvarez, M. (2023). Educación financiera en jóvenes universitarios. Dialnet. https://dialnet.unirioja.es/servlet/articulo?codigo=10086675
 
-- Infobae. (2025, marzo 23). Menos del 50% de jóvenes ahorran regularmente y los expertos piden mejorar la educación financiera. Infobae Perú. https://www.infobae.com/peru/2025/03/23/menos-del-50-de-jovenes-ahorran-regularmente-y-los-expertos-piden-mejorar-la-educacion-financiera/
+- Álvarez, M. (2023). Educación financiera en jóvenes universitarios. Dialnet. <https://dialnet.unirioja.es/servlet/articulo?codigo=10086675>
+
+- Infobae. (2025, marzo 23). Menos del 50% de jóvenes ahorran regularmente y los expertos piden mejorar la educación financiera. Infobae Perú. <https://www.infobae.com/peru/2025/03/23/menos-del-50-de-jovenes-ahorran-regularmente-y-los-expertos-piden-mejorar-la-educacion-financiera/>
 
 - Palacios Tarrillo, A. J., & Bendezu García, N. Y. (2024). Impacto de la educación financiera en jóvenes emprendedores: Una revisión de la literatura [Trabajo de investigación, Universidad Autónoma del Perú]. Repositorio Institucional de la Universidad Autónoma del Perú.
 
-- Superintendencia de Banca, Seguros y AFP. (2023, octubre 31). SBS promueve educación financiera digital para jóvenes. SBS Noticias. https://www.sbs.gob.pe/noticia/detallenoticia/idnoticia/2658
+- Superintendencia de Banca, Seguros y AFP. (2023, octubre 31). SBS promueve educación financiera digital para jóvenes. SBS Noticias. <https://www.sbs.gob.pe/noticia/detallenoticia/idnoticia/2658>
 
-- Universidad César Vallejo. (2023, diciembre 4). El endeudamiento juvenil en el Perú. UCV Noticias. https://www.ucv.edu.pe/noticias/el-endeudamiento-juvenil-en-el-peru
+- Universidad César Vallejo. (2023, diciembre 4). El endeudamiento juvenil en el Perú. UCV Noticias. <https://www.ucv.edu.pe/noticias/el-endeudamiento-juvenil-en-el-peru>
 
 - Eyzaguirre, J., et al. (2016). Educación financiera en jóvenes estudiantes de educación superior en Lima Metropolitana [Tesis de Maestría, Universidad Peruana de Ciencias Aplicadas]. Repositorio UPC.
 
-- Driessen, V. (2010). A successful Git branching model. Nvie. https://nvie.com/posts/a-successful-git-branching-model/
+- Driessen, V. (2010). A successful Git branching model. Nvie. <https://nvie.com/posts/a-successful-git-branching-model/>
 
-- Conventional Commits. (2019). Conventional Commits 1.0.0. https://www.conventionalcommits.org
+- Conventional Commits. (2019). Conventional Commits 1.0.0. <https://www.conventionalcommits.org>
 
-- Preston-Werner, T. (2013). Semantic Versioning 2.0.0. https://semver.org
+- Preston-Werner, T. (2013). Semantic Versioning 2.0.0. <https://semver.org>
 
-- W3Schools. (n.d.). HTML Style Guide and Coding Conventions. https://www.w3schools.com/html/html5_syntax.asp
+- W3Schools. (n.d.). HTML Style Guide and Coding Conventions. <https://www.w3schools.com/html/html5_syntax.asp>
 
-- Google. (n.d.). Google Java Style Guide. https://google.github.io/styleguide/javaguide.html
+- Google. (n.d.). Google Java Style Guide. <https://google.github.io/styleguide/javaguide.html>
 
-- Angular. (2024). Angular coding style guide. Angular.io. https://angular.io/guide/styleguide
+- Angular. (2024). Angular coding style guide. Angular.io. <https://angular.io/guide/styleguide>
 
-- Spring. (2024). Spring Boot Features. Spring.io. https://docs.spring.io/spring-boot/docs/current/reference/html/features.html
+- Spring. (2024). Spring Boot Features. Spring.io. <https://docs.spring.io/spring-boot/docs/current/reference/html/features.html>
 
 # Anexos
+
 - Anexo 1: [Organización en GitHub](https://github.com/TuCash)
 - Anexo 2: [Mockups - Wireframe](https://www.figma.com/design/0eoLdvvEddDNIvvujQJGfU/TuCash?node-id=49-11&t=jhD9FD51vkhbVsPx-1)
 - Anexo 3: [User-Flow - WireFlow Diagram](https://lucid.app/lucidchart/6527f327-959e-4911-ae0c-6a1f5a520089/edit?viewport_loc=-1573%2C-4542%2C4989%2C2439%2C8M5xaniXGb-W&invitationId=inv_58ad1103-5a51-4d9f-95bc-86c61f1e3d65)
