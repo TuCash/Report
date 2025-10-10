@@ -751,6 +751,20 @@ El objetivo de estas entrevistas es identificar y comprender las **necesidades, 
 
 ---
 
+| Campo         | Información |
+|---------------|-------------|
+| Entrevistado 2 |   Yvonne Ramos          |
+| Edad          |      20       |
+| Distrito      |       Ate       |
+| Segmento      |  Estudiantes becados|
+| Foto          | ![Foto entrevistado 2](resources/entrevistayvone.png) |
+| Timing        | [Ver grabación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c576_upc_edu_pe/EbkrCYgV7aZHmHPcA-XlWzQB9m_6yofDWtGXL2oeLx4QZw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=EEfR2w) |
+
+
+
+
+
+
 
 ### 2.2.3 Análisis de entrevistas
 
@@ -885,6 +899,50 @@ El objetivo de estas entrevistas es identificar y comprender las **necesidades, 
 - **Recordatorios automáticos:** notificaciones cuando se aproxima al límite de gasto diario o mensual.
 - **Reportes visuales:** Gráficos intuitivos y resúmenes semanales que permitan entender hábitos de consumo.
 - **Agente especializado** Un agente IA que mediante comando de voz llene la data de gastos.
+
+
+---
+
+
+
+### Entrevista (Yvonne Ramos)
+
+#### Perfil
+- **Nombre:** Yvonne Ramos
+- **Programa:** Estudia Ingeniería Civil en la UTP 
+- **Situación:** Universitaria con **ingreso principal por beca.
+- **Responsabilidades de gasto:** Alimentación, transporte, materiales académicos; gastos ocasionales en salud; ocio solo con lo que sobra.
+
+#### Insights clave
+- **Registro intermitente:** Control semanal en libreta, no diario → baja constancia y poca visibilidad fina.
+- **Dolor de mes a mes:** La beca no siempre alcanza por gastos inesperados (fotocopias, proyectos, salidas de campo), subida de pasajes y salud.
+- **Necesidad de guía, no solo registro:** Prefiere consejos automáticos y alertas sobre un simple log.
+- **Rendición de cuentas:** Valora reportes fáciles de compartir con padres/tutores.
+- **Confianza:** Requiere claridad, seguridad y facilidad de uso; suma puntos el respaldo institucional (universidad/entidad reconocida).
+- **Preferencias de UI:** Gráficos sencillos para el día a día + reporte mensual detallado.
+
+#### Estrategias actuales
+- **Presupuesto mental por “partes”:** básicos (alimentación/transporte), materiales y un pequeño ahorro.
+- **Ajuste de consumo** cuando el mes se complica.
+
+#### Apertura a soluciones digitales
+- **Alta**, siempre que la app sea **simple, segura** y ofrezca **alertas y recomendaciones** prácticas.
+
+#### Necesidades
+- **Monitoreo de gastos diarios** con mínima fricción.
+- **Planificación** de cuánto gastar/ahorrar de la beca.
+- **Visualizaciones claras** (gráficos y resúmenes) + notificaciones rápidas.
+- **Reportes compartibles** (PDF/imagen/link) para padres/tutores.
+- **Funciones Premium básicas:** fondo de emergencias y metas sencillas (p. ej., materiales).
+
+#### Oportunidades para TuCash
+- **Presupuesto por sobres (buckets):** básicos, materiales, transporte, salud, ocio.
+- **Alertas inteligentes:** “Estás a 80% del presupuesto de transporte”, “Gasto inusual en materiales esta semana”.
+- **Planificador de beca:** sugerir % para gasto vs. ahorro al inicio del mes (p. ej., 70/20/10).
+- **Reportes para familia:** un clic para generar **reporte mensual** y **resumen semanal** compartible.
+- **Fondo de emergencias:** aportes automáticos (redondeo/porcentaje).
+- **Metas simples:** “Ahorrar S/ X para material Y en N semanas” con barra de progreso.
+- **Respaldo institucional:** espacio para sello/aval de la universidad o convenios.
 
 
 ## 2.3. Needfinding
