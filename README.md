@@ -328,54 +328,15 @@ Asimismo, desarrollé las secciones asignadas del Capítulo IV: Product Design, 
 
 
 <!--STUDENT OUTCOME-->
+
 # Student Outcome
-<div style="text-align:center;">
-    <table align="center" border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
-        <tr>
-            <th style="text-align:center; border: 1px solid #ddd;">Student Outcomes</th>
-            <th style="text-align:center; border: 1px solid #ddd;">Acciones realizadas</th>
-            <th style="text-align:center; border: 1px solid #ddd;">Conclusiones</th>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #ddd; vertical-align: top;">
-            3.c1. Comunica oralmente con efectividad a diferentes rangos de audiencia</td>
-            <td style="border: 1px solid #ddd; vertical-align: top;">
-                <strong>Milenio Huaman</strong><br>
-                TP1: Parte 1 hasta Segmento Objetivo<br><br>
-                <strong>Giussepe Taquiri</strong><br>
-                TP1: Capítulo II hasta User Journey Mapping<br><br>
-                <strong>Patricia Mejía</strong><br>
-                TP1: Empathy Mapping hasta Product Backlog<br><br>
-                <strong>Juan Diego Mondoñedo</strong><br>
-                TP1: Desde Product Backlog en adelante<br><br>
-                <strong>Harrison Payesa</strong><br>
-                TP1: Continuación de Product Backlog y revisiones finales<br><br>
-            </td>
-            <td style="border: 1px solid #ddd; vertical-align: top;">
-                <b>TP1:</b> Cada integrante contribuyó a secciones clave del informe, mostrando habilidades de comunicación oral al exponer sus aportes y explicar decisiones de diseño y análisis.
-            </td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid #ddd; vertical-align: top;">
-             3.c2. Comunica por escrito con efectividad a diferentes rangos de audiencia</td>
-            <td style="border: 1px solid #ddd; vertical-align: top;">
-                <strong>Milenio Huaman</strong><br>
-                TP1: Parte 1 hasta Segmento Objetivo<br><br>
-                <strong>Giussepe Taquiri</strong><br>
-                TP1: Capítulo II hasta User Journey Mapping<br><br>
-                <strong>Patricia Mejía</strong><br>
-                TP1: Empathy Mapping hasta Product Backlog<br><br>
-                <strong>Juan Diego Mondoñedo</strong><br>
-                TP1: Desde Product Backlog en adelante<br><br>
-                <strong>Harrison Payesa</strong><br>
-                TP1: Continuación de Product Backlog y revisiones finales<br><br>
-            </td>
-            <td style="border: 1px solid #ddd; vertical-align: top;">
-                <b>TP1:</b> La documentación escrita fue organizada por secciones asignadas a cada miembro, garantizando claridad, coherencia y comunicación efectiva para distintos públicos.
-            </td>
-        </tr>
-    </table>
-</div>
+
+| Student Outcomes | Acciones realizadas | Conclusiones |
+|---|---|---|
+| **3.c1. Comunica oralmente con efectividad a diferentes rangos de audiencia** | **Milenio Huaman**<br>TB1: Parte 1 hasta Segmento Objetivo     .<br>TP1: Presenté el pitch del problema, moderé entrevistas iniciales y expuse la definición de segmentos objetivo al equipo y al docente .<br><br>**Giussepe Taquiri**<br>TB1:Capítulo II hasta User Journey Mapping. .<br>TP1: Conduje reuniones de coordinación, expliqué el flujo general (As-Is/To-Be) y prioricé el backlog para alinear al equipo   <br><br>**Patricia Mejía**<br>TB1: Socialicé hallazgos de entrevistas y presenté el enfoque del Empathy Map y Journey preliminar al grupo.<br>TP1: Empathy Mapping hasta Product Backlog.<br><br>**Juan Diego Mondoñedo**<br>TB1: Expliqué criterios de aceptación y facilité la revisión del Product Backlog con el equipo.<br>TP1: Desde Product Backlog en adelante.<br><br>**Harrison Payesa**<br>TB1: Cerré el Sprint 1 con demo de landing básica y comuniqué observaciones de QA para el siguiente sprint.<br>TP1: Continuación de Product Backlog y revisiones finales. | **TB1:** Se demostró comunicación oral efectiva al presentar problema, segmentos y primeras decisiones de diseño; se adaptó el lenguaje a audiencias técnicas y no técnicas.<br><br>**TP1:** Cada integrante expuso sus avances asignados y justificó decisiones (backlog, journey y artefactos), consolidando un entendimiento común del alcance. |
+| **3.c2. Comunica por escrito con efectividad a diferentes rangos de audiencia** | **Milenio Huaman**<br>TB1: Redacté la problemática y segmentos con lenguaje claro para lectores no técnicos y técnicos.<br>TP1: Parte 1 hasta Segmento Objetivo.<br><br>**Giussepe Taquiri**<br>TB1: Documenté el Cap. II (visión/alcance) y registré acuerdos del equipo con trazabilidad en el repositorio.<br>TP1: Capítulo II hasta User Journey Mapping.<br><br>**Patricia Mejía**<br>TB1: Elaboré plantillas y redacción del Empathy Map y Journey inicial con criterios de claridad y coherencia.<br>TP1: Empathy Mapping hasta Product Backlog.<br><br>**Juan Diego Mondoñedo**<br>TB1: Escribí el Product Backlog con historias, criterios de aceptación y prioridades.<br>TP1: Desde Product Backlog en adelante.<br><br>**Harrison Payesa**<br>TB1: Registré observaciones de QA y checklist de correcciones en el documento del sprint.<br>TP1: Continuación de Product Backlog y revisiones finales. | **TB1:** La redacción de antecedentes, segmentos, mapas y backlog mantuvo coherencia, ortografía y estilo técnico adecuados para distintos públicos.<br><br>**TP1:** La documentación por secciones aseguró claridad y trazabilidad de decisiones, facilitando revisión y continuidad del trabajo. |
+
+
 
 <!--TODAS LAS SECCIONES A COMPLETAR-->
 
