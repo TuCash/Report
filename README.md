@@ -2644,6 +2644,21 @@ El despliegue de la landin page se mantiene en el mismo repositorio donde se rea
 
 <img width="1901" height="1080" alt="Image" src="https://github.com/user-attachments/assets/88217c9b-6c60-48a5-9694-7017823fe038" />
 
+#### Web Application:
+
+<img width="1920" height="959" alt="Image" src="https://github.com/user-attachments/assets/a77904a1-d3dc-4f5c-baab-9307d781fc5d" />
+
+<img width="1903" height="955" alt="Image" src="https://github.com/user-attachments/assets/8ba40db9-2581-4c83-8a9b-1f344614fd5f" />
+
+<img width="1902" height="958" alt="Image" src="https://github.com/user-attachments/assets/e353a3a4-1668-4454-bfa3-708b824c4cd9" />
+
+<img width="1920" height="956" alt="Image" src="https://github.com/user-attachments/assets/62ffd284-6140-48a3-95a5-8a199ab8c0ee" />
+
+<img width="1904" height="959" alt="Image" src="https://github.com/user-attachments/assets/34499840-d90a-4ebb-b3e9-3e5ef3794385" />
+
+<img width="1920" height="959" alt="Image" src="https://github.com/user-attachments/assets/50834018-c98f-4a13-9e27-7044c2c8c35c" />
+
+<img width="1903" height="958" alt="Image" src="https://github.com/user-attachments/assets/b78ca154-cc35-4740-bfc6-49ad10db4711" />
 
 ---
 
