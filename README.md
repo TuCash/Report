@@ -2722,6 +2722,10 @@ El despliegue de la landin page se mantiene en el mismo repositorio donde se rea
 
 ---
 
+
+
+
+
 ## 5.2.2.8. Team Collaboration Insights during Sprint
 
 <table border="1">
@@ -2753,6 +2757,465 @@ El despliegue de la landin page se mantiene en el mismo repositorio donde se rea
 
 - ![Contribuciones por integrante](resources/colab.png)
 - ![Actividad de PRs y issues](/resources/insi.png)
+
+
+
+
+# 5.2.3. Sprint 3
+
+## 5.2.3.1. Sprint Planning 3
+<table border="1" cellpadding="6" cellspacing="0">
+  <tbody>
+    <tr>
+      <th>Sprint #</th>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th colspan="2">Sprint Planning Background</th>
+    </tr>
+    <tr>
+      <th>Date</th>
+      <td>29/10/2025</td>
+    </tr>
+    <tr>
+      <th>Time</th>
+      <td>07:00 PM</td>
+    </tr>
+    <tr>
+      <th>Location</th>
+      <td>Reunión virtual (Discord)</td>
+    </tr>
+    <tr>
+      <th>Prepared By</th>
+      <td>Jhunior Giussepe Taquiri Calderón</td>
+    </tr>
+    <tr>
+      <th>Attendees (to planning meeting)</th>
+      <td>
+        Taquiri Calderon, Jhunior Giussepe (u20221c576) ·
+        Payesa Torres, Harrison Hubert (u2022201024) ·
+        Mondoñedo Rodriguez, Juan Diego Javier (u202110373) ·
+        Mejia Poma, Patricia Valeria (u202523271) ·
+        Huaman Hinostroza, Milenio (u20211c245)
+      </td>
+    </tr>
+    <tr>
+      <th>Sprint 2 Review Summary</th>
+      <td>
+        Se consolidó el MVP de TuCash con autenticación y flujo básico para registrar/editar
+        gastos e ingresos, visualizar metas y gestionar perfil. Se cerraron issues pendientes del
+        Sprint 1 y se mantuvo el despliegue de la landing.
+      </td>
+    </tr>
+    <tr>
+      <th>Sprint 2 Retrospective Summary</th>
+      <td>
+        Mejoras en coordinación por módulos, criterios de aceptación por historia, checklist de
+        accesibilidad y política de PR con revisión cruzada.
+      </td>
+    </tr>
+    <tr>
+      <th colspan="2">Sprint Goal & User Stories</th>
+    </tr>
+    <tr>
+      <th>Sprint 3 Goal</th>
+      <td>
+        Completar la experiencia integral PFM: <b>Presupuestos</b> mensuales, <b>Alertas</b>
+        (recordatorios de pagos y límites), <b>Reportes</b> visuales, mejoras de <b>Perfil</b>, e
+        <b>Internacionalización</b>; además de estabilizar el backend de <b>Transacciones</b> y
+        <b>Metas</b> de ahorro.
+      </td>
+    </tr>
+    <tr>
+      <th>Sprint 3 Velocity</th>
+      <td>50</td>
+    </tr>
+    <tr>
+      <th>Sum of Story Points</th>
+      <td>50</td>
+    </tr>
+  </tbody>
+</table>
+
+> **Contexto del producto**  
+> **Startup:** Kashu · **Producto:** TuCash · Enfoque: inclusión y educación financiera para jóvenes LATAM (PFM).  
+> Glosario: Transaction, Income, Expense, Balance, Budget, Savings Goal, Alert, Report, Profile.
+
+---
+
+## 5.2.3.2. Aspect Leaders and Collaborators
+
+Para este sprint, se cubren **US/TS** de PFM: Presupuesto, Alertas, Reportes, Perfil e i18n; y endurecimiento de servicios de Transacciones y Metas. Se asignan líderes (L) y colaboradores (C).
+
+<table border="1" align="center">
+<tr>
+  <th rowspan="2">User/Tech Story</th>
+  <th colspan="5">Team Members</th>
+</tr>
+<tr>
+  <th>J. G. Taquiri</th>
+  <th>H. Payesa</th>
+  <th>J. D. Mondoñedo</th>
+  <th>P. Mejía</th>
+  <th>M. Huaman</th>
+</tr>
+<tr><td>US21: Presupuesto mensual (crear/editar/seguimiento)</td><td>L</td><td>C</td><td>C</td><td>C</td><td>C</td></tr>
+<tr><td>US22: Alertas (recordatorios y límites de gasto)</td><td>C</td><td>L</td><td>C</td><td>C</td><td>C</td></tr>
+<tr><td>US23: Reportes visuales (gastos/ingresos por categoría/periodo)</td><td>C</td><td>C</td><td>L</td><td>C</td><td>C</td></tr>
+<tr><td>US24: Perfil (datos, preferencias, seguridad básica)</td><td>C</td><td>C</td><td>C</td><td>L</td><td>C</td></tr>
+<tr><td>US25: Internacionalización (ES/EN)</td><td>C</td><td>C</td><td>C</td><td>C</td><td>L</td></tr>
+<tr><td>TS24: Endurecer API /transactions (filtros/paginación/orden)</td><td>L</td><td>C</td><td>C</td><td>C</td><td>C</td></tr>
+<tr><td>TS25: Endurecer API /goals (CRUD + validaciones)</td><td>C</td><td>L</td><td>C</td><td>C</td><td>C</td></tr>
+<tr><td>TS26: Telemetría básica y logs (errores y performance)</td><td>C</td><td>C</td><td>L</td><td>C</td><td>C</td></tr>
+</table>
+
+---
+
+## 5.2.3.3. Sprint Backlog 3
+
+> Historias y tareas priorizadas (estimaciones en horas). El foco es **cerrar el loop PFM**: **presupuesto → alertas → reportes → ajustes de hábitos**.
+
+<table border="1">
+<tr>
+  <th colspan="2">User/Technical Story</th>
+  <th colspan="6">Work-Item/Task</th>
+</tr>
+<tr>
+  <th>Id</th><th>Title</th><th>Id</th><th>Title</th><th>Description</th><th>Estimation (Hours)</th><th>Assigned To</th><th>Status</th>
+</tr>
+
+<!-- Presupuesto -->
+<tr><td rowspan="3">US21</td><td rowspan="3">Presupuesto mensual</td>
+<td>TK201</td><td>Modelo de presupuesto</td><td>Entidad + repositorio + servicio; reglas por categoría y techo mensual.</td><td>3</td><td>J. G. Taquiri</td><td>In Process</td></tr>
+<tr><td>TK202</td><td>UI Presupuesto</td><td>Formulario crear/editar + desglose por categorías con validación UI.</td><td>3</td><td>P. Mejía</td><td>In Process</td></tr>
+<tr><td>TK203</td><td>Reconciliación con transacciones</td><td>Sumatoria de egresos por período y comparación con límite.</td><td>2</td><td>J. D. Mondoñedo</td><td>To Review</td></tr>
+
+<!-- Alertas -->
+<tr><td rowspan="3">US22</td><td rowspan="3">Alertas</td>
+<td>TK204</td><td>Recordatorios de pago</td><td>Scheduler simple (client-side) + persistencia de “próximo pago”.</td><td>2</td><td>H. Payesa</td><td>In Process</td></tr>
+<tr><td>TK205</td><td>Alertas por límite</td><td>Disparador cuando egresos > % de presupuesto; notificación UI.</td><td>2</td><td>M. Huaman</td><td>To Review</td></tr>
+<tr><td>TK206</td><td>Preferencias de alerta</td><td>On/Off, umbrales y frecuencia; guardado en Perfil.</td><td>2</td><td>P. Mejía</td><td>To Do</td></tr>
+
+<!-- Reportes -->
+<tr><td rowspan="3">US23</td><td rowspan="3">Reportes visuales</td>
+<td>TK207</td><td>Gráfico por categoría</td><td>Gráfico de barras anuales/mensuales con filtro de categoría.</td><td>2</td><td>J. D. Mondoñedo</td><td>In Process</td></tr>
+<tr><td>TK208</td><td>Serie temporal</td><td>Línea de tiempo de gastos/ingresos por mes (últimos 12M).</td><td>2</td><td>J. G. Taquiri</td><td>To Review</td></tr>
+<tr><td>TK209</td><td>Exportar CSV</td><td>Exportación de transacciones filtradas (fecha/categoría).</td><td>1</td><td>M. Huaman</td><td>To Do</td></tr>
+
+<!-- Perfil -->
+<tr><td rowspan="2">US24</td><td rowspan="2">Perfil</td>
+<td>TK210</td><td>Preferencias de moneda e idioma</td><td>Persistir ISO moneda (PEN/USD) y locale (es-PE/en-US).</td><td>2</td><td>P. Mejía</td><td>In Process</td></tr>
+<tr><td>TK211</td><td>Seguridad básica</td><td>Cambio de contraseña y verificación mínima de sesión.</td><td>2</td><td>H. Payesa</td><td>To Review</td></tr>
+
+<!-- i18n -->
+<tr><td rowspan="2">US25</td><td rowspan="2">Internacionalización</td>
+<td>TK212</td><td>Infra de i18n</td><td>Textos clave en ES/EN para landing, login y dashboard.</td><td>2</td><td>M. Huaman</td><td>In Process</td></tr>
+<tr><td>TK213</td><td>Switch de idioma</td><td>Selector persistente de idioma desde header.</td><td>1</td><td>J. D. Mondoñedo</td><td>To Do</td></tr>
+
+<!-- Backend endurecido -->
+<tr><td rowspan="3">TS24</td><td rowspan="3">API /transactions</td>
+<td>TK214</td><td>Filtros/orden/paginación</td><td>Query params: dateFrom/dateTo, type, category, sort, page/size.</td><td>3</td><td>J. G. Taquiri</td><td>In Process</td></tr>
+<tr><td>TK215</td><td>Validaciones</td><td>Reglas: montos > 0, categorías válidas, fechas coherentes.</td><td>2</td><td>H. Payesa</td><td>To Review</td></tr>
+<tr><td>TK216</td><td>Docs Swagger</td><td>Actualizar OpenAPI para nuevos parámetros de consulta.</td><td>1</td><td>P. Mejía</td><td>To Do</td></tr>
+
+<tr><td rowspan="2">TS25</td><td rowspan="2">API /goals</td>
+<td>TK217</td><td>CRUD metas</td><td>Crear/editar/eliminar metas con fecha objetivo y progreso.</td><td>3</td><td>H. Payesa</td><td>In Process</td></tr>
+<tr><td>TK218</td><td>Cálculo de avance</td><td>Progreso = ahorro acumulado / meta; estados: onTrack/atRisk.</td><td>2</td><td>J. D. Mondoñedo</td><td>To Do</td></tr>
+
+<tr><td>TS26</td><td>Telemetría</td>
+<td>TK219</td><td>Logs y métricas</td><td>Registro de errores y tiempos de respuesta; eventos clave UI.</td><td>2</td><td>M. Huaman</td><td>To Do</td></tr>
+</table>
+
+---
+
+## 5.2.3.4. Development Evidence for Sprint Review
+
+| Repository       | Branch                     | Commit id | Commit Message                                      | Committer on (Date) |
+|------------------|----------------------------|-----------|-----------------------------------------------------|---------------------|
+| tucash-api       | feature/transactions-filters | –         | feat(api): filtros/orden en `/transactions`         | –                   |
+| tucash-api       | feature/goals-crud           | –         | feat(api): CRUD de metas con validaciones           | –                   |
+| tucash-frontend  | feature/budget-module        | –         | feat(ui): módulo de presupuesto y reconciliación    | –                   |
+| tucash-frontend  | feature/reports              | –         | feat(ui): gráficos por categoría y serie temporal   | –                   |
+| tucash-frontend  | chore/i18n                   | –         | chore(i18n): soporte ES/EN con selector persistente | –                   |
+
+> Los repos con commit-id reales se completan al cerrar PRs del sprint.
+
+---
+
+## 5.2.3.5. Execution Evidence for Sprint Review
+
+Se adjuntarán capturas (rutas sugeridas dentro del repo):
+
+- `public/assets/images/evidence-tucash/budget.png`
+- `public/assets/images/evidence-tucash/alerts.png`
+- `public/assets/images/evidence-tucash/reports.png`
+- `public/assets/images/evidence-tucash/i18n.png`
+
+---
+
+
+
+
+
+
+
+
+
+
+# 5.3. Validation Interviews 
+
+En esta sección realizamos entrevistas de validación con los segmentos objetivo (estudiantes universitarios 16–25) para evaluar **presentación, funcionalidad y experiencia de uso** de **TuCash** —una app PFM enfocada en registro simple de ingresos/egresos, control de presupuesto, metas de ahorro, alertas y reportes claros. El objetivo es obtener evidencia para priorizar mejoras en UI/UX y roadmap.
+
+---
+
+## 5.3.1. Diseño de entrevistas (mejorado)
+
+### Objetivos de la validación
+- Verificar **entendibilidad** de la propuesta de valor y el onboarding.
+- Validar **flujo rápido** de registro de gastos/ingresos y utilidad de **presupuestos**.
+- Evaluar **metas de ahorro**, **alertas**, **reportes**, y **manejo de deudas**.
+- Identificar **fricciones** por segmento (S1/S2/S3) y oportunidades de **automatización/IA**.
+- Medir percepción con **escalas estandarizadas** (SUS/UMUX-Lite, NPS) y **éxito de tarea**.
+
+### Segmentos objetivo
+- **S1 – Estudiantes con mesada (sustento familiar)**: control de “gasto hormiga”, metas cortas.
+- **S2 – Trabajan y estudian (independientes)**: ingresos variables, recordatorios de pagos.
+- **S3 – Becados**: separación académicos vs personales, exportables y fechas de beca.
+
+### User Goals (TuCash)
+- **UG1. Registro y Onboarding** (cuenta, rol S1/S2/S3, moneda, idioma, tutorial).
+- **UG2. Registrar ingresos/egresos** (1–2 toques, categorías, notas, repetidos).
+- **UG3. Presupuestos** (por categorías, avance, alertas 80%/100%).
+- **UG4. Metas de ahorro** (monto/fecha, aporte sugerido, progreso).
+- **UG5. Alertas/recordatorios** (vencimientos, aportes, sobrepaso).
+- **UG6. Reportes** (resumen, tendencias, top gasto hormiga, exportar CSV/PDF).
+- **UG7. Deudas** (registro, pagos parciales, estado).
+- **UG8. Perfil & hábitos (futuro)** (recomendaciones de micro‑ahorro).
+
+---
+
+## 5.3.1.1. Consentimiento, metadatos y logística
+- **Consentimiento**: “¿Aceptas que la sesión sea grabada con fines de investigación interna?” (Sí/No).
+- **Duración**: 25–35 minutos. **Formato**: moderada (remota o presencial).
+- **Dispositivo**: Android/iOS/Desktop; **Contexto**: red móvil/Wi‑Fi.
+- **Perfil**: edad, carrera, empleo (sí/no), ingreso mensual aproximado (rango), ciudad.
+- **Privacidad**: sin recopilar datos sensibles; seudonimización para reportes.
+
+---
+
+## 5.3.1.2. Flujo de la sesión
+1. **Icebreaker (2–3’)**: contexto financiero actual y apps usadas (si aplica).
+2. **Tareas guiadas (12–18’)**: completar escenarios breves por User Goal.
+3. **Indagación (8–10’)**: preguntas abiertas + *probes*.
+4. **Métricas (3–4’)**: SUS/UMUX‑Lite, SEQ por tarea, NPS.
+5. **Cierre (1–2’)**: priorización rápida (MoSCoW/Kano) y agradecimiento.
+
+> **Indicaciones**: “Piensa en voz alta”, “No te evaluamos a ti, evaluamos al producto”.
+
+---
+
+## 5.3.1.3. Escenarios de tareas (para medir éxito y tiempo)
+
+- **T1 (UG2):** Registra un **gasto de S/ 12.90** en **Comida** con nota “sánguche y bebida”.  
+  *Criterios*: completar sin ayuda, ≤ 45s, localizar categoría en ≤ 2 toques.
+- **T2 (UG3):** Crea un **presupuesto mensual de S/ 250** para **Transporte** y activa **alerta al 80%**.  
+  *Criterios*: configurar umbral, confirmar estado visible en dashboard.
+- **T3 (UG4):** Define una **meta de ahorro**: “Audífonos” de **S/ 180** para dentro de **5 semanas**.  
+  *Criterios*: ver aporte sugerido y progreso.
+- **T4 (UG6):** Abre **reportes**, identifica **Top 3 gastos hormiga** del mes y **exporta PDF**.  
+  *Criterios*: identificar y exportar en ≤ 90s.
+- **T5 (UG7):** Registra una **deuda** de **S/ 60** con “Alex”, paga **S/ 20** y verifica estado.  
+  *Criterios*: estado **parcial** visible y comprensible.
+
+> **Mediciones por tarea**: Éxito (Sí/No), **Tiempo (s)**, **Errores**, **SEQ (1–7)**.
+
+---
+
+## 5.3.1.4. Banco de preguntas (ampliado y mejorado)
+
+### A) Guion común (todos los segmentos)
+**Comprensión y valor**
+1. ¿Con tus palabras, **qué hace TuCash** y **para quién** es?
+2. ¿Qué **problema** te ayuda a resolver de forma **concreta**?
+3. ¿Qué tan útil te parece **hoy** (1–5) y **por qué** no es 5/5 aún? (pregunta *gancho* de mejora)
+
+**Onboarding y primeras impresiones**
+4. ¿Hubo algo **confuso** en el registro u onboarding? (ej.: moneda, idioma, tutorial)
+5. ¿Qué cambiarías de la **pantalla inicial** para entenderlo más rápido en 5 segundos?
+
+**Registro de movimientos**
+6. Describe con tus palabras el **camino mental** para registrar un gasto: ¿qué te frenó?
+7. ¿Qué **plantillas** o **atajos** te ahorrarían tiempo (repetidos, favoritos, geolocalización)?
+8. ¿Qué tan cómodo te sientes con **notas** y **adjuntos** (boletas/fotos)?
+
+**Presupuestos y alertas**
+9. ¿Cómo decides tus **top 3 categorías** a controlar cada mes?
+10. ¿Qué **umbral** prefieres (70/80/90/100%) y cómo te gustaría que la app te **avise**?
+11. Si te pasas del presupuesto, ¿qué esperas que **suceda** automáticamente?
+
+**Metas de ahorro**
+12. ¿Qué metas te motivan (corto/mediano plazo)? ¿Qué **micro‑nudges** te ayudarían (redondeo, auto‑ahorro)?
+13. ¿Preferirías metas **semanales** además de mensuales?
+
+**Reportes y decisiones**
+14. ¿Cuál gráfico te resultó **más útil** y cuál **sobraría**?
+15. ¿Qué **recomendación accionable** te gustaría ver cada semana? (“Reduce X un Y% haciendo Z”).
+
+**Deudas y compromisos**
+16. ¿Cómo controlas hoy tus **deudas** entre amigos/familia? ¿Qué **estados** necesitas?
+17. ¿Te gustaría **recordatorios automáticos** (educados) al deudor/acreedor? ¿Por qué?
+
+**Privacidad y confianza**
+18. ¿Qué mensaje o **sello de privacidad** te daría tranquilidad al empezar?
+19. ¿Compartirías **reportes** con tu familia/tutor? ¿Qué datos ocultarías?
+
+**Willingness to Pay / Planes**
+20. ¿Qué plan te encaja (Free/Plus/Pro)? ¿Qué feature convertiría un **“quizás” en “sí”**?
+
+**Cierre**
+21. Si fueras PM por un día, ¿**cuál** sería tu **única prioridad** de mejora?
+22. ¿Recomendarías TuCash a un amigo (0–10, **NPS**)? ¿Qué haría falta para darte un **10**?
+
+---
+
+### B) Preguntas específicas por segmento
+
+**S1 – Mesada**
+1. ¿Cómo te ayuda TuCash a **reconocer y frenar** el **gasto hormiga**?  
+2. ¿Te sirven **objetivos semanales** (ej.: S/ 40 en snacks)?  
+3. ¿Te gustaría un **modo guiado** que te recuerde registrar 3 veces por semana?
+
+**S2 – Trabajan y estudian**
+1. ¿Qué tal encaja TuCash con **ingresos variables** (turnos/propinas)?  
+2. ¿Necesitas separar **laboral vs personal** (etiquetas, filtros, reportes)?  
+3. ¿Qué **recordatorios** de pagos fijos (datos, transporte, suscripciones) te evitarían recargos?
+
+**S3 – Becados**
+1. ¿Qué tan fácil es identificar **gastos académicos**? ¿Qué etiquetas faltan?  
+2. ¿Te sirve **exportar PDF mensual** para tutor/beca? ¿Qué formato/campos?  
+3. ¿Qué **alertas de beca** (renovación, matrícula) serían críticas y con cuánta anticipación?
+
+---
+
+### C) *Probes* (profundización)
+- “Cuéntame más sobre esa parte…” / “¿Qué te hizo pensar eso?”  
+- “¿Qué habrías **esperado** ver aquí?”  
+- “Imagina que esto fuera **automático**: ¿qué riesgo ves?”  
+- “Si lo usamos por **30 días**, ¿qué hábito cambiaría primero?”
+
+---
+
+## 5.3.1.5. Métricas estandarizadas
+
+- **SUS (10 ítems, 1–5)** o **UMUX‑Lite (2 ítems, 1–7)** para percepción de usabilidad.
+- **NPS (0–10)**: “¿Qué tan probable es que recomiendes TuCash…?”  
+- **SEQ (1–7)** por tarea: “¿Qué tan fácil fue completar Tn?”  
+- **Tasa de éxito de tarea**, **tiempo (s)**, **errores** observados.
+- **Prioridad MoSCoW** (Must/Should/Could/Won’t) y **Kano** (Must‑Have, Performance, Delighter).
+
+> **Corte de calidad sugerido**: SUS ≥ 68 (aceptable); UMUX‑Lite ≥ 5.6; NPS > 0 en primeras betas.
+
+---
+
+## 5.3.2. Registro de entrevistas (plantilla)
+
+> **Reemplaza con tus datos reales, imágenes y enlaces.**
+
+### Estudiantes (S1, S2, S3)
+
+| Campo | Información |
+|---|---|
+| **Entrevistado 1 (S1)** | **María López** – Mesada |
+| **Imagen** | `![María López](public/assets/images/interviews/maria-s1.png)` |
+| **Hallazgos** | Registro rápido; pide alertas suaves al 80% en Comida/Ocio; metas cortas útiles. |
+| **Timing (mm:ss)** | 00:08–04:12 |
+| **Grabación** | *(enlace)* |
+
+| Campo | Información |
+|---|---|
+| **Entrevistado 2 (S2)** | **Carlos Ramos** – Trabaja y estudia |
+| **Imagen** | `![Carlos Ramos](public/assets/images/interviews/carlos-s2.png)` |
+| **Hallazgos** | Ingresos variables; etiquetas laboral/personal; recordatorios de pagos; flujo semanal. |
+| **Timing (mm:ss)** | 04:12–09:35 |
+| **Grabación** | *(enlace)* |
+
+| Campo | Información |
+|---|---|
+| **Entrevistada 3 (S3)** | **Ana Quispe** – Becaria |
+| **Imagen** | `![Ana Quispe](public/assets/images/interviews/ana-s3.png)` |
+| **Hallazgos** | Separar gastos académicos; exportar PDF; alertas de fechas de beca. |
+| **Timing (mm:ss)** | 09:35–14:20 |
+| **Grabación** | *(enlace)* |
+
+| Campo | Información |
+|---|---|
+| **Entrevistado 4 (S1)** | **Luis Herrera** – Mesada + encargos |
+| **Imagen** | `![Luis Herrera](public/assets/images/interviews/luis-s1.png)` |
+| **Hallazgos** | Resumen semanal tipo semáforo; atajos para gastos repetidos; widget gasto diario. |
+| **Timing (mm:ss)** | 14:20–18:40 |
+| **Grabación** | *(enlace)* |
+
+| Campo | Información |
+|---|---|
+| **Entrevistada 5 (S2)** | **Valeria Poma** – Medio tiempo |
+| **Imagen** | `![Valeria Poma](public/assets/images/interviews/valeria-s2.png)` |
+| **Hallazgos** | Objetivos semanales; alerta de Transporte; “Top 5 gastos hormiga” + recomendación. |
+| **Timing (mm:ss)** | 18:40–23:15 |
+| **Grabación** | *(enlace)* |
+
+| Campo | Información |
+|---|---|
+| **Entrevistado 6 (S3)** | **Miguel Huamán** – Beca parcial |
+| **Imagen** | `![Miguel Huamán](public/assets/images/interviews/miguel-s3.png)` |
+| **Hallazgos** | Presupuestos bloqueados académicos; deudas con historial; pagos parciales claros. |
+| **Timing (mm:ss)** | 23:15–29:00 |
+| **Grabación** | *(enlace)* |
+
+**Patrones observados**
+- Alta demanda de **alertas configurables** y **registro ultrarrápido** (plantillas).
+- **Reportes accionables** (top hormiga, tendencia semanal, recomendaciones).
+- **S2/S3** necesitan **etiquetas** y **exportables**.
+
+---
+
+## 5.3.3. Evaluación heurística (Nielsen) — síntesis de hallazgos
+*(idéntica estructura de la versión anterior; mantener tabla de problemas con severidad y recomendaciones clave para Landing y App).*
+
+---
+
+## 5.3.4. Métricas y artefactos a recolectar
+- **Grabaciones** (video/voz, pantalla).
+- **Logs de tareas** (éxito, tiempo, errores, SEQ).
+- **Encuestas SUS/UMUX‑Lite, NPS**.
+- **Capturas** de pantallas clave (landing, presupuesto, reportes, metas, deudas).
+- **Backlog**: issues priorizados (Must/Should/Could).
+
+---
+
+## 5.3.5. Próximas acciones (priorización propuesta)
+1. **Registro 1‑tap** con plantillas y “repetir último gasto”.  
+2. **Alertas graduadas** y umbrales visibles por categoría.  
+3. **Reportes accionables** (top hormiga, sugerencias semanales) y **exportar PDF/CSV**.  
+4. **Deudas** con estados (pendiente/parcial/cancelada) y recordatorios.  
+5. **I18N** visible (ES/EN) y **accesibilidad** (WCAG AA).
+
+---
+
+## Equipo (integrantes)
+| Nombre | Código |
+|---|:---:|
+| **Taquiri Calderon, Jhunior Giussepe** | **u20221c576** |
+| **Payesa Torres, Harrison Hubert** | **u2022201024** |
+| **Mondoñedo Rodriguez, Juan Diego Javier** | **u202110373** |
+| **Mejia Poma, Patricia Valeria** | **u202523271** |
+| **Huaman Hinostroza, Milenio** | **u20211c245** |
+
+---
+
+## Anexos
+- Figma / Prototipos *(pendiente)*  
+- Repos Front‑end / Back‑end / Landing *(pendiente)*  
+- Videos (About the Product / Interviews / Demo) *(pendiente)*
 
 # Video About-the-Product
 
