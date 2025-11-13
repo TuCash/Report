@@ -3046,21 +3046,81 @@ A continuación se presentan las evidencias de ejecución correspondientes al **
 
 Se adjuntan capturas almacenadas en el repositorio según las rutas sugeridas:
 
-<p align="center">
-  <img src="resources/budget.png" alt="Evidencia de módulo Budget">
-</p>
+---
+
+###  Evidencia 1 — Módulo **Budget**
 
 <p align="center">
-  <img src="resources/alerts.png" alt="Evidencia de módulo Alerts">
+  <img src="resources/budget.png" alt="Evidencia de módulo Budget" width="650">
 </p>
 
-**Descripción general de las evidencias:**
+**Descripción:**  
+Visualización del módulo de gestión presupuestal, mostrando la correcta carga de categorías, estado del presupuesto mensual, uso del gráfico circular y alertas de límite.
 
-- **Budget:** Se muestra la visualización del módulo de gestión presupuestal, incluyendo el componente de distribución de gastos y alertas automáticas de límite.
-- **Alerts:** Se evidencia la correcta implementación del sistema de notificaciones dentro del dashboard, validando tanto el comportamiento UI como la lógica de activación.
+---
 
-Cada evidencia respalda la ejecución del incremento desarrollado en este sprint y valida el cumplimiento de las user stories asociadas.
+###  Evidencia 2 — Módulo **Alerts**
 
+<p align="center">
+  <img src="resources/alerts.png" alt="Evidencia de módulo Alerts" width="650">
+</p>
+
+**Descripción:**  
+Se evidencia el funcionamiento de las notificaciones internas del dashboard, validando el comportamiento UI y la lógica que activa alertas relacionadas a sobreuso del presupuesto.
+
+---
+
+# Evidencias Backend – Postman (API TuCash)
+
+###  Evidencia 3 — Registro de usuario (POST /auth/register)
+
+<p align="center">
+  <img src="resources/postman-register.png" alt="Postman Register" width="750">
+</p>
+
+**Descripción:**  
+Probando el endpoint de registro. El sistema genera correctamente un nuevo usuario, devolviendo:  
+`id`, `email`, `displayName`, configuración inicial (currency, locale, theme) y timestamps.
+
+---
+
+###  Evidencia 4 — Login (POST /auth/login)
+
+<p align="center">
+  <img src="resources/postman-login.png" alt="Postman Login" width="750">
+</p>
+
+**Descripción:**  
+Se valida el flujo de inicio de sesión. El backend devuelve credenciales correctas junto con un **JWT token válido**, permitiendo el acceso a endpoints protegidos.
+
+---
+
+###  Evidencia 5 — Obtener categorías (GET /categories)
+
+<p align="center">
+  <img src="resources/postman-categories.png" alt="Postman Categories" width="750">
+</p>
+
+**Descripción:**  
+Se verifica el acceso a recursos protegidos utilizando el JWT obtenido en el login.  
+El endpoint responde correctamente con la lista de categorías disponibles para registrar transacciones.
+
+---
+
+## ✔️ Conclusión general de la evidencia
+
+Las cinco evidencias permiten validar:
+
+- El correcto funcionamiento del **Frontend**, especialmente en módulos Budget y Alerts.  
+- El funcionamiento completo del **ciclo de autenticación** (register → login → uso de endpoints protegidos).  
+- La **consistencia** del backend en las respuestas JSON, tiempos de respuesta y códigos HTTP (201, 200).  
+- La integración efectiva entre el cliente (frontend), el servidor (API .NET) y la base de datos MySQL.
+
+Estas evidencias confirman el cumplimiento del incremento comprometido para el Sprint 3.
+
+
+
+---
 
 
 
