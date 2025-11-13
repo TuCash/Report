@@ -3072,6 +3072,21 @@ Se evidencia el funcionamiento de las notificaciones internas del dashboard, val
 
 # Evidencias Backend – Postman (API TuCash)
 
+## Conexión al Backend Desplegado
+
+**Backend desplegado:** https://kashu-backend-29cd591f8f69.herokuapp.com/swagger-ui/index.html
+
+El backend de TuCash está desplegado en Heroku y disponible para pruebas a través de Postman. La documentación completa de la API se encuentra en el enlace Swagger UI proporcionado, donde se pueden visualizar todos los endpoints disponibles, sus parámetros y respuestas esperadas.
+
+**Base URL para Postman:** `https://kashu-backend-29cd591f8f69.herokuapp.com/api`
+
+**Endpoints principales validados:**
+- `POST /auth/register` - Registro de nuevos usuarios
+- `POST /auth/login` - Autenticación de usuarios  
+- `GET /categories` - Obtención de categorías de transacciones
+- `GET /transactions` - Consulta de transacciones con filtros
+- `POST/PUT/DELETE /goals` - CRUD de metas de ahorro
+
 ###  Evidencia 3 — Registro de usuario (POST /auth/register)
 
 <p align="center">
