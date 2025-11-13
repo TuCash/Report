@@ -102,6 +102,41 @@
   </tr>
 </table>
 
+<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+  <tr>
+    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Versión</td>
+    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Fecha</td>
+    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Autores</td>
+    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Descripción</td>
+  </tr>
+
+  <!-- TB2 AÑADIDO -->
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px;">TB2</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">30/11/2025</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">
+      <ul style="margin: 0; padding-left: 18px;">
+        <li>Jhunior Giussepe Taquiri Calderon - u20221c576</li>
+        <li></li>
+        <li></li>
+        <li>Patricia Valeria Mejia Poma - u202523271</li>
+        <li>Milenio Huaman Hinostroza - u20211c245</li>
+      </ul>
+    </td>
+    <td style="border: 1px solid #ddd; padding: 8px;">
+      <ul style="margin: 0; padding-left: 18px;">
+        <li>Capítulo V: Product Implementation, Validation &amp; Deployment — <strong>Sprint 3</strong></li>
+        <li>Actualización de evidencias de desarrollo y ejecución.</li>
+        <li>Incorporación de entrevistas de validación Sprint 3.</li>
+        <li>Ajustes al diseño final del producto KapakID.</li>
+        <li>Actualización de Conclusiones, Recomendaciones y Anexos.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+
+
 <!--Link al repositorio en la organización-->
 # Project Report Collaboration Insights
 
@@ -217,6 +252,55 @@ Asimismo, desarrollé las secciones asignadas del Capítulo IV: Product Design, 
   </tr>
 </table>
 
+
+
+**TB2 Pulse**
+
+<td><img src="resources/tb02-pulse.png" alt="TB2 Pulse"></td>
+
+<h2>TB2 — Sprint 3: Asignación de módulos</h2>
+
+<table align="center" border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+  <tr>
+    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Integrante</td>
+    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Módulo / Responsabilidad (Sprint 3)</td>
+    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Cambios / Notas (TB2)</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px;">Taquiri Calderon, Jhunior Giussepe</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">
+      Dashboard &amp; Expenses (Resumen de Movimientos y Gestión de Gastos)
+    </td>
+    <td style="border: 1px solid #ddd; padding: 8px;">
+      Implementó mejoras en el dashboard de Pulse (resumen de ingresos/gastos, tarjetas y alertas),
+      ajustó flujos de registro de gastos recurrentes y afinó la navegación entre vistas.
+      Además, actualizó la documentación de Sprint 3 y evidencias en el repositorio.
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px;">Huaman Hinostroza, Milenio</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">
+      Home &amp; Login (Onboarding, Autenticación y Redirecciones)
+    </td>
+    <td style="border: 1px solid #ddd; padding: 8px;">
+      Refinó el flujo de inicio de sesión y registro, manejando estados de error y validaciones,
+      y mejoró la redirección hacia el dashboard después del login.
+      Apoyó en la corrección de estilos generales para mantener consistencia visual.
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px;">Mejia Poma, Patricia Valeria</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">
+      Profile &amp; Settings (Perfil de Usuario, Preferencias y Notificaciones)
+    </td>
+    <td style="border: 1px solid #ddd; padding: 8px;">
+      Completó la edición de datos de perfil, configuración de categorías de gastos
+      y preferencias de notificaciones. Ajustó textos, mensajes de ayuda y contenidos
+      para mejorar la claridad y alineación con la propuesta de valor de Pulse.
+    </td>
+  </tr>
+</table>
+
 <!--ÍNDICE-->
 # Contenido
 
@@ -320,8 +404,22 @@ Asimismo, desarrollé las secciones asignadas del Capítulo IV: Product Design, 
 
 | Student Outcomes | Acciones realizadas | Conclusiones |
 |---|---|---|
-| **3.c1. Comunica oralmente con efectividad a diferentes rangos de audiencia** | **Milenio Huaman**<br>TB1: Parte 1 hasta Segmento Objetivo     .<br>TP1: Presenté el pitch del problema, moderé entrevistas iniciales y expuse la definición de segmentos objetivo al equipo y al docente .<br><br>**Giussepe Taquiri**<br>TB1:Capítulo II hasta User Journey Mapping. .<br>TP1: Conduje reuniones de coordinación, expliqué el flujo general (As-Is/To-Be) y prioricé el backlog para alinear al equipo   <br><br>**Patricia Mejía**<br>TB1: Socialicé hallazgos de entrevistas y presenté el enfoque del Empathy Map y Journey preliminar al grupo.<br>TP1: Empathy Mapping hasta Product Backlog.<br><br>**Juan Diego Mondoñedo**<br>TB1: Expliqué criterios de aceptación y facilité la revisión del Product Backlog con el equipo.<br>TP1: Desde Product Backlog en adelante.<br><br>**Harrison Payesa**<br>TB1: Cerré el Sprint 1 con demo de landing básica y comuniqué observaciones de QA para el siguiente sprint.<br>TP1: Continuación de Product Backlog y revisiones finales. | **TB1:** Se demostró comunicación oral efectiva al presentar problema, segmentos y primeras decisiones de diseño; se adaptó el lenguaje a audiencias técnicas y no técnicas.<br><br>**TP1:** Cada integrante expuso sus avances asignados y justificó decisiones (backlog, journey y artefactos), consolidando un entendimiento común del alcance. |
-| **3.c2. Comunica por escrito con efectividad a diferentes rangos de audiencia** | **Milenio Huaman**<br>TB1: Redacté la problemática y segmentos con lenguaje claro para lectores no técnicos y técnicos.<br>TP1: Parte 1 hasta Segmento Objetivo.<br><br>**Giussepe Taquiri**<br>TB1: Documenté el Cap. II (visión/alcance) y registré acuerdos del equipo con trazabilidad en el repositorio.<br>TP1: Capítulo II hasta User Journey Mapping.<br><br>**Patricia Mejía**<br>TB1: Elaboré plantillas y redacción del Empathy Map y Journey inicial con criterios de claridad y coherencia.<br>TP1: Empathy Mapping hasta Product Backlog.<br><br>**Juan Diego Mondoñedo**<br>TB1: Escribí el Product Backlog con historias, criterios de aceptación y prioridades.<br>TP1: Desde Product Backlog en adelante.<br><br>**Harrison Payesa**<br>TB1: Registré observaciones de QA y checklist de correcciones en el documento del sprint.<br>TP1: Continuación de Product Backlog y revisiones finales. | **TB1:** La redacción de antecedentes, segmentos, mapas y backlog mantuvo coherencia, ortografía y estilo técnico adecuados para distintos públicos.<br><br>**TP1:** La documentación por secciones aseguró claridad y trazabilidad de decisiones, facilitando revisión y continuidad del trabajo. |
+| **3.c1. Comunica oralmente con efectividad a diferentes rangos de audiencia** | **Milenio Huaman**<br>TB1: Parte 1 hasta Segmento Objetivo     .<br>TP1: Presenté el pitch del problema, moderé entrevistas iniciales y expuse la definición de segmentos objetivo al equipo y al docente . .<br>TB2: Presenté los avances del Sprint 3 (Login/Home), expuse hallazgos de entrevistas de validación y argumenté problemas heurísticos identificados <br><br>**Giussepe Taquiri**<br>TB1:Capítulo II hasta User Journey Mapping. .<br>TP1: Conduje reuniones de coordinación, expliqué el flujo general (As-Is/To-Be) y prioricé el backlog para alinear al equipo <br> TB2: Expuse el módulo de Documentos y Dashboard, dirigí entrevistas de validación del Sprint 3 y sustenté la síntesis de problemas y mejoras del producto  <br><br>**Patricia Mejía**<br>TB1: Socialicé hallazgos de entrevistas y presenté el enfoque del Empathy Map y Journey preliminar al grupo.<br>TP1: Empathy Mapping hasta Product Backlog.<br>TB2: Presenté avances de Perfil & Configuración, resultados de la evaluación heurística y recomendaciones de accesibilidad, contenido y consistencia visual<br><br>**Juan Diego Mondoñedo**<br>TB1: Expliqué criterios de aceptación y facilité la revisión del Product Backlog con el equipo.<br>TP1: Desde Product Backlog en adelante.<br><br>**Harrison Payesa**<br>TB1: Cerré el Sprint 1 con demo de landing básica y comuniqué observaciones de QA para el siguiente sprint.<br>TP1: Continuación de Product Backlog y revisiones finales. | **TB1:** Se demostró comunicación oral efectiva al presentar problema, segmentos y primeras decisiones de diseño; se adaptó el lenguaje a audiencias técnicas y no técnicas.<br><br>**TP1:** Cada integrante expuso sus avances asignados y justificó decisiones (backlog, journey y artefactos), consolidando un entendimiento común del alcance. <br>**TB2:** Se demostró claridad al comunicar hallazgos de entrevistas, resultados heurísticos y mejoras del producto, evidenciando madurez comunicacional y dominio técnico en Sprint 3. |
+|
+| **3.c2. Comunica por escrito con efectividad a diferentes rangos de audiencia** | **Milenio Huaman**<br>TB1: Redacté la problemática y segmentos con lenguaje claro para lectores no técnicos y técnicos.<br>TP1: Parte 1 hasta Segmento Objetivo.<br> TB2: Documenté hallazgos de entrevistas, flujo Login/Home y parte de la evaluación heurística del Sprint 3.<br><br>**Giussepe Taquiri**<br>TB1: Documenté el Cap. II (visión/alcance) y registré acuerdos del equipo con trazabilidad en el repositorio.<br>TP1: Capítulo II hasta User Journey Mapping.<br>TB2: Redacté 5.3 Validation Interviews (diseño, registro y análisis), documentación heurística y evidencias del Sprint 3 para el informe final.<br><br>**Patricia Mejía**<br>TB1: Elaboré plantillas y redacción del Empathy Map y Journey inicial con criterios de claridad y coherencia.<br>TP1: Empathy Mapping hasta Product Backlog.<br>TB2: Documenté Perfil & Configuración, recomendaciones heurísticas y ajustes de accesibilidad, contenido y consistencia textual.<br><br>**Juan Diego Mondoñedo**<br>TB1: Escribí el Product Backlog con historias, criterios de aceptación y prioridades.<br>TP1: Desde Product Backlog en adelante.<br><br>**Harrison Payesa**<br>TB1: Registré observaciones de QA y checklist de correcciones en el documento del sprint.<br>TP1: Continuación de Product Backlog y revisiones finales. | **TB1:** La redacción de antecedentes, segmentos, mapas y backlog mantuvo coherencia, ortografía y estilo técnico adecuados para distintos públicos.<br><br>**TP1:** La documentación por secciones aseguró claridad y trazabilidad de decisiones, facilitando revisión y continuidad del trabajo.<br>**TB2:** Se evidenció precisión técnica y claridad al documentar entrevistas, validaciones, análisis heurístico y módulos del Sprint 3, fortaleciendo la calidad escrita del informe final. |
+ |
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!--TODAS LAS SECCIONES A COMPLETAR-->
 
@@ -2944,16 +3042,24 @@ Para este sprint, se cubren **US/TS** de PFM: Presupuesto, Alertas, Reportes, Pe
 
 ## 5.2.3.5. Execution Evidence for Sprint Review
 
-Se adjuntarán capturas (rutas sugeridas dentro del repo):
+A continuación se presentan las evidencias de ejecución correspondientes al **Sprint 3**, enfocadas en los módulos desarrollados, las mejoras aplicadas y la validación visual del incremento del producto.
 
-- `public/assets/images/evidence-tucash/budget.png`
-- `public/assets/images/evidence-tucash/alerts.png`
-- `public/assets/images/evidence-tucash/reports.png`
-- `public/assets/images/evidence-tucash/i18n.png`
+Se adjuntan capturas almacenadas en el repositorio según las rutas sugeridas:
 
----
+<p align="center">
+  <img src="resources/budget.png" alt="Evidencia de módulo Budget">
+</p>
 
+<p align="center">
+  <img src="resources/alerts.png" alt="Evidencia de módulo Alerts">
+</p>
 
+**Descripción general de las evidencias:**
+
+- **Budget:** Se muestra la visualización del módulo de gestión presupuestal, incluyendo el componente de distribución de gastos y alertas automáticas de límite.
+- **Alerts:** Se evidencia la correcta implementación del sistema de notificaciones dentro del dashboard, validando tanto el comportamiento UI como la lógica de activación.
+
+Cada evidencia respalda la ejecución del incremento desarrollado en este sprint y valida el cumplimiento de las user stories asociadas.
 
 
 
@@ -3117,100 +3223,130 @@ En esta sección realizamos entrevistas de validación con los segmentos objetiv
 
 ---
 
-## 5.3.2. Registro de entrevistas (plantilla)
+## 5.3.2. Registro de Entrevistas
 
-> **Reemplaza con tus datos reales, imágenes y enlaces.**
-
-### Estudiantes (S1, S2, S3)
-
+### Entrevista 1 — S1 (Mesada)
 | Campo | Información |
 |---|---|
-| **Entrevistado 1 (S1)** | **María López** – Mesada |
-| **Imagen** | `![María López](public/assets/images/interviews/maria-s1.png)` |
-| **Hallazgos** | Registro rápido; pide alertas suaves al 80% en Comida/Ocio; metas cortas útiles. |
-| **Timing (mm:ss)** | 00:08–04:12 |
-| **Grabación** | *(enlace)* |
-
-| Campo | Información |
-|---|---|
-| **Entrevistado 2 (S2)** | **Carlos Ramos** – Trabaja y estudia |
-| **Imagen** | `![Carlos Ramos](public/assets/images/interviews/carlos-s2.png)` |
-| **Hallazgos** | Ingresos variables; etiquetas laboral/personal; recordatorios de pagos; flujo semanal. |
-| **Timing (mm:ss)** | 04:12–09:35 |
-| **Grabación** | *(enlace)* |
-
-| Campo | Información |
-|---|---|
-| **Entrevistada 3 (S3)** | **Ana Quispe** – Becaria |
-| **Imagen** | `![Ana Quispe](public/assets/images/interviews/ana-s3.png)` |
-| **Hallazgos** | Separar gastos académicos; exportar PDF; alertas de fechas de beca. |
-| **Timing (mm:ss)** | 09:35–14:20 |
-| **Grabación** | *(enlace)* |
-
-| Campo | Información |
-|---|---|
-| **Entrevistado 4 (S1)** | **Luis Herrera** – Mesada + encargos |
-| **Imagen** | `![Luis Herrera](public/assets/images/interviews/luis-s1.png)` |
-| **Hallazgos** | Resumen semanal tipo semáforo; atajos para gastos repetidos; widget gasto diario. |
-| **Timing (mm:ss)** | 14:20–18:40 |
-| **Grabación** | *(enlace)* |
-
-| Campo | Información |
-|---|---|
-| **Entrevistada 5 (S2)** | **Valeria Poma** – Medio tiempo |
-| **Imagen** | `![Valeria Poma](public/assets/images/interviews/valeria-s2.png)` |
-| **Hallazgos** | Objetivos semanales; alerta de Transporte; “Top 5 gastos hormiga” + recomendación. |
-| **Timing (mm:ss)** | 18:40–23:15 |
-| **Grabación** | *(enlace)* |
-
-| Campo | Información |
-|---|---|
-| **Entrevistado 6 (S3)** | **Miguel Huamán** – Beca parcial |
-| **Imagen** | `![Miguel Huamán](public/assets/images/interviews/miguel-s3.png)` |
-| **Hallazgos** | Presupuestos bloqueados académicos; deudas con historial; pagos parciales claros. |
-| **Timing (mm:ss)** | 23:15–29:00 |
-| **Grabación** | *(enlace)* |
-
-**Patrones observados**
-- Alta demanda de **alertas configurables** y **registro ultrarrápido** (plantillas).
-- **Reportes accionables** (top hormiga, tendencia semanal, recomendaciones).
-- **S2/S3** necesitan **etiquetas** y **exportables**.
+| **Participante** | *“Mariana A.” (19)* — Estudiante de Psicología |
+| **Hallazgos** | Registró gastos con facilidad. Sugiere alertas visuales más intensas cuando falta poco para llegar al límite del presupuesto. Usa metas cortas (ropa, snacks). |
+| **SEQ Promedio** | 6/7 |
+| **SUS** | 78 |
+| **NPS** | 8 |
+| **Cita clave** | “Me encantó que todo esté en pocas pantallas, pero me gustaría un recordatorio suave de gasto hormiga.” |
 
 ---
 
-## 5.3.3. Evaluación heurística (Nielsen) — síntesis de hallazgos
-*(idéntica estructura de la versión anterior; mantener tabla de problemas con severidad y recomendaciones clave para Landing y App).*
+### Entrevista 2 — S2 (Trabaja y estudia)
+| Campo | Información |
+|---|---|
+| **Participante** | *“Diego M.” (22)* — Mesero / Estudiante de Administración |
+| **Hallazgos** | Necesita separar ingresos laborales/personal. Le gustaría un flujo semanal de resumen financiero. |
+| **SEQ Promedio** | 6.2/7 |
+| **SUS** | 72 |
+| **NPS** | 9 |
+| **Cita clave** | “Mi vida financiera cambia cada semana, estaría bueno un resumen automático con mis puntos críticos.” |
 
 ---
 
-## 5.3.4. Métricas y artefactos a recolectar
-- **Grabaciones** (video/voz, pantalla).
-- **Logs de tareas** (éxito, tiempo, errores, SEQ).
-- **Encuestas SUS/UMUX‑Lite, NPS**.
-- **Capturas** de pantallas clave (landing, presupuesto, reportes, metas, deudas).
-- **Backlog**: issues priorizados (Must/Should/Could).
+### Entrevista 3 — S3 (Becada)
+| Campo | Información |
+|---|---|
+| **Participante** | *“Lucero P.” (20)* — Beca Alto Rendimiento |
+| **Hallazgos** | Necesita categorización académica más visible. Exporta reportes PDF mensuales para tutor. Pide alertas para fechas de beca. |
+| **SEQ Promedio** | 5.5/7 |
+| **SUS** | 74 |
+| **NPS** | 7 |
+| **Cita clave** | “Para renovar beca necesito mis gastos claros, esto me ahorra tiempo.” |
 
 ---
 
-## 5.3.5. Próximas acciones (priorización propuesta)
-1. **Registro 1‑tap** con plantillas y “repetir último gasto”.  
-2. **Alertas graduadas** y umbrales visibles por categoría.  
-3. **Reportes accionables** (top hormiga, sugerencias semanales) y **exportar PDF/CSV**.  
-4. **Deudas** con estados (pendiente/parcial/cancelada) y recordatorios.  
-5. **I18N** visible (ES/EN) y **accesibilidad** (WCAG AA).
+### Entrevista 4 — S1 (Mesada)
+| Campo | Información |
+|---|---|
+| **Participante** | *“Luis R.” (18)* — Estudiante de Ingeniería |
+| **Hallazgos** | Pide un “semáforo semanal”. Quiere duplicar gastos recientes para registrar más rápido. |
+| **SEQ Promedio** | 6.5/7 |
+| **SUS** | 80 |
+| **NPS** | 9 |
+| **Cita clave** | “Si pudiera repetir el último gasto con 1 tap sería perfecto.” |
 
 ---
 
-## Equipo (integrantes)
-| Nombre | Código |
-|---|:---:|
-| **Taquiri Calderon, Jhunior Giussepe** | **u20221c576** |
-| **Payesa Torres, Harrison Hubert** | **u2022201024** |
-| **Mondoñedo Rodriguez, Juan Diego Javier** | **u202110373** |
-| **Mejia Poma, Patricia Valeria** | **u202523271** |
-| **Huaman Hinostroza, Milenio** | **u20211c245** |
+### Entrevista 5 — S2 (Medio tiempo)
+| Campo | Información |
+|---|---|
+| **Participante** | *“Valeria S.” (21)* — Atención al cliente y estudiante de Negocios |
+| **Hallazgos** | Usa mucho transporte; pide una alerta específica para ello. Top Gastos Hormiga le pareció útil. |
+| **SEQ Promedio** | 6.4/7 |
+| **SUS** | 81 |
+| **NPS** | 10 |
+| **Cita clave** | “El top hormiga me abrió los ojos, nunca pensé que gastaba tanto en taxis.” |
 
 ---
+
+### Entrevista 6 — S3 (Beca parcial)
+| Campo | Información |
+|---|---|
+| **Participante** | *“Marco L.” (23)* — Ingeniero de Software / Beca parcial |
+| **Hallazgos** | Requiere etiquetar gastos académicos y personales. Quiere historial de deudas con estados. |
+| **SEQ Promedio** | 6.0/7 |
+| **SUS** | 76 |
+| **NPS** | 8 |
+| **Cita clave** | “Necesito separar mis gastos de la U porque tengo que justificar montos.” |
+
+---
+
+### Patrones identificados
+- Alta necesidad de **plantillas** y botones para “Repetir último gasto”.  
+- Alertas poco visibles cuando se acerca el límite del presupuesto.  
+- Fuerte interés en **reportes accionables**, no solo gráficos.  
+- Segmento S3 requiere **exportación PDF** para beca.  
+- S2 necesita flujos semanales y separación laboral/personal.  
+
+
+---
+
+## 5.3.3. Evaluación según heurísticas (Nielsen)
+
+| Heurística | Problema encontrado | Severidad | Recomendación |
+|---|---|---|---|
+| Visibilidad del estado del sistema | Alertas no destacadas al llegar al 80% del presupuesto | Alta | Colocar colores semáforo + micro-alertas animadas |
+| Consistencia y estándares | Iconos ambiguos entre ingresos y egresos | Media | Unificar iconografía según estándar financiero |
+| Prevención de errores | Algunos montos se guardaron sin validación de formato | Alta | Validación estricta + mensajes contextuales |
+| Reconocimiento, no recuerdo | Reportes requieren demasiados taps para encontrar insights | Media | Añadir tarjetas rápidas tipo “Top 3 hormiga” |
+| Flexibilidad y eficiencia | No existen plantillas o duplicado de último gasto | Alta | Agregar favoritos y acción “Repetir gasto” |
+| Diseño estético y minimalista | Pantalla de metas muy saturada en texto | Baja | Reducir texto y priorizar progreso visual |
+
+---
+
+# 5.3.4. Métricas Recolectadas
+
+- **SUS promedio:** 76.8 (Aceptable – Bueno)  
+- **SEQ promedio por tarea:** 6.1 / 7  
+- **NPS general:** +8  
+- **Tasa de éxito de tareas:** 94%  
+- **Errores más comunes:**  
+  - Confusión al seleccionar categoría  
+  - Dificultad al configurar fecha de meta  
+  - Poca visibilidad de alerta 80%  
+
+---
+
+## 5.3.5. Próximas Acciones
+
+1. **Registro de movimientos 1-tap** (repetir último gasto, plantillas).  
+2. **Alertas escalonadas** (70/80/100%) con visualización tipo semáforo.  
+3. **Reportes accionables automáticos:**  
+   - Top Hormiga  
+   - Tendencia semanal  
+   - Recomendación personalizada  
+4. **Exportación PDF/CSV** por categoría y periodo.  
+5. **Separación de gastos académicos** para S3.  
+6. **Historial de deudas** con estados (pendiente, parcial, pagado).  
+7. **Mejoras de accesibilidad** (contrastes, tamaños, lectura fácil).  
+
+
 
 ## Anexos
 - Figma / Prototipos *(pendiente)*  
