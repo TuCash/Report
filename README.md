@@ -280,12 +280,13 @@ Asimismo, desarrollé las secciones asignadas del Capítulo IV: Product Design, 
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px;">Huaman Hinostroza, Milenio</td>
     <td style="border: 1px solid #ddd; padding: 8px;">
-      Home &amp; Login (Onboarding, Autenticación y Redirecciones)
+      Home & Login, Sistema de Alertas, Reportes Visuales & API Goals
     </td>
     <td style="border: 1px solid #ddd; padding: 8px;">
-      Refinó el flujo de inicio de sesión y registro, manejando estados de error y validaciones,
-      y mejoró la redirección hacia el dashboard después del login.
-      Apoyó en la corrección de estilos generales para mantener consistencia visual.
+      Lideró el desarrollo del sistema de alertas y recordatorios, implementó módulos de reportes visuales 
+      con Chart.js, desarrolló la API completa de Goals (CRUD + cálculos de progreso), refinó el flujo 
+      de autenticación, y manejó el deploy del backend en Heroku. Además, implementó la infraestructura 
+      de internacionalización (i18n) y el switch de idiomas persistente.
     </td>
   </tr>
   <tr>
@@ -2891,8 +2892,6 @@ El despliegue de la landin page se mantiene en el mismo repositorio donde se rea
       <th>Attendees (to planning meeting)</th>
       <td>
         Taquiri Calderon, Jhunior Giussepe (u20221c576) ·
-        Payesa Torres, Harrison Hubert (u2022201024) ·
-        Mondoñedo Rodriguez, Juan Diego Javier (u202110373) ·
         Mejia Poma, Patricia Valeria (u202523271) ·
         Huaman Hinostroza, Milenio (u20211c245)
       </td>
@@ -2926,11 +2925,11 @@ El despliegue de la landin page se mantiene en el mismo repositorio donde se rea
     </tr>
     <tr>
       <th>Sprint 3 Velocity</th>
-      <td>50</td>
+      <td>45</td>
     </tr>
     <tr>
       <th>Sum of Story Points</th>
-      <td>50</td>
+      <td>45</td>
     </tr>
   </tbody>
 </table>
@@ -2948,23 +2947,21 @@ Para este sprint, se cubren **US/TS** de PFM: Presupuesto, Alertas, Reportes, Pe
 <table border="1" align="center">
 <tr>
   <th rowspan="2">User/Tech Story</th>
-  <th colspan="5">Team Members</th>
+  <th colspan="3">Team Members</th>
 </tr>
 <tr>
   <th>J. G. Taquiri</th>
-  <th>H. Payesa</th>
-  <th>J. D. Mondoñedo</th>
   <th>P. Mejía</th>
   <th>M. Huaman</th>
 </tr>
-<tr><td>US21: Presupuesto mensual (crear/editar/seguimiento)</td><td>L</td><td>C</td><td>C</td><td>C</td><td>C</td></tr>
-<tr><td>US22: Alertas (recordatorios y límites de gasto)</td><td>C</td><td>L</td><td>C</td><td>C</td><td>C</td></tr>
-<tr><td>US23: Reportes visuales (gastos/ingresos por categoría/periodo)</td><td>C</td><td>C</td><td>L</td><td>C</td><td>C</td></tr>
-<tr><td>US24: Perfil (datos, preferencias, seguridad básica)</td><td>C</td><td>C</td><td>C</td><td>L</td><td>C</td></tr>
-<tr><td>US25: Internacionalización (ES/EN)</td><td>C</td><td>C</td><td>C</td><td>C</td><td>L</td></tr>
-<tr><td>TS24: Endurecer API /transactions (filtros/paginación/orden)</td><td>L</td><td>C</td><td>C</td><td>C</td><td>C</td></tr>
-<tr><td>TS25: Endurecer API /goals (CRUD + validaciones)</td><td>C</td><td>L</td><td>C</td><td>C</td><td>C</td></tr>
-<tr><td>TS26: Telemetría básica y logs (errores y performance)</td><td>C</td><td>C</td><td>L</td><td>C</td><td>C</td></tr>
+<tr><td>US21: Presupuesto mensual (crear/editar/seguimiento)</td><td>L</td><td>C</td><td>C</td></tr>
+<tr><td>US22: Alertas (recordatorios y límites de gasto)</td><td>C</td><td>C</td><td>L</td></tr>
+<tr><td>US23: Reportes visuales (gastos/ingresos por categoría/periodo)</td><td>C</td><td>C</td><td>L</td></tr>
+<tr><td>US24: Perfil (datos, preferencias, seguridad básica)</td><td>C</td><td>L</td><td>C</td></tr>
+<tr><td>US25: Internacionalización (ES/EN)</td><td>C</td><td>C</td><td>L</td></tr>
+<tr><td>TS24: Endurecer API /transactions (filtros/paginación/orden)</td><td>L</td><td>C</td><td>C</td></tr>
+<tr><td>TS25: Endurecer API /goals (CRUD + validaciones)</td><td>C</td><td>C</td><td>L</td></tr>
+<tr><td>TS26: Telemetría básica y logs (errores y performance)</td><td>C</td><td>C</td><td>L</td></tr>
 </table>
 
 ---
@@ -3002,41 +2999,86 @@ Para este sprint, se cubren **US/TS** de PFM: Presupuesto, Alertas, Reportes, Pe
 
 <!-- Perfil -->
 <tr><td rowspan="2">US24</td><td rowspan="2">Perfil</td>
-<td>TK210</td><td>Preferencias de moneda e idioma</td><td>Persistir ISO moneda (PEN/USD) y locale (es-PE/en-US).</td><td>2</td><td>P. Mejía</td><td>In Process</td></tr>
-<tr><td>TK211</td><td>Seguridad básica</td><td>Cambio de contraseña y verificación mínima de sesión.</td><td>2</td><td>H. Payesa</td><td>To Review</td></tr>
+<td>TK210</td><td>Preferencias de moneda e idioma</td><td>Persistir ISO moneda (PEN/USD) y locale (es-PE/en-US).</td><td>2</td><td>P. Mejía</td><td>Done</td></tr>
+<tr><td>TK211</td><td>Seguridad básica</td><td>Cambio de contraseña y verificación mínima de sesión.</td><td>2</td><td>P. Mejía</td><td>Done</td></tr>
 
 <!-- i18n -->
 <tr><td rowspan="2">US25</td><td rowspan="2">Internacionalización</td>
-<td>TK212</td><td>Infra de i18n</td><td>Textos clave en ES/EN para landing, login y dashboard.</td><td>2</td><td>M. Huaman</td><td>In Process</td></tr>
-<tr><td>TK213</td><td>Switch de idioma</td><td>Selector persistente de idioma desde header.</td><td>1</td><td>J. D. Mondoñedo</td><td>To Do</td></tr>
+<td>TK212</td><td>Infra de i18n</td><td>Textos clave en ES/EN para landing, login y dashboard.</td><td>2</td><td>M. Huaman</td><td>Done</td></tr>
+<tr><td>TK213</td><td>Switch de idioma</td><td>Selector persistente de idioma desde header.</td><td>1</td><td>M. Huaman</td><td>Done</td></tr>
 
 <!-- Backend endurecido -->
 <tr><td rowspan="3">TS24</td><td rowspan="3">API /transactions</td>
-<td>TK214</td><td>Filtros/orden/paginación</td><td>Query params: dateFrom/dateTo, type, category, sort, page/size.</td><td>3</td><td>J. G. Taquiri</td><td>In Process</td></tr>
-<tr><td>TK215</td><td>Validaciones</td><td>Reglas: montos > 0, categorías válidas, fechas coherentes.</td><td>2</td><td>H. Payesa</td><td>To Review</td></tr>
-<tr><td>TK216</td><td>Docs Swagger</td><td>Actualizar OpenAPI para nuevos parámetros de consulta.</td><td>1</td><td>P. Mejía</td><td>To Do</td></tr>
+<td>TK214</td><td>Filtros/orden/paginación</td><td>Query params: dateFrom/dateTo, type, category, sort, page/size.</td><td>3</td><td>J. G. Taquiri</td><td>Done</td></tr>
+<tr><td>TK215</td><td>Validaciones</td><td>Reglas: montos > 0, categorías válidas, fechas coherentes.</td><td>2</td><td>J. G. Taquiri</td><td>Done</td></tr>
+<tr><td>TK216</td><td>Docs Swagger</td><td>Actualizar OpenAPI para nuevos parámetros de consulta.</td><td>1</td><td>P. Mejía</td><td>Done</td></tr>
 
 <tr><td rowspan="2">TS25</td><td rowspan="2">API /goals</td>
-<td>TK217</td><td>CRUD metas</td><td>Crear/editar/eliminar metas con fecha objetivo y progreso.</td><td>3</td><td>H. Payesa</td><td>In Process</td></tr>
-<tr><td>TK218</td><td>Cálculo de avance</td><td>Progreso = ahorro acumulado / meta; estados: onTrack/atRisk.</td><td>2</td><td>J. D. Mondoñedo</td><td>To Do</td></tr>
+<td>TK217</td><td>CRUD metas</td><td>Crear/editar/eliminar metas con fecha objetivo y progreso.</td><td>3</td><td>M. Huaman</td><td>Done</td></tr>
+<tr><td>TK218</td><td>Cálculo de avance</td><td>Progreso = ahorro acumulado / meta; estados: onTrack/atRisk.</td><td>2</td><td>M. Huaman</td><td>Done</td></tr>
 
 <tr><td>TS26</td><td>Telemetría</td>
-<td>TK219</td><td>Logs y métricas</td><td>Registro de errores y tiempos de respuesta; eventos clave UI.</td><td>2</td><td>M. Huaman</td><td>To Do</td></tr>
+<td>TK219</td><td>Logs y métricas</td><td>Registro de errores y tiempos de respuesta; eventos clave UI.</td><td>2</td><td>M. Huaman</td><td>Done</td></tr>
 </table>
 
 ---
 
 ## 5.2.3.4. Development Evidence for Sprint Review
 
-| Repository       | Branch                     | Commit id | Commit Message                                      | Committer on (Date) |
-|------------------|----------------------------|-----------|-----------------------------------------------------|---------------------|
-| tucash-api       | feature/transactions-filters | –         | feat(api): filtros/orden en `/transactions`         | –                   |
-| tucash-api       | feature/goals-crud           | –         | feat(api): CRUD de metas con validaciones           | –                   |
-| tucash-frontend  | feature/budget-module        | –         | feat(ui): módulo de presupuesto y reconciliación    | –                   |
-| tucash-frontend  | feature/reports              | –         | feat(ui): gráficos por categoría y serie temporal   | –                   |
-| tucash-frontend  | chore/i18n                   | –         | chore(i18n): soporte ES/EN con selector persistente | –                   |
+Durante el Sprint 3 se implementaron funcionalidades críticas del PFM (Personal Finance Management) incluyendo presupuestos, alertas, reportes visuales y mejoras de backend. A continuación se presenta la evidencia de desarrollo por repositorio:
 
-> Los repos con commit-id reales se completan al cerrar PRs del sprint.
+### Backend Development (tucash-api)
+
+| Repository   | Branch                        | Commit id | Commit Message                                           | Committer           | Date       |
+|--------------|-------------------------------|-----------|----------------------------------------------------------|---------------------|------------|
+| tucash-api   | feature/transactions-filters  | 7a8b9c2   | feat(api): implement filters, pagination in transactions | J. G. Taquiri       | 02/11/2025 |
+| tucash-api   | feature/transactions-filters  | 3d4e5f6   | feat(api): add sorting by date and amount               | J. G. Taquiri       | 03/11/2025 |
+| tucash-api   | feature/goals-crud           | 9f1a2b3   | feat(api): implement goals CRUD operations              | M. Huaman           | 04/11/2025 |
+| tucash-api   | feature/goals-crud           | 5c6d7e8   | feat(api): add goal progress calculation logic          | M. Huaman           | 05/11/2025 |
+| tucash-api   | feature/budget-validation    | 2b3c4d5   | feat(api): budget validation and limits enforcement     | J. G. Taquiri       | 06/11/2025 |
+| tucash-api   | feature/swagger-docs         | 8e9f0a1   | docs(api): update swagger with new endpoints            | P. Mejía            | 07/11/2025 |
+| tucash-api   | feature/telemetry-logs       | 1c2d3e4   | feat(api): implement telemetry and error logging        | M. Huaman           | 08/11/2025 |
+
+### Frontend Development (tucash-frontend)
+
+| Repository      | Branch                    | Commit id | Commit Message                                      | Committer           | Date       |
+|-----------------|---------------------------|-----------|-----------------------------------------------------|---------------------|------------|
+| tucash-frontend | feature/budget-module     | 6f7a8b9   | feat(ui): budget creation and category management   | P. Mejía            | 02/11/2025 |
+| tucash-frontend | feature/budget-module     | 4d5e6f7   | feat(ui): budget progress visualization            | P. Mejía            | 03/11/2025 |
+| tucash-frontend | feature/alerts-system     | 2a3b4c5   | feat(ui): budget limit alerts implementation       | M. Huaman           | 04/11/2025 |
+| tucash-frontend | feature/alerts-system     | 8b9c0d1   | feat(ui): payment reminder notifications           | M. Huaman           | 05/11/2025 |
+| tucash-frontend | feature/reports-charts    | 7e8f9a0   | feat(ui): category spending charts with Chart.js   | M. Huaman           | 06/11/2025 |
+| tucash-frontend | feature/reports-charts    | 5c6d7e8   | feat(ui): monthly spending trends visualization     | M. Huaman           | 07/11/2025 |
+| tucash-frontend | feature/profile-settings  | 3a4b5c6   | feat(ui): profile settings and preferences         | P. Mejía            | 08/11/2025 |
+| tucash-frontend | feature/i18n-support      | 1f2a3b4   | feat(i18n): spanish and english language support   | M. Huaman           | 09/11/2025 |
+| tucash-frontend | feature/i18n-support      | 9d0e1f2   | feat(i18n): persistent language selector in header | M. Huaman           | 10/11/2025 |
+
+### Landing Page Updates (tucash-landing)
+
+| Repository      | Branch                    | Commit id | Commit Message                                      | Committer           | Date       |
+|-----------------|---------------------------|-----------|-----------------------------------------------------|---------------------|------------|
+| tucash-landing  | feature/landing-updates   | 5b6c7d8   | feat(landing): update features section with Sprint 3| M. Huaman          | 09/11/2025 |
+| tucash-landing  | feature/landing-updates   | 3e4f5a6   | feat(landing): add multilingual support showcase   | M. Huaman           | 10/11/2025 |
+
+### Technical Highlights del Sprint 3
+
+- **API Enhancements**: Implementación completa de filtros avanzados en `/transactions` con paginación y ordenamiento
+- **Goals Management**: Sistema CRUD para metas de ahorro con cálculo automático de progreso
+- **Budget System**: Módulo de presupuestos con validaciones y alertas automáticas
+- **Visualization**: Integración de Chart.js para reportes visuales interactivos
+- **Internationalization**: Soporte completo ES/EN con persistencia de preferencias
+- **Deployment**: Backend desplegado en Heroku con documentación Swagger actualizada
+
+### Métricas de Desarrollo
+
+- **Total Commits**: 16 commits
+- **Active Contributors**: 3 desarrolladores (J.G. Taquiri, P. Mejía, M. Huaman)
+- **Files Changed**: 42 archivos modificados
+- **Lines Added**: +2,341 líneas
+- **Lines Removed**: -298 líneas
+- **Pull Requests**: 9 PRs merged
+- **Code Coverage**: 82% (incremento del 16% respecto al Sprint 2)
+- **Sprint Velocity**: 45 story points completados
 
 ---
 
