@@ -2080,69 +2080,98 @@ Nuestro prototipo de la aplicación web:
 
 Para el control de versiones y la colaboración del equipo se empleará GitHub como repositorio central. Cada producto digital tendrá su propio repositorio:
 
-- Report: <https://github.com/TuCash/Report/>
+- Report: <https://github.com/TuCash/Report.git>
 
-- Landing Page: <https://github.com/TuCash/Report/>
+- Landing Page: <https://github.com/TuCash/landingPage.git>
 
-- Frontend Web Application: <https://github.com/TuCash/webapp>
+- Frontend Web Application: <https://github.com/TuCash/Frontend.git>
 
-- Web Services (Backend + Tests): <https://github.com/TuCash/backend>
+- Web Services (Backend + Tests): <https://github.com/TuCash/Bakend_kashu.git>
 
 #### Esquema de organización con GitFlow
 
 Nuestro equipo implementará el modelo de branching GitFlow, de acuerdo al artículo de Vincent Driessen “A successful Git branching model”. La organización de ramas será la siguiente:
 
-**main**
 
-Contiene la versión estable y lista para producción.
+###  Esquema de Organización con GitFlow
 
-Cada release terminado se integra aquí y se etiqueta con un número de versión siguiendo Semantic Versioning.
+| **Rama**        | **Propósito**                                                                 | **Convención de nombres**          |
+|-----------------|-------------------------------------------------------------------------------|------------------------------------|
+| **main**        | Versión estable y lista para producción. Cada release se etiqueta.            | `vX.Y.Z` (Semantic Versioning)     |
+| **develop**     | Rama de integración. Une todas las funcionalidades completadas y probadas.     | —                                  |
+| **feature/**    | Desarrollo de nuevas funcionalidades, módulos o documentos.                    | `feature/nombre-funcionalidad`     |
+| **release/**    | Preparación de una versión estable lista para producción.                     | `release/vX.Y.Z`                   |
+| **hotfix/**     | Correcciones urgentes encontradas en producción.                               | `hotfix/vX.Y.Z`                    |
 
-**develop**
+---
 
-Rama de integración, donde se fusionan todas las funcionalidades completas y probadas antes de preparar un release.
+###  Convencional Commits
 
-feature/*
+| **Tipo**   | **Uso**                                          | **Ejemplo**                                 |
+|------------|--------------------------------------------------|----------------------------------------------|
+| `feat:`    | Nueva funcionalidad                               | `feat(expenses): agregar card de gastos`     |
+| `fix:`     | Corrección de errores                             | `fix(login): resolver bug en auth`           |
+| `docs:`    | Cambios en documentación                          | `docs(readme): agregar guía de deploy`       |
+| `style:`   | Cambios de estilo sin afectar lógica              | `style(ui): reajustar paddings`              |
+| `refactor:`| Refactor sin añadir funcionalidad                 | `refactor(goals): optimizar cálculo`         |
+| `test:`    | Nuevas pruebas o modificaciones                   | `test(profile): añadir test de avatar`       |
+| `chore:`   | Configuraciones, scripts o tareas menores         | `chore(ci): agregar pipeline`                |
 
-Cada nueva funcionalidad, módulo o documento se desarrolla en su propia rama.
+---
 
-Convención de nombres:
+###  Front End Web Application Deployment (Angular)
 
-release/*
+| **Etapa**                   | **Descripción**                                                                                     | **Ejemplo / Comando**                                   |
+|-----------------------------|-----------------------------------------------------------------------------------------------------|----------------------------------------------------------|
+| **Build de producción**     | Genera código optimizado, minificado y con lazy-loading.                                             | `ng build --configuration production`                    |
+| **Salida del build**        | Directorio resultante del build listo para deploy.                                                   | `/dist/tucash/`                                          |
+| **CI/CD (GitHub Actions)**  | Pipeline que ejecuta lint, tests y build al hacer push a develop/main/release.                      | _Workflow YAML incluido abajo_                           |
+| **Deploy automático**       | Se puede desplegar en Vercel, Netlify, Firebase o GitHub Pages.                                      | `firebase deploy`                                        |
+| **Archivos de entorno**     | Configuración por ambiente (API URL, logging, flags).                                               | `environment.ts` / `environment.prod.ts`                 |
+| **Conexión con Backend**    | Angular consume el backend con CORS habilitado en Spring Boot.                                      | `this.http.get(\`\${environment.apiUrl}/transactions\`)` |
+| **Telemetría (opcional)**   | Envío de logs y métricas UI a un endpoint del backend.                                               | `POST /logs`                                             |
 
-Se crean cuando se prepara una versión estable.
 
-Convención de nombres:
+###  Esquema de Organización con GitFlow (Backend)
 
-release/vX.Y.Z (ejemplo: release/v1.0.0).
+| **Rama**        | **Propósito**                                                                 | **Convención de nombres**          |
+|-----------------|-------------------------------------------------------------------------------|------------------------------------|
+| **main**        | Contiene la versión estable del backend, ya probada y lista para despliegue. | `vX.Y.Z`                           |
+| **develop**     | Rama de integración donde se mezclan nuevas características antes del release | —                                  |
+| **feature/**    | Implementación de nuevos endpoints, validaciones o lógica de dominio          | `feature/auth-jwt`, `feature/goals-api` |
+| **release/**    | Empaquetado y estabilización previo al despliegue                            | `release/v1.0.0`                   |
+| **hotfix/**     | Correcciones críticas en producción                                          | `hotfix/v1.0.1`                    |
 
-hotfix/*
+---
 
-Para atender correcciones urgentes en producción.
+###  Conventional Commits (Backend)
 
-Convención de nombres:
+| **Tipo**   | **Uso**                                          | **Ejemplo**                                 |
+|------------|--------------------------------------------------|----------------------------------------------|
+| `feat:`    | Nuevo endpoint o servicio                         | `feat(transactions): agregar paginación`      |
+| `fix:`     | Correcciones en validaciones, repos o controladores | `fix(goals): corregir cálculo de progreso`    |
+| `docs:`    | Actualización de Swagger/OpenAPI o Readme         | `docs(api): actualizar parámetros de /goals`  |
+| `refactor:`| Limpieza del dominio o mejoras internas           | `refactor(auth): separar AuthService`         |
+| `style:`   | Formato del código (imports, spacing)             | `style(config): ordenar imports`              |
+| `test:`    | Unit tests con JUnit o Mockito                    | `test(transactions): agregar pruebas de filtros` |
+| `chore:`   | Configuración, scripts, Docker, pipelines         | `chore(db): agregar docker-compose para postgres` |
 
-hotfix/vX.Y.Z (ejemplo: hotfix/v1.0.1).
+---
 
-#### Conventional Commits
+### 🗄️ Arquitectura del Backend (Capas)
 
-Los mensajes de commit seguirán la convención de Conventional Commits, lo que facilita trazabilidad y automatización:
+| **Capa**         | **Función**                                                                 |
+|------------------|------------------------------------------------------------------------------|
+| `controller/`    | Expone endpoints REST                                                        |
+| `service/`       | Lógica de dominio / reglas de negocio                                       |
+| `repository/`    | Acceso a datos (Spring Data JPA)                                            |
+| `entity/`        | Modelos persistentes                                                        |
+| `dto/`           | Request/response API                                                         |
+| `config/`        | Seguridad, CORS, JWT, Swagger                                               |
 
-- feat: → nueva funcionalidad.
 
-- fix: → corrección de errores.
 
-- docs: → cambios en documentación.
-
-- style: → cambios de formato/código sin afectar lógica.
-
-- refactor: → refactorización sin añadir funcionalidad.
-
-- test: → inclusión o modificación de pruebas.
-
-- chore: → tareas menores, configuración.
-
-#### Front End Web Application Deployment
+---
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
@@ -2748,18 +2777,31 @@ La evidencia de colaboración se muestra en las estadísticas de GitHub (commits
 
 ---
 
-## 5.2.2.2. Aspect Leaders and Collaborators (LACX)
 
-| Aspecto | Líder | Colaboradores |
-|---|---|---|
-| **Expenses (Gestión de Gastos)** | **J. G. Taquiri** | H. Payesa, P. Mejia |
-| **Incomes (Gestión de Ingresos)** | **H. Payesa** | J. G. Taquiri |
-| **Goals (Metas de Ahorro)** | **J. D. Mondoñedo** | J. G. Taquiri |
-| **Home & Login** | **M. Huaman** | H. Payesa |
-| **Profile (Perfil & Settings)** | **P. Mejia** | J. D. Mondoñedo |
-| **QA/UAT & Accesibilidad** | **P. Mejia** | Todo el equipo |
-| **CI/CD & Deploy** | **H. Payesa** | M. Huaman |
-| **Documentación (TP1/Cap. V)** | **J. G. Taquiri** | Todo el equipo |
+## 5.2.2.2. Aspect Leaders and Collaborators (LACX) – Sprint 2
+
+Durante el Sprint 2 del proyecto *TuCash*, el equipo adoptó el modelo LACX (Leader–Associate–Contributor eXchange) para distribuir responsabilidades de forma clara, garantizar ownership por módulo y promover colaboración cruzada entre miembros.  
+Cada aspecto clave del producto cuenta con un **líder responsable de la toma de decisiones técnicas y funcionales**, acompañado por **colaboradores que apoyan la implementación, validación y documentación**.
+
+###  Roles principales del Sprint
+- **Leader (L):** Responsable del diseño funcional/técnico, lineamientos, priorización interna y validación final del deliverable.  
+- **Associates/Collaborators (C):** Apoyan en desarrollo, testing, documentación y aseguramiento de calidad del módulo.  
+- **Cross-Support (XS):** Soporte general del equipo cuando el módulo requiere integración o pruebas de extremo a extremo.
+----
+
+###  **Tabla LACX – Sprint 2**
+
+| **Aspecto / Módulo** | **Líder (L)** | **Colaboradores (C)** | **Responsabilidad Principal** |
+|----------------------|----------------|------------------------|-------------------------------|
+| **Expenses (Gestión de Gastos)** | **J. G. Taquiri** | H. Payesa, P. Mejía | Arquitectura del flujo de registro/edición, validación UI, mock API y pruebas UAT. |
+| **Incomes (Gestión de Ingresos)** | **H. Payesa** | J. G. Taquiri | Definición del flujo de ingresos, normalización del modelo y manejo de sincronización con el dashboard. |
+| **Goals (Metas de Ahorro)** | **J. D. Mondoñedo** | J. G. Taquiri | Diseño de “Goal Model”, UI de progresos, validaciones y manejo lógico del estado de metas. |
+| **Home & Login** | **M. Huamán** | H. Payesa | Asegurar navegación general, autenticación mínima mock y accesibilidad base del landing. |
+| **Profile (Perfil & Settings)** | **P. Mejía** | J. D. Mondoñedo | Preferencias de usuario (moneda/idioma), foto de perfil y ajustes del dashboard. |
+| **QA / UAT & Accesibilidad** | **P. Mejía** | Todo el equipo | Diseño de criterios UAT, correcciones, pruebas cruzadas, checklist de accesibilidad. |
+| **CI/CD & Deploy** | **H. Payesa** | M. Huamán | Pipeline Angular, verificación de build, previsualización y deploy continuo. |
+| **Documentación (TP1 / Capítulo V)** | **J. G. Taquiri** | Todo el equipo | Redacción de capítulos técnicos, evidencias, anexos y consolidación del Sprint. |
+
 
 ---
 
