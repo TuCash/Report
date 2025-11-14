@@ -2934,27 +2934,8 @@ El equipo logró un **incremento demostrable**, estableciendo una base sólida p
 
 La documentación del backend se consolidó utilizando **OpenAPI 3.0 + Swagger UI**, permitiendo a todo el equipo visualizar, probar y validar las operaciones del servicio durante el Sprint.
 
-### 📘 Endpoints implementados y documentados (Sprint 2)
-
-| Módulo | Método | Endpoint | Descripción |
-|--------|--------|----------|-------------|
-| **Auth** | `POST` | `/api/auth/login` | Autenticación y generación de token JWT. |
-| **User Profile** | `GET` | `/api/users/me` | Retorna el perfil del usuario autenticado. |
-| **Expenses** | `GET` | `/api/transactions/expenses` | Lista de gastos, con filtros básicos. |
-| | `POST` | `/api/transactions/expenses` | Registro de un nuevo gasto. |
-| **Incomes** | `GET` | `/api/transactions/incomes` | Lista de ingresos del usuario. |
-| | `POST` | `/api/transactions/incomes` | Registro de un nuevo ingreso. |
-| **Goals** | `GET` | `/api/goals` | Consulta de metas activas. |
-| | `POST` | `/api/goals` | Creación de una meta. |
-| | `PATCH` | `/api/goals/{id}` | Actualización de progreso, fecha u objetivo de la meta. |
 
 
-**Referencias OpenAPI/Swagger del proyecto:**
-
-- UI: `/swagger-ui.html`
-- Docs JSON: `/v3/api-docs`
-
-> Adjuntar captura: `assets/sprint2/openapi-catalog.png`.
 
 ---
 
@@ -3134,7 +3115,20 @@ Para este sprint, se cubren **US/TS** de PFM: Presupuesto, Alertas, Reportes, Pe
 ## 5.2.3.3. Sprint Backlog 3
 
 
+Para este Sprint se priorizaron las User Stories relacionadas con la consolidación del ciclo PFM (Personal Finance Management): **presupuestos → alertas → reportes → ajustes de hábitos**, junto con mejoras de personalización y soporte multilenguaje.
 
+A continuación se adjunta la evidencia en video correspondiente a la revisión funcional de las User Stories implementadas durante el Sprint:
+
+🔗 **Video de Evidencias del Sprint 3 (User Stories ejecutadas):**  
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c576_upc_edu_pe/IQDwF6iQsk2vTqmaCpds1GD9AVra6hlsW3H0IgWDb4lYPeU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=aIBS5O
+
+Las User Stories asociadas al Sprint se organizaron en cinco áreas principales:
+
+- **US21 – Presupuesto mensual**
+- **US22 – Alertas**
+- **US23 – Reportes visuales**
+- **US24 – Perfil & Configuración**
+- **US25 – Internacionalización (i18n)**
 
 ### 5.2.3.3.1. User Stories (Sprint 3 – Presupuestos, Alertas, Reportes, Perfil, i18n)
 
