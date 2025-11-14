@@ -2540,6 +2540,26 @@ This will be confirmed when se documenten al menos 6 entrevistas analizadas y de
   </tbody>
 </table>
 
+# Technical User Stories – Landing Page (HTML, CSS, JS)
+
+| **Tech Story** | **Title** | **Descripción técnica (Landing Page)** |
+|----------------|-----------|----------------------------------------|
+| TS01 | Sección de registro de ingresos/egresos | Implementar en la landing una sección que explique y muestre el flujo básico de registro de ingresos y egresos (independiente), basada en las categorías definidas y el wireframe. |
+| TS02 | Storytelling de categorización de gastos | Diseñar y maquetar una sección de la landing que explique el beneficio de categorizar gastos (para estudiantes con sustento familiar), usando insights de entrevistas, persona y empathy map. |
+| TS03 | Visualización de metas de ahorro | Implementar en la landing un componente visual tipo “Goal Card” que muestre cómo el producto ayuda a estudiantes becados a planificar y seguir sus metas de ahorro. |
+| TS04 | Pipeline de calidad para la landing | Configurar un pipeline básico (lint/tests/build) en GitHub Actions que verifique el código HTML, CSS y JS de la landing en cada push. |
+
+
+# Mapa de Trazabilidad – Landing Page
+
+| **User Story (US)** | **Título US** | **Technical Story (TS)** | **Work-Items / Tasks relacionados** |
+|---------------------|--------------|---------------------------|-------------------------------------|
+| US01 | Registro de ingresos y egresos (independiente) | TS01 – Sección de registro de ingresos/egresos | T-101 Definir categorías base; T-102 Wireframe flujo de registro; T-103 Endpoint mock /api/transactions |
+| US02 | Categorización de gastos (sustento familiar) | TS02 – Storytelling de categorización de gastos | T-201 Entrevistas (3 students); T-202 Persona + Empathy Map |
+| US03 | Metas de ahorro (becado) | TS03 – Visualización de metas de ahorro | T-301 Definir modelo de metas; T-302 UI componente “Goal Card” |
+| — | — | TS04 – Pipeline de calidad para la landing | T-900 Configuración CI (lint/tests) |
+
+
 #### 5.2.1.4. Development Evidence for Sprint Review
 
 <h3>Development Evidence for Sprint Review – Sprint 1</h3>
@@ -2734,18 +2754,71 @@ La evidencia de colaboración se muestra en las estadísticas de GitHub (commits
 ---
 
 ## 5.2.2.3. Sprint Backlog 2
+## 5.2.2.4. User Stories (Frontend Angular – Sprint 2)
 
-> Introducción: El backlog del Sprint 2 se centra en un **MVP** que conecte autenticación, gestión de movimientos (gastos/ingresos), metas y perfil, con despliegue y evidencias de validación.
+A partir de las épicas EP01, EP02, EP03 y EP04 se seleccionan las historias de usuario que impactan directamente en los módulos del frontend Angular para este sprint.
 
-| Sprint # | User Story | Work-Item/Task | Descripción | Estimación (SP) | Asignado a | Estado |
-|---|---|---|---|---:|---|---|
-| Sprint 2 | **US-EXP-01** — Registrar gastos | **UT-EXP-API** — Integrar `/api/transactions/expenses` | Conectar formulario de gastos con servicio y validaciones, listar y editar. | 2 | **J. G. Taquiri** | In Process |
-| Sprint 2 | **US-INC-01** — Registrar ingresos | **UT-INC-API** — Integrar `/api/transactions/incomes` | Alta/edición de ingresos y sincronización con dashboard. | 1 | **H. Payesa** | In Process |
-| Sprint 2 | **US-GOAL-01** — Metas de ahorro | **UT-GOAL-UI** — Vista de metas | Crear/editar metas y progreso; enlazar con ingresos/gastos. | 2 | **J. D. Mondoñedo** | To-Review |
-| Sprint 2 | **US-AUTH-01** — Autenticación | **UT-AUTH-UI** — Home & Login | Flujo de login y home inicial con guardas de ruta. | 1 | **M. Huaman** | Done |
-| Sprint 2 | **US-PROFILE-01** — Perfil de usuario | **UT-PROFILE-UI** — Vista de perfil | Actualizar datos básicos y preferencias i18n/tema. | 1 | **P. Mejia** | In Process |
+| **Id (FE-US)** | **Origen (EP/US)** | **Módulo**          | **Título**                             | **Descripción breve** |
+|----------------|--------------------|---------------------|----------------------------------------|------------------------|
+| FE-US01        | EP01/US01          | Login & Home        | Crear mi espacio financiero            | El usuario puede registrarse por primera vez para empezar a organizar su dinero. |
+| FE-US02        | EP01/US02          | Login & Home        | Entrar a mi cuenta                     | El usuario puede iniciar sesión y acceder a su Panel Principal. |
+| FE-US03        | EP01/US03          | Login               | Recuperar mi acceso                    | El usuario puede recuperar su contraseña vía correo. |
+| FE-US04        | EP03/US01          | Home (Dashboard)    | Saber “cómo voy” de un vistazo         | El usuario ve un resumen de ingresos, gastos y saldo en el Home. |
+| FE-US05        | EP01/US04          | Profile             | Personalizar mi perfil                 | El usuario puede editar nombre y foto de perfil. |
+| FE-US06        | EP01/US05          | Profile / Settings  | Configurar mis preferencias            | El usuario puede elegir la moneda principal de la app. |
+| FE-US07        | EP02/US01          | Incomes             | Registrar el dinero que recibo         | El usuario registra nuevos ingresos y ve actualizado su saldo. |
+| FE-US08        | EP02/US02          | Expenses            | Anotar mis gastos diarios              | El usuario registra gastos, asigna categorías y actualiza su saldo. |
+| FE-US09        | EP02/US04          | Incomes/Expenses    | Corregir un registro                   | El usuario edita montos/categorías de transacciones ya registradas. |
+| FE-US10        | EP02/US05          | Incomes/Expenses    | Filtrar mis movimientos                | El usuario filtra transacciones por fecha, categoría o tipo. |
+| FE-US11        | EP04/US01          | Goals               | Ahorrar para algo que quiero           | El usuario crea metas de ahorro con nombre y monto objetivo. |
+| FE-US12        | EP04/US02          | Goals               | Ver crecer mis ahorros                 | El usuario añade aportes a una meta y ve el progreso actualizado. |
+| FE-US13        | EP04/US03          | Goals               | Ajustar mis metas                      | El usuario puede editar monto objetivo/fecha de una meta. |
+| FE-US14        | EP04/US04          | Goals               | Celebrar un logro                      | El usuario marca una meta como lograda y ve la “celebración” en la UI. |
 
-> **Nota:** Total comprometido = **7 SP** (Velocidad planeada).
+## 5.2.2.5. Technical Stories (Frontend Angular – Sprint 2)
+
+Historias técnicas enfocadas en la **Web Application (Angular)** para soportar el MVP de registro y visualización de transacciones y metas.
+
+| **Id (FE-TS)** | **Título**                                             | **Módulo / Área**        | **Descripción técnica** |
+|----------------|--------------------------------------------------------|---------------------------|--------------------------|
+| FE-TS01        | Bootstrap del proyecto Angular + routing base          | Infraestructura           | Crear proyecto Angular, configurar routing principal y layout base (shell: header, sidebar, router-outlet). |
+| FE-TS02        | Módulo de autenticación (Login / Register / Recover)   | Login & Home              | Implementar componentes Angular para login, registro y recuperación; formularios reactivos; integración con servicio Auth. |
+| FE-TS03        | AuthGuard y protección de rutas                        | Infraestructura           | Implementar guardas de ruta para restringir acceso a módulos (Home, Expenses, Incomes, Goals, Profile) solo a usuarios autenticados. |
+| FE-TS04        | Servicio de autenticación (AuthService)                | Login & Home              | Implementar AuthService con manejo de token (almacenamiento en localStorage/sessionStorage) y estado de sesión. |
+| FE-TS05        | Módulo Home & Dashboard                                | Home                      | Crear componentes para el Panel Principal y tarjeta de resumen (saldo, total ingresos, total gastos del mes). |
+| FE-TS06        | Módulo Profile & Settings                              | Profile / Settings        | Implementar componentes para ver/editar perfil y preferencias de usuario (nombre, foto, moneda). |
+| FE-TS07        | Módulo Incomes – Listado y formulario                  | Incomes                   | Crear componentes para listar ingresos, formulario de creación/edición y comunicación con el servicio de transacciones. |
+| FE-TS08        | Módulo Expenses – Listado y formulario                 | Expenses                  | Crear componentes para listar gastos, formulario de creación/edición y comunicación con el servicio de transacciones. |
+| FE-TS09        | Servicio de transacciones (TransactionsService)        | Incomes / Expenses        | Implementar servicio Angular para CRUD de transacciones (ingresos/egresos), filtros y manejo de errores. |
+| FE-TS10        | Filtros y búsqueda en historial                        | Incomes / Expenses        | Implementar filtros por categoría, tipo, rango de fechas y búsqueda por texto a nivel de UI. |
+| FE-TS11        | Módulo Goals – listado, creación y detalle             | Goals                     | Crear componentes para ver lista de metas, registrar nueva meta y ver detalle con progreso. |
+| FE-TS12        | Actualización de progreso de metas                     | Goals                     | Implementar UI y lógica para registrar aportes, recalcular porcentaje y actualizar barra de progreso. |
+| FE-TS13        | Feedback visual y manejo de errores                    | Cross-cutting (UI/UX)     | Implementar toasts/alerts para operaciones exitosas o con error (registro, edición, filtros, metas). |
+| FE-TS14        | Estilos globales y diseño responsivo                   | UI / Landing / General    | Definir estilos globales (theme), grid responsivo y adaptabilidad para móvil/escritorio de los módulos del sprint. |
+| FE-TS15        | Testing básico de componentes críticos                 | Calidad                   | Implementar pruebas unitarias básicas (Karma/Jasmine) en componentes clave: Login, Home, Expenses, Incomes, Goals. |
+
+
+## 5.2.2.1.3. Mapa de Trazabilidad – User Stories ↔ Technical Stories (Frontend Angular)
+
+Este mapa muestra cómo las historias de usuario seleccionadas para el Sprint 2 se soportan mediante historias técnicas específicas en el frontend Angular.
+
+| **Id (FE-US)** | **Título US**                              | **Technical Stories Asociadas (FE-TS)** |
+|----------------|--------------------------------------------|-----------------------------------------|
+| FE-US01        | Crear mi espacio financiero                | FE-TS01, FE-TS02, FE-TS04               |
+| FE-US02        | Entrar a mi cuenta                         | FE-TS02, FE-TS03, FE-TS04               |
+| FE-US03        | Recuperar mi acceso                        | FE-TS02, FE-TS04                        |
+| FE-US04        | Saber “cómo voy” de un vistazo             | FE-TS01, FE-TS05, FE-TS09, FE-TS13      |
+| FE-US05        | Personalizar mi perfil                     | FE-TS06, FE-TS13                        |
+| FE-US06        | Configurar mis preferencias                | FE-TS06, FE-TS14                        |
+| FE-US07        | Registrar el dinero que recibo             | FE-TS07, FE-TS09, FE-TS13               |
+| FE-US08        | Anotar mis gastos diarios                  | FE-TS08, FE-TS09, FE-TS13               |
+| FE-US09        | Corregir un registro                       | FE-TS07, FE-TS08, FE-TS09               |
+| FE-US10        | Filtrar mis movimientos                    | FE-TS09, FE-TS10                        |
+| FE-US11        | Ahorrar para algo que quiero               | FE-TS11, FE-TS14                        |
+| FE-US12        | Ver crecer mis ahorros                     | FE-TS11, FE-TS12, FE-TS13               |
+| FE-US13        | Ajustar mis metas                          | FE-TS11, FE-TS12                        |
+| FE-US14        | Celebrar un logro                          | FE-TS11, FE-TS12, FE-TS13               |
+
 
 ---
 
@@ -2968,58 +3041,73 @@ Para este sprint, se cubren **US/TS** de PFM: Presupuesto, Alertas, Reportes, Pe
 
 ## 5.2.3.3. Sprint Backlog 3
 
+
+
+
+### 5.2.3.3.1. User Stories (Sprint 3 – Presupuestos, Alertas, Reportes, Perfil, i18n)
+
+| **Id** | **Título**             | **Módulo / Dominio**            | **Descripción (vista usuario)** |
+|--------|------------------------|----------------------------------|----------------------------------|
+| US21   | Presupuesto mensual    | Presupuestos & Transacciones    | Como usuario que quiere controlar sus gastos, quiero definir un presupuesto mensual por categoría, para no pasarme y tener claridad de mi límite. |
+| US22   | Alertas                | Alertas & Recordatorios         | Como usuario, quiero recibir alertas cuando se acerquen mis pagos o cuando me esté pasando del presupuesto, para poder ajustar mis hábitos a tiempo. |
+| US23   | Reportes visuales      | Reportes & Analítica            | Como usuario, quiero ver mis gastos e ingresos en gráficos y reportes visuales, para entender mejor mis patrones financieros y tomar decisiones. |
+| US24   | Perfil                 | Perfil & Preferencias           | Como usuario, quiero configurar moneda, idioma y opciones básicas de seguridad, para usar la app de forma cómoda y segura. |
+| US25   | Internacionalización   | i18n (ES/EN)                    | Como usuario, quiero poder cambiar el idioma de la interfaz entre español e inglés, para usar la app en el idioma que prefiera. |
+
+### 5.2.3.3.2. Technical Stories (Sprint 3 – Back-end Spring Boot + PostgreSQL)
+
+> Back-end (Spring Boot + PostgreSQL): endpoints CRUD de transacciones y metas; autenticación JWT; CORS; documentación OpenAPI.
+
+| **Id** | **Título**          | **Capa / Servicio**     | **Descripción técnica** |
+|--------|---------------------|-------------------------|--------------------------|
+| TS24   | API `/transactions` | Back-end – Transacciones | Endurecer la API de transacciones con filtros avanzados, validaciones de negocio y documentación OpenAPI, exponiendo un endpoint REST paginado y ordenado. |
+| TS25   | API `/goals`        | Back-end – Metas        | Exponer un CRUD completo de metas de ahorro (crear, editar, eliminar, listar) incluyendo cálculo de progreso y estados de seguimiento. |
+| TS26   | Telemetría          | Observabilidad & Logging | Implementar logs y métricas para capturar errores, tiempos de respuesta y eventos clave de UI/UX, habilitando monitoreo básico del sistema. |
+
+
+
+### 5.2.3.3.3. Sprint Backlog 3 & Mapa de Trazabilidad (User/Technical Stories ↔ Tasks)
+
 > Historias y tareas priorizadas (estimaciones en horas). El foco es **cerrar el loop PFM**: **presupuesto → alertas → reportes → ajustes de hábitos**.
 
-<table border="1">
-<tr>
-  <th colspan="2">User/Technical Story</th>
-  <th colspan="6">Work-Item/Task</th>
-</tr>
-<tr>
-  <th>Id</th><th>Title</th><th>Id</th><th>Title</th><th>Description</th><th>Estimation (Hours)</th><th>Assigned To</th><th>Status</th>
-</tr>
+#### a) Sprint Backlog 3 
 
-<!-- Presupuesto -->
-<tr><td rowspan="3">US21</td><td rowspan="3">Presupuesto mensual</td>
-<td>TK201</td><td>Modelo de presupuesto</td><td>Entidad + repositorio + servicio; reglas por categoría y techo mensual.</td><td>3</td><td>J. G. Taquiri</td><td>In Process</td></tr>
-<tr><td>TK202</td><td>UI Presupuesto</td><td>Formulario crear/editar + desglose por categorías con validación UI.</td><td>3</td><td>P. Mejía</td><td>In Process</td></tr>
-<tr><td>TK203</td><td>Reconciliación con transacciones</td><td>Sumatoria de egresos por período y comparación con límite.</td><td>2</td><td>J. D. Mondoñedo</td><td>To Review</td></tr>
+| **User/Tech Story Id** | **Story Title**          | **Task Id** | **Task Title**                    | **Description**                                                                                      | **Est. (h)** | **Assigned To**      | **Status**    |
+|------------------------|--------------------------|-------------|-----------------------------------|------------------------------------------------------------------------------------------------------|--------------|----------------------|---------------|
+| US21                   | Presupuesto mensual      | TK201       | Modelo de presupuesto             | Entidad + repositorio + servicio; reglas por categoría y techo mensual.                             | 3            | J. G. Taquiri        | In Process    |
+| US21                   | Presupuesto mensual      | TK202       | UI Presupuesto                    | Formulario crear/editar + desglose por categorías con validación UI.                               | 3            | P. Mejía             | In Process    |
+| US21                   | Presupuesto mensual      | TK203       | Reconciliación con transacciones  | Sumatoria de egresos por período y comparación con límite.                                          | 2            | J. D. Mondoñedo      | To Review     |
+| US22                   | Alertas                  | TK204       | Recordatorios de pago             | Scheduler simple (client-side) + persistencia de “próximo pago”.                                   | 2            | H. Payesa            | In Process    |
+| US22                   | Alertas                  | TK205       | Alertas por límite                | Disparador cuando egresos > % de presupuesto; notificación UI.                                     | 2            | M. Huaman            | To Review     |
+| US22                   | Alertas                  | TK206       | Preferencias de alerta            | On/Off, umbrales y frecuencia; guardado en Perfil.                                                  | 2            | P. Mejía             | To Do         |
+| US23                   | Reportes visuales        | TK207       | Gráfico por categoría             | Gráfico de barras anuales/mensuales con filtro de categoría.                                       | 2            | J. D. Mondoñedo      | In Process    |
+| US23                   | Reportes visuales        | TK208       | Serie temporal                    | Línea de tiempo de gastos/ingresos por mes (últimos 12M).                                          | 2            | J. G. Taquiri        | To Review     |
+| US23                   | Reportes visuales        | TK209       | Exportar CSV                      | Exportación de transacciones filtradas (fecha/categoría).                                          | 1            | M. Huaman            | To Do         |
+| US24                   | Perfil                   | TK210       | Preferencias de moneda e idioma   | Persistir ISO moneda (PEN/USD) y locale (es-PE/en-US).                                             | 2            | P. Mejía             | Done          |
+| US24                   | Perfil                   | TK211       | Seguridad básica                  | Cambio de contraseña y verificación mínima de sesión.                                              | 2            | P. Mejía             | Done          |
+| US25                   | Internacionalización     | TK212       | Infra de i18n                     | Textos clave en ES/EN para landing, login y dashboard.                                             | 2            | M. Huaman            | Done          |
+| US25                   | Internacionalización     | TK213       | Switch de idioma                  | Selector persistente de idioma desde header.                                                       | 1            | M. Huaman            | Done          |
+| TS24                   | API `/transactions`      | TK214       | Filtros/orden/paginación          | Query params: dateFrom/dateTo, type, category, sort, page/size.                                    | 3            | J. G. Taquiri        | Done          |
+| TS24                   | API `/transactions`      | TK215       | Validaciones                      | Reglas: montos > 0, categorías válidas, fechas coherentes.                                         | 2            | J. G. Taquiri        | Done          |
+| TS24                   | API `/transactions`      | TK216       | Docs Swagger                      | Actualizar OpenAPI para nuevos parámetros de consulta.                                             | 1            | P. Mejía             | Done          |
+| TS25                   | API `/goals`             | TK217       | CRUD metas                        | Crear/editar/eliminar metas con fecha objetivo y progreso.                                         | 3            | M. Huaman            | Done          |
+| TS25                   | API `/goals`             | TK218       | Cálculo de avance                 | Progreso = ahorro acumulado / meta; estados: onTrack/atRisk.                                      | 2            | M. Huaman            | Done          |
+| TS26                   | Telemetría               | TK219       | Logs y métricas                   | Registro de errores y tiempos de respuesta; eventos clave UI.                                      | 2            | M. Huaman            | Done          |
 
-<!-- Alertas -->
-<tr><td rowspan="3">US22</td><td rowspan="3">Alertas</td>
-<td>TK204</td><td>Recordatorios de pago</td><td>Scheduler simple (client-side) + persistencia de “próximo pago”.</td><td>2</td><td>H. Payesa</td><td>In Process</td></tr>
-<tr><td>TK205</td><td>Alertas por límite</td><td>Disparador cuando egresos > % de presupuesto; notificación UI.</td><td>2</td><td>M. Huaman</td><td>To Review</td></tr>
-<tr><td>TK206</td><td>Preferencias de alerta</td><td>On/Off, umbrales y frecuencia; guardado en Perfil.</td><td>2</td><td>P. Mejía</td><td>To Do</td></tr>
+#### b) Mapa de Trazabilidad (resumen Story → Tasks)
 
-<!-- Reportes -->
-<tr><td rowspan="3">US23</td><td rowspan="3">Reportes visuales</td>
-<td>TK207</td><td>Gráfico por categoría</td><td>Gráfico de barras anuales/mensuales con filtro de categoría.</td><td>2</td><td>J. D. Mondoñedo</td><td>In Process</td></tr>
-<tr><td>TK208</td><td>Serie temporal</td><td>Línea de tiempo de gastos/ingresos por mes (últimos 12M).</td><td>2</td><td>J. G. Taquiri</td><td>To Review</td></tr>
-<tr><td>TK209</td><td>Exportar CSV</td><td>Exportación de transacciones filtradas (fecha/categoría).</td><td>1</td><td>M. Huaman</td><td>To Do</td></tr>
+| **Story Id** | **Tipo**      | **Title**              | **Tasks asociados**            |
+|--------------|--------------|------------------------|--------------------------------|
+| US21         | User Story   | Presupuesto mensual    | TK201, TK202, TK203           |
+| US22         | User Story   | Alertas                | TK204, TK205, TK206           |
+| US23         | User Story   | Reportes visuales      | TK207, TK208, TK209           |
+| US24         | User Story   | Perfil                 | TK210, TK211                  |
+| US25         | User Story   | Internacionalización   | TK212, TK213                  |
+| TS24         | Tech Story   | API `/transactions`    | TK214, TK215, TK216           |
+| TS25         | Tech Story   | API `/goals`           | TK217, TK218                  |
+| TS26         | Tech Story   | Telemetría             | TK219                         |
 
-<!-- Perfil -->
-<tr><td rowspan="2">US24</td><td rowspan="2">Perfil</td>
-<td>TK210</td><td>Preferencias de moneda e idioma</td><td>Persistir ISO moneda (PEN/USD) y locale (es-PE/en-US).</td><td>2</td><td>P. Mejía</td><td>Done</td></tr>
-<tr><td>TK211</td><td>Seguridad básica</td><td>Cambio de contraseña y verificación mínima de sesión.</td><td>2</td><td>P. Mejía</td><td>Done</td></tr>
 
-<!-- i18n -->
-<tr><td rowspan="2">US25</td><td rowspan="2">Internacionalización</td>
-<td>TK212</td><td>Infra de i18n</td><td>Textos clave en ES/EN para landing, login y dashboard.</td><td>2</td><td>M. Huaman</td><td>Done</td></tr>
-<tr><td>TK213</td><td>Switch de idioma</td><td>Selector persistente de idioma desde header.</td><td>1</td><td>M. Huaman</td><td>Done</td></tr>
-
-<!-- Backend endurecido -->
-<tr><td rowspan="3">TS24</td><td rowspan="3">API /transactions</td>
-<td>TK214</td><td>Filtros/orden/paginación</td><td>Query params: dateFrom/dateTo, type, category, sort, page/size.</td><td>3</td><td>J. G. Taquiri</td><td>Done</td></tr>
-<tr><td>TK215</td><td>Validaciones</td><td>Reglas: montos > 0, categorías válidas, fechas coherentes.</td><td>2</td><td>J. G. Taquiri</td><td>Done</td></tr>
-<tr><td>TK216</td><td>Docs Swagger</td><td>Actualizar OpenAPI para nuevos parámetros de consulta.</td><td>1</td><td>P. Mejía</td><td>Done</td></tr>
-
-<tr><td rowspan="2">TS25</td><td rowspan="2">API /goals</td>
-<td>TK217</td><td>CRUD metas</td><td>Crear/editar/eliminar metas con fecha objetivo y progreso.</td><td>3</td><td>M. Huaman</td><td>Done</td></tr>
-<tr><td>TK218</td><td>Cálculo de avance</td><td>Progreso = ahorro acumulado / meta; estados: onTrack/atRisk.</td><td>2</td><td>M. Huaman</td><td>Done</td></tr>
-
-<tr><td>TS26</td><td>Telemetría</td>
-<td>TK219</td><td>Logs y métricas</td><td>Registro de errores y tiempos de respuesta; eventos clave UI.</td><td>2</td><td>M. Huaman</td><td>Done</td></tr>
-</table>
 
 ---
 
@@ -3164,7 +3252,7 @@ El endpoint responde correctamente con la lista de categorías disponibles para 
 
 ---
 
-## ✔️ Conclusión general de la evidencia
+##  Conclusión general de la evidencia
 
 Las cinco evidencias permiten validar:
 
@@ -3191,7 +3279,7 @@ En esta sección realizamos entrevistas de validación con los segmentos objetiv
 
 ---
 
-## 5.3.1. Diseño de entrevistas (mejorado)
+## 5.3.1. Diseño de entrevistas 
 
 ### Objetivos de la validación
 - Verificar **entendibilidad** de la propuesta de valor y el onboarding.
@@ -3254,77 +3342,61 @@ En esta sección realizamos entrevistas de validación con los segmentos objetiv
 
 ---
 
-## 5.3.1.4. Banco de preguntas (ampliado y mejorado)
+## 5.3.1.4. Banco de preguntas para entrevistas (S1, S2, S3)
 
-### A) Guion común (todos los segmentos)
-**Comprensión y valor**
-1. ¿Con tus palabras, **qué hace TuCash** y **para quién** es?
-2. ¿Qué **problema** te ayuda a resolver de forma **concreta**?
-3. ¿Qué tan útil te parece **hoy** (1–5) y **por qué** no es 5/5 aún? (pregunta *gancho* de mejora)
+ 
 
-**Onboarding y primeras impresiones**
-4. ¿Hubo algo **confuso** en el registro u onboarding? (ej.: moneda, idioma, tutorial)
-5. ¿Qué cambiarías de la **pantalla inicial** para entenderlo más rápido en 5 segundos?
+Este apartado contiene el banco de preguntas refinado para las entrevistas con los tres segmentos objetivo: estudiantes con mesada (S1), estudiantes que trabajan y estudian (S2) y estudiantes becados (S3). Incluye probes, opciones de validación de alertas y un guion breve para el moderador.
 
-**Registro de movimientos**
-6. Describe con tus palabras el **camino mental** para registrar un gasto: ¿qué te frenó?
-7. ¿Qué **plantillas** o **atajos** te ahorrarían tiempo (repetidos, favoritos, geolocalización)?
-8. ¿Qué tan cómodo te sientes con **notas** y **adjuntos** (boletas/fotos)?
+### **S1 – Estudiantes con mesada**
+- **Objetivo**: Entender uso de la mesada y patrones de "gasto hormiga".
+- **Pregunta principal**: Cuéntame cómo recibes y administras tu mesada (monto, frecuencia, quién la entrega).
+- **Probes / seguimiento**: 
+  - **Detalle**: ¿Qué sueles comprar con tu mesada en una semana típica?
+  - **Ejemplo reciente**: Describe el último día que gastaste mesada: ¿qué compraste y por qué?
+  - **Prioridades**: ¿Tienes categorías que priorizas (ahorro, ocio, emergencias)?
+  - **Control**: ¿Cómo chequeas cuánto te queda de la mesada actualmente?
+- **Gasto hormiga / alertas**:
+  - ¿Qué te haría prestar atención a pequeños gastos: notificación diaria, resumen semanal o aviso cuando superes X% de tu mesada?
+  - ¿Te gustaría que la app marque compras repetidas (ej. café diario)? ¿Cómo preferirías recibir ese aviso?
+- **Visualizaciones sugeridas**: barra "Mesada restante" (monto + %), heatmap semanal de pequeños gastos, lista "Top 5 gastos hormiga".
 
-**Presupuestos y alertas**
-9. ¿Cómo decides tus **top 3 categorías** a controlar cada mes?
-10. ¿Qué **umbral** prefieres (70/80/90/100%) y cómo te gustaría que la app te **avise**?
-11. Si te pasas del presupuesto, ¿qué esperas que **suceda** automáticamente?
+### **S2 – Estudiantes que trabajan y estudian**
+- **Objetivo**: Distinguir ingresos laborales y su impacto en decisiones financieras.
+- **Pregunta principal**: ¿Cómo registras y diferencias tus ingresos laborales frente a tus gastos personales?
+- **Probes / seguimiento**:
+  - **Frecuencia**: ¿Con qué frecuencia recibes ingresos (turnos, propinas, freelance)?
+  - **Registro**: ¿Qué tan fácil es anotar un turno o una propina? ¿Qué atajos te gustaría?
+  - **Ejemplo**: Describe el último ingreso irregular: cuánto fue y cómo lo guardaste.
+- **Accesos rápidos sugeridos**: botón “Agregar turno” con plantilla (horas, tarifa, propina), atajo por voz o plantillas recurrentes.
+- **Alertas y recordatorios**: avisos sobre pagos fijos (pensión, servicios), calendario de pagos y proyección de cashflow para la quincena.
 
-**Metas de ahorro**
-12. ¿Qué metas te motivan (corto/mediano plazo)? ¿Qué **micro‑nudges** te ayudarían (redondeo, auto‑ahorro)?
-13. ¿Preferirías metas **semanales** además de mensuales?
+### **S3 – Estudiantes becados**
+- **Objetivo**: Identificar cómo la beca cubre gastos académicos y gestionar plazos.
+- **Pregunta principal**: ¿Cómo gestionas los gastos relacionados con la universidad y la beca (materiales, matrículas, trámites)?
+- **Probes / seguimiento**:
+  - **Gastos académicos**: ¿Cuánto gastas en promedio por semestre en materiales y trámites?
+  - **Fechas de beca**: ¿Tienes fechas clave (renovación, matrícula)? ¿Cómo te acuerdas de ellas?
+  - **Flujos**: ¿La beca llega en cuotas o una sola vez?
+- **Funciones útiles**: recordatorios automáticos (renovación, entrega de documentos), planificador de beca, reporte académico separado.
+- **Visualización recomendada**: barra apilada "Beca recibida / Gastos académicos / Saldo académico".
 
-**Reportes y decisiones**
-14. ¿Cuál gráfico te resultó **más útil** y cuál **sobraría**?
-15. ¿Qué **recomendación accionable** te gustaría ver cada semana? (“Reduce X un Y% haciendo Z”).
+### **⭐ Pregunta final común (para los 3 segmentos)**
+- **Moderador**: Si esta pantalla solo pudiera mostrar un dato clave para ayudarte a tomar mejores decisiones financieras, ¿cuál sería? Pide que explique por qué y qué acción tomaría.
+- **Opciones de ejemplo para mostrar**: `Mesada restante`, `Saldo disponible después de pagos fijos (cashflow proyectado)`, `Fondo disponible para gastos académicos`, `Gastos hormiga hoy`.
 
-**Deudas y compromisos**
-16. ¿Cómo controlas hoy tus **deudas** entre amigos/familia? ¿Qué **estados** necesitas?
-17. ¿Te gustaría **recordatorios automáticos** (educados) al deudor/acreedor? ¿Por qué?
+### **Alertas de "gasto hormiga" — opciones de presentación**
+- **Sutil**: micro-banner in-app y línea en resumen diario.
+- **Proactiva**: push con CTA — "Has gastado $X en compras pequeñas. Ver detalles".
+- **Digest semanal**: resumen agrupado con ahorro potencial.
+- **Reglas sugeridas para pruebas**: umbral por monto (ej. >10% mesada), por frecuencia (>3 compras/día), por repetición (merchant repetido).
 
-**Privacidad y confianza**
-18. ¿Qué mensaje o **sello de privacidad** te daría tranquilidad al empezar?
-19. ¿Compartirías **reportes** con tu familia/tutor? ¿Qué datos ocultarías?
-
-**Willingness to Pay / Planes**
-20. ¿Qué plan te encaja (Free/Plus/Pro)? ¿Qué feature convertiría un **“quizás” en “sí”**?
-
-**Cierre**
-21. Si fueras PM por un día, ¿**cuál** sería tu **única prioridad** de mejora?
-22. ¿Recomendarías TuCash a un amigo (0–10, **NPS**)? ¿Qué haría falta para darte un **10**?
-
----
-
-### B) Preguntas específicas por segmento
-
-**S1 – Mesada**
-1. ¿Cómo te ayuda TuCash a **reconocer y frenar** el **gasto hormiga**?  
-2. ¿Te sirven **objetivos semanales** (ej.: S/ 40 en snacks)?  
-3. ¿Te gustaría un **modo guiado** que te recuerde registrar 3 veces por semana?
-
-**S2 – Trabajan y estudian**
-1. ¿Qué tal encaja TuCash con **ingresos variables** (turnos/propinas)?  
-2. ¿Necesitas separar **laboral vs personal** (etiquetas, filtros, reportes)?  
-3. ¿Qué **recordatorios** de pagos fijos (datos, transporte, suscripciones) te evitarían recargos?
-
-**S3 – Becados**
-1. ¿Qué tan fácil es identificar **gastos académicos**? ¿Qué etiquetas faltan?  
-2. ¿Te sirve **exportar PDF mensual** para tutor/beca? ¿Qué formato/campos?  
-3. ¿Qué **alertas de beca** (renovación, matrícula) serían críticas y con cuánta anticipación?
-
----
-
-### C) *Probes* (profundización)
-- “Cuéntame más sobre esa parte…” / “¿Qué te hizo pensar eso?”  
-- “¿Qué habrías **esperado** ver aquí?”  
-- “Imagina que esto fuera **automático**: ¿qué riesgo ves?”  
-- “Si lo usamos por **30 días**, ¿qué hábito cambiaría primero?”
+### **Guion breve para el entrevistador (3–10 min por bloque)**
+- **Intro (30s)**: explica objetivo: "Entender cómo controlas gastos pequeños y pagos importantes".
+- **Warm-up (1–2 min)**: preguntas sobre mesada/ingresos/beca.
+- **Tarea práctica (3–5 min)**: pide que muestre o describa los últimos 3 gastos pequeños.
+- **Profundizar (5–7 min)**: usar probes según segmento.
+- **Cierre (1–2 min)**: preguntar la pregunta final común y pedir acción concreta a tomar.
 
 ---
 
@@ -3556,3 +3628,5 @@ Largo plazo: expandir a aplicación móvil e IoT, integrando recordatorios conte
 - Anexo 1: [Organización en GitHub](https://github.com/TuCash)
 - Anexo 2: [Mockups - Wireframe](https://www.figma.com/design/0eoLdvvEddDNIvvujQJGfU/TuCash?node-id=49-11&t=jhD9FD51vkhbVsPx-1)
 - Anexo 3: [User-Flow - WireFlow Diagram](https://lucid.app/lucidchart/6527f327-959e-4911-ae0c-6a1f5a520089/edit?viewport_loc=-1573%2C-4542%2C4989%2C2439%2C8M5xaniXGb-W&invitationId=inv_58ad1103-5a51-4d9f-95bc-86c61f1e3d65)
+
+#
