@@ -2896,18 +2896,58 @@ Este mapa muestra cómo las historias de usuario seleccionadas para el Sprint 2 
 
 ## 5.2.2.5. Execution Evidence for Sprint Review
 
-**Resumen de alcance logrado:**  
-Se habilitó un recorrido MVP: **Login → Home → Expenses/Incomes → Goals → Profile**, con persistencia en MySQL y feedback visual. Se cerraron bugs de navegación, se mejoró accesibilidad (contraste/labels) y se añadió i18n base (EN/ES).
+Durante el Sprint 2 se logró consolidar un **MVP funcional end-to-end**, habilitando los módulos centrales del flujo TuCash. Las entregas se validaron mediante pruebas exploratorias, UAT y evidencias visuales.
+
+### ✔ Alcance conseguido (Sprint 2)
+
+| Módulo / Flujo | Resultado del Sprint | Evidencias |
+|----------------|----------------------|------------|
+| **Login & Home** | Autenticación básica mock + navegación segura al dashboard. | Capturas en `assets/sprint2/login-home-*` |
+| **Expenses / Incomes** | Registro, edición mínima, listado y actualización del balance. | `assets/sprint2/transactions-*` |
+| **Goals** | Creación de metas, cálculo de progreso y render dinámico de tarjetas. | `assets/sprint2/goals-*` |
+| **Profile** | Actualización de nombre, moneda y foto. | `assets/sprint2/profile-*` |
+| **i18n ES/EN** | Textos clave traducidos + selector persistente. | `assets/sprint2/i18n-*` |
+| **Accesibilidad** | Mejora de contraste, labels ARIA, foco visible y teclado funcional. | Pruebas UAT internas |
+| **Persistencia (MySQL)** | Integración inicial con base local para Expenses/Incomes/Goals. | Scripts y logs de BD |
+
+###  Correcciones y mejoras aplicadas
+
+- Corrección de errores de navegación entre vistas (Login → Home → Goals).
+- Optimización del rendimiento de listas (change detection).
+- Unificación de estilos y tokens de diseño para tipografía/espaciado.
+- Validaciones adicionales en forms (monto > 0, campos obligatorios).
+- Ajustes responsivos en tarjetas (mobile-first).
+
+###  Valor entregado al producto
+
+El equipo logró un **incremento demostrable**, estableciendo una base sólida para Sprint 3 (Presupuestos, Alertas y Reportes). El MVP ya permite:
+
+- Acceder al sistema  
+- Registrar y visualizar movimientos  
+- Crear metas  
+- Personalizar perfil  
+- Navegar de forma coherente y usable  
+
+---
 
 ## 5.2.2.6. Services Documentation Evidence for Sprint Review
 
-**Endpoints documentados (OpenAPI):**
+La documentación del backend se consolidó utilizando **OpenAPI 3.0 + Swagger UI**, permitiendo a todo el equipo visualizar, probar y validar las operaciones del servicio durante el Sprint.
 
-- `POST /api/auth/login` — Iniciar sesión (JWT)
-- `GET /api/users/me` — Perfil autenticado
-- `GET /api/transactions/expenses` · `POST /api/transactions/expenses`
-- `GET /api/transactions/incomes` · `POST /api/transactions/incomes`
-- `GET /api/goals` · `POST /api/goals` · `PATCH /api/goals/{id}`
+### 📘 Endpoints implementados y documentados (Sprint 2)
+
+| Módulo | Método | Endpoint | Descripción |
+|--------|--------|----------|-------------|
+| **Auth** | `POST` | `/api/auth/login` | Autenticación y generación de token JWT. |
+| **User Profile** | `GET` | `/api/users/me` | Retorna el perfil del usuario autenticado. |
+| **Expenses** | `GET` | `/api/transactions/expenses` | Lista de gastos, con filtros básicos. |
+| | `POST` | `/api/transactions/expenses` | Registro de un nuevo gasto. |
+| **Incomes** | `GET` | `/api/transactions/incomes` | Lista de ingresos del usuario. |
+| | `POST` | `/api/transactions/incomes` | Registro de un nuevo ingreso. |
+| **Goals** | `GET` | `/api/goals` | Consulta de metas activas. |
+| | `POST` | `/api/goals` | Creación de una meta. |
+| | `PATCH` | `/api/goals/{id}` | Actualización de progreso, fecha u objetivo de la meta. |
+
 
 **Referencias OpenAPI/Swagger del proyecto:**
 
