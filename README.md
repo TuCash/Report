@@ -3531,14 +3531,16 @@ Este apartado contiene el banco de preguntas refinado para las entrevistas con l
 ---
 
 ### Entrevista 3 — S3 (Becada)
+
 | Campo | Información |
 |---|---|
-| **Participante** | *“Lucero P.” (20)* — Beca Alto Rendimiento |
-| **Hallazgos** | Necesita categorización académica más visible. Exporta reportes PDF mensuales para tutor. Pide alertas para fechas de beca. |
-| **SEQ Promedio** | 5.5/7 |
-| **SUS** | 74 |
-| **NPS** | 7 |
+| **Participante** | *“Lucero P.” (20 años)* — Beca Alto Rendimiento |
+| **Hallazgos Principales** | • Necesita categorización académica más visible.<br>• Exporta reportes PDF mensuales para su tutor.<br>• Requiere alertas automáticas sobre fechas de renovación de beca. |
+| **SEQ Promedio** | **5.5 / 7** |
+| **SUS** | **74** |
+| **NPS** | **7** |
 | **Cita clave** | “Para renovar beca necesito mis gastos claros, esto me ahorra tiempo.” |
+| **Video de la Entrevista** | 🎥 [Ver entrevista (OneDrive)](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c576_upc_edu_pe/IQC4IoIkbRf9Qa-lUkLdFnl1AQvrkoRptLaBlro7PqwAvqU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=IHRS8R) |
 
 ---
 
@@ -3601,32 +3603,76 @@ Este apartado contiene el banco de preguntas refinado para las entrevistas con l
 
 ---
 
-# 5.3.4. Métricas Recolectadas
+## 5.3.4. Métricas Recolectadas
 
-- **SUS promedio:** 76.8 (Aceptable – Bueno)  
-- **SEQ promedio por tarea:** 6.1 / 7  
-- **NPS general:** +8  
-- **Tasa de éxito de tareas:** 94%  
-- **Errores más comunes:**  
-  - Confusión al seleccionar categoría  
-  - Dificultad al configurar fecha de meta  
-  - Poca visibilidad de alerta 80%  
+Durante las sesiones de validación del Sprint 3 (usabilidad, entrevistas y pruebas moderadas), se recopilaron métricas cuantitativas orientadas a evaluar la experiencia del usuario y la efectividad del flujo PFM implementado. Los resultados se consideran positivos y muestran una tendencia hacia la adopción del producto.
+
+###  Indicadores de Usabilidad
+
+| Métrica | Resultado | Interpretación |
+|--------|-----------|----------------|
+| **SUS promedio** | **76.8** | Nivel *“Aceptable – Bueno”*. Los usuarios perciben el sistema como usable y consistente. |
+| **SEQ promedio por tarea** | **6.1 / 7** | Las tareas son consideradas **fáciles o muy fáciles** de completar. |
+| **NPS general** | **+8** | Zona de **neutral-positiva**, indicando que algunos usuarios recomendarían el sistema, aunque aún hay oportunidades de mejora. |
+| **Tasa de éxito de tareas** | **94%** | La mayoría de usuarios completó los flujos sin bloqueo; sistema estable para un MVP. |
 
 ---
 
 ## 5.3.5. Próximas Acciones
 
-1. **Registro de movimientos 1-tap** (repetir último gasto, plantillas).  
-2. **Alertas escalonadas** (70/80/100%) con visualización tipo semáforo.  
-3. **Reportes accionables automáticos:**  
-   - Top Hormiga  
-   - Tendencia semanal  
-   - Recomendación personalizada  
-4. **Exportación PDF/CSV** por categoría y periodo.  
-5. **Separación de gastos académicos** para S3.  
-6. **Historial de deudas** con estados (pendiente, parcial, pagado).  
-7. **Mejoras de accesibilidad** (contrastes, tamaños, lectura fácil).  
+A partir de los hallazgos, métricas y fricciones identificadas durante la validación del Sprint 3, se definió un conjunto de acciones priorizadas para fortalecer la experiencia del usuario y cerrar brechas funcionales clave del producto.
 
+###  1. Optimización del Registro de Movimientos
+- Implementar **registro rápido 1-tap** basado en:
+  - Último gasto registrado.
+  - Plantillas personalizables (ej.: “Movilidad”, “Almuerzo”, “Recarga”).
+- Reducirá el tiempo de registro y mejorará la adopción diaria.
+
+###  2. Alertas Inteligentes y Escalonadas
+- Incorporar alertas progresivas al alcanzar:
+  - **70%** (prevención)
+  - **80%** (precaución)
+  - **100%** (alerta crítica)
+- Añadir visualización **tipo semáforo**, vibración y resaltado dinámico.
+- Responde al hallazgo de “baja visibilidad del aviso 80%”.
+
+###  3. Reportes Automáticos y Accionables
+- Generación automática de insights:
+  - **Top hormiga** (gastos pequeños más repetidos).
+  - **Tendencia semanal** de gasto/ingreso.
+  - **Recomendación personal** (ej.: “Estás gastando +22% en delivery esta semana”).
+- Permitirá al usuario actuar sin necesidad de interpretar gráficos complejos.
+
+###  4. Exportación Avanzada de Reportes
+- Exportar datos en formatos:
+  - **PDF**
+  - **CSV**
+- Filtrados por:
+  - Categoría
+  - Fecha
+  - Objetivo académico (S3)
+- Facilita reportes para tutores, asesores y entidades externas.
+
+### 🎓 5. Segmentación de Gastos Académicos (S3)
+- Crear una categoría y visualización especial para:
+  - Materiales
+  - Matrículas
+  - Transporte académico
+  - Requisitos de beca
+- Esto responde directamente a la necesidad del segmento **S3 (becados)**.
+
+### 🤝 6. Gestión de Deudas y Estados
+- Implementar módulo de historial con estados:
+  - **Pendiente**
+  - **Parcial**
+  - **Pagado**
+- Integración con recordatorios para mejorar el control compartido.
+
+### ♿ 7. Mejoras de Accesibilidad
+- Aumentar contraste de colores y soporte dark/light mode.
+- Tamaños mínimos AA en tipografías y elementos táctiles.
+- Mejoras de “lectura fácil” y etiquetas ARIA.
+- Asegurar cumplimiento WCAG 2.1 nivel AA.
 
 
 ## Anexos
