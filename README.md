@@ -479,7 +479,7 @@ En esta sección se brinda la descripción de nuestra startup, producto y miembr
     </td>
   </tr>
   <tr>
-    <td><img width="650" height="872" alt="Image" src="https://github.com/user-attachments/assets/55fa2ce1-b068-4481-92a4-ed3c4e313cee" /></td></td>
+    <td></td></td>
     <td>
       <b>Harrison Hubert Payesa Torres (U2022201024)</b><br>
       Mi nombre es Harrison Payesa. Soy estudiante de la carrera de Ingeniería de Software. Tengo conocimientos en lenguaje Python, C++ y JavaScript, ademas de haber hecho proyectos con FrontEnd usando HTML, CSS y JS. En mi tiempo libre suelo ver películas y escuchar
@@ -3375,6 +3375,105 @@ Estas evidencias confirman el cumplimiento del incremento comprometido para el S
 
 
 ---
+# 5.2.4. Sprint 4 – Proyecto TuCash (TB2)
+
+## 5.2.4.1. Sprint Planning 4
+
+**Sprint #**: 4  
+**Fecha**: 20/11/2025  
+**Hora**: 06:30 PM  
+**Lugar**: Reunión virtual (Discord)  
+**Preparado por**: **Jhunior Giussepe Taquiri Calderón (u20221c576)**  
+**Asistentes (planning)**:  
+- Jhunior Giussepe Taquiri  
+- Patricia Mejía  
+- Milenio Huamán  
+
+### Review del Sprint 3
+Se completaron los módulos principales del flujo PFM: Presupuestos, Alertas, Reportes, Perfil e Internacionalización.  
+El backend fue fortalecido con filtros, CRUD de metas y telemetría.  
+Las métricas SUS/SEQ y la evaluación heurística confirmaron estabilidad.
+
+### Retrospectiva Sprint 3
+- Mejoras en consistencia visual e i18n  
+- Backend estable  
+- Se identificaron mejoras clave: alertas más visibles, registro más rápido, reportes más accionables  
+- Se acordó priorizar calidad, accesibilidad y despliegue final
+
+### Objetivo del Sprint 4
+> **“Completar la entrega final del producto TuCash para TB2: cierre funcional, optimización de UI/UX, estabilización del backend y despliegue completo (Landing + WebApp + API).”**
+
+**Velocidad**: 40  
+**Total de Story Points**: 40  
+
+---
+
+## 5.2.4.2. Líderes de Aspecto y Colaboradores (Sprint 4)
+
+| US/TS | J. Taquiri | P. Mejía | M. Huamán |
+|-------|------------|-----------|-----------|
+| US31 – Optimización del registro rápido | L | C | C |
+| US32 – Mejoras de alertas inteligentes | C | C | L |
+| US33 – Refinamiento de reportes visuales | C | L | C |
+| US34 – Accesibilidad y consistencia UX | L | C | C |
+| US35 – Despliegue final + documentación | L | C | C |
+| TS40 – Ajuste final API /transactions | L | C | C |
+| TS41 – Ajustes en API /alerts y /goals | C | C | L |
+| TS42 – Integración E2E + pruebas UAT | C | L | C |
+
+---
+
+## 5.2.4.3. Sprint Backlog 4
+
+| US/TS | ID Tarea | Título | Descripción | Horas | Asignado | Estado |
+|-------|----------|--------|-------------|--------|-----------|---------|
+| US31 | TK120 | Registro 1-tap | Implementar registro rápido basado en últimos movimientos | 3h | Taquiri | Done |
+| US31 | TK121 | Plantillas de gasto | Plantillas predefinidas de movilidad/almuerzo/recarga | 2h | Mejía | Done |
+| US32 | TK122 | Alertas progresivas | Niveles 70–80–100% con semáforo y animación | 3h | Huamán | Done |
+| US33 | TK123 | Quick Insights | Tarjetas rápidas “Top 3 hormiga”, gasto semanal | 3h | Mejía | Done |
+| US34 | TK124 | Accesibilidad WCAG | Corrección de contraste, roles ARIA, foco visible | 2h | Taquiri | Done |
+| US34 | TK125 | Iconografía | Estandarizar iconos de ingresos/egresos | 2h | Mejía | Done |
+| TS40 | TK126 | Optimizar /transactions | Ajustes de filtros, paginación y performance | 3h | Taquiri | Done |
+| TS41 | TK127 | Alertas backend | Ajustes en endpoints de alertas | 2h | Huamán | Done |
+| TS41 | TK128 | Progreso de metas | Optimizar cálculo de metas | 2h | Huamán | Done |
+| TS42 | TK129 | Pruebas UAT finales | Validación E2E de flujos | 3h | Mejía | Done |
+| US35 | TK130 | Documentación final | Actualizar Swagger, README TB2 y anexos | 3h | Taquiri | Done |
+| US35 | TK131 | Despliegue final | Deploy WebApp + Backend + Landing | 4h | Huamán | Done |
+
+---
+
+## 5.2.4.4. Evidencia de Desarrollo
+
+| Repositorio | Rama | Commit ID | Mensaje | Autor | Fecha |
+|-------------|-------|-----------|---------|--------|--------|
+| tucash-webapp | feature/quick-insights | af441bc | feat(reports): quick insights + hormiga cards | P. Mejía | 17/11/2025 |
+| tucash-webapp | feature/alerts-ui | b82c1fe | feat(alerts): progressive alerts + semaforo | M. Huamán | 18/11/2025 |
+| tucash-api | feature/transactions-final | d993ac1 | fix(api): filters & pagination improvements | J.G. Taquiri | 19/11/2025 |
+| tucash-api | feature/goals-progress | c7b81dd | feat(goals): optimized progress calculation | M. Huamán | 19/11/2025 |
+| tucash-deploy | release/tb2 | f29be2a | chore(deploy): final deployment | M. Huamán | 20/11/2025 |
+
+---
+
+## 5.2.4.5. Evidencia de Ejecución
+
+### **Evidencia 1 – Registro 1-tap**
+Se validó la creación de movimientos con un toque basado en último gasto y plantillas rápidas.
+
+### **Evidencia 2 – Alertas progresivas**
+Alertas automáticas en 70%, 80% y 100% del presupuesto con colores semáforo.
+
+### **Evidencia 3 – Reportes mejorados**
+Tarjetas “Top 3 hormiga”, gasto semanal y tendencias financieras.
+
+### **Evidencia 4 – Accesibilidad**
+Correcciones WCAG: contraste, foco visible, roles ARIA y navegación por teclado.
+
+### **Evidencia 5 – Despliegue Final**
+- **Landing Page** → GitHub Pages  
+- **WebApp Angular** → Netlify  
+- **Backend Spring Boot** → Heroku  
+- **Swagger** actualizado
+
 
 
 
