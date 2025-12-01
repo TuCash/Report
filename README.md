@@ -42,13 +42,23 @@
 <h1 align="left">Registro de versiones del Informe</h1>
 </br>
 
+
+
+
+
+
+
 <table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+
+  <!-- ENCABEZADO -->
   <tr>
-    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Versión</td>
-    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Fecha</td>
-    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Autores</td>
-    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Descripción</td>
+    <td align="center" style="border: 1px solid #ddd; padding: 8px;"><strong>Versión</strong></td>
+    <td align="center" style="border: 1px solid #ddd; padding: 8px;"><strong>Fecha</strong></td>
+    <td align="center" style="border: 1px solid #ddd; padding: 8px;"><strong>Autores</strong></td>
+    <td align="center" style="border: 1px solid #ddd; padding: 8px;"><strong>Descripción</strong></td>
   </tr>
+
+  <!-- TB1 -->
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px;">TB1</td>
     <td style="border: 1px solid #ddd; padding: 8px;">26/04/2025</td>
@@ -73,15 +83,7 @@
     </td>
   </tr>
 
-</table>
-<br>
-<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%;">
-  <tr>
-    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Versión</td>
-    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Fecha</td>
-    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Autores</td>
-    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Descripción</td>
-  </tr>
+  <!-- TP1 -->
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px;">TP1</td>
     <td style="border: 1px solid #ddd; padding: 8px;">09/10/2025</td>
@@ -96,36 +98,25 @@
     </td>
     <td style="border: 1px solid #ddd; padding: 8px;">
       <ul style="margin: 0; padding-left: 18px;">
-        <li>Capítulo V: Product Implementation, Validation &amp; Deployment — <strong>Sprint 2</strong></li>
+        <li>Capítulo V: Product Implementation, Validation & Deployment — <strong>Sprint 2</strong></li>
       </ul>
     </td>
   </tr>
-</table>
 
-<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%;">
-  <tr>
-    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Versión</td>
-    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Fecha</td>
-    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Autores</td>
-    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Descripción</td>
-  </tr>
-
-  <!-- TB2 AÑADIDO -->
+  <!-- TB2 -->
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px;">TB2</td>
     <td style="border: 1px solid #ddd; padding: 8px;">30/11/2025</td>
     <td style="border: 1px solid #ddd; padding: 8px;">
       <ul style="margin: 0; padding-left: 18px;">
         <li>Jhunior Giussepe Taquiri Calderon - u20221c576</li>
-        <li></li>
-        <li></li>
         <li>Patricia Valeria Mejia Poma - u202523271</li>
         <li>Milenio Huaman Hinostroza - u20211c245</li>
       </ul>
     </td>
     <td style="border: 1px solid #ddd; padding: 8px;">
       <ul style="margin: 0; padding-left: 18px;">
-        <li>Capítulo V: Product Implementation, Validation &amp; Deployment — <strong>Sprint 3</strong></li>
+        <li>Capítulo V: Product Implementation, Validation & Deployment — <strong>Sprint 3</strong></li>
         <li>Actualización de evidencias de desarrollo y ejecución.</li>
         <li>Incorporación de entrevistas de validación Sprint 3.</li>
         <li>Ajustes al diseño final del producto KapakID.</li>
@@ -133,8 +124,30 @@
       </ul>
     </td>
   </tr>
-</table>
 
+  <!-- TF (NUEVO) -->
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px;">TF</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">15/12/2025</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">
+      <ul style="margin: 0; padding-left: 18px;">
+        <li>Jhunior Giussepe Taquiri Calderon - u20221c576</li>
+        <li>Patricia Valeria Mejia Poma - u202523271</li>
+        <li>Milenio Huaman Hinostroza - u20211c245</li>
+      </ul>
+    </td>
+    <td style="border: 1px solid #ddd; padding: 8px;">
+      <ul style="margin: 0; padding-left: 18px;">
+        <li>Integración del <strong>Sprint 4</strong>: estabilización final del producto.</li>
+        <li>Optimización UI/UX (accesibilidad, consistencia visual y experiencia).</li>
+        <li>Mejoras finales del backend (alerts, goals, transactions).</li>
+        <li>Deploy final de WebApp, API y Landing Page.</li>
+        <li>Preparación del documento final y anexos.</li>
+      </ul>
+    </td>
+  </tr>
+
+</table>
 
 
 <!--Link al repositorio en la organización-->
@@ -411,21 +424,13 @@ Asimismo, desarrollé las secciones asignadas del Capítulo IV: Product Design, 
   
 <!--STUDENT OUTCOME-->
 
+
 # Student Outcome
 
 | Student Outcomes | Acciones realizadas | Conclusiones |
 |---|---|---|
-| **3.c1. Comunica oralmente con efectividad a diferentes rangos de audiencia** | **Milenio Huaman**<br>TB1: Parte 1 hasta Segmento Objetivo     .<br>TP1: Presenté el pitch del problema, moderé entrevistas iniciales y expuse la definición de segmentos objetivo al equipo y al docente . .<br>TB2: Presenté los avances del Sprint 3 (Login/Home), expuse hallazgos de entrevistas de validación y argumenté problemas heurísticos identificados <br><br>**Giussepe Taquiri**<br>TB1:Capítulo II hasta User Journey Mapping. .<br>TP1: Conduje reuniones de coordinación, expliqué el flujo general (As-Is/To-Be) y prioricé el backlog para alinear al equipo <br> TB2: Expuse el módulo de Documentos y Dashboard, dirigí entrevistas de validación del Sprint 3 y sustenté la síntesis de problemas y mejoras del producto  <br><br>**Patricia Mejía**<br>TB1: Socialicé hallazgos de entrevistas y presenté el enfoque del Empathy Map y Journey preliminar al grupo.<br>TP1: Empathy Mapping hasta Product Backlog.<br>TB2: Presenté avances de Perfil & Configuración, resultados de la evaluación heurística y recomendaciones de accesibilidad, contenido y consistencia visual<br><br>**Juan Diego Mondoñedo**<br>TB1: Expliqué criterios de aceptación y facilité la revisión del Product Backlog con el equipo.<br>TP1: Desde Product Backlog en adelante.<br><br>**Harrison Payesa**<br>TB1: Cerré el Sprint 1 con demo de landing básica y comuniqué observaciones de QA para el siguiente sprint.<br>TP1: Continuación de Product Backlog y revisiones finales. | **TB1:** Se demostró comunicación oral efectiva al presentar problema, segmentos y primeras decisiones de diseño; se adaptó el lenguaje a audiencias técnicas y no técnicas.<br><br>**TP1:** Cada integrante expuso sus avances asignados y justificó decisiones (backlog, journey y artefactos), consolidando un entendimiento común del alcance. <br>**TB2:** Se demostró claridad al comunicar hallazgos de entrevistas, resultados heurísticos y mejoras del producto, evidenciando madurez comunicacional y dominio técnico en Sprint 3. |
-|
-| **3.c2. Comunica por escrito con efectividad a diferentes rangos de audiencia** | **Milenio Huaman**<br>TB1: Redacté la problemática y segmentos con lenguaje claro para lectores no técnicos y técnicos.<br>TP1: Parte 1 hasta Segmento Objetivo.<br> TB2: Documenté hallazgos de entrevistas, flujo Login/Home y parte de la evaluación heurística del Sprint 3.<br><br>**Giussepe Taquiri**<br>TB1: Documenté el Cap. II (visión/alcance) y registré acuerdos del equipo con trazabilidad en el repositorio.<br>TP1: Capítulo II hasta User Journey Mapping.<br>TB2: Redacté 5.3 Validation Interviews (diseño, registro y análisis), documentación heurística y evidencias del Sprint 3 para el informe final.<br><br>**Patricia Mejía**<br>TB1: Elaboré plantillas y redacción del Empathy Map y Journey inicial con criterios de claridad y coherencia.<br>TP1: Empathy Mapping hasta Product Backlog.<br>TB2: Documenté Perfil & Configuración, recomendaciones heurísticas y ajustes de accesibilidad, contenido y consistencia textual.<br><br>**Juan Diego Mondoñedo**<br>TB1: Escribí el Product Backlog con historias, criterios de aceptación y prioridades.<br>TP1: Desde Product Backlog en adelante.<br><br>**Harrison Payesa**<br>TB1: Registré observaciones de QA y checklist de correcciones en el documento del sprint.<br>TP1: Continuación de Product Backlog y revisiones finales. | **TB1:** La redacción de antecedentes, segmentos, mapas y backlog mantuvo coherencia, ortografía y estilo técnico adecuados para distintos públicos.<br><br>**TP1:** La documentación por secciones aseguró claridad y trazabilidad de decisiones, facilitando revisión y continuidad del trabajo.<br>**TB2:** Se evidenció precisión técnica y claridad al documentar entrevistas, validaciones, análisis heurístico y módulos del Sprint 3, fortaleciendo la calidad escrita del informe final. |
- |
-
-
-
-
-
-
-
+| **3.c1. Comunica oralmente con efectividad a diferentes rangos de audiencia** | **Milenio Huaman**<br>TB1: Parte 1 hasta Segmento Objetivo.<br>TP1: Presenté el pitch del problema, moderé entrevistas iniciales y expuse la definición de segmentos objetivo al equipo y al docente.<br>TB2: Presenté los avances del Sprint 3 (Login/Home), expuse hallazgos de entrevistas de validación y argumenté problemas heurísticos identificados.<br>TF1: Expuse mejoras finales del Sprint 4, sustenté accesibilidad, reportes y participé en la presentación final del proyecto.<br><br>**Giussepe Taquiri**<br>TB1: Capítulo II hasta User Journey Mapping.<br>TP1: Conduje reuniones de coordinación, expliqué el flujo general (As-Is/To-Be) y prioricé el backlog para alinear al equipo.<br>TB2: Expuse el módulo de Documentos y Dashboard, dirigí entrevistas de validación del Sprint 3 y sustenté problemas y mejoras del producto.<br>TF1: Lideré la sustentación completa del Sprint 4, presenté decisiones técnicas del backend, despliegue final y cierre general del proyecto.<br><br>**Patricia Mejía**<br>TB1: Socialicé hallazgos de entrevistas y presenté el enfoque del Empathy Map y Journey preliminar.<br>TP1: Empathy Mapping hasta Product Backlog.<br>TB2: Presenté avances de Perfil & Configuración, resultados de la evaluación heurística y recomendaciones de accesibilidad y consistencia visual.<br>TF1: Expliqué las mejoras finales de UI/UX, reportes y participé en la exposición del entregable final.<br><br>**Juan Diego Mondoñedo**<br>TB1: Expliqué criterios de aceptación y facilité la revisión del Product Backlog con el equipo.<br>TP1: Desde Product Backlog en adelante.<br><br>**Harrison Payesa**<br>TB1: Cerré el Sprint 1 con demo de landing básica y comuniqué observaciones de QA para el siguiente sprint.<br>TP1: Continuación de Product Backlog y revisiones finales. |La comunicación oral del equipo fue efectiva y consistente, permitiendo transmitir ideas, avances y hallazgos con claridad frente a distintos públicos, tanto técnicos como no técnicos. Las presentaciones realizadas durante los sprints evidenciaron seguridad, dominio del contenido y capacidad para explicar decisiones clave del producto de forma estructurada y entendible.  |
+| **3.c2. Comunica por escrito con efectividad a diferentes rangos de audiencia** | **Milenio Huaman**<br>TB1: Redacté la problemática y segmentos con lenguaje claro para lectores técnicos y no técnicos.<br>TP1: Parte 1 hasta Segmento Objetivo.<br>TB2: Documenté hallazgos de entrevistas, Login/Home y evaluación heurística.<br>TF1: Redacté secciones del Sprint 4 y evidencias finales del proyecto.**<br><br>**Giussepe Taquiri**<br>TB1: Documenté el Cap. II (visión/alcance) y registré acuerdos del equipo con trazabilidad.<br>TP1: Capítulo II hasta User Journey Mapping.<br>TB2: Redacté 5.3 Validation Interviews, análisis heurístico y evidencias del Sprint 3.<br>TF1: Redacté el Sprint 4 completo, anexos técnicos, conclusiones y consolidación del documento final.<br><br>**Patricia Mejía**<br>TB1: Redacté Empathy Map y Journey inicial.<br>TP1: Empathy Mapping hasta Product Backlog.<br>TB2: Documenté Perfil & Configuración, recomendaciones heurísticas y ajustes de accesibilidad y consistencia textual.<br>TF1: Redacté mejoras finales de UI/UX, reportes, accesibilidad y secciones conclusivas.<br><br>**Juan Diego Mondoñedo**<br>TB1: Escribí el Product Backlog con historias, criterios de aceptación y prioridades.<br>TP1: Desde Product Backlog en adelante.<br><br>**Harrison Payesa**<br>TB1: Registré observaciones de QA y checklist de correcciones.<br>TP1: Continuación de Product Backlog y revisiones finales. | La comunicación escrita se mantuvo clara, organizada y precisa, facilitando la comprensión del progreso del proyecto en cada etapa. La documentación generada reflejó coherencia técnica, uso adecuado del lenguaje y un estilo profesional que permitió registrar decisiones, validaciones y resultados de manera trazable, contribuyendo significativamente a la calidad del informe final. |
 
 
 
