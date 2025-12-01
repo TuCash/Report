@@ -22,13 +22,14 @@
 **PRODUCTO** </br> TuCash
 <!--Nombres de integrantes-->
 
-| Nombre |Código|
-|-------|:----------:|
-| Taquiri Calderon, Jhunior Giussepe | u20221c576|
-| Payesa Torres, Harrison Hubert | u2022201024|
-| Mondoñedo Rodriguez, Juan Diego Javier | u202110373 |
-| Mejia Poma, Patricia Valeria | u202523271 |
-| Huaman Hinostroza, Milenio | u20211c245 |
+| Código | Nombre |
+|:----------:|-------------------------------|
+| u20221c576 | Taquiri Calderon, Jhunior Giussepe |
+| u2022201024 | Payesa Torres, Harrison Hubert |
+| u202110373 | Mondoñedo Rodriguez, Juan Diego Javier |
+| u202523271 | Mejia Poma, Patricia Valeria |
+| u20211c245 | Huaman Hinostroza, Milenio |
+
 
 ## AGOSTO
 
@@ -3889,3 +3890,327 @@ Largo plazo: expandir a aplicación móvil e IoT, integrando recordatorios conte
 - Anexo 3: [User-Flow - WireFlow Diagram](https://lucid.app/lucidchart/6527f327-959e-4911-ae0c-6a1f5a520089/edit?viewport_loc=-1573%2C-4542%2C4989%2C2439%2C8M5xaniXGb-W&invitationId=inv_58ad1103-5a51-4d9f-95bc-86c61f1e3d65)
 
 #
+# Anexo C. Indicaciones para Secciones que Incluyen Videos
+
+A continuación, se detallan las especificaciones solicitadas para cada uno de los videos requeridos en el proyecto **TuCash**, siguiendo las directivas del curso.
+
+---
+
+##  Needfinding Interviews
+
+**Cantidad de videos:** 1  
+**Nomenclatura:**  
+`upc-pre-202520-1asi0729-202520-tucash-needfinding-sprint-<n>`  
+**Formato:** .mp4  
+**Duración:** 3 a 5 minutos por entrevista (según cantidad total de entrevistas).
+
+### Sobre el contenido
+- Consolidar todas las entrevistas realizadas.  
+- Cada entrevista debe incluir títulos con:
+  - Nombre del entrevistado  
+  - Segmento objetivo  
+  - Fecha  
+- Mostrar hallazgos clave que alimentan la definición del User Persona.
+
+### Integración y Entrega
+- Subir el video en **Microsoft Stream** en el canal indicado por el docente.
+- Incluir en el informe:
+  - **Screenshot del video**
+  - **Enlace al video**
+  - **Introducción de la sección**
+  - **Registro narrado de cada entrevista**
+  - **Análisis general** con variables objetivas y subjetivas.
+- Seguir todas las especificaciones oficiales del enunciado.
+
+---
+
+##  Prototypes Navigation / Product Navigation
+
+**Cantidad de videos:** 1  
+**Nomenclatura:**  
+`upc-pre-202520-1asi0729-202520-tucash-productnavigation-sprint-<n>`  
+**Formato:** .mp4  
+**Duración:** 3 a 5 minutos por aplicación.
+
+### Sobre el contenido
+- Demostración del flujo de navegación del:
+  - Landing Page  
+  - WebApp TuCash  
+- Priorizar user flows relacionados al **core business**:
+  - Registro  
+  - Ingresos/Egresos  
+  - Presupuestos  
+  - Alertas  
+  - Reportes  
+
+### Integración y Entrega
+- Subir en **Microsoft Stream**.
+- Incluir en el informe:
+  - Screenshot del video  
+  - Enlace  
+  - Introducción describiendo los flujos incluidos  
+
+---
+
+##  Validation Interviews
+
+**Cantidad de videos:** 1  
+**Nomenclatura:**  
+`upc-pre-202520-1asi0729-202520-tucash-validation-sprint-<n>`  
+**Formato:** .mp4  
+**Duración:** 3 a 5 minutos por entrevista.
+
+### Sobre el contenido
+- Usuarios interactuando con:
+  - Landing Page  
+  - Prototipos WebApp TuCash  
+- Cada entrevista debe mostrar:
+  - Nombre del usuario  
+  - Segmento objetivo  
+  - Fecha  
+  - Comentarios y observaciones  
+
+### Integración y Entrega
+- Subir en **Microsoft Stream**.
+- Incluir en el informe:
+  - Screenshot + enlace  
+  - Introducción explicativa  
+  - Registro narrado de cada entrevista  
+  - Evaluación de:
+    - Heurísticas de usabilidad  
+    - Arquitectura de información  
+    - Diseño inclusivo  
+
+---
+
+##  About the Product
+
+**Cantidad de videos:** 1  
+**Nomenclatura:**  
+`upc-pre-202520-1asi0729-202520-tucash-aboutthe-product-sprint-<n>`  
+**Formato:** .mp4  
+**Duración:** 1 a 3 minutos.
+
+### Sobre el contenido
+- Enfoque promocional.
+- Describir:
+  - Modelo de negocio  
+  - Principales características  
+  - Beneficios del producto  
+- Incluir escenas reales usando la plataforma.
+- Incluir al menos **una opinión por segmento objetivo**:
+  - Estudiantes con mesada  
+  - Estudiantes que trabajan  
+  - Estudiantes becados  
+
+### Integración y Entrega
+- Subir en **Microsoft Stream** y **YouTube**.
+- Incluir en el informe:
+  - Screenshot  
+  - Enlace  
+  - Introducción corta  
+- Inserción del video en la Landing Page (sección "About").
+
+---
+
+##  About the Team
+
+**Cantidad de videos:** 1  
+**Nomenclatura:**  
+`upc-pre-202520-1asi0729-202520-tucash-aboutthe-team-sprint-<n>`  
+**Formato:** .mp4  
+**Duración:**  
+- ~5 minutos para retrospectiva del equipo  
+- ~1 minuto por cada integrante
+
+### Sobre el contenido
+- Resumen del proceso de trabajo:
+  - Reuniones  
+  - Pair programming  
+  - Testing  
+  - Ceremonias de sprint  
+- Narración (voz en off) explicando el flujo del proyecto.
+- Testimonio ante cámara de cada integrante describiendo:
+  - Actividades realizadas  
+  - Competencias desarrolladas  
+  - Contribución al Sprint 4 y al producto final  
+
+### Integración y Entrega
+- Subir en **Microsoft Stream** y **YouTube**.
+- Incluir en el informe:
+  - Screenshot  
+  - Enlace  
+  - Introducción de la sección  
+- Insertar el video también en la Landing Page.
+
+---
+
+# Anexo D. Evaluación de User Experience según Heurísticas  
+**UX Heuristics & Principles Evaluation**  
+Usability – Inclusive Design – Information Architecture  
+
+**CARRERA:** Ingeniería de Software  
+**CURSO:** Desarrollo de Aplicaciones Open Source  
+**SECCIÓN:** 202520  
+**PROFESORES:** Todos  
+**AUDITOR:** Equipo TuCash  
+**CLIENTE(S):** Segmentos objetivo – Estudiantes con mesada, estudiantes que trabajan, estudiantes becados.
+
+---
+
+## SITE o APP A EVALUAR:
+**TuCash WebApp – Gestión financiera personal para estudiantes en Latinoamérica**
+
+---
+
+## TAREAS A EVALUAR (incluidas)
+1. Registro de nuevo usuario  
+2. Registro de ingresos y gastos  
+3. Configuración de presupuestos mensuales  
+4. Visualización de reportes (“Insights” y gráficos)  
+5. Envío y gestión de alertas automáticas  
+6. Subida y visualización de documentos financieros  
+7. Edición del perfil del usuario  
+8. Cambio de idioma (ES/EN)
+
+---
+
+## TAREAS NO INCLUIDAS EN ESTA VERSIÓN:
+1. Integración bancaria automática  
+2. Generación de estados financieros exportables  
+3. Programación automática de pagos  
+4. Recordatorios SMS  
+5. Módulo de inversiones futuras
+
+---
+
+# ESCALA DE SEVERIDAD
+
+| Nivel | Descripción |
+|------|-------------|
+| **1** | Problema superficial: fácilmente superable, ocurre con muy baja frecuencia. No es prioritario. |
+| **2** | Problema menor: ocurre algo más frecuentemente o requiere más esfuerzo del usuario. Prioridad baja. |
+| **3** | Problema mayor: ocurre con frecuencia o el usuario no puede resolverlo fácilmente. Requiere corrección prioritaria. |
+| **4** | Problema crítico: bloquea al usuario e impide continuar. Debe corregirse antes del lanzamiento. |
+
+---
+
+# TABLA RESUMEN – HALLAZGOS TuCash
+
+| # | Problema identificado | Severidad | Heurística/Principio violado |
+|---|------------------------|-----------|-------------------------------|
+| **1** | No hay un acceso rápido al Dashboard después de registrar un gasto | 3 | Usability – Libertad y control del usuario |
+| **2** | Algunas opciones del menú se repiten en la vista móvil | 2 | Usability – Consistencia y estándares |
+| **3** | Botones sin etiqueta ARIA afectando la accesibilidad | 3 | Inclusive Design – Experiencias comparables |
+| **4** | El botón “Ver más” en Reportes no lleva a contenido adicional | 3 | Information Architecture – Is it usable? |
+| **5** | No se explica claramente el límite del presupuesto mensual | 2 | Information Architecture – Is it findable? |
+| **6** | El mensaje de error del Login no indica el problema específico | 2 | Usability – Feedback claro |
+| **7** | Gráficos no incluyen descripción para usuarios con lector de pantalla | 3 | Inclusive Design – Accesibilidad |
+| **8** | El cambio de idioma no afecta todas las pantallas | 1 | Usability – Consistencia |
+
+---
+
+# DESCRIPCIÓN DE PROBLEMAS Y RECOMENDACIONES
+
+---
+
+## **PROBLEMA #1: No hay acceso rápido al Dashboard después de registrar un gasto**
+**Severidad:** 3  
+**Heurística violada:** Usabilidad – Libertad y control del usuario  
+
+**Descripción del problema:**  
+Luego de registrar un gasto, el usuario permanece en la misma pantalla sin un acceso inmediato para regresar al Dashboard. Esto obliga a realizar pasos adicionales (navegar al menú lateral), aumentando esfuerzo y tiempo.  
+Esto afecta especialmente a usuarios que registran varios gastos seguidos.
+
+**Recomendación:**  
+Agregar un botón “Regresar al Dashboard” o “Registrar otro gasto” para reducir pasos y mejorar fluidez. Incluir accesos directos en la parte superior de la pantalla.
+
+---
+
+## **PROBLEMA #2: Algunas opciones del menú se repiten en la vista móvil**
+**Severidad:** 2  
+**Heurística violada:** Usability – Consistencia y estándares  
+
+**Descripción:**  
+En modo móvil, ciertas opciones como “Reportes” y “Perfil” aparecen duplicadas entre el menú lateral y el menú inferior, generando confusión.
+
+**Recomendación:**  
+Unificar las rutas en un único menú y eliminar duplicados. Asegurar consistencia entre dispositivos.
+
+---
+
+## **PROBLEMA #3: Botones sin etiqueta ARIA**
+**Severidad:** 3  
+**Heurística violada:** Inclusive Design – Proporciona experiencias comparables  
+
+**Descripción:**  
+En varias vistas (Registro, Alertas, Documentos) algunos iconos y botones no incluyen etiquetas ARIA, dificultando la navegación a usuarios con lector de pantalla.
+
+**Recomendación:**  
+Agregar `aria-label` o `role="button"` con descripción clara (“Agregar documento”, “Enviar alerta”, etc.).
+
+---
+
+## **PROBLEMA #4: El botón “Ver más” no muestra contenido adicional**
+**Severidad:** 3  
+**Heurística violada:** IA – Is it usable?  
+
+**Descripción:**  
+En la sección de Reportes, el botón “Ver más” no redirige a ninguna vista detallada. Genera frustración y rompe la expectativa del usuario.
+
+**Recomendación:**  
+Crear una vista extendida de Reportes o eliminar el botón hasta implementar la funcionalidad.
+
+---
+
+## **PROBLEMA #5: No se explica el límite del presupuesto mensual**
+**Severidad:** 2  
+**Heurística violada:** IA – Is it findable?  
+
+**Descripción:**  
+El usuario no encuentra fácilmente información sobre cómo se calcula el presupuesto ni cómo se establece el porcentaje de alertas.
+
+**Recomendación:**  
+Añadir un tooltip explicativo y una sección de ayuda dentro de “Perfil” o “Presupuestos”.
+
+---
+
+## **PROBLEMA #6: Mensajes de error poco claros en Login**
+**Severidad:** 2  
+**Heurística violada:** Usability – Feedback claro  
+
+**Descripción:**  
+Mensajes como “Error en la autenticación” no especifican si el usuario ingresó mal la contraseña, no existe la cuenta o hay un problema del servidor.
+
+**Recomendación:**  
+Implementar mensajes detallados:  
+- “Contraseña incorrecta”  
+- “El correo no está registrado”  
+- “Servidor no disponible, intente luego”
+
+---
+
+## **PROBLEMA #7: Gráficos sin descripciones accesibles**
+**Severidad:** 3  
+**Heurística violada:** Inclusive Design – Accesibilidad  
+
+**Descripción:**  
+Los gráficos de barras y pie no incluyen descripciones alternativas, impidiendo su interpretación en lectores de pantalla.
+
+**Recomendación:**  
+Incluir `aria-describedby` o texto alternativo invisible con los valores principales.
+
+---
+
+## **PROBLEMA #8: Cambio de idioma incompleto**
+**Severidad:** 1  
+**Heurística violada:** Usability – Consistencia  
+
+**Descripción:**  
+El cambio ES/EN no afecta algunas etiquetas en Reportes y Perfil.
+
+**Recomendación:**  
+Completar los archivos de i18n y aplicar el pipe de traducción en todas las vistas.
+
+---
+
