@@ -416,6 +416,14 @@ Asimismo, desarrollé las secciones asignadas del Capítulo IV: Product Design, 
       - [5.2.3.6. Services Documentation Evidence for Sprint Review (Sprint 3)](#5236-services-documentation-evidence-for-sprint-review)
       - [5.2.3.7. Software Deployment Evidence for Sprint Review (Sprint 3)](#5237-software-deployment-evidence-for-sprint-review)
       - [5.2.3.8. Team Collaboration Insights during Sprint (Sprint 3)](#5238-team-collaboration-insights-during-sprint)
+    - [5.2.4. Sprint 4](#524-sprint-4)
+      - [5.2.4.2. Aspect Leaders and Collaborators LACX (Sprint 4)](#5242-aspect-leaders-and-collaborators-lacx-sprint-4)
+      - [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
+      - [5.2.4.4. Development Evidence for Sprint Review (Sprint 4)](#5244-development-evidence-for-sprint-review-sprint-4)
+      - [5.2.4.5. Execution Evidence for Sprint Review (Sprint 4)](#5245-execution-evidence-for-sprint-review-sprint-4)
+      - [5.2.4.6. Services Documentation Evidence for Sprint Review (Sprint 4)](#5246-services-documentation-evidence-for-sprint-review-sprint-4)
+      - [5.2.4.7. Software Deployment Evidence for Sprint Review (Sprint 4)](#5247-software-deployment-evidence-for-sprint-review-sprint-4)
+      - [5.2.4.8. Team Collaboration Insights during Sprint (Sprint 4)](#5248-team-collaboration-insights-during-sprint-4)
 
   - [5.4. Video About-the-Product](#54-video-about-the-product)
 - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
@@ -468,58 +476,40 @@ En esta sección se brinda la descripción de nuestra startup, producto y miembr
 
  <img src="resources/Logotipo.png" alt="LOGO" width="100">
 
+
 ### 1.1.2. Perfiles de integrantes del equipo
 
 <table border="1">
-<tr><th>Nombre</th><th>Biografía del los integrantes del equipo</th></tr>
+<tr><th>Nombre</th><th>Biografía de los integrantes del equipo</th></tr>
 
+  <!-- GIUSSEPE -->
   <tr>
     <td><img src="resources/giussepe.png" alt="Jhunior Giussepe Taquiri Calderon" width="200"></td>
     <td>
-      <b>🧑‍💻 Jhunior Giussepe Taquiri Calderon (U20221C576)</b><br><br>
-      Soy estudiante del sexto ciclo de Ingeniería de Software en la UPC, con una formación orientada al desarrollo de software y al uso de diversas tecnologías.
-      Tengo experiencia en C++, Python, Java y SQL, además de bases en HTML, CSS y JavaScript, lo que me ha permitido trabajar tanto en lógica de programación como en aspectos de desarrollo web. <br><br>
-      Me considero una persona responsable, organizada y comprometida, con facilidad para el trabajo en equipo y con interés en seguir aprendiendo para fortalecer mi perfil profesional. <br><br>
-      Mis expectativas para el curso de Aplicaciones Web son muy altas, ya que representa una oportunidad para profundizar en el desarrollo frontend y backend, así como para aprender
-      nuevos frameworks como Vue, que serán de gran valor en mi futuro como desarrollador.
-    </td>
-  </tr>
-  <tr>
-    <td></td></td>
-    <td>
-      <b>Harrison Hubert Payesa Torres (U2022201024)</b><br>
-      Mi nombre es Harrison Payesa. Soy estudiante de la carrera de Ingeniería de Software. Tengo conocimientos en lenguaje Python, C++ y JavaScript, ademas de haber hecho proyectos con FrontEnd usando HTML, CSS y JS. En mi tiempo libre suelo ver películas y escuchar
-    </td>
+      <b>  Jhunior Giussepe Taquiri Calderon (U20221C576)</b><br><br>
+Soy estudiante del sexto ciclo de Ingeniería de Software en la UPC, con una formación orientada al desarrollo de software y al uso de diversas tecnologías.
+Tengo experiencia en C++, Python, Java y SQL, además de bases en HTML, CSS y JavaScript, lo que me ha permitido trabajar tanto en lógica de programación como en aspectos de desarrollo web.<br><br>
+Me considero una persona responsable, organizada y comprometida, con facilidad para el trabajo en equipo y con interés en seguir aprendiendo para fortalecer mi perfil profesional.<br><br>
+Mis expectativas para el curso de Desarrollo de Aplicaciones Open Source son adquirir experiencia práctica en la construcción de aplicaciones web distribuidas, fortalecer mi dominio en herramientas modernas de frontend y backend, y aplicar buenas prácticas de ingeniería utilizando metodologías ágiles, control de versiones con GitFlow y tecnologías open source. Espero que este curso me permita consolidar mi perfil como desarrollador full-stack capaz de construir soluciones escalables y de impacto real.
+
+
   </tr>
 
+  <!-- MILENIO -->
   <tr>
-    <td><img src="resources/JD.jpg" alt="Juan Diego Javier Mondoñedo Rodriguez" width="200"></td>
+    <td><img src="resources/perfilMilenio.png" alt="Huaman Hinostroza, Milenio" width="200"></td>
     <td>
-      <b>Juan Diego Javier Mondoñedo Rodriguez (U202110373)</b><br>
-      Mi nombre es Juan Diego Mondoñedo, tengo 21 años y soy estudiante de la carrera de Ingenieria de Software. Soy una persona adaptable a las circunstancias y puedo amoldar mis estrategias de trabajo para cumplir las expectativas de cualquier equipo.
-    </td>
-  </tr>
-
-  <tr>
-    <td><img width="929" height="1317" alt="imagen 02" src="https://github.com/user-attachments/assets/5c865f1d-c0f7-4a6a-9989-67e3b76fbdb8" />
-</td>
-    <td>
-      <b>Patricia Valeria Mejia Poma (U202523271)</b><br>
-      Soy estudiante de Ingeniería de Software en la UPC. Mi experiencia abarca el desarrollo backend con tecnologías como Java y C#, y la gestión de bases de datos como MySQL y PostgreSQL. Además, tengo conocimientos en el desarrollo frontend con HTML, CSS y framework como Tailwind CSS.
-      Me defino como una persona responsable y comprometida con el trabajo en equipo. Tengo un gran interés en seguir aprendiendo para fortalecer mi perfil profesional, aplicando mis habilidades para aportar soluciones innovadoras. Espero que este curso me permita profundizar en el desarrollo de aplicaciones web y consolidar mi formación como futura ingeniera.
-    </td>
-  </tr>
-
-  <tr>
-    <td> <img src="resources/perfilMilenio.png" alt="Huaman Hinostroza, Milenio" width="200"></td>
-    <td>
-      <b>Milenio Huaman Hinostroza (U20211C245)</b><br><br>
+      <b>Huaman Hinostroza, Milenio (U20211C245)</b><br><br>
       Soy estudiante de Ingeniería de Sistemas de Software en la UPC. Mi formación está orientada al desarrollo de aplicaciones web distribuidas y al uso de tecnologías open source. Tengo experiencia en Java con Spring Boot, Angular, HTML, CSS, JavaScript y TypeScript, además de conocimientos en bases de datos SQL y en control de versiones con Git y GitHub aplicando GitFlow.<br><br>
-      Me considero una persona responsable, perseverante y comprometida, con capacidad para trabajar en equipo y adaptarme a diferentes roles dentro de un proyecto. Me interesa seguir fortaleciendo mis habilidades tanto en el desarrollo backend como en frontend, además de adquirir experiencia en el diseño de experiencias de usuario (UX/UI) y en metodologías ágiles.<br><br>
-      Mis expectativas para el curso de Desarrollo de Aplicaciones Open Source son altas, ya que representa una oportunidad para aplicar buenas prácticas de ingeniería de software, explorar herramientas modernas de desarrollo y consolidar mi perfil como futuro ingeniero de software capaz de aportar soluciones innovadoras y escalables.
+      Me considero una persona responsable, perseverante y comprometida, con capacidad para trabajar en equipo y adaptarme a diferentes roles dentro de un proyecto. Me interesa seguir fortaleciendo mis habilidades tanto en backend como en frontend, además de adquirir experiencia en el diseño de experiencias de usuario (UX/UI) y metodologías ágiles.<br><br>
+      Mis expectativas para el curso de Desarrollo de Aplicaciones Open Source son altas, ya que representa una oportunidad para aplicar buenas prácticas, explorar herramientas modernas de desarrollo y consolidar mi perfil como futuro ingeniero de software capaz de aportar soluciones innovadoras y escalables.
    </td>
   </tr>
+
 </table>
+
+
+
 
 ## 1.2. Solution Profile
 
@@ -1297,105 +1287,112 @@ Tras analizar las Épicas definidas, procedemos a desglosarlas en Historias de U
 
 Para elaborar user stories que pertenecen a un epic. A continuación, las epics que consideramos como equipo:
 
-| EPIC ID | TÍTULO DE LA ÉPICA | Objetivo Principal |
-| :--- | :--- | :--- |
-| **EP01** | Gestión de Cuentas de Usuario | Que el usuario pueda crear su cuenta y acceder a ella de forma fácil y segura. |
-| **EP02** | Gestión de Transacciones | Permitir que el usuario registre sus ingresos y gastos sin esfuerzo. |
-| **EP03** | Visualización de Datos y Reportes | Convertir los números de los gastos en información útil y fácil de entender. |
-| **EP04** | Planificación y Metas Financieras | Ayudar al usuario a ahorrar para las cosas que le importan. |
-| **EP05** | Presupuestos y Notificaciones | Darle al usuario herramientas para que no gaste de más y tenga el control. |
-| **EP10** | Gestión de Gastos Compartidos | Simplificar la forma en que se maneja el dinero entre amigos y compañeros. |
+
+| EPIC ID | Título de la Épica | Objetivo Principal |
+|--------|----------------------|--------------------|
+| EP01 | Onboarding Inicial | Guiar al usuario nuevo por un flujo paso a paso: bienvenida → cuenta → primera transacción → finalización. |
+| EP02 | Autenticación y Perfil | Permitir registrar cuenta, iniciar sesión, ver datos personales y administrar preferencias del usuario. |
+| EP03 | Gestión de Cuentas | Crear cuentas financieras (efectivo, billetera, débito), editarlas y administrarlas. |
+| EP04 | Gestión de Transacciones | Registrar ingresos/egresos, seleccionar cuentas, usar categorías y administrar historial. |
+| EP05 | Dashboard y Resumen | Mostrar balance general, cuentas del usuario, ingresos vs egresos y últimas transacciones. |
+| EP06 | Metas de Ahorro | Crear metas, actualizar progreso y mantener objetivos activos o completados. |
+| EP07 | Presupuestos | Crear presupuestos por categoría y supervisar cuánto falta o cuánto queda por gastar. |
+| EP08 | Recurrencias (Automatización) | Registrar gastos o ingresos automáticos que se repiten periódicamente. |
+| EP09 | Reportes Financieros | Visualizar gráficos de gastos, ingresos y tendencias mensuales. |
 
 ---
 
-#### Desglose de Historias de Usuario por Épica
+## Desglose de Historias de Usuario por Épica
 
-### EP01: Gestión de Cuentas de Usuario
+### EP01: Onboarding Inicial
 
 | Story ID | Título de la Historia | Descripción (Situación y Motivación) | Criterios de Aceptación |
-| :--- | :--- | :--- | :--- |
-| **EP01/US01** | Crear mi espacio financiero | **Cuando** descargo la app por primera vez, **quiero** poder registrarme fácilmente, **para poder** empezar a organizar mi dinero. | **Dado** que soy un usuario nuevo, **cuando** ingreso mi correo y una contraseña segura, **entonces** mi cuenta se crea y veo la pantalla principal. |
-| **EP01/US02** | Entrar a mi cuenta | **Cuando** ya tengo una cuenta, **quiero** iniciar sesión rápidamente, **para poder** ver mi información o registrar un gasto al instante. | **Dado** que ya estoy registrado, **cuando** pongo mi correo y contraseña correctos, **entonces** puedo entrar y ver mi Panel Principal. |
-| **EP01/US03** | Recuperar mi acceso | **Cuando** olvido mi contraseña, **quiero** poder recuperarla usando mi correo, **para poder** volver a entrar a mi cuenta sin perder mis datos. | **Dado** que olvidé mi contraseña, **cuando** pido recuperarla y sigo los pasos que me llegan al correo, **entonces** puedo poner una nueva contraseña y volver a entrar. |
-| **EP01/US04** | Personalizar mi perfil | **Cuando** ya tengo mi cuenta, **quiero** poder editar mis datos personales (nombre, foto), **para poder** sentir la aplicación más mía y personalizada. | **Dado** que estoy en mi perfil, **cuando** cambio mi nombre de usuario y subo una foto, **entonces** los cambios se guardan y se reflejan en la app. |
-| **EP01/US05** | Configurar mis preferencias | **Cuando** uso la app, **quiero** poder cambiar la moneda principal (ej. de Soles a Dólares), **para poder** alinear la app con mis finanzas si manejo diferentes divisas. | **Dado** que estoy en la sección de configuración, **cuando** selecciono una nueva moneda principal, **entonces** todos los montos en la app se muestran en la moneda elegida. |
+|---------|------------------------|--------------------------------------|--------------------------|
+| EP01/US01 | Crear mi cuenta para iniciar | Cuando entro por primera vez a TuCash, quiero registrarme con correo y contraseña, para empezar a usar la plataforma. | Dado que soy un usuario nuevo, cuando registro un correo válido y una contraseña que cumple las reglas, entonces la cuenta se crea y comienza el flujo de onboarding. |
+| EP01/US02 | Recibir bienvenida guiada | Cuando inicio sesión por primera vez, quiero ver un mensaje de bienvenida, para entender qué puedo hacer con TuCash. | Dado que ya inicié sesión por primera vez, cuando aparece la pantalla de bienvenida y presiono “Empezar”, entonces avanzo al paso de creación de cuenta financiera. |
+| EP01/US03 | Crear mi primera cuenta financiera | Cuando inicio el onboarding, quiero registrar mi primera cuenta (por ejemplo “Efectivo”), para comenzar a organizar mi dinero dentro de TuCash. | Dado que estoy en el paso “Cuenta” del onboarding, cuando ingreso un nombre de cuenta y selecciono la moneda, entonces la cuenta se registra y puedo continuar al siguiente paso. |
+| EP01/US04 | Registrar mi primera transacción | Cuando estoy configurando mi espacio financiero, quiero registrar un ingreso o gasto inicial, para ver datos reales en mi dashboard desde el inicio. | Dado que estoy en el paso “Transacción” del onboarding, cuando selecciono tipo (ingreso/egreso), indico monto, categoría y fecha, entonces la primera transacción se guarda correctamente. |
+| EP01/US05 | Finalizar onboarding | Cuando termino todos los pasos del onboarding, quiero ver una confirmación clara, para saber que ya puedo empezar a usar TuCash con normalidad. | Dado que completé los pasos de Cuenta y Transacción (o salté los opcionales), cuando avanzo al paso final, entonces veo el mensaje “¡Todo listo!” y soy redirigido al dashboard principal. |
 
 ---
 
-### EP02: Gestión de Transacciones
+### EP02: Autenticación y Perfil
 
 | Story ID | Título de la Historia | Descripción (Situación y Motivación) | Criterios de Aceptación |
-| :--- | :--- | :--- | :--- |
-| **EP02/US01** | Registrar el dinero que recibo | **Cuando** me pagan o me dan mi mesada, **quiero** anotarlo de forma simple, **para poder** saber cuánto dinero tengo disponible en total. | **Dado** que estoy en la app, **cuando** añado un nuevo ingreso con un monto y descripción, **entonces** mi saldo total se actualiza y el ingreso aparece en mi historial. |
-| **EP02/US02** | Anotar mis gastos diarios | **Cuando** compro algo, **quiero** registrar el gasto y ponerle una categoría en pocos segundos, **para poder** llevar un control real de a dónde se va mi dinero. | **Dado** que estoy en la app, **cuando** añado un nuevo gasto, le pongo un monto y elijo una categoría (ej. "Comida"), **entonces** el gasto se guarda, mi saldo se actualiza y aparece en el historial. |
-| **EP02/US03** | Automatizar mis gastos fijos | **Cuando** tengo gastos que se repiten cada mes (como la pensión de la U o mi plan de celular), **quiero** configurarlos una sola vez, **para poder** ahorrar tiempo y evitar olvidarme de registrarlos. | **Dado** que tengo un gasto fijo, **cuando** lo configuro como un gasto recurrente para una fecha específica, **entonces** la app lo registrará automáticamente cada mes en esa fecha. |
-| **EP02/US04** | Corregir un registro | **Cuando** me equivoco al registrar un gasto (puse mal el monto o la categoría), **quiero** poder editarlo fácilmente, **para poder** mantener mi información financiera precisa. | **Dado** que tengo un gasto registrado, **cuando** lo selecciono y modifico su monto o categoría, **entonces** el registro se actualiza en mi historial y mi saldo se corrige. |
-| **EP02/US05** | Filtrar mis movimientos | **Cuando** quiero analizar mis finanzas, **quiero** poder buscar y filtrar mis transacciones (por fecha, categoría o tipo), **para poder** encontrar rápidamente la información que necesito. | **Dado** que estoy en mi historial de transacciones, **cuando** aplico un filtro por "Comida" para el mes pasado, **entonces** solo veo los gastos de esa categoría en ese rango de fechas. |
+|---------|------------------------|--------------------------------------|--------------------------|
+| EP02/US01 | Iniciar sesión correctamente | Cuando ya tengo una cuenta, quiero iniciar sesión con mi correo y contraseña, para acceder a mis finanzas personales en TuCash. | Dado que tengo una cuenta registrada, cuando ingreso un correo existente y la contraseña correcta, entonces la app me autentica y me lleva al dashboard principal. |
+| EP02/US02 | Editar mi perfil | Cuando quiero actualizar mis datos personales, quiero poder editar mi nombre y otros datos visibles, para personalizar mi experiencia dentro de TuCash. | Dado que estoy en la sección Perfil, cuando modifico mi nombre u otros campos permitidos y guardo los cambios, entonces la información actualizada se muestra en mi perfil y en el resto de la app. |
+| EP02/US03 | Cambiar idioma de la app | Cuando prefiero usar otro idioma, quiero poder cambiar el idioma de la interfaz, para entender mejor todos los textos y mensajes de TuCash. | Dado que accedo a Perfil > Idioma, cuando selecciono un idioma (por ejemplo Español, Inglés o Portugués), entonces toda la interfaz y los menús de la aplicación se muestran en el idioma elegido. |
+| EP02/US04 | Gestionar seguridad de mi cuenta | Cuando quiero proteger mi cuenta, quiero poder cambiar mi contraseña, para mantener mis datos financieros seguros. | Dado que estoy en la sección de Seguridad y Contraseña, cuando ingreso mi contraseña actual, defino una nueva contraseña válida y confirmo la operación, entonces la app actualiza la contraseña y muestra un mensaje de confirmación. |
 
 ---
 
-### EP03: Visualización de Datos y Reportes
+### EP03: Gestión de Cuentas
 
 | Story ID | Título de la Historia | Descripción (Situación y Motivación) | Criterios de Aceptación |
-| :--- | :--- | :--- | :--- |
-| **EP03/US01** | Saber "cómo voy" de un vistazo | **Cuando** abro la app, **quiero** ver un resumen fácil de entender de mis finanzas, **para poder** saber rápidamente si estoy bien o si estoy gastando mucho. | **Dado** que he registrado ingresos y gastos, **cuando** voy al Panel Principal, **entonces** veo mi saldo actual y un resumen simple de cuánto he ganado y gastado este mes. |
-| **EP03/US02** | Descubrir en qué gasto más | **Cuando** siento que el dinero se me escapa, **quiero** ver un gráfico de mis gastos, **para poder** darme cuenta fácilmente en qué categoría se me está yendo más la plata. | **Dado** que he registrado gastos en varias categorías, **cuando** voy a la sección de Reportes, **entonces** veo un gráfico (ej. de torta) que me muestra mis gastos por categoría. |
-| **EP03/US03** | Comparar mi progreso | **Cuando** quiero saber si estoy mejorando, **quiero** poder comparar mis gastos e ingresos entre diferentes meses, **para poder** ver si mis hábitos financieros están cambiando para bien. | **Dado** que tengo datos de varios meses, **cuando** selecciono el reporte de comparación mensual, **entonces** veo un gráfico de barras que muestra mis gastos totales de este mes contra los del mes pasado. |
-| **EP03/US04** | Ver la evolución de mis finanzas | **Cuando** planifico a largo plazo, **quiero** ver un reporte de tendencias de mis ingresos vs. mis gastos a lo largo del tiempo, **para poder** entender mi situación financiera general y tomar mejores decisiones. | **Dado** que tengo datos de los últimos 6 meses, **cuando** voy a la sección de reportes de tendencias, **entonces** veo un gráfico de líneas que muestra la evolución de mis ingresos y gastos durante ese periodo. |
+|---------|------------------------|--------------------------------------|--------------------------|
+| EP03/US01 | Crear una nueva cuenta financiera | Cuando manejo diferentes métodos de pago (efectivo, billetera, tarjeta), quiero poder crear varias cuentas, para organizar mi dinero según su origen. | Dado que estoy en el flujo “Nueva Cuenta”, cuando ingreso un nombre de cuenta y selecciono la moneda correspondiente, entonces la cuenta se crea y aparece en la lista de cuentas. |
+| EP03/US02 | Visualizar todas mis cuentas | Cuando entro al dashboard, quiero ver todas mis cuentas financieras, para conocer rápidamente el saldo de cada una. | Dado que tengo al menos una cuenta creada, cuando ingreso a la pantalla de inicio, entonces veo una tarjeta por cada cuenta con su nombre, moneda y saldo actual. |
+| EP03/US03 | Editar una cuenta existente | Cuando necesito corregir o actualizar una cuenta, quiero poder editar sus datos, para mantener mi información financiera coherente. | Dado que selecciono una cuenta desde el dashboard o desde la lista de cuentas, cuando edito campos permitidos como nombre o tipo y guardo los cambios, entonces la cuenta se actualiza y se refleja en todas las vistas. |
 
 ---
 
-### EP04: Planificación y Metas Financieras
+### EP04: Gestión de Transacciones
 
 | Story ID | Título de la Historia | Descripción (Situación y Motivación) | Criterios de Aceptación |
-| :--- | :--- | :--- | :--- |
-| **EP04/US01** | Ahorrar para algo que quiero | **Cuando** quiero comprarme algo (un libro, una entrada a un concierto), **quiero** crear una meta de ahorro, **para poder** tener una motivación clara y ver cómo me voy acercando. | **Dado** que estoy en la sección de Metas, **cuando** creo una nueva meta con un nombre y un monto, **entonces** la meta aparece en mi lista con un progreso de 0%. |
-| **EP04/US02** | Ver crecer mis ahorros | **Cuando** decido ahorrar un poco de dinero, **quiero** poder añadirlo a mi meta, **para poder** ver cómo la barrita de progreso avanza y sentir que estoy logrando algo. | **Dado** que tengo una meta creada, **cuando** le asigno un monto de dinero, **entonces** el total ahorrado de la meta aumenta y la barra de progreso se actualiza. |
-| **EP04/US03** | Ajustar mis metas | **Cuando** mis planes cambian (ej. el precio del producto subió), **quiero** poder editar el monto o la fecha de mi meta, **para poder** adaptar mi plan de ahorro a la realidad. | **Dado** que tengo una meta activa, **cuando** edito su monto objetivo, **entonces** el nuevo monto se guarda y el porcentaje de progreso se recalcula. |
-| **EP04/US04** | Celebrar un logro | **Cuando** completo una meta de ahorro, **quiero** que la app me felicite y me permita marcarla como "lograda", **para poder** sentir la satisfacción de haber cumplido mi objetivo. | **Dado** que una meta ha llegado al 100% de su progreso, **cuando** la marco como completada, **entonces** aparece una animación de celebración y la meta se mueve al historial de logros. |
+|---------|------------------------|--------------------------------------|--------------------------|
+| EP04/US01 | Registrar un ingreso | Cuando recibo dinero (por ejemplo sueldo, mesada o pago adicional), quiero registrar un ingreso en la app, para que mi balance refleje el dinero que realmente tengo. | Dado que estoy en el formulario de Nueva Transacción, cuando selecciono el tipo “Ingreso”, elijo una cuenta, ingreso un monto válido, una categoría y una fecha, entonces la transacción se guarda y el saldo de la cuenta aumenta. |
+| EP04/US02 | Registrar un gasto | Cuando realizo una compra o pago, quiero registrar un gasto, para llevar un control de mis salidas de dinero. | Dado que estoy en el formulario de Nueva Transacción, cuando selecciono el tipo “Egreso”, elijo la cuenta, ingreso el monto, la categoría y la fecha, entonces la transacción se guarda y el saldo de la cuenta disminuye. |
+| EP04/US03 | Crear nuevas categorías de gasto o ingreso | Cuando tengo un gasto o ingreso que no encaja en las categorías existentes, quiero poder crear una categoría nueva, para clasificar mejor mis movimientos. | Dado que estoy registrando una transacción, cuando presiono el botón para añadir una nueva categoría, ingreso un nombre y confirmo, entonces la categoría se crea y queda disponible en la lista de categorías. |
+| EP04/US04 | Ver historial de transacciones | Cuando quiero revisar mis gastos e ingresos pasados, quiero ver un historial ordenado de transacciones, para analizar mi comportamiento financiero. | Dado que ya tengo movimientos registrados, cuando entro a la sección “Transacciones”, entonces se muestra una lista ordenada por fecha con todas las transacciones realizadas. |
 
 ---
 
-### EP05: Presupuestos y Notificaciones
+### EP05: Dashboard y Resumen
 
 | Story ID | Título de la Historia | Descripción (Situación y Motivación) | Criterios de Aceptación |
-| :--- | :--- | :--- | :--- |
-| **EP05/US01** | Ponerme un límite de gasto | **Cuando** sé que tiendo a gastar mucho en algo (como en salidas), **quiero** ponerme un límite mensual para esa categoría, **para poder** controlarme y no pasarme. | **Dado** que estoy en la sección de Presupuestos, **cuando** elijo una categoría y le pongo un monto límite para el mes, **entonces** el presupuesto queda guardado y activo. |
-| **EP05/US02** | Recibir un aviso antes de pasarme | **Cuando** estoy cerca de llegar a mi límite de gasto, **quiero** que la app me avise, **para poder** frenar a tiempo y tomar mejores decisiones. | **Dado** que tengo un presupuesto activo, **cuando** mis gastos en esa categoría superan el 85% del límite, **entonces** recibo una notificación que me alerta sobre esto. |
-| **EP05/US03** | Revisar el estado de mis presupuestos | **Cuando** quiero planificar mis próximas compras, **quiero** ver un resumen de todos mis presupuestos y cuánto me queda en cada uno, **para poder** tomar decisiones informadas sobre si puedo gastar o no. | **Dado** que he definido varios presupuestos, **cuando** voy a la sección de Presupuestos, **entonces** veo una lista de todas las categorías con su límite, lo gastado hasta ahora y una barra de estado visual. |
+|---------|------------------------|--------------------------------------|--------------------------|
+| EP05/US01 | Ver mi balance general | Cuando entro al inicio de la app, quiero ver mi balance total consolidado, para saber rápidamente cuánto dinero tengo disponible. | Dado que tengo al menos una cuenta con saldo, cuando accedo al dashboard, entonces se muestra el balance general sumando todas las cuentas en la moneda principal. |
+| EP05/US02 | Ver ingresos vs egresos del mes | Cuando reviso mis finanzas del mes, quiero ver una barra o gráfico que compare ingresos y egresos, para entender si gasté más de lo que gané. | Dado que existen transacciones en el mes actual, cuando entro al dashboard, entonces veo un componente visual (barra o gráfico) que muestra el total de ingresos y egresos de ese periodo. |
+| EP05/US03 | Ver mis últimas transacciones | Cuando entro al inicio, quiero ver un resumen de mis movimientos más recientes, para revisar qué fue lo último que registré. | Dado que tengo transacciones registradas, cuando accedo al dashboard, entonces se muestra un listado con las últimas transacciones realizadas, incluyendo tipo, cuenta, categoría, monto y fecha. |
 
 ---
 
-### EP10: Gestión de Gastos Compartidos
+### EP06: Metas de Ahorro
 
 | Story ID | Título de la Historia | Descripción (Situación y Motivación) | Criterios de Aceptación |
-| :--- | :--- | :--- | :--- |
-| **EP10/US01** | Dividir la cuenta con amigos | **Cuando** salimos en grupo y uno paga todo, **quiero** poder registrar ese gasto y dividirlo, **para poder** saber fácil y rápido quién le debe a quién. | **Dado** que hice un gasto de S/ 100 para un grupo de 4 personas, **cuando** uso la función "Dividir Gasto" y selecciono a los 3 amigos, **entonces** la app registra que yo gasté S/ 25 y que cada amigo me debe S/ 25. |
-| **EP10/US02** | Llevar las cuentas claras | **Cuando** alguien me paga lo que me debía, **quiero** poder marcar esa deuda como pagada, **para poder** mantener un control claro y evitar malentendidos. | **Dado** que un amigo me debe S/ 25, **cuando** me paga y yo marco la deuda como "saldada", **entonces** la deuda desaparece y el balance con ese amigo vuelve a cero. |
-| **EP10/US03** | Ver a quién le debo y quién me debe | **Cuando** tengo varios gastos compartidos, **quiero** ver un panel que resuma todas mis deudas y lo que me deben, **para poder** tener una visión clara de mis cuentas con amigos. | **Dado** que tengo deudas pendientes por pagar y por cobrar, **cuando** voy a la sección de "Gastos Compartidos", **entonces** veo dos listas: "Me deben" y "Debo", con los montos totales y el detalle por persona. |
-| **EP10/US04** | Enviar un recordatorio amigable | **Cuando** un amigo se ha demorado en pagarme, **quiero** poder enviarle un recordatorio desde la app, **para poder** evitar la conversación incómoda de cobrarle en persona. | **Dado** que un amigo tiene una deuda pendiente conmigo, **cuando** presiono el botón de "Recordar", **entonces** la app le envía una notificación amigable sobre el pago pendiente. |
+|---------|------------------------|--------------------------------------|--------------------------|
+| EP06/US01 | Crear una meta de ahorro | Cuando quiero ahorrar para un objetivo específico (por ejemplo un viaje o un dispositivo), quiero crear una meta, para tener claro el monto que necesito alcanzar. | Dado que estoy en la sección “Metas”, cuando presiono “Nueva Meta” e ingreso un nombre de meta y un monto objetivo, entonces la meta se registra y se muestra en la lista de metas de ahorro. |
+| EP06/US02 | Actualizar el progreso de una meta | Cuando aporto dinero a mi objetivo, quiero registrar ese aporte en la meta, para ver cómo avanza mi progreso de ahorro. | Dado que tengo una meta activa, cuando selecciono la meta, indico un monto de aporte y guardo, entonces el total ahorrado y el porcentaje de progreso se actualizan correctamente. |
 
-### Historias Técnicas (Technical Stories)
+---
 
-| Tech ID | Título | Descripción Técnica (Módulo / Alcance) | Criterios de Aceptación |
-| :--- | :--- | :--- | :--- |
-| **TS-01** | Configuración Landing Page | **Módulo:** Landing Page<br>Implementar estructura HTML5 semántica, estilos CSS base y script JS para el sitio promocional del producto. | 1. El sitio carga correctamente el `index.html` sin errores de consola.<br>2. Los estilos CSS base son responsivos.<br>3. La estructura sigue estándares semánticos HTML5. |
-| **TS-02** | Bootstrap del proyecto Angular | **Módulo:** Infraestructura Frontend<br>Inicializar proyecto Angular con CLI, configurar Routing Module y Layout base (Shell: header, sidebar, content). | 1. El comando `ng serve` levanta la aplicación sin errores.<br>2. La estructura de carpetas sigue las `style guides` de Angular.<br>3. El router outlet carga el layout principal correctamente. |
-| **TS-03** | Configuración CI/CD | **Módulo:** DevOps / GitHub Actions<br>Configurar pipeline de integración continua para ejecutar linter, pruebas unitarias y build automático en cada push. | 1. El archivo `.yml` existe en `.github/workflows`.<br>2. El pipeline se ejecuta exitosamente ante un Pull Request.<br>3. El build falla si el linter o los tests no pasan. |
-| **FE-TS01** | Módulo de Autenticación | **Módulo:** Frontend - Auth<br>Implementar componentes de Login, Registro y Recuperación de contraseña con formularios reactivos y validaciones. | 1. Los formularios validan campos requeridos y formato de email.<br>2. Feedback visual de errores activo.<br>3. Botones deshabilitados si el formulario es inválido. |
-| **FE-TS02** | Servicio de AuthService | **Módulo:** Frontend - Services<br>Desarrollar servicio en Angular para manejo de peticiones HTTP de auth, almacenamiento de JWT y gestión de sesión. | 1. El token JWT se guarda en `localStorage` tras login exitoso.<br>2. Interceptor añade el token en headers HTTP.<br>3. Método `logout()` limpia el almacenamiento local. |
-| **FE-TS03** | Implementación de AuthGuard | **Módulo:** Frontend - Security<br>Crear Guards de Angular para proteger rutas privadas (Dashboard, Gastos, Perfil) y redirigir a usuarios no autenticados. | 1. Usuario no logueado es redirigido a `/login` al intentar entrar a `/dashboard`.<br>2. Usuario logueado accede correctamente.<br>3. Guard aplicado en el Routing Module. |
-| **FE-TS04** | Componentes Dashboard | **Módulo:** Frontend - Home<br>Desarrollar tarjetas de resumen (KPIs) para Saldo Total, Ingresos y Gastos del mes con datos mockeados o reales. | 1. Las tarjetas renderizan los montos correctamente.<br>2. Se distingue visualmente entre ingresos (verde) y gastos (rojo).<br>3. Diseño responsivo en móvil y desktop. |
-| **FE-TS05** | Servicio de Transacciones | **Módulo:** Frontend - Services<br>Implementar `TransactionsService` para consumir endpoints REST (GET, POST, PUT, DELETE) de ingresos y egresos. | 1. Métodos CRUD retornan Observables.<br>2. Manejo de errores HTTP básico implementado.<br>3. Conexión exitosa con el backend (o mock server). |
-| **FE-TS06** | Módulo de Gastos e Ingresos | **Módulo:** Frontend - Transactions<br>Crear vistas de listado (con paginación) y formularios para crear/editar transacciones con selectores de categorías. | 1. La lista muestra las transacciones paginadas.<br>2. El formulario permite seleccionar categoría de una lista desplegable.<br>3. Se puede editar y guardar un registro existente. |
-| **FE-TS07** | Componentes de Metas (Goals) | **Módulo:** Frontend - Goals<br>Desarrollar componentes visuales para listar metas y barra de progreso dinámica calculada en base al monto ahorrado. | 1. La barra de progreso refleja el porcentaje correcto (Ahorrado / Meta).<br>2. Las tarjetas de metas se listan en grid o lista.<br>3. Indicador visual si la meta se ha completado. |
-| **FE-TS08** | Internacionalización (i18n) | **Módulo:** Frontend - Core<br>Configurar `ngx-translate` (o librería similar) y archivos JSON (es.json, en.json) para soporte multi-idioma. | 1. Archivos `es.json` y `en.json` creados y cargados.<br>2. Cambio de idioma actualiza los textos en tiempo real.<br>3. Idioma por defecto configurado correctamente. |
-| **BE-TS01** | API de Autenticación (JWT) | **Módulo:** Backend - Security<br>Implementar endpoints `/auth/login` y `/auth/register` utilizando Spring Security y generación de Tokens JWT. | 1. `POST /login` devuelve 200 OK y token JWT válido.<br>2. `POST /register` crea el usuario en DB.<br>3. Credenciales inválidas retornan 401 Unauthorized. |
-| **BE-TS02** | CRUD de Transacciones | **Módulo:** Backend - API<br>Desarrollar endpoints REST para Transacciones (`/api/transactions`) incluyendo filtros por fecha, tipo y categoría. | 1. `GET /transactions` soporta query params de filtrado.<br>2. `POST` guarda la transacción asociada al usuario.<br>3. Respuestas JSON siguen el estándar definido. |
-| **BE-TS03** | CRUD de Metas de Ahorro | **Módulo:** Backend - API<br>Desarrollar endpoints REST para Metas (`/api/goals`) con lógica de negocio para cálculo de progreso y validación de fechas. | 1. CRUD completo funcional.<br>2. Cálculo de progreso se actualiza al añadir fondos.<br>3. Validar que `deadline` sea una fecha futura. |
-| **BE-TS04** | Validaciones de Negocio | **Módulo:** Backend - Logic<br>Implementar validaciones estrictas: no permitir saldos negativos, validar formatos de moneda y unicidad de correos. | 1. Intentar crear usuario con email existente retorna 409 Conflict.<br>2. Montos negativos en ingresos lanzan excepción.<br>3. Moneda debe ser código ISO válido (PEN, USD). |
-| **BE-TS05** | Documentación OpenAPI | **Módulo:** Backend - Docs<br>Integrar Swagger/OpenAPI 3.0 para documentar automáticamente todos los endpoints expuestos y facilitar pruebas. | 1. Ruta `/swagger-ui.html` es accesible.<br>2. Todos los Controllers están listados.<br>3. Los DTOs de request/response están documentados. |
-| **BE-TS06** | Telemetría y Logging | **Módulo:** Backend - Ops<br>Implementar sistema de logs centralizados para capturar errores 500, tiempos de respuesta lentos y auditoría. | 1. Logs de INFO registran inicio/fin de requests.<br>2. Excepciones no controladas se loguean como ERROR con stacktrace.<br>3. Formato de logs consistente. |
+### EP07: Presupuestos
+
+| Story ID | Título de la Historia | Descripción (Situación y Motivación) | Criterios de Aceptación |
+|---------|------------------------|--------------------------------------|--------------------------|
+| EP07/US01 | Crear un presupuesto por categoría | Cuando quiero controlar mis gastos en una categoría (por ejemplo “Comida” o “Salidas”), quiero fijar un presupuesto mensual, para evitar pasarme de ese límite. | Dado que estoy en la sección “Presupuestos”, cuando presiono “Nuevo Presupuesto”, selecciono una categoría y defino un monto límite, entonces el presupuesto se crea y queda activo para el mes. |
+| EP07/US02 | Visualizar mis presupuestos y su uso | Cuando planifico mis compras, quiero ver todos mis presupuestos y cuánto he gastado en cada uno, para tomar mejores decisiones sobre mis gastos. | Dado que tengo uno o más presupuestos creados, cuando entro a la sección “Presupuestos”, entonces veo cada presupuesto con su categoría, monto límite, gasto acumulado y una barra que muestra el porcentaje utilizado. |
+
+---
+
+### EP08: Recurrencias (Automatización)
+
+| Story ID | Título de la Historia | Descripción (Situación y Motivación) | Criterios de Aceptación |
+|---------|------------------------|--------------------------------------|--------------------------|
+| EP08/US01 | Registrar un gasto automático recurrente | Cuando tengo un gasto fijo (como la pensión de la universidad o un plan de celular), quiero registrarlo como un gasto recurrente, para automatizar su registro y no olvidarlo cada mes. | Dado que estoy configurando un gasto recurrente, cuando indico el monto, la categoría, la cuenta y la frecuencia (por ejemplo mensual), entonces el sistema programa automáticamente la creación de esa transacción en las fechas correspondientes. |
+
+---
+
+### EP09: Reportes Financieros
+
+| Story ID | Título de la Historia | Descripción (Situación y Motivación) | Criterios de Aceptación |
+|---------|------------------------|--------------------------------------|--------------------------|
+| EP09/US01 | Ver gráficos mensuales de ingresos y egresos | Cuando analizo mis finanzas, quiero ver un gráfico mensual de ingresos y egresos, para entender de forma visual cómo se comporta mi dinero cada mes. | Dado que tengo transacciones registradas en distintos meses, cuando accedo a la sección de reportes, entonces se muestra un gráfico que resume ingresos y egresos por mes. |
+| EP09/US02 | Ver tendencias históricas de gasto | Cuando quiero entender la evolución de mis hábitos financieros, quiero ver una vista histórica de mis gastos, para identificar si estoy mejorando o empeorando. | Dado que existe información de varios meses, cuando selecciono la vista de tendencias, entonces se muestra un gráfico de líneas que refleja la evolución de mis gastos y/o ingresos en el tiempo. |
+
+
+
 
 
 ## 3.3. Impact Mapping
@@ -1410,44 +1407,51 @@ A continuación, se presenta el Impact Map para el proyecto TuCash.
 
 Nuestra estrategia de lanzamiento se basa en **releases temáticas**, permitiéndonos enfocar cada fase del desarrollo en un objetivo claro, validar nuestras hipótesis más importantes primero y construir sobre una base sólida.
 
----
-
-#### **Release 1: MVP - El Núcleo de la Conciencia Financiera (Must-Have)**
-
-**Objetivo Estratégico:** Validar la hipótesis fundamental del producto: *los estudiantes adoptarán el hábito de registrar sus finanzas si la experiencia es instantánea y les proporciona una revelación inmediata sobre su comportamiento.* Nos enfocamos en el ciclo **Registrar -> Visualizar -> Comprender**.
+##  PRIORIDAD ALTA (HIGH)
 
 | ID | Título de la Historia | Segmento Clave | Valor Estratégico / Hipótesis a Validar | Story Points |
-| :--- | :--- | :--- | :--- | :--- |
-| **EP01/US01-02** | Acceso a la Plataforma | Todos | **Valor:** Acceso fundamental y seguro a la herramienta. Es la puerta de entrada, debe ser impecable. | 5 |
-| **EP02/US01-02** | Registro de Transacciones | Todos | **Valor:** La acción central del sistema. <br>**Hipótesis:** Si el registro es <10 segundos, la tasa de adopción será alta. | 5 |
-| **EP03/US01** | Saber "cómo voy" de un vistazo | Todos (Hook p/ Est. con Sustento) | **Valor:** El "gancho" de valor inmediato. Responde la pregunta esencial del usuario. <br>**Hipótesis:** Un "Pulso Financiero" emocional aumentará el engagement diario. | 8 |
-| **EP03/US02** | Descubrir mis "fugas de capital" | Estudiante con Sustento Familiar | **Valor:** Genera el "momento ajá" que revela el problema de los gastos hormiga. <br>**Hipótesis:** Visualizar sus gastos por categoría motivará al usuario a querer tomar el control. | 5 |
+|----|------------------------|----------------|------------------------------------------|--------------|
+| EP01/US01 | Crear mi cuenta para iniciar | Todos | Valor: Base de acceso al sistema. Hipótesis: Un registro rápido aumenta la conversión inicial. | 3 |
+| EP02/US01 | Iniciar sesión correctamente | Todos | Valor: Acceso seguro y directo. Hipótesis: Un login sin fricción reduce abandono. | 3 |
+| EP04/US01 | Registrar un ingreso | Todos | Valor: Acción central del producto. Hipótesis: Registrar ingresos sostiene el hábito financiero. | 5 |
+| EP04/US02 | Registrar un gasto | Todos | Valor: Núcleo del comportamiento del usuario. Hipótesis: Si registrar un gasto toma <10s, aumenta la adopción. | 5 |
+| EP05/US01 | Ver mi balance general | Todos | Valor: Claridad inmediata. Hipótesis: Un resumen claro aumenta el uso diario. | 3 |
+| EP05/US03 | Ver mis últimas transacciones | Todos | Valor: Transparencia y confianza. Hipótesis: Ver lo reciente mejora la percepción de control. | 5 |
+| EP03/US02 | Ver gastos por categoría | Estudiantes con sustento familiar | Valor: Revela “fugas de dinero”. Hipótesis: Ver categorías motiva a reducir gastos hormiga. | 5 |
+| EP01/US03 | Crear mi primera cuenta financiera | Todos | Valor: Paso necesario para registrar movimientos. Hipótesis: Completar onboarding aumenta retención. | 3 |
+| EP01/US04 | Registrar primera transacción | Todos | Valor: Muestra valor inmediato. Hipótesis: La primera transacción crea compromiso. | 3 |
+| EP01/US05 | Finalizar onboarding | Todos | Valor: Cierre emocional del onboarding. Hipótesis: Un onboarding completo reduce el abandono día 1. | 2 |
 
----
 
-#### **Release 2: Expansión - Control y Motivación (Should-Have)**
 
-**Objetivo Estratégico:** Una vez validado el hábito de registro, empoderamos al usuario con herramientas para actuar sobre sus nuevos insights. Pasamos del ciclo **Comprender -> Actuar y Planificar**.
 
-| ID | Título de la Historia | Segmento Clave | Valor Estratégico / Hipótesis a Validar | Story Points |
-| :--- | :--- | :--- | :--- | :--- |
-| **EP04/US01** | Ahorrar para algo que quiero | Todos (Motivador p/ Est. Becado) | **Valor:** Conecta el esfuerzo diario con una aspiración. Le da un propósito al uso de la app. <br>**Hipótesis:** La capacidad de crear metas aumentará la retención a mediano plazo. | 3 |
-| **EP05/US01** | Ponerme un límite de gasto | Estudiante Becado | **Valor:** La herramienta de control proactivo más solicitada. Es fundamental para el segmento más vulnerable. | 3 |
-| **EP05/US02**| Recibir un aviso antes de pasarme | Todos | **Valor:** Transforma el presupuesto de una herramienta pasiva a un "consejero" activo. <br>**Hipótesis:** Las alertas proactivas son capaces de modificar el comportamiento de gasto en tiempo real. | 5 |
-| **EP04/US02**| Ver crecer mis ahorros | Todos | **Valor:** Cierra el bucle de retroalimentación positiva. La visualización del progreso es un potente reforzador de hábitos. | 2 |
 
----
-
-#### **Release 3: Social y Eficiencia (Could-Have)**
-
-**Objetivo Estratégico:** Abordar casos de uso más avanzados y sociales que aumentan la utilidad de la aplicación en el día a día y fomentan el crecimiento orgánico.
+##  PRIORIDAD MEDIA (MEDIUM)
 
 | ID | Título de la Historia | Segmento Clave | Valor Estratégico / Hipótesis a Validar | Story Points |
-| :--- | :--- | :--- | :--- | :--- |
-| **EP02/US03**| Automatizar mis gastos fijos | Estudiante que Trabaja | **Valor:** Ahorro de tiempo y reducción drástica de la carga mental para usuarios con finanzas más estructuradas. Un "feature" premium clave. | 5 |
-| **EP10/US01**| Dividir la cuenta con amigos | Todos | **Valor:** Resuelve un dolor social extremadamente común en la vida universitaria. <br>**Hipótesis:** Las funciones sociales aumentarán el "boca a boca" y la viralidad del producto. | 8 |
-| **EP10/US02**| Llevar las cuentas claras | Todos | **Valor:** Completa la experiencia de gastos compartidos, asegurando que sea una solución robusta y confiable. | 5 |
-| **EP01/US03**| Recuperar mi acceso | Todos | **Valor:** Funcionalidad de soporte esencial para la experiencia de usuario a largo plazo, aunque no sea parte del flujo de valor principal del MVP. | 3 |
+|----|------------------------|----------------|------------------------------------------|--------------|
+| EP04/US03 | Crear nuevas categorías | Todos | Valor: Flexibilidad total. Hipótesis: Poder personalizar categorías mejora precisión del registro. | 5 |
+| EP03/US01 | Crear una nueva cuenta financiera | Todos | Valor: Manejo de múltiples fuentes de dinero. Hipótesis: Usuarios avanzados necesitan varias cuentas. | 5 |
+| EP03/US03 | Editar una cuenta | Todos | Valor: Mantener datos actualizados. Hipótesis: Correcciones rápidas mejoran coherencia del sistema. | 3 |
+| EP05/US02 | Ver ingresos vs egresos del mes | Todos | Valor: Control mensual. Hipótesis: Comparar mejora decisiones de gasto. | 5 |
+| EP06/US01 | Crear una meta de ahorro | Becados / Todos | Valor: Motivación. Hipótesis: Las metas incrementan retención. | 3 |
+| EP06/US02 | Actualizar progreso de una meta | Todos | Valor: Refuerzo positivo. Hipótesis: Ver progreso genera satisfacción y continuidad. | 2 |
+| EP02/US02 | Editar mi perfil | Todos | Valor: Personalización. Hipótesis: Un perfil editable mejora identidad digital. | 3 |
+| EP02/US03 | Cambiar idioma | Todos | Valor: Accesibilidad. Hipótesis: Idioma adecuado mejora la experiencia y comprensión. | 2 |
+| EP07/US01 | Crear un presupuesto | Becados | Valor: Autocontrol. Hipótesis: Presupuestos reducen gasto impulsivo. | 5 |
+| EP07/US02 | Ver mis presupuestos | Todos | Valor: Monitoreo. Hipótesis: Revisar presupuesto influye decisiones diarias. | 3 |
+
+
+##  PRIORIDAD BAJA (LOW)
+| ID | Título de la Historia | Segmento Clave | Valor Estratégico / Hipótesis a Validar | Story Points |
+|----|------------------------|----------------|------------------------------------------|--------------|
+| EP08/US01 | Registrar gasto recurrente | Estudiantes que trabajan | Valor: Automatización. Hipótesis: La recurrencia evita olvidos y reduce esfuerzo. | 5 |
+| EP02/US04 | Gestionar seguridad (cambiar contraseña) | Todos | Valor: Seguridad. Hipótesis: Cambios simples reducen riesgo de abandono por bloqueo. | 3 |
+| EP09/US01 | Ver gráficos mensuales | Todos | Valor: Análisis visual. Hipótesis: Los gráficos refuerzan comprensión de patrones. | 5 |
+| EP09/US02 | Ver tendencias históricas | Todos | Valor: Vista a largo plazo. Hipótesis: Ver mejoras motiva continuidad. | 5 |
+| EP10/US01 | Dividir cuenta con amigos | Todos | Valor: Caso social común. Hipótesis: Funciones sociales aumentan viralidad. | 3 |
+| EP10/US02 | Marcar deudas como pagadas | Todos | Valor: Cierre de flujo social. Hipótesis: Cerrar deudas mejora confianza y orden. | 2 |
+
 
 # Capítulo IV: Product Design
 
@@ -1575,6 +1579,10 @@ El diseño será **responsivo (Responsive Design)**, garantizando que la interfa
 ---
 
 Este diseño garantiza **usabilidad, seguridad y frescura visual**, consolidando a **TuCash** como una fintech confiable y accesible en Latinoamérica, con el objetivo de promover **inclusión y educación financiera**.  
+
+
+
+
 
 ## 4.2. Information Architecture
 
@@ -2254,12 +2262,12 @@ Como norma general, todo el código del proyecto debe escribirse en **inglés**,
 
 ---
 
-### JavaScript
+### TypeScript
 
 - **Use expanded syntax**
   Cada bloque de código debe abrir llaves en la misma línea de la declaración y cerrarlas en línea nueva.
 
-  ```javascript
+  ```typescript
   function handleLogoClick() {
     console.log('Logo clicked');
   }
@@ -2420,82 +2428,120 @@ Como norma general, todo el código del proyecto debe escribirse en **inglés**,
   </tr>
   <tr>
     <th>Attendees (to planning meeting)</th>
-    <td>Jhunior Giussepe / Harrison Hubert / Javier Mondoñedo / Valeria Mejia</td>
+    <td>Huaman Hinostroza, Milenio / Taquiri Calderon, Jhunior Giussepe / Payesa Torres, Harrison Hubert / Mondoñedo Rodriguez, Juan Diego Javier / Mejia Poma, Patricia Valeria</td>
   </tr>
   <tr>
     <th>Sprint 0 Review Summary</th>
-    <td>En el Sprint 0 se establecieron los cimientos del proyecto:
-    Configuración de repositorios en GitHub con GitFlow.Definición de convenciones de commits (Conventional Commits).rimera versión del documento con Startup Profile, Solution Profile y Segmentos Objetivo.
-    Diseño preliminar de la identidad visual (logo, isotipo, paleta de colores).
-    Feedback del Product Owner: se valoró la claridad del planteamiento del segmento objetivo, y se solicitó avanzar en la construcción de entrevistas y primeras historias de usuario</td>
+    <td>
+      En el Sprint 0 se establecieron los cimientos del proyecto:
+      <ul>
+        <li>Configuración de repositorios en GitHub con GitFlow.</li>
+        <li>Definición de convenciones de commits (Conventional Commits).</li>
+        <li>Primera versión del documento con Startup Profile, Solution Profile y Segmentos Objetivo.</li>
+        <li>Diseño preliminar de la identidad visual (logo, isotipo y paleta de colores).</li>
+      </ul>
+      El Product Owner valoró la claridad del planteamiento del segmento objetivo y solicitó avanzar en la construcción de entrevistas, primeras User Stories y artefactos de User Personas.
+    </td>
   </tr>
   <tr>
     <th>Sprint 0 Retrospective Summary</th>
-    <td>El equipo destacó como aciertos la rápida organización del flujo de trabajo con GitHub y la buena colaboración en la documentación inicial. Como oportunidades de mejora se identificó la necesidad de asignar mejor los roles para evitar solapamiento de tareas, y de calendarizar reuniones cortas diarias de seguimiento.</td>
+    <td>
+      El equipo destacó como aciertos:
+      <ul>
+        <li>La rápida organización del flujo de trabajo con GitHub y GitFlow.</li>
+        <li>La buena colaboración en la documentación inicial.</li>
+      </ul>
+      Como oportunidades de mejora se identificó:
+      <ul>
+        <li>Asignar mejor los roles para evitar solapamiento de tareas.</li>
+        <li>Calendarizar reuniones cortas de seguimiento (daily) para reducir bloqueos.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <th>Técnica / Épica Principal del Sprint</th>
+    <td>
+      Épica técnica centrada en <b>User Personas</b> y artefactos de Needfinding:
+      <ul>
+        <li>Definir y validar User Personas para los segmentos clave (independiente, sustento familiar, becado).</li>
+        <li>Construir Empathy Maps y primeros flujos de comportamiento (gastos, ingresos, metas).</li>
+        <li>Conectar hallazgos con el diseño de la Landing Page y futuras funcionalidades de TuCash.</li>
+      </ul>
+    </td>
   </tr>
   <tr>
     <th colspan="2">Sprint Goal &amp; User Stories</th>
   </tr>
   <tr>
     <th>Sprint 1 Goal</th>
-    <td>Our focus is on validar las necesidades financieras de los estudiantes universitarios mediante entrevistas y consolidar los primeros artefactos de requerimientos.
-We believe it delivers una base sólida para construir funcionalidades alineadas a los segmentos objetivo.
-This will be confirmed when se documenten al menos 6 entrevistas analizadas y derivadas en 3 User Personas y sus respectivos Empathy Maps</td>
+    <td>
+      Nuestro foco es <b>validar las necesidades financieras de los estudiantes universitarios</b> mediante entrevistas
+      y consolidar los primeros artefactos de requerimientos (User Personas, Empathy Maps y primeras User Stories).
+      <br><br>
+      We believe it delivers una base sólida para construir funcionalidades alineadas a los segmentos objetivo.
+      <br><br>
+      This will be confirmed when:
+      <ul>
+        <li>Se documenten al menos 6 entrevistas analizadas.</li>
+        <li>Se definan al menos 3 User Personas con sus respectivos Empathy Maps.</li>
+        <li>Se trace la relación entre hallazgos y las primeras historias de usuario del producto.</li>
+      </ul>
+    </td>
   </tr>
   <tr>
     <th>Sprint 1 Velocity</th>
-    <td>El equipo estableció un velocity de 5 story points, en base a la disponibilidad de los 5 integrantes.</td>
+    <td>El equipo estableció una velocidad de referencia de <b>5 story points</b>, en base a la disponibilidad de los 5 integrantes.</td>
   </tr>
   <tr>
     <th>Sum of Story Points</th>
-    <td>El Sprint incluye historias que suman 10 story points en total.</td>
+    <td>El Sprint 1 incluye historias que suman <b>10 story points</b> en total.</td>
   </tr>
 </table>
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
-<table border = "1">
+<table border="1">
   <tr>
     <th>Team Member (Last Name, First Name)</th>
     <th>GitHub Username</th>
-    <th>Aspect 1 (L/C)</th>
-    <th>Aspect 2 (L/C)</th>
-    <th>Aspect n (L/C)</th>
+    <th>Aspect 1 (L/C) – Needfinding & User Personas</th>
+    <th>Aspect 2 (L/C) – Landing & UI</th>
+    <th>Aspect 3 (L/C) – Web Services & CI</th>
   </tr>
   <tr>
-    <td>Milenio Huaman Hinostroza</td>
+    <td>Huaman Hinostroza, Milenio</td>
     <td>Milenioupc</td>
     <td>L</td>
     <td>C</td>
-    <td>…</td>
+    <td>C</td>
   </tr>
   <tr>
-    <td>Jhunior Giussepe Taquiri Calderon</td>
+    <td>Taquiri Calderon, Jhunior Giussepe</td>
     <td>GiussepeTC0410</td>
     <td>C</td>
     <td>C</td>
     <td>L</td>
   </tr>
   <tr>
-    <td>Harrison Hubert Payesa Torres</td>
+    <td>Payesa Torres, Harrison Hubert</td>
     <td>Harrison1024</td>
     <td>C</td>
-    <td>C</td>
     <td>L</td>
+    <td>C</td>
   </tr>
   <tr>
-    <td>Juan Diego Javier Mondoñedo Rodriguez</td>
+    <td>Mondoñedo Rodriguez, Juan Diego Javier</td>
     <td>Jmondonedor</td>
     <td>C</td>
     <td>C</td>
     <td>L</td>
   </tr>
   <tr>
-    <td>Patricia Valeria Mejia Poma</td>
+    <td>Mejia Poma, Patricia Valeria</td>
     <td>patriciavmp</td>
     <td>C</td>
-    <td>C</td>
     <td>L</td>
+    <td>C</td>
   </tr>
 </table>
 
@@ -2530,7 +2576,7 @@ This will be confirmed when se documenten al menos 6 entrevistas analizadas y de
       <td>Registro de ingresos y egresos (independiente)</td>
       <td>T-101</td>
       <td>Definir categorías base</td>
-      <td>Listado inicial de categorías y etiquetas (Income/Expense).</td>
+      <td>Listado inicial de categorías y etiquetas (Income/Expense) alineadas a los segmentos identificados.</td>
       <td>3</td>
       <td>Milenio</td>
       <td>Done</td>
@@ -2540,7 +2586,7 @@ This will be confirmed when se documenten al menos 6 entrevistas analizadas y de
       <td>Registro de ingresos y egresos (independiente)</td>
       <td>T-102</td>
       <td>Wireframe flujo de registro</td>
-      <td>Prototipo de 2 pasos: monto + categoría + nota.</td>
+      <td>Prototipo de flujo de registro en 2 pasos: monto + categoría + nota, basado en insights de User Personas.</td>
       <td>5</td>
       <td>Patricia</td>
       <td>To-do</td>
@@ -2550,7 +2596,7 @@ This will be confirmed when se documenten al menos 6 entrevistas analizadas y de
       <td>Registro de ingresos y egresos (independiente)</td>
       <td>T-103</td>
       <td>Endpoint mock /api/transactions</td>
-      <td>Mock API (JSON) para pruebas de UI.</td>
+      <td>Mock API (JSON) para pruebas iniciales de UI de registro de transacciones.</td>
       <td>4</td>
       <td>Giussepe</td>
       <td>In-Process</td>
@@ -2560,7 +2606,7 @@ This will be confirmed when se documenten al menos 6 entrevistas analizadas y de
       <td>Categorización de gastos (sustento familiar)</td>
       <td>T-201</td>
       <td>Entrevistas (3 students)</td>
-      <td>Guía + ejecución de 3 entrevistas y notas.</td>
+      <td>Guía, ejecución de 3 entrevistas y notas centradas en hábitos de gasto de estudiantes con sustento familiar.</td>
       <td>6</td>
       <td>Harrison</td>
       <td>In-Process</td>
@@ -2570,7 +2616,7 @@ This will be confirmed when se documenten al menos 6 entrevistas analizadas y de
       <td>Categorización de gastos (sustento familiar)</td>
       <td>T-202</td>
       <td>Persona + Empathy Map</td>
-      <td>Construcción de 1 persona y su mapa de empatía.</td>
+      <td>Construcción de 1 User Persona y su Empathy Map a partir de las entrevistas realizadas.</td>
       <td>4</td>
       <td>Milenio</td>
       <td>To-Review</td>
@@ -2580,7 +2626,7 @@ This will be confirmed when se documenten al menos 6 entrevistas analizadas y de
       <td>Metas de ahorro (becado)</td>
       <td>T-301</td>
       <td>Definir modelo de metas</td>
-      <td>Atributos: nombre, monto, fecha objetivo, progreso.</td>
+      <td>Definir atributos de la entidad Meta: nombre, monto objetivo, fecha objetivo, progreso.</td>
       <td>3</td>
       <td>Juan Diego</td>
       <td>To-do</td>
@@ -2590,9 +2636,9 @@ This will be confirmed when se documenten al menos 6 entrevistas analizadas y de
       <td>Metas de ahorro (becado)</td>
       <td>T-302</td>
       <td>UI componente “Goal Card”</td>
-      <td>Diseño y estilos de tarjeta de meta con barra de avance.</td>
+      <td>Diseño y estilos del componente visual de meta con barra de avance, usando casos de User Personas becadas.</td>
       <td>5</td>
-      <td>Arturo</td>
+      <td>Patricia</td>
       <td>To-do</td>
     </tr>
     <tr>
@@ -2600,7 +2646,7 @@ This will be confirmed when se documenten al menos 6 entrevistas analizadas y de
       <td>—</td>
       <td>T-900</td>
       <td>Configuración CI (lint/tests)</td>
-      <td>Pipeline en GitHub Actions para lint y unit tests.</td>
+      <td>Pipeline en GitHub Actions para ejecutar lint y unit tests de la Landing Page en cada push.</td>
       <td>4</td>
       <td>Giussepe</td>
       <td>To-do</td>
@@ -2608,25 +2654,23 @@ This will be confirmed when se documenten al menos 6 entrevistas analizadas y de
   </tbody>
 </table>
 
-# Technical User Stories – Landing Page (HTML, CSS, JS)
+### Technical User Stories – Landing Page (HTML, CSS, TS)
 
 | **Tech Story** | **Title** | **Descripción técnica (Landing Page)** |
-|----------------|-----------|----------------------------------------|
-| TS01 | Sección de registro de ingresos/egresos | Implementar en la landing una sección que explique y muestre el flujo básico de registro de ingresos y egresos (independiente), basada en las categorías definidas y el wireframe. |
-| TS02 | Storytelling de categorización de gastos | Diseñar y maquetar una sección de la landing que explique el beneficio de categorizar gastos (para estudiantes con sustento familiar), usando insights de entrevistas, persona y empathy map. |
+|----------------|----------|----------------------------------------|
+| TS01 | Sección de registro de ingresos/egresos | Implementar en la landing una sección que explique y muestre el flujo básico de registro de ingresos y egresos, basada en las categorías definidas y el wireframe de US01. |
+| TS02 | Storytelling de categorización de gastos | Diseñar y maquetar una sección de la landing que explique el beneficio de categorizar gastos (para estudiantes con sustento familiar), usando insights de entrevistas, User Personas y Empathy Maps. |
 | TS03 | Visualización de metas de ahorro | Implementar en la landing un componente visual tipo “Goal Card” que muestre cómo el producto ayuda a estudiantes becados a planificar y seguir sus metas de ahorro. |
 | TS04 | Pipeline de calidad para la landing | Configurar un pipeline básico (lint/tests/build) en GitHub Actions que verifique el código HTML, CSS y JS de la landing en cada push. |
 
-
-# Mapa de Trazabilidad – Landing Page
+### Mapa de Trazabilidad – Landing Page
 
 | **User Story (US)** | **Título US** | **Technical Story (TS)** | **Work-Items / Tasks relacionados** |
-|---------------------|--------------|---------------------------|-------------------------------------|
+|---------------------|---------------|--------------------------|-------------------------------------|
 | US01 | Registro de ingresos y egresos (independiente) | TS01 – Sección de registro de ingresos/egresos | T-101 Definir categorías base; T-102 Wireframe flujo de registro; T-103 Endpoint mock /api/transactions |
 | US02 | Categorización de gastos (sustento familiar) | TS02 – Storytelling de categorización de gastos | T-201 Entrevistas (3 students); T-202 Persona + Empathy Map |
 | US03 | Metas de ahorro (becado) | TS03 – Visualización de metas de ahorro | T-301 Definir modelo de metas; T-302 UI componente “Goal Card” |
 | — | — | TS04 – Pipeline de calidad para la landing | T-900 Configuración CI (lint/tests) |
-
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
@@ -2649,7 +2693,7 @@ This will be confirmed when se documenten al menos 6 entrevistas analizadas y de
       <td>feature/setup-landing</td>
       <td>a1b2c3d</td>
       <td>feat(landing): add initial HTML structure</td>
-      <td>Se agregó la estructura inicial del Landing Page con encabezado y secciones básicas.</td>
+      <td>Se agregó la estructura inicial del Landing Page con encabezado y secciones básicas de presentación.</td>
       <td>2025-09-18</td>
     </tr>
     <tr>
@@ -2657,7 +2701,7 @@ This will be confirmed when se documenten al menos 6 entrevistas analizadas y de
       <td>feature/ui-components</td>
       <td>d4e5f6g</td>
       <td>feat(ui): configure Angular Material</td>
-      <td>Configuración inicial de Angular Material e importación de módulos para componentes básicos.</td>
+      <td>Configuración inicial de Angular Material e importación de módulos para componentes básicos de la aplicación web.</td>
       <td>2025-09-18</td>
     </tr>
     <tr>
@@ -2665,7 +2709,7 @@ This will be confirmed when se documenten al menos 6 entrevistas analizadas y de
       <td>feature/setup-api</td>
       <td>h7i8j9k</td>
       <td>feat(api): create mock transaction endpoint</td>
-      <td>Se creó un endpoint GET /transactions para pruebas iniciales de integración.</td>
+      <td>Se creó un endpoint GET /transactions para pruebas iniciales de integración con el frontend.</td>
       <td>2025-09-19</td>
     </tr>
     <tr>
@@ -2673,7 +2717,7 @@ This will be confirmed when se documenten al menos 6 entrevistas analizadas y de
       <td>feature/doc-introduction</td>
       <td>m1n2o3p</td>
       <td>docs(intro): add Solution Profile draft</td>
-      <td>Se añadió el borrador de la sección de antecedentes, problemática y segmentos objetivo.</td>
+      <td>Se añadió el borrador de la sección de antecedentes, problemática, segmentos objetivo y primeros User Personas.</td>
       <td>2025-09-19</td>
     </tr>
   </tbody>
@@ -2684,8 +2728,7 @@ This will be confirmed when se documenten al menos 6 entrevistas analizadas y de
 Durante el **Sprint 1**, el equipo ejecutó y validó las siguientes implementaciones:
 
 - **Landing Page:**
-
-  - Se construyó la estructura inicial con encabezado, menú de navegación y secciones básicas de presentación (home y about).
+  - Se construyó la estructura inicial con encabezado, menú de navegación y secciones básicas de presentación (Home y About).
   - Se validó el despliegue exitoso en GitHub Pages, quedando accesible públicamente.
 
 <img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/fc788aef-f3f0-46ec-88ae-0d99e2179aac" />
@@ -2702,38 +2745,40 @@ Durante el **Sprint 1**, el equipo ejecutó y validó las siguientes implementac
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
-Durante el Sprint 1 se documentó el primer servicio de Web Services TuCash relacionado con transacciones financieras. Se configuró un proyecto en Spring Boot con soporte para OpenAPI/Swagger y se implementó un endpoint de prueba /transactions. La documentación está disponible en Swagger UI (ejecutada localmente).
+Durante el Sprint 1 se documentó el primer servicio de Web Services TuCash relacionado con transacciones financieras.  
+Se configuró un proyecto en Spring Boot con soporte para OpenAPI/Swagger y se implementó un endpoint de prueba `/transactions`.  
+La documentación está disponible en Swagger UI (ejecutada localmente) como referencia técnica inicial.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
-Durante el **Sprint 1**, el equipo realizó la configuración inicial del entorno de despliegue y únicamente se desplegó el **Landing Page** como primer entregable accesible en línea.
+Durante el **Sprint 1**, el equipo realizó la configuración inicial del entorno de despliegue y únicamente se desplegó la **Landing Page** como primer entregable accesible en línea.
 
 **Actividades realizadas:**
 
 - **Landing Page**
-
-  - Repositorio creado en GitHub (`https://github.com/TuCash/landingPage`).
+  - Repositorio creado en GitHub: `https://github.com/TuCash/landingPage`.
   - Configuración de GitHub Pages como plataforma de despliegue.
   - Deploy inicial accesible en: <https://tucash.github.io/landingPage/>.
-  -
 
 <img width="1742" height="945" alt="image" src="https://github.com/user-attachments/assets/29d655e9-978d-4fde-90f6-289d033dec75" />
 
 **Nota:**
 
 - La **Web Application (Frontend Angular)** y los **Web Services (Backend Spring Boot)** no fueron desplegados en este sprint. Únicamente se avanzó en su configuración inicial a nivel de repositorio para futuros despliegues.
-- La **automatización (CI/CD)** está pendiente de configuración en próximos sprints.
+- La **automatización (CI/CD)** queda pendiente de configuración para los siguientes sprints.
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
-Durante el Sprint 1, el equipo colaboró activamente mediante reuniones virtuales (Microsoft Teams) y el uso de GitHub Projects para dar seguimiento a las tareas. Cada miembro del equipo realizó contribuciones a los diferentes productos: Landing Page, Web Application y Web Services.
+Durante el Sprint 1, el equipo colaboró activamente mediante reuniones virtuales (Discord) y el uso de GitHub Projects para dar seguimiento a las tareas.  
+Cada miembro del equipo realizó contribuciones a los diferentes productos: Landing Page, Web Application, Web Services y documentación de User Personas.
 
-La evidencia de colaboración se muestra en las estadísticas de GitHub (commits y Pull Requests). Se confirma que todos los integrantes participaron en la implementación, asegurando consistencia con la metodología ágil y el enfoque colaborativo del proyecto.
+La evidencia de colaboración se muestra en las estadísticas de GitHub (commits y Pull Requests).  
+Se confirma que todos los integrantes participaron en la implementación, asegurando consistencia con la metodología ágil y el enfoque colaborativo del proyecto.
 
 <h3>Team Collaboration Insights – Sprint 1</h3>
 
 <table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse; width:100%;">
-  <thead">
+  <thead>
     <tr>
       <th>Team Member</th>
       <th>Landing Page</th>
@@ -2745,41 +2790,60 @@ La evidencia de colaboración se muestra en las estadísticas de GitHub (commits
   <tbody>
     <tr>
       <td>Huaman Hinostroza, Milenio</td>
-      <td>Commits en HTML inicial</td>
-      <td>Componentes Angular básicos</td>
-      <td>Colaboración en endpoint mock</td>
-      <td>Docs (Solution Profile)</td>
+      <td>Commits en HTML inicial y estructura de secciones</td>
+      <td>Soporte en componentes básicos de UI</td>
+      <td>Colaboración en definición de contrato del endpoint de transacciones</td>
+      <td>Redacción de Solution Profile y síntesis de entrevistas para User Personas</td>
     </tr>
     <tr>
-      <td>Harrison Hubert Payesa Torres</td>
-      <td>Soporte en estilos CSS</td>
-      <td>Colaboración en UI forms</td>
-      <td>Test con Postman</td>
-      <td>QA y retro de equipo</td>
+      <td>Payesa Torres, Harrison Hubert</td>
+      <td>Soporte en estilos CSS iniciales</td>
+      <td>Colaboración en formularios de la app web</td>
+      <td>Pruebas con Postman al endpoint de transacciones</td>
+      <td>QA de entrevistas y revisión de hallazgos de Needfinding</td>
     </tr>
     <tr>
-      <td>Juan Diego Javier Mondoñedo Rodriguez</td>
-      <td>Navbar y routing</td>
-      <td>Diseño de Dashboard</td>
-      <td>Configuración Swagger</td>
-      <td>User Personas</td>
+      <td>Mondoñedo Rodriguez, Juan Diego Javier</td>
+      <td>Navbar y estructura de navegación</td>
+      <td>Boceto de dashboard para visualización de finanzas</td>
+      <td>Configuración inicial de Swagger/OpenAPI</td>
+      <td>Construcción de User Personas y Empathy Maps</td>
     </tr>
     <tr>
-      <td>Patricia Valeria Mejia Poma</td>
-      <td>Soporte responsive</td>
-      <td>Configuración Angular Material</td>
-      <td>Setup Spring Boot API</td>
-      <td>Testing</td>
+      <td>Mejia Poma, Patricia Valeria</td>
+      <td>Soporte responsive y secciones explicativas de funcionalidades</td>
+      <td>Configuración inicial de componentes UI (Angular / equivalente)</td>
+      <td>Apoyo en setup del proyecto de API</td>
+      <td>Documentación de flujos y prototipos de registro</td>
     </tr>
-     <tr>
-      <td>Jhunior Giussepe Taquiri Calderon</td>
-      <td>Soporte responsive</td>
-      <td>Configuración Angular Material</td>
-      <td>Setup Spring Boot API</td>
-      <td>Testing</td>
+    <tr>
+      <td>Taquiri Calderon, Jhunior Giussepe</td>
+      <td>Revisión de estructura y mensajes clave de la landing</td>
+      <td>Definición de componentes para el flujo de transacciones</td>
+      <td>Implementación del endpoint mock `/transactions` y configuración de CI básico</td>
+      <td>Documentación técnica de servicios y consolidación de artefactos de User Personas</td>
     </tr>
   </tbody>
 </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # 5.2.2. Sprint 2
 
@@ -2834,29 +2898,49 @@ Cada aspecto clave del producto cuenta con un **líder responsable de la toma de
 
 ---
 
-## 5.2.2.3. Sprint Backlog 2
-## 5.2.2.4. User Stories (Frontend Angular – Sprint 2)
 
-A partir de las épicas EP01, EP02, EP03 y EP04 se seleccionan las historias de usuario que impactan directamente en los módulos del frontend Angular para este sprint.
+## 5.2.2. Sprint 2 – Web Application (Frontend Angular)
 
-| **Id (FE-US)** | **Origen (EP/US)** | **Módulo**          | **Título**                             | **Descripción breve** |
-|----------------|--------------------|---------------------|----------------------------------------|------------------------|
-| FE-US01        | EP01/US01          | Login & Home        | Crear mi espacio financiero            | El usuario puede registrarse por primera vez para empezar a organizar su dinero. |
-| FE-US02        | EP01/US02          | Login & Home        | Entrar a mi cuenta                     | El usuario puede iniciar sesión y acceder a su Panel Principal. |
-| FE-US03        | EP01/US03          | Login               | Recuperar mi acceso                    | El usuario puede recuperar su contraseña vía correo. |
-| FE-US04        | EP03/US01          | Home (Dashboard)    | Saber “cómo voy” de un vistazo         | El usuario ve un resumen de ingresos, gastos y saldo en el Home. |
-| FE-US05        | EP01/US04          | Profile             | Personalizar mi perfil                 | El usuario puede editar nombre y foto de perfil. |
-| FE-US06        | EP01/US05          | Profile / Settings  | Configurar mis preferencias            | El usuario puede elegir la moneda principal de la app. |
-| FE-US07        | EP02/US01          | Incomes             | Registrar el dinero que recibo         | El usuario registra nuevos ingresos y ve actualizado su saldo. |
-| FE-US08        | EP02/US02          | Expenses            | Anotar mis gastos diarios              | El usuario registra gastos, asigna categorías y actualiza su saldo. |
-| FE-US09        | EP02/US04          | Incomes/Expenses    | Corregir un registro                   | El usuario edita montos/categorías de transacciones ya registradas. |
-| FE-US10        | EP02/US05          | Incomes/Expenses    | Filtrar mis movimientos                | El usuario filtra transacciones por fecha, categoría o tipo. |
-| FE-US11        | EP04/US01          | Goals               | Ahorrar para algo que quiero           | El usuario crea metas de ahorro con nombre y monto objetivo. |
-| FE-US12        | EP04/US02          | Goals               | Ver crecer mis ahorros                 | El usuario añade aportes a una meta y ve el progreso actualizado. |
-| FE-US13        | EP04/US03          | Goals               | Ajustar mis metas                      | El usuario puede editar monto objetivo/fecha de una meta. |
-| FE-US14        | EP04/US04          | Goals               | Celebrar un logro                      | El usuario marca una meta como lograda y ve la “celebración” en la UI. |
+### 5.2.2.3. Sprint Backlog 2
 
-## 5.2.2.5. Technical Stories (Frontend Angular – Sprint 2)
+En el **Sprint 2** el enfoque estuvo en la **implementación del Frontend (Angular)** para los módulos principales de TuCash: Login & Home, Expenses, Incomes, Goals y Profile.
+
+**Técnica / Épica del Sprint – User Personas aplicada al Frontend**
+
+Este sprint toma como base la épica técnica de **User Personas** definida previamente:
+
+- **Persona 1 – Estudiante independiente:** trabaja y estudia, necesita registrar ingresos y egresos de forma rápida.
+- **Persona 2 – Estudiante con sustento familiar:** recibe mesada y requiere entender en qué gasta su dinero (gastos hormiga).
+- **Persona 3 – Estudiante becado:** tiene recursos limitados y necesita planificar metas de ahorro claras.
+
+Estas User Personas guiaron las decisiones de diseño de los módulos Angular (flujo de registro, vistas de resumen, metas y edición de perfil), asegurando que cada pantalla responda a necesidades concretas de los segmentos objetivo.
+
+---
+
+### 5.2.2.4. User Stories (Frontend Angular – Sprint 2)
+
+A partir de las épicas **EP01, EP02, EP03 y EP04** se seleccionan las historias de usuario que impactan directamente en los módulos del frontend Angular para este sprint.
+
+| **Id (FE-US)** | **Origen (EP/US)** | **Módulo**          | **Título**                         | **Descripción breve** |
+|----------------|--------------------|---------------------|------------------------------------|------------------------|
+| FE-US01        | EP01/US01          | Login & Home        | Crear mi espacio financiero        | El usuario puede registrarse por primera vez para empezar a organizar su dinero. |
+| FE-US02        | EP01/US02          | Login & Home        | Entrar a mi cuenta                 | El usuario puede iniciar sesión y acceder a su Panel Principal. |
+| FE-US03        | EP01/US03          | Login               | Recuperar mi acceso                | El usuario puede recuperar su contraseña vía correo. |
+| FE-US04        | EP03/US01          | Home (Dashboard)    | Saber “cómo voy” de un vistazo     | El usuario ve un resumen de ingresos, gastos y saldo en el Home. |
+| FE-US05        | EP01/US04          | Profile             | Personalizar mi perfil             | El usuario puede editar nombre y foto de perfil. |
+| FE-US06        | EP01/US05          | Profile / Settings  | Configurar mis preferencias        | El usuario puede elegir la moneda principal de la app. |
+| FE-US07        | EP02/US01          | Incomes             | Registrar el dinero que recibo     | El usuario registra nuevos ingresos y ve actualizado su saldo. |
+| FE-US08        | EP02/US02          | Expenses            | Anotar mis gastos diarios          | El usuario registra gastos, asigna categorías y actualiza su saldo. |
+| FE-US09        | EP02/US04          | Incomes / Expenses  | Corregir un registro               | El usuario edita montos/categorías de transacciones ya registradas. |
+| FE-US10        | EP02/US05          | Incomes / Expenses  | Filtrar mis movimientos            | El usuario filtra transacciones por fecha, categoría o tipo. |
+| FE-US11        | EP04/US01          | Goals               | Ahorrar para algo que quiero       | El usuario crea metas de ahorro con nombre y monto objetivo. |
+| FE-US12        | EP04/US02          | Goals               | Ver crecer mis ahorros             | El usuario añade aportes a una meta y ve el progreso actualizado. |
+| FE-US13        | EP04/US03          | Goals               | Ajustar mis metas                  | El usuario puede editar monto objetivo y/o fecha de una meta. |
+| FE-US14        | EP04/US04          | Goals               | Celebrar un logro                  | El usuario marca una meta como lograda y ve la “celebración” en la UI. |
+
+---
+
+### 5.2.2.5. Technical Stories (Frontend Angular – Sprint 2)
 
 Historias técnicas enfocadas en la **Web Application (Angular)** para soportar el MVP de registro y visualización de transacciones y metas.
 
@@ -2875,46 +2959,47 @@ Historias técnicas enfocadas en la **Web Application (Angular)** para soportar 
 | FE-TS11        | Módulo Goals – listado, creación y detalle             | Goals                     | Crear componentes para ver lista de metas, registrar nueva meta y ver detalle con progreso. |
 | FE-TS12        | Actualización de progreso de metas                     | Goals                     | Implementar UI y lógica para registrar aportes, recalcular porcentaje y actualizar barra de progreso. |
 | FE-TS13        | Feedback visual y manejo de errores                    | Cross-cutting (UI/UX)     | Implementar toasts/alerts para operaciones exitosas o con error (registro, edición, filtros, metas). |
-| FE-TS14        | Estilos globales y diseño responsivo                   | UI / Landing / General    | Definir estilos globales (theme), grid responsivo y adaptabilidad para móvil/escritorio de los módulos del sprint. |
+| FE-TS14        | Estilos globales y diseño responsivo                   | UI / General              | Definir estilos globales (theme), grid responsivo y adaptabilidad para móvil/escritorio de los módulos del sprint. |
 | FE-TS15        | Testing básico de componentes críticos                 | Calidad                   | Implementar pruebas unitarias básicas (Karma/Jasmine) en componentes clave: Login, Home, Expenses, Incomes, Goals. |
-
-
-## 5.2.2.1.3. Mapa de Trazabilidad – User Stories ↔ Technical Stories (Frontend Angular)
-
-Este mapa muestra cómo las historias de usuario seleccionadas para el Sprint 2 se soportan mediante historias técnicas específicas en el frontend Angular.
-
-| **Id (FE-US)** | **Título US**                              | **Technical Stories Asociadas (FE-TS)** |
-|----------------|--------------------------------------------|-----------------------------------------|
-| FE-US01        | Crear mi espacio financiero                | FE-TS01, FE-TS02, FE-TS04               |
-| FE-US02        | Entrar a mi cuenta                         | FE-TS02, FE-TS03, FE-TS04               |
-| FE-US03        | Recuperar mi acceso                        | FE-TS02, FE-TS04                        |
-| FE-US04        | Saber “cómo voy” de un vistazo             | FE-TS01, FE-TS05, FE-TS09, FE-TS13      |
-| FE-US05        | Personalizar mi perfil                     | FE-TS06, FE-TS13                        |
-| FE-US06        | Configurar mis preferencias                | FE-TS06, FE-TS14                        |
-| FE-US07        | Registrar el dinero que recibo             | FE-TS07, FE-TS09, FE-TS13               |
-| FE-US08        | Anotar mis gastos diarios                  | FE-TS08, FE-TS09, FE-TS13               |
-| FE-US09        | Corregir un registro                       | FE-TS07, FE-TS08, FE-TS09               |
-| FE-US10        | Filtrar mis movimientos                    | FE-TS09, FE-TS10                        |
-| FE-US11        | Ahorrar para algo que quiero               | FE-TS11, FE-TS14                        |
-| FE-US12        | Ver crecer mis ahorros                     | FE-TS11, FE-TS12, FE-TS13               |
-| FE-US13        | Ajustar mis metas                          | FE-TS11, FE-TS12                        |
-| FE-US14        | Celebrar un logro                          | FE-TS11, FE-TS12, FE-TS13               |
-
 
 ---
 
-## 5.2.2.4. Development Evidence for Sprint Review
+### 5.2.2.6. Mapa de Trazabilidad – User Stories ↔ Technical Stories (Frontend Angular)
 
-**Alcance técnico implementado (resumen):**
+Este mapa muestra cómo las historias de usuario seleccionadas para el Sprint 2 se soportan mediante historias técnicas específicas en el frontend Angular.
 
-- **Front-end (Vue 3 + PrimeVue/i18n):** formularios de **Expenses/Incomes**, **Home & Login**, **Profile**, **Goals** (progreso básico), toasts/validaciones.
-- **Back-end (Spring Boot + MySQL):** endpoints CRUD de transacciones y metas; autenticación JWT; CORS; documentación OpenAPI.
-- **Pruebas:** unitarias en front (validadores) y back (servicios/repositorios); smoke tests de integración.
-- **Docs:** actualización de **Cap. V (TP1)**, criterios de aceptación y evidencias.
+| **Id (FE-US)** | **Título US**                          | **Technical Stories Asociadas (FE-TS)** |
+|----------------|----------------------------------------|-----------------------------------------|
+| FE-US01        | Crear mi espacio financiero            | FE-TS01, FE-TS02, FE-TS04               |
+| FE-US02        | Entrar a mi cuenta                     | FE-TS02, FE-TS03, FE-TS04               |
+| FE-US03        | Recuperar mi acceso                    | FE-TS02, FE-TS04                        |
+| FE-US04        | Saber “cómo voy” de un vistazo         | FE-TS01, FE-TS05, FE-TS09, FE-TS13      |
+| FE-US05        | Personalizar mi perfil                 | FE-TS06, FE-TS13                        |
+| FE-US06        | Configurar mis preferencias            | FE-TS06, FE-TS14                        |
+| FE-US07        | Registrar el dinero que recibo         | FE-TS07, FE-TS09, FE-TS13               |
+| FE-US08        | Anotar mis gastos diarios              | FE-TS08, FE-TS09, FE-TS13               |
+| FE-US09        | Corregir un registro                   | FE-TS07, FE-TS08, FE-TS09               |
+| FE-US10        | Filtrar mis movimientos                | FE-TS09, FE-TS10                        |
+| FE-US11        | Ahorrar para algo que quiero           | FE-TS11, FE-TS14                        |
+| FE-US12        | Ver crecer mis ahorros                 | FE-TS11, FE-TS12, FE-TS13               |
+| FE-US13        | Ajustar mis metas                      | FE-TS11, FE-TS12                        |
+| FE-US14        | Celebrar un logro                      | FE-TS11, FE-TS12, FE-TS13               |
 
-**Evidencias (capturas) — reemplazar rutas por las reales del repo:**
+---
 
-- ![Landing - revisión UI](resources/landingMockup1.PNG)
+### 5.2.2.7. Development Evidence for Sprint Review (Frontend)
+
+**Alcance técnico implementado (resumen, sólo Frontend):**
+
+- **Web Application (Angular):**
+  - Módulos **Login & Home**, **Expenses**, **Incomes**, **Goals** y **Profile** implementados con routing funcional.
+  - Formularios reactivos con validaciones básicas (campos obligatorios, montos mayores a 0, formato de correo).
+  - Componentes de listado y detalle para transacciones (ingresos/gastos) y metas de ahorro.
+  - Feedback visual mediante toasts/alerts para operaciones exitosas o con error.
+  - Estilos globales y diseño responsivo orientado a **User Personas** (uso en móvil como escenario principal).
+
+**Evidencias (capturas) — rutas de ejemplo:**
+
 - ![Expenses - formulario y lista](resources/expense.png)
 - ![Incomes - formulario](resources/income.png)
 - ![Goals - progreso de metas](resources/goals.png)
@@ -2923,62 +3008,69 @@ Este mapa muestra cómo las historias de usuario seleccionadas para el Sprint 2 
 
 ---
 
-## 5.2.2.5. Execution Evidence for Sprint Review
+### 5.2.2.8. Execution Evidence for Sprint Review
 
-Durante el Sprint 2 se logró consolidar un **MVP funcional end-to-end**, habilitando los módulos centrales del flujo TuCash. Las entregas se validaron mediante pruebas exploratorias, UAT y evidencias visuales.
+Durante el **Sprint 2** se consolidó un **MVP funcional de frontend**, habilitando los módulos centrales del flujo TuCash desde la perspectiva del usuario.
 
-### ✔ Alcance conseguido (Sprint 2)
+#### ✔ Alcance conseguido (Sprint 2 – Frontend)
 
-| Módulo / Flujo | Resultado del Sprint | Evidencias |
-|----------------|----------------------|------------|
-| **Login & Home** | Autenticación básica mock + navegación segura al dashboard. | Capturas en `assets/sprint2/login-home-*` |
-| **Expenses / Incomes** | Registro, edición mínima, listado y actualización del balance. | `assets/sprint2/transactions-*` |
-| **Goals** | Creación de metas, cálculo de progreso y render dinámico de tarjetas. | `assets/sprint2/goals-*` |
-| **Profile** | Actualización de nombre, moneda y foto. | `assets/sprint2/profile-*` |
-| **i18n ES/EN** | Textos clave traducidos + selector persistente. | `assets/sprint2/i18n-*` |
-| **Accesibilidad** | Mejora de contraste, labels ARIA, foco visible y teclado funcional. | Pruebas UAT internas |
-| **Persistencia (MySQL)** | Integración inicial con base local para Expenses/Incomes/Goals. | Scripts y logs de BD |
+| Módulo / Flujo   | Resultado del Sprint                                 | Evidencias                           |
+|------------------|------------------------------------------------------|--------------------------------------|
+| **Login & Home** | Autenticación básica (mock o integración inicial) y navegación segura al dashboard. | `resources/login.png`                |
+| **Expenses**     | Registro, listado y edición básica de gastos.        | `resources/expense.png`              |
+| **Incomes**      | Registro y listado de ingresos.                      | `resources/income.png`               |
+| **Goals**        | Creación de metas, cálculo de progreso y render dinámico de tarjetas. | `resources/goals.png`                |
+| **Profile**      | Actualización de nombre, moneda y foto (perfil básico). | `resources/profile.png`              |
+| **UI/UX**        | Feedback visual (toasts), estados de carga y diseño responsivo. | Capturas varias del sprint           |
 
-###  Correcciones y mejoras aplicadas
+#### Correcciones y mejoras aplicadas
 
-- Corrección de errores de navegación entre vistas (Login → Home → Goals).
-- Optimización del rendimiento de listas (change detection).
-- Unificación de estilos y tokens de diseño para tipografía/espaciado.
-- Validaciones adicionales en forms (monto > 0, campos obligatorios).
-- Ajustes responsivos en tarjetas (mobile-first).
+- Corrección de errores de navegación entre vistas (Login → Home → Expenses / Incomes / Goals).
+- Validaciones adicionales en formularios (montos > 0, formatos de correo y campos obligatorios).
+- Mejora de la consistencia visual entre módulos (tipografía, espaciado y colores).
+- Ajustes responsivos para móviles, considerando el uso intensivo por parte de estudiantes (User Personas).
 
-###  Valor entregado al producto
+#### Valor entregado al producto
 
-El equipo logró un **incremento demostrable**, estableciendo una base sólida para Sprint 3 (Presupuestos, Alertas y Reportes). El MVP ya permite:
+Con el avance de este sprint, el usuario ya puede:
 
-- Acceder al sistema  
-- Registrar y visualizar movimientos  
-- Crear metas  
-- Personalizar perfil  
-- Navegar de forma coherente y usable  
+- Acceder a TuCash (registro y login).
+- Registrar y visualizar ingresos y gastos.
+- Crear y gestionar metas de ahorro.
+- Personalizar aspectos básicos de su perfil.
+- Navegar por una interfaz fluida y coherente con sus necesidades (según User Personas).
 
 ---
 
-## 5.2.2.6. Services Documentation Evidence for Sprint Review
+### 5.2.2.9. Services Documentation Evidence for Sprint Review (Consumo desde Frontend)
 
-La documentación del backend se consolidó utilizando **OpenAPI 3.0 + Swagger UI**, permitiendo a todo el equipo visualizar, probar y validar las operaciones del servicio durante el Sprint.
+Aunque el desarrollo de backend no fue foco del Sprint 2, el equipo utilizó:
 
+- **Endpoints mock** y/o servicios ya documentados con **OpenAPI/Swagger**.
+- Colecciones de prueba para validar el consumo desde Angular (por ejemplo, endpoints de transacciones y metas).
 
+Esto permitió:
 
+- Integrar el frontend con servicios realistas.
+- Probar flujos completos de registro y visualización de datos desde la Web Application.
 
 ---
 
-## 5.2.2.7. Software Deployment Evidence for Sprint Review
+### 5.2.2.10. Software Deployment Evidence for Sprint Review
 
-En nuestro segundo sprint, hemos avanzado con las principales secciones del Font-End. Estará mejorada para el tercer sprint.
-#### Landing page:
-El despliegue de la landin page se mantiene en el mismo repositorio donde se realizo el despliegue de la misma:
+En nuestro segundo sprint, se avanzó con las principales secciones del **Frontend**:
+
+#### Landing Page
+
+El despliegue de la Landing Page se mantiene en el mismo repositorio y entorno configurado en el Sprint 1:
 
 <img width="636" height="117" alt="Image" src="https://github.com/user-attachments/assets/3e5b77e9-72bd-4a86-a908-4947f1d9e4f7" />
 
 <img width="1901" height="1080" alt="Image" src="https://github.com/user-attachments/assets/88217c9b-6c60-48a5-9694-7017823fe038" />
 
-#### Web Application:
+#### Web Application (Frontend TuCash)
+
+Se desplegó una versión funcional del frontend (Angular) en un entorno accesible por el equipo y el docente:
 
 <img width="1920" height="959" alt="Image" src="https://github.com/user-attachments/assets/a77904a1-d3dc-4f5c-baab-9307d781fc5d" />
 
@@ -2996,48 +3088,285 @@ El despliegue de la landin page se mantiene en el mismo repositorio donde se rea
 
 ---
 
+### 5.2.2.11. Team Collaboration Insights during Sprint
 
-
-
-
-## 5.2.2.8. Team Collaboration Insights during Sprint
+Durante el Sprint 2, cada integrante se enfocó en un módulo clave del frontend, manteniendo la alineación con las User Personas y los flujos definidos.
 
 <table border="1">
   <tr>
     <th>Alumno</th>
-    <th>Actividad</th>
+    <th>Actividad principal (Frontend)</th>
   </tr>
   <tr>
-    <td>Taquiri Calderon, Jhunior Giussepe </td>
-    <td>Creación y desarrollo del modulo Expenses (Gestión de Gastos).</td>
+    <td>Taquiri Calderon, Jhunior Giussepe</td>
+    <td>Creación y desarrollo del módulo <b>Expenses</b> (Gestión de gastos) y apoyo en integración con TransactionsService.</td>
   </tr>
   <tr>
     <td>Payesa Torres, Harrison Hubert</td>
-    <td>Creación y desarrollo del modulo Incomes (Gestión de Ingresos).</td>
+    <td>Creación y desarrollo del módulo <b>Incomes</b> (Gestión de ingresos) y validaciones de formularios.</td>
   </tr>
   <tr>
     <td>Mondoñedo Rodriguez, Juan Diego Javier</td>
-    <td>Creación y desarrollo del modulo Goals (Metas).</td>
+    <td>Creación y desarrollo del módulo <b>Goals</b> (Metas de ahorro) y lógica de progreso.</td>
   </tr>
   <tr>
     <td>Huaman Hinostroza, Milenio</td>
-    <td>Creación y desarrollo de los moduloos Home & Login, asi mismo se encargo del deployment</td>
+    <td>Creación y desarrollo de los módulos <b>Home & Login</b>, así como configuración de routing y despliegue del frontend.</td>
   </tr>
   <tr>
     <td>Mejia Poma, Patricia Valeria</td>
-    <td>Creación y desarrollo del modulo Profile (Perfil de Usuario & Configuración).</td>
+    <td>Creación y desarrollo del módulo <b>Profile</b> (Perfil de usuario & configuración), estilos globales y soporte responsivo.</td>
   </tr>
 </table>
 
-- ![Contribuciones por integrante](resources/colab.png)
-- ![Actividad de PRs y issues](/resources/insi.png)
+- ![Contribuciones por integrante](resources/colab.png)  
+- ![Actividad de PRs y issues](resources/insi.png)
 
 
 
 
+
+## 5.2.2. Sprint 2 – Web Application (Frontend Angular)
+
+### 5.2.2.3. Sprint Backlog 2
+
+En el **Sprint 2** el enfoque estuvo en la **implementación del Frontend (Angular)** para los módulos principales de TuCash: Login & Home, Expenses, Incomes, Goals y Profile.
+
+**Técnica / Épica del Sprint – User Personas aplicada al Frontend**
+
+Este sprint toma como base la épica técnica de **User Personas** definida previamente:
+
+- **Persona 1 – Estudiante independiente:** trabaja y estudia, necesita registrar ingresos y egresos de forma rápida.
+- **Persona 2 – Estudiante con sustento familiar:** recibe mesada y requiere entender en qué gasta su dinero (gastos hormiga).
+- **Persona 3 – Estudiante becado:** tiene recursos limitados y necesita planificar metas de ahorro claras.
+
+Estas User Personas guiaron las decisiones de diseño de los módulos Angular (flujo de registro, vistas de resumen, metas y edición de perfil), asegurando que cada pantalla responda a necesidades concretas de los segmentos objetivo.
+
+---
+
+### 5.2.2.4. User Stories (Frontend Angular – Sprint 2)
+
+A partir de las épicas **EP01, EP02, EP03 y EP04** se seleccionan las historias de usuario que impactan directamente en los módulos del frontend Angular para este sprint.
+
+> **US = User Story**
+
+| **Id (US)** | **Origen (EP/US)** | **Módulo**          | **Título**                         | **Descripción breve** |
+|-------------|--------------------|---------------------|------------------------------------|------------------------|
+| US01        | EP01/US01          | Login & Home        | Crear mi espacio financiero        | El usuario puede registrarse por primera vez para empezar a organizar su dinero. |
+| US02        | EP01/US02          | Login & Home        | Entrar a mi cuenta                 | El usuario puede iniciar sesión y acceder a su Panel Principal. |
+| US03        | EP01/US03          | Login               | Recuperar mi acceso                | El usuario puede recuperar su contraseña vía correo. |
+| US04        | EP03/US01          | Home (Dashboard)    | Saber “cómo voy” de un vistazo     | El usuario ve un resumen de ingresos, gastos y saldo en el Home. |
+| US05        | EP01/US04          | Profile             | Personalizar mi perfil             | El usuario puede editar nombre y foto de perfil. |
+| US06        | EP01/US05          | Profile / Settings  | Configurar mis preferencias        | El usuario puede elegir la moneda principal de la app. |
+| US07        | EP02/US01          | Incomes             | Registrar el dinero que recibo     | El usuario registra nuevos ingresos y ve actualizado su saldo. |
+| US08        | EP02/US02          | Expenses            | Anotar mis gastos diarios          | El usuario registra gastos, asigna categorías y actualiza su saldo. |
+| US09        | EP02/US04          | Incomes / Expenses  | Corregir un registro               | El usuario edita montos/categorías de transacciones ya registradas. |
+| US10        | EP02/US05          | Incomes / Expenses  | Filtrar mis movimientos            | El usuario filtra transacciones por fecha, categoría o tipo. |
+| US11        | EP04/US01          | Goals               | Ahorrar para algo que quiero       | El usuario crea metas de ahorro con nombre y monto objetivo. |
+| US12        | EP04/US02          | Goals               | Ver crecer mis ahorros             | El usuario añade aportes a una meta y ve el progreso actualizado. |
+| US13        | EP04/US03          | Goals               | Ajustar mis metas                  | El usuario puede editar monto objetivo y/o fecha de una meta. |
+| US14        | EP04/US04          | Goals               | Celebrar un logro                  | El usuario marca una meta como lograda y ve la “celebración” en la UI. |
+
+---
+
+### 5.2.2.5. Technical Stories (Frontend Angular – Sprint 2)
+
+Historias técnicas enfocadas en la **Web Application (Angular)** para soportar el MVP de registro y visualización de transacciones y metas.
+
+| **Id (FE-TS)** | **Título**                                             | **Módulo / Área**        | **Descripción técnica** |
+|----------------|--------------------------------------------------------|---------------------------|--------------------------|
+| FE-TS01        | Bootstrap del proyecto Angular + routing base          | Infraestructura           | Crear proyecto Angular, configurar routing principal y layout base (shell: header, sidebar, router-outlet). |
+| FE-TS02        | Módulo de autenticación (Login / Register / Recover)   | Login & Home              | Implementar componentes Angular para login, registro y recuperación; formularios reactivos; integración con servicio Auth. |
+| FE-TS03        | AuthGuard y protección de rutas                        | Infraestructura           | Implementar guardas de ruta para restringir acceso a módulos (Home, Expenses, Incomes, Goals, Profile) solo a usuarios autenticados. |
+| FE-TS04        | Servicio de autenticación (AuthService)                | Login & Home              | Implementar AuthService con manejo de token (almacenamiento en localStorage/sessionStorage) y estado de sesión. |
+| FE-TS05        | Módulo Home & Dashboard                                | Home                      | Crear componentes para el Panel Principal y tarjeta de resumen (saldo, total ingresos, total gastos del mes). |
+| FE-TS06        | Módulo Profile & Settings                              | Profile / Settings        | Implementar componentes para ver/editar perfil y preferencias de usuario (nombre, foto, moneda). |
+| FE-TS07        | Módulo Incomes – Listado y formulario                  | Incomes                   | Crear componentes para listar ingresos, formulario de creación/edición y comunicación con el servicio de transacciones. |
+| FE-TS08        | Módulo Expenses – Listado y formulario                 | Expenses                  | Crear componentes para listar gastos, formulario de creación/edición y comunicación con el servicio de transacciones. |
+| FE-TS09        | Servicio de transacciones (TransactionsService)        | Incomes / Expenses        | Implementar servicio Angular para CRUD de transacciones (ingresos/egresos), filtros y manejo de errores. |
+| FE-TS10        | Filtros y búsqueda en historial                        | Incomes / Expenses        | Implementar filtros por categoría, tipo, rango de fechas y búsqueda por texto a nivel de UI. |
+| FE-TS11        | Módulo Goals – listado, creación y detalle             | Goals                     | Crear componentes para ver lista de metas, registrar nueva meta y ver detalle con progreso. |
+| FE-TS12        | Actualización de progreso de metas                     | Goals                     | Implementar UI y lógica para registrar aportes, recalcular porcentaje y actualizar barra de progreso. |
+| FE-TS13        | Feedback visual y manejo de errores                    | Cross-cutting (UI/UX)     | Implementar toasts/alerts para operaciones exitosas o con error (registro, edición, filtros, metas). |
+| FE-TS14        | Estilos globales y diseño responsivo                   | UI / General              | Definir estilos globales (theme), grid responsivo y adaptabilidad para móvil/escritorio de los módulos del sprint. |
+| FE-TS15        | Testing básico de componentes críticos                 | Calidad                   | Implementar pruebas unitarias básicas (Karma/Jasmine) en componentes clave: Login, Home, Expenses, Incomes, Goals. |
+
+---
+
+### 5.2.2.6. Mapa de Trazabilidad – User Stories ↔ Technical Stories (Frontend Angular)
+
+Este mapa muestra cómo las historias de usuario seleccionadas para el Sprint 2 se soportan mediante historias técnicas específicas en el frontend Angular.
+
+| **Id (US)** | **Título US**                          | **Technical Stories Asociadas (FE-TS)** |
+|-------------|----------------------------------------|-----------------------------------------|
+| US01        | Crear mi espacio financiero            | FE-TS01, FE-TS02, FE-TS04               |
+| US02        | Entrar a mi cuenta                     | FE-TS02, FE-TS03, FE-TS04               |
+| US03        | Recuperar mi acceso                    | FE-TS02, FE-TS04                        |
+| US04        | Saber “cómo voy” de un vistazo         | FE-TS01, FE-TS05, FE-TS09, FE-TS13      |
+| US05        | Personalizar mi perfil                 | FE-TS06, FE-TS13                        |
+| US06        | Configurar mis preferencias            | FE-TS06, FE-TS14                        |
+| US07        | Registrar el dinero que recibo         | FE-TS07, FE-TS09, FE-TS13               |
+| US08        | Anotar mis gastos diarios              | FE-TS08, FE-TS09, FE-TS13               |
+| US09        | Corregir un registro                   | FE-TS07, FE-TS08, FE-TS09               |
+| US10        | Filtrar mis movimientos                | FE-TS09, FE-TS10                        |
+| US11        | Ahorrar para algo que quiero           | FE-TS11, FE-TS14                        |
+| US12        | Ver crecer mis ahorros                 | FE-TS11, FE-TS12, FE-TS13               |
+| US13        | Ajustar mis metas                      | FE-TS11, FE-TS12                        |
+| US14        | Celebrar un logro                      | FE-TS11, FE-TS12, FE-TS13               |
+
+---
+
+### 5.2.2.7. Development Evidence for Sprint Review (Frontend)
+
+**Alcance técnico implementado (resumen, sólo Frontend):**
+
+- **Web Application (Angular):**
+  - Módulos **Login & Home**, **Expenses**, **Incomes**, **Goals** y **Profile** implementados con routing funcional.
+  - Formularios reactivos con validaciones básicas (campos obligatorios, montos mayores a 0, formato de correo).
+  - Componentes de listado y detalle para transacciones (ingresos/gastos) y metas de ahorro.
+  - Feedback visual mediante toasts/alerts para operaciones exitosas o con error.
+  - Estilos globales y diseño responsivo orientado a **User Personas** (uso en móvil como escenario principal).
+
+**Evidencias (capturas) — rutas de ejemplo:**
+
+- ![Expenses - formulario y lista](resources/expense.png)  
+- ![Incomes - formulario](resources/income.png)  
+- ![Goals - progreso de metas](resources/goals.png)  
+- ![Profile - edición de perfil](resources/profile.png)  
+- ![Home & Login - flujo completo](resources/login.png)  
+
+---
+
+### 5.2.2.8. Execution Evidence for Sprint Review
+
+Durante el **Sprint 2** se consolidó un **MVP funcional de frontend**, habilitando los módulos centrales del flujo TuCash desde la perspectiva del usuario.
+
+#### ✔ Alcance conseguido (Sprint 2 – Frontend)
+
+| Módulo / Flujo   | Resultado del Sprint                                 | Evidencias                |
+|------------------|------------------------------------------------------|---------------------------|
+| **Login & Home** | Autenticación básica (mock o integración inicial) y navegación segura al dashboard. | `resources/login.png`     |
+| **Expenses**     | Registro, listado y edición básica de gastos.        | `resources/expense.png`   |
+| **Incomes**      | Registro y listado de ingresos.                      | `resources/income.png`    |
+| **Goals**        | Creación de metas, cálculo de progreso y render dinámico de tarjetas. | `resources/goals.png`     |
+| **Profile**      | Actualización de nombre, moneda y foto (perfil básico). | `resources/profile.png` |
+| **UI/UX**        | Feedback visual (toasts), estados de carga y diseño responsivo. | Capturas varias del sprint |
+
+#### Correcciones y mejoras aplicadas
+
+- Corrección de errores de navegación entre vistas (Login → Home → Expenses / Incomes / Goals).
+- Validaciones adicionales en formularios (montos > 0, formatos de correo y campos obligatorios).
+- Mejora de la consistencia visual entre módulos (tipografía, espaciado y colores).
+- Ajustes responsivos para móviles, considerando el uso intensivo por parte de estudiantes (**User Personas**).
+
+#### Valor entregado al producto
+
+Con el avance de este sprint, el usuario ya puede:
+
+- Acceder a TuCash (registro y login).  
+- Registrar y visualizar ingresos y gastos.  
+- Crear y gestionar metas de ahorro.  
+- Personalizar aspectos básicos de su perfil.  
+- Navegar por una interfaz fluida y coherente con sus necesidades (según User Personas).
+
+---
+
+### 5.2.2.9. Services Documentation Evidence for Sprint Review (Consumo desde Frontend)
+
+Aunque el desarrollo de backend no fue foco del Sprint 2, el equipo utilizó:
+
+- **Endpoints mock** y/o servicios ya documentados con **OpenAPI/Swagger**.  
+- Colecciones de prueba para validar el consumo desde Angular (por ejemplo, endpoints de transacciones y metas).  
+
+Esto permitió:
+
+- Integrar el frontend con servicios realistas.  
+- Probar flujos completos de registro y visualización de datos desde la Web Application.  
+
+---
+
+### 5.2.2.10. Software Deployment Evidence for Sprint Review
+
+En nuestro segundo sprint, se avanzó con las principales secciones del **Frontend**:
+
+#### Landing Page
+
+El despliegue de la Landing Page se mantiene en el mismo repositorio y entorno configurado en el Sprint 1:
+
+<img width="636" height="117" alt="Image" src="https://github.com/user-attachments/assets/3e5b77e9-72bd-4a86-a908-4947f1d9e4f7" />
+
+<img width="1901" height="1080" alt="Image" src="https://github.com/user-attachments/assets/88217c9b-6c60-48a5-9694-7017823fe038" />
+
+#### Web Application (Frontend TuCash)
+
+Se desplegó una versión funcional del frontend (Angular) en un entorno accesible por el equipo y el docente:
+
+<img width="1920" height="959" alt="Image" src="https://github.com/user-attachments/assets/a77904a1-d3dc-4f5c-baab-9307d781fc5d" />
+
+<img width="1903" height="955" alt="Image" src="https://github.com/user-attachments/assets/8ba40db9-2581-4c83-8a9b-1f344614fd5f" />
+
+<img width="1902" height="958" alt="Image" src="https://github.com/user-attachments/assets/e353a3a4-1668-4454-bfa3-708b824c4cd9" />
+
+<img width="1920" height="956" alt="Image" src="https://github.com/user-attachments/assets/62ffd284-6140-48a3-95a5-8a199ab8c0ee" />
+
+<img width="1904" height="959" alt="Image" src="https://github.com/user-attachments/assets/34499840-d90a-4ebb-b3e9-3e5ef3794385" />
+
+<img width="1920" height="959" alt="Image" src="https://github.com/user-attachments/assets/50834018-c98f-4a13-9e27-7044c2c8c35c" />
+
+<img width="1903" height="958" alt="Image" src="https://github.com/user-attachments/assets/b78ca154-cc35-4740-bfc6-49ad10db4711" />
+
+---
+
+### 5.2.2.11. Team Collaboration Insights during Sprint
+
+Durante el Sprint 2, cada integrante se enfocó en un módulo clave del frontend, manteniendo la alineación con las User Personas y los flujos definidos.
+
+<table border="1">
+  <tr>
+    <th>Alumno</th>
+    <th>Actividad principal (Frontend)</th>
+  </tr>
+  <tr>
+    <td>Taquiri Calderon, Jhunior Giussepe</td>
+    <td>Creación y desarrollo del módulo <b>Expenses</b> (Gestión de gastos) y apoyo en integración con <i>TransactionsService</i>.</td>
+  </tr>
+  <tr>
+    <td>Payesa Torres, Harrison Hubert</td>
+    <td>Creación y desarrollo del módulo <b>Incomes</b> (Gestión de ingresos) y validaciones de formularios.</td>
+  </tr>
+  <tr>
+    <td>Mondoñedo Rodriguez, Juan Diego Javier</td>
+    <td>Creación y desarrollo del módulo <b>Goals</b> (Metas de ahorro) y lógica de progreso.</td>
+  </tr>
+  <tr>
+    <td>Huaman Hinostroza, Milenio</td>
+    <td>Creación y desarrollo de los módulos <b>Home & Login</b>, así como configuración de routing y despliegue del frontend.</td>
+  </tr>
+  <tr>
+    <td>Mejia Poma, Patricia Valeria</td>
+    <td>Creación y desarrollo del módulo <b>Profile</b> (Perfil de usuario & configuración), estilos globales y soporte responsivo.</td>
+  </tr>
+</table>
+
+- ![Contribuciones por integrante](resources/colab.png)  
+- ![Actividad de PRs y issues](resources/insi.png)
+
+
+
+
+
+
+
+
+
+
+
+
+-----------------
 # 5.2.3. Sprint 3
 
 ## 5.2.3.1. Sprint Planning 3
+
 <table border="1" cellpadding="6" cellspacing="0">
   <tbody>
     <tr>
@@ -3093,7 +3422,7 @@ El despliegue de la landin page se mantiene en el mismo repositorio donde se rea
       <th>Sprint 3 Goal</th>
       <td>
         Completar la experiencia integral PFM: <b>Presupuestos</b> mensuales, <b>Alertas</b>
-        (recordatorios de pagos y límites), <b>Reportes</b> visuales, mejoras de <b>Perfil</b>, e
+        (recordatorios de pagos y límites), <b>Reportes</b> visuales, mejoras de <b>Perfil</b> e
         <b>Internacionalización</b>; además de estabilizar el backend de <b>Transacciones</b> y
         <b>Metas</b> de ahorro.
       </td>
@@ -3117,39 +3446,46 @@ El despliegue de la landin page se mantiene en el mismo repositorio donde se rea
 
 ## 5.2.3.2. Aspect Leaders and Collaborators
 
-Para este sprint, se cubren **US/TS** de PFM: Presupuesto, Alertas, Reportes, Perfil e i18n; y endurecimiento de servicios de Transacciones y Metas. Se asignan líderes (L) y colaboradores (C).
+Para este sprint se cubren **User Stories (US)** y **Technical Stories (TS)** de PFM: Presupuesto, Alertas, Reportes, Perfil e i18n; además del endurecimiento de servicios de Transacciones y Metas. Se asignan líderes (L) y colaboradores (C).
 
 <table border="1" align="center">
-<tr>
-  <th rowspan="2">User/Tech Story</th>
-  <th colspan="3">Team Members</th>
-</tr>
-<tr>
-  <th>J. G. Taquiri</th>
-  <th>P. Mejía</th>
-  <th>M. Huaman</th>
-</tr>
-<tr><td>US21: Presupuesto mensual (crear/editar/seguimiento)</td><td>L</td><td>C</td><td>C</td></tr>
-<tr><td>US22: Alertas (recordatorios y límites de gasto)</td><td>C</td><td>C</td><td>L</td></tr>
-<tr><td>US23: Reportes visuales (gastos/ingresos por categoría/periodo)</td><td>C</td><td>C</td><td>L</td></tr>
-<tr><td>US24: Perfil (datos, preferencias, seguridad básica)</td><td>C</td><td>L</td><td>C</td></tr>
-<tr><td>US25: Internacionalización (ES/EN)</td><td>C</td><td>C</td><td>L</td></tr>
-<tr><td>TS24: Endurecer API /transactions (filtros/paginación/orden)</td><td>L</td><td>C</td><td>C</td></tr>
-<tr><td>TS25: Endurecer API /goals (CRUD + validaciones)</td><td>C</td><td>C</td><td>L</td></tr>
-<tr><td>TS26: Telemetría básica y logs (errores y performance)</td><td>C</td><td>C</td><td>L</td></tr>
+  <tr>
+    <th rowspan="2">User/Tech Story</th>
+    <th colspan="3">Team Members</th>
+  </tr>
+  <tr>
+    <th>J. G. Taquiri</th>
+    <th>P. Mejía</th>
+    <th>M. Huaman</th>
+  </tr>
+  <tr><td>US21: Presupuesto mensual (crear/editar/seguimiento)</td><td>L</td><td>C</td><td>C</td></tr>
+  <tr><td>US22: Alertas (recordatorios y límites de gasto)</td><td>C</td><td>C</td><td>L</td></tr>
+  <tr><td>US23: Reportes visuales (gastos/ingresos por categoría/periodo)</td><td>C</td><td>C</td><td>L</td></tr>
+  <tr><td>US24: Perfil (datos, preferencias, seguridad básica)</td><td>C</td><td>L</td><td>C</td></tr>
+  <tr><td>US25: Internacionalización (ES/EN)</td><td>C</td><td>C</td><td>L</td></tr>
+  <tr><td>TS24: Endurecer API /transactions (filtros/paginación/orden)</td><td>L</td><td>C</td><td>C</td></tr>
+  <tr><td>TS25: Endurecer API /goals (CRUD + validaciones)</td><td>C</td><td>C</td><td>L</td></tr>
+  <tr><td>TS26: Telemetría básica y logs (errores y performance)</td><td>C</td><td>C</td><td>L</td></tr>
 </table>
 
 ---
 
 ## 5.2.3.3. Sprint Backlog 3
 
+En este Sprint se priorizaron las User Stories relacionadas con la consolidación del ciclo PFM (Personal Finance Management): **presupuestos → alertas → reportes → ajustes de hábitos**, junto con mejoras de personalización y soporte multilenguaje.
 
-Para este Sprint se priorizaron las User Stories relacionadas con la consolidación del ciclo PFM (Personal Finance Management): **presupuestos → alertas → reportes → ajustes de hábitos**, junto con mejoras de personalización y soporte multilenguaje.
+**Técnica / Épica del Sprint – User Personas aplicada al Sprint 3**
 
-A continuación se adjunta la evidencia en video correspondiente a la revisión funcional de las User Stories implementadas durante el Sprint:
+Este Sprint se diseñó alineado a las **User Personas**:
 
-🔗 **Video de Evidencias del Sprint 3 (User Stories ejecutadas):**  
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c576_upc_edu_pe/IQDwF6iQsk2vTqmaCpds1GD9AVra6hlsW3H0IgWDb4lYPeU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=aIBS5O
+- **Persona 1 – Estudiante independiente:**  
+  Se beneficia de reportes visuales (US23) y presupuestos (US21) para controlar ingresos variables y gastos mensuales.
+- **Persona 2 – Estudiante con sustento familiar:**  
+  Las **alertas** (US22) y los **presupuestos por categoría** (US21) le ayudan a controlar los “gastos hormiga” y evitar sobrepasar el límite de mesada.
+- **Persona 3 – Estudiante becado:**  
+  Usa intensivamente metas (Sprint 2) combinadas con **reportes** (US23) y configuraciones de perfil (US24, US25) para optimizar recursos limitados.
+
+A continuación se adjunta la evidencia en video correspondiente a la revisión funcional de las User Stories implementadas durante el Sprint (en el repositorio del curso).
 
 Las User Stories asociadas al Sprint se organizaron en cinco áreas principales:
 
@@ -3158,6 +3494,8 @@ Las User Stories asociadas al Sprint se organizaron en cinco áreas principales:
 - **US23 – Reportes visuales**
 - **US24 – Perfil & Configuración**
 - **US25 – Internacionalización (i18n)**
+
+---
 
 ### 5.2.3.3.1. User Stories (Sprint 3 – Presupuestos, Alertas, Reportes, Perfil, i18n)
 
@@ -3169,19 +3507,20 @@ Las User Stories asociadas al Sprint se organizaron en cinco áreas principales:
 | US24   | Perfil                 | Perfil & Preferencias           | Como usuario, quiero configurar moneda, idioma y opciones básicas de seguridad, para usar la app de forma cómoda y segura. |
 | US25   | Internacionalización   | i18n (ES/EN)                    | Como usuario, quiero poder cambiar el idioma de la interfaz entre español e inglés, para usar la app en el idioma que prefiera. |
 
-### 5.2.3.3.2. Technical Stories (Sprint 3 – Back-end Spring Boot + PostgreSQL)
+---
 
-> Back-end (Spring Boot + PostgreSQL): endpoints CRUD de transacciones y metas; autenticación JWT; CORS; documentación OpenAPI.
-
-| **Id** | **Título**          | **Capa / Servicio**     | **Descripción técnica** |
-|--------|---------------------|-------------------------|--------------------------|
-| TS24   | API `/transactions` | Back-end – Transacciones | Endurecer la API de transacciones con filtros avanzados, validaciones de negocio y documentación OpenAPI, exponiendo un endpoint REST paginado y ordenado. |
-| TS25   | API `/goals`        | Back-end – Metas        | Exponer un CRUD completo de metas de ahorro (crear, editar, eliminar, listar) incluyendo cálculo de progreso y estados de seguimiento. |
-| TS26   | Telemetría          | Observabilidad & Logging | Implementar logs y métricas para capturar errores, tiempos de respuesta y eventos clave de UI/UX, habilitando monitoreo básico del sistema. |
+### 5.2.3.Technical Stories Sprint 3 
 
 
+| **Id** | **Título**          | **Capa / Servicio**       | **Descripción técnica** |
+|--------|---------------------|---------------------------|--------------------------|
+| TS24   | API `/transactions` | Back-end – Transacciones  | Endurecer la API de transacciones con filtros avanzados, validaciones de negocio y documentación OpenAPI, exponiendo un endpoint REST paginado y ordenado. |
+| TS25   | API `/goals`        | Back-end – Metas          | Exponer un CRUD completo de metas de ahorro (crear, editar, eliminar, listar) incluyendo cálculo de progreso y estados de seguimiento. |
+| TS26   | Telemetría          | Observabilidad & Logging  | Implementar logs y métricas para capturar errores, tiempos de respuesta y eventos clave de UI/UX, habilitando monitoreo básico del sistema. |
 
-### 5.2.3.3.3. Sprint Backlog 3 & Mapa de Trazabilidad (User/Technical Stories ↔ Tasks)
+---
+
+### 5.2.3.1. Sprint Backlog 3 & Mapa de Trazabilidad (User/Technical Stories ↔ Tasks)
 
 > Historias y tareas priorizadas (estimaciones en horas). El foco es **cerrar el loop PFM**: **presupuesto → alertas → reportes → ajustes de hábitos**.
 
@@ -3211,18 +3550,16 @@ Las User Stories asociadas al Sprint se organizaron en cinco áreas principales:
 
 #### b) Mapa de Trazabilidad (resumen Story → Tasks)
 
-| **Story Id** | **Tipo**      | **Title**              | **Tasks asociados**            |
-|--------------|--------------|------------------------|--------------------------------|
-| US21         | User Story   | Presupuesto mensual    | TK201, TK202, TK203           |
-| US22         | User Story   | Alertas                | TK204, TK205, TK206           |
-| US23         | User Story   | Reportes visuales      | TK207, TK208, TK209           |
-| US24         | User Story   | Perfil                 | TK210, TK211                  |
-| US25         | User Story   | Internacionalización   | TK212, TK213                  |
-| TS24         | Tech Story   | API `/transactions`    | TK214, TK215, TK216           |
-| TS25         | Tech Story   | API `/goals`           | TK217, TK218                  |
-| TS26         | Tech Story   | Telemetría             | TK219                         |
-
-
+| **Story Id** | **Tipo**      | **Title**              | **Tasks asociados**  |
+|--------------|--------------|------------------------|----------------------|
+| US21         | User Story   | Presupuesto mensual    | TK201, TK202, TK203 |
+| US22         | User Story   | Alertas                | TK204, TK205, TK206 |
+| US23         | User Story   | Reportes visuales      | TK207, TK208, TK209 |
+| US24         | User Story   | Perfil                 | TK210, TK211        |
+| US25         | User Story   | Internacionalización   | TK212, TK213        |
+| TS24         | Tech Story   | API `/transactions`    | TK214, TK215, TK216 |
+| TS25         | Tech Story   | API `/goals`           | TK217, TK218        |
+| TS26         | Tech Story   | Telemetría             | TK219               |
 
 ---
 
@@ -3232,10 +3569,10 @@ Durante el Sprint 3 se implementaron funcionalidades críticas del PFM (Personal
 
 ### Backend Development (tucash-api)
 
-| Repository   | Branch                        | Commit id | Commit Message                                           | Committer           | Date       |
-|--------------|-------------------------------|-----------|----------------------------------------------------------|---------------------|------------|
-| tucash-api   | feature/transactions-filters  | 7a8b9c2   | feat(api): implement filters, pagination in transactions | J. G. Taquiri       | 02/11/2025 |
-| tucash-api   | feature/transactions-filters  | 3d4e5f6   | feat(api): add sorting by date and amount               | J. G. Taquiri       | 03/11/2025 |
+| Repository   | Branch                       | Commit id | Commit Message                                           | Committer           | Date       |
+|--------------|------------------------------|-----------|----------------------------------------------------------|---------------------|------------|
+| tucash-api   | feature/transactions-filters | 7a8b9c2   | feat(api): implement filters, pagination in transactions | J. G. Taquiri       | 02/11/2025 |
+| tucash-api   | feature/transactions-filters | 3d4e5f6   | feat(api): add sorting by date and amount               | J. G. Taquiri       | 03/11/2025 |
 | tucash-api   | feature/goals-crud           | 9f1a2b3   | feat(api): implement goals CRUD operations              | M. Huaman           | 04/11/2025 |
 | tucash-api   | feature/goals-crud           | 5c6d7e8   | feat(api): add goal progress calculation logic          | M. Huaman           | 05/11/2025 |
 | tucash-api   | feature/budget-validation    | 2b3c4d5   | feat(api): budget validation and limits enforcement     | J. G. Taquiri       | 06/11/2025 |
@@ -3244,44 +3581,44 @@ Durante el Sprint 3 se implementaron funcionalidades críticas del PFM (Personal
 
 ### Frontend Development (tucash-frontend)
 
-| Repository      | Branch                    | Commit id | Commit Message                                      | Committer           | Date       |
-|-----------------|---------------------------|-----------|-----------------------------------------------------|---------------------|------------|
-| tucash-frontend | feature/budget-module     | 6f7a8b9   | feat(ui): budget creation and category management   | P. Mejía            | 02/11/2025 |
-| tucash-frontend | feature/budget-module     | 4d5e6f7   | feat(ui): budget progress visualization            | P. Mejía            | 03/11/2025 |
-| tucash-frontend | feature/alerts-system     | 2a3b4c5   | feat(ui): budget limit alerts implementation       | M. Huaman           | 04/11/2025 |
-| tucash-frontend | feature/alerts-system     | 8b9c0d1   | feat(ui): payment reminder notifications           | M. Huaman           | 05/11/2025 |
-| tucash-frontend | feature/reports-charts    | 7e8f9a0   | feat(ui): category spending charts with Chart.js   | M. Huaman           | 06/11/2025 |
-| tucash-frontend | feature/reports-charts    | 5c6d7e8   | feat(ui): monthly spending trends visualization     | M. Huaman           | 07/11/2025 |
-| tucash-frontend | feature/profile-settings  | 3a4b5c6   | feat(ui): profile settings and preferences         | P. Mejía            | 08/11/2025 |
-| tucash-frontend | feature/i18n-support      | 1f2a3b4   | feat(i18n): spanish and english language support   | M. Huaman           | 09/11/2025 |
-| tucash-frontend | feature/i18n-support      | 9d0e1f2   | feat(i18n): persistent language selector in header | M. Huaman           | 10/11/2025 |
+| Repository      | Branch                   | Commit id | Commit Message                                      | Committer           | Date       |
+|-----------------|--------------------------|-----------|-----------------------------------------------------|---------------------|------------|
+| tucash-frontend | feature/budget-module    | 6f7a8b9   | feat(ui): budget creation and category management   | P. Mejía            | 02/11/2025 |
+| tucash-frontend | feature/budget-module    | 4d5e6f7   | feat(ui): budget progress visualization             | P. Mejía            | 03/11/2025 |
+| tucash-frontend | feature/alerts-system    | 2a3b4c5   | feat(ui): budget limit alerts implementation        | M. Huaman           | 04/11/2025 |
+| tucash-frontend | feature/alerts-system    | 8b9c0d1   | feat(ui): payment reminder notifications            | M. Huaman           | 05/11/2025 |
+| tucash-frontend | feature/reports-charts   | 7e8f9a0   | feat(ui): category spending charts with Chart.js    | M. Huaman           | 06/11/2025 |
+| tucash-frontend | feature/reports-charts   | 5c6d7e8   | feat(ui): monthly spending trends visualization     | M. Huaman           | 07/11/2025 |
+| tucash-frontend | feature/profile-settings | 3a4b5c6   | feat(ui): profile settings and preferences          | P. Mejía            | 08/11/2025 |
+| tucash-frontend | feature/i18n-support     | 1f2a3b4   | feat(i18n): spanish and english language support    | M. Huaman           | 09/11/2025 |
+| tucash-frontend | feature/i18n-support     | 9d0e1f2   | feat(i18n): persistent language selector in header  | M. Huaman           | 10/11/2025 |
 
 ### Landing Page Updates (tucash-landing)
 
-| Repository      | Branch                    | Commit id | Commit Message                                      | Committer           | Date       |
-|-----------------|---------------------------|-----------|-----------------------------------------------------|---------------------|------------|
-| tucash-landing  | feature/landing-updates   | 5b6c7d8   | feat(landing): update features section with Sprint 3| M. Huaman          | 09/11/2025 |
-| tucash-landing  | feature/landing-updates   | 3e4f5a6   | feat(landing): add multilingual support showcase   | M. Huaman           | 10/11/2025 |
+| Repository      | Branch                   | Commit id | Commit Message                                       | Committer           | Date       |
+|-----------------|--------------------------|-----------|------------------------------------------------------|---------------------|------------|
+| tucash-landing  | feature/landing-updates  | 5b6c7d8   | feat(landing): update features section with Sprint 3 | M. Huaman           | 09/11/2025 |
+| tucash-landing  | feature/landing-updates  | 3e4f5a6   | feat(landing): add multilingual support showcase     | M. Huaman           | 10/11/2025 |
 
 ### Technical Highlights del Sprint 3
 
-- **API Enhancements**: Implementación completa de filtros avanzados en `/transactions` con paginación y ordenamiento
-- **Goals Management**: Sistema CRUD para metas de ahorro con cálculo automático de progreso
-- **Budget System**: Módulo de presupuestos con validaciones y alertas automáticas
-- **Visualization**: Integración de Chart.js para reportes visuales interactivos
-- **Internationalization**: Soporte completo ES/EN con persistencia de preferencias
-- **Deployment**: Backend desplegado en Heroku con documentación Swagger actualizada
+- **API Enhancements:** filtros avanzados en `/transactions` con paginación y ordenamiento.
+- **Goals Management:** CRUD completo para metas de ahorro con cálculo automático de progreso.
+- **Budget System:** módulo de presupuestos con validaciones y alertas automáticas.
+- **Visualization:** integración de Chart.js para reportes visuales interactivos.
+- **Internationalization:** soporte completo ES/EN con persistencia de preferencias.
+- **Deployment:** backend desplegado en Heroku con documentación Swagger actualizada.
 
 ### Métricas de Desarrollo
 
-- **Total Commits**: 16 commits
-- **Active Contributors**: 3 desarrolladores (J.G. Taquiri, P. Mejía, M. Huaman)
-- **Files Changed**: 42 archivos modificados
-- **Lines Added**: +2,341 líneas
-- **Lines Removed**: -298 líneas
-- **Pull Requests**: 9 PRs merged
-- **Code Coverage**: 82% (incremento del 16% respecto al Sprint 2)
-- **Sprint Velocity**: 45 story points completados
+- **Total Commits:** 16 commits.  
+- **Active Contributors:** 3 desarrolladores (J.G. Taquiri, P. Mejía, M. Huaman).  
+- **Files Changed:** 42 archivos modificados.  
+- **Lines Added:** +2,341 líneas.  
+- **Lines Removed:** -298 líneas.  
+- **Pull Requests:** 9 PRs merged.  
+- **Code Coverage:** 82% (incremento del 16% respecto al Sprint 2).  
+- **Sprint Velocity:** 45 story points completados.  
 
 ---
 
@@ -3289,11 +3626,11 @@ Durante el Sprint 3 se implementaron funcionalidades críticas del PFM (Personal
 
 A continuación se presentan las evidencias de ejecución correspondientes al **Sprint 3**, enfocadas en los módulos desarrollados, las mejoras aplicadas y la validación visual del incremento del producto.
 
-Se adjuntan capturas almacenadas en el repositorio según las rutas sugeridas:
+Las capturas se encuentran almacenadas en el repositorio según las rutas indicadas.
 
 ---
 
-###  Evidencia 1 — Módulo **Budget**
+### Evidencia 1 — Módulo **Budget**
 
 <p align="center">
   <img src="resources/budget.png" alt="Evidencia de módulo Budget" width="650">
@@ -3304,35 +3641,40 @@ Visualización del módulo de gestión presupuestal, mostrando la correcta carga
 
 ---
 
-###  Evidencia 2 — Módulo **Alerts**
+### Evidencia 2 — Módulo **Alerts**
 
 <p align="center">
   <img src="resources/alerts.png" alt="Evidencia de módulo Alerts" width="650">
 </p>
 
 **Descripción:**  
-Se evidencia el funcionamiento de las notificaciones internas del dashboard, validando el comportamiento UI y la lógica que activa alertas relacionadas a sobreuso del presupuesto.
+Se evidencia el funcionamiento de las notificaciones internas del dashboard, validando el comportamiento UI y la lógica que activa alertas relacionadas al sobreuso del presupuesto y recordatorios de pago.
 
 ---
 
-# Evidencias Backend – Postman (API TuCash)
+## Evidencias Backend – Postman (API TuCash)
 
-## Conexión al Backend Desplegado
+### Conexión al Backend Desplegado
 
-**Backend desplegado:** https://kashu-backend-29cd591f8f69.herokuapp.com/swagger-ui/index.html
+**Backend desplegado:**  
+`https://kashu-backend-29cd591f8f69.herokuapp.com/swagger-ui/index.html`
 
 El backend de TuCash está desplegado en Heroku y disponible para pruebas a través de Postman. La documentación completa de la API se encuentra en el enlace Swagger UI proporcionado, donde se pueden visualizar todos los endpoints disponibles, sus parámetros y respuestas esperadas.
 
-**Base URL para Postman:** `https://kashu-backend-29cd591f8f69.herokuapp.com/api`
+**Base URL para Postman:**  
+`https://kashu-backend-29cd591f8f69.herokuapp.com/api`
 
 **Endpoints principales validados:**
-- `POST /auth/register` - Registro de nuevos usuarios
-- `POST /auth/login` - Autenticación de usuarios  
-- `GET /categories` - Obtención de categorías de transacciones
-- `GET /transactions` - Consulta de transacciones con filtros
-- `POST/PUT/DELETE /goals` - CRUD de metas de ahorro
 
-###  Evidencia 3 — Registro de usuario (POST /auth/register)
+- `POST /auth/register` – Registro de nuevos usuarios.  
+- `POST /auth/login` – Autenticación de usuarios.  
+- `GET /categories` – Obtención de categorías de transacciones.  
+- `GET /transactions` – Consulta de transacciones con filtros.  
+- `POST /goals` / `PUT /goals/{id}` / `DELETE /goals/{id}` – CRUD de metas de ahorro.  
+
+---
+
+### Evidencia 3 — Registro de usuario (POST /auth/register)
 
 <p align="center">
   <img src="resources/postman-register.png" alt="Postman Register" width="750">
@@ -3344,7 +3686,7 @@ Probando el endpoint de registro. El sistema genera correctamente un nuevo usuar
 
 ---
 
-###  Evidencia 4 — Login (POST /auth/login)
+### Evidencia 4 — Login (POST /auth/login)
 
 <p align="center">
   <img src="resources/postman-login.png" alt="Postman Login" width="750">
@@ -3355,7 +3697,7 @@ Se valida el flujo de inicio de sesión. El backend devuelve credenciales correc
 
 ---
 
-###  Evidencia 5 — Obtener categorías (GET /categories)
+### Evidencia 5 — Obtener categorías (GET /categories)
 
 <p align="center">
   <img src="resources/postman-categories.png" alt="Postman Categories" width="750">
@@ -3367,118 +3709,268 @@ El endpoint responde correctamente con la lista de categorías disponibles para 
 
 ---
 
-##  Conclusión general de la evidencia
-
-Las cinco evidencias permiten validar:
-
-- El correcto funcionamiento del **Frontend**, especialmente en módulos Budget y Alerts.  
-- El funcionamiento completo del **ciclo de autenticación** (register → login → uso de endpoints protegidos).  
-- La **consistencia** del backend en las respuestas JSON, tiempos de respuesta y códigos HTTP (201, 200).  
-- La integración efectiva entre el cliente (frontend), el servidor (API .NET) y la base de datos MySQL.
-
-Estas evidencias confirman el cumplimiento del incremento comprometido para el Sprint 3.
-
-
-
 ---
-# 5.2.4. Sprint 4 – Proyecto TuCash (TB2)
-
+# 5.2.4. Sprint 4 – Proyecto TuCash (TF1)
+## 5.2.4.1. Sprint Planning 4
 ## 5.2.4.1. Sprint Planning 4
 
-**Sprint #**: 4  
-**Fecha**: 20/11/2025  
-**Hora**: 06:30 PM  
-**Lugar**: Reunión virtual (Discord)  
-**Preparado por**: **Jhunior Giussepe Taquiri Calderón (u20221c576)**  
-**Asistentes (planning)**:  
-- Jhunior Giussepe Taquiri  
-- Patricia Mejía  
-- Milenio Huamán  
+| **Campo** | **Detalle** |
+|----------|-------------|
+| **Sprint #** | 4 |
+| **Date** | 20/11/2025 |
+| **Time** | 06:30 PM |
+| **Location** | Reunión virtual (Discord) |
+| **Prepared By** | Jhunior Giussepe Taquiri Calderón (u20221c576) |
+| **Attendees** | Taquiri Calderón, Jhunior Giussepe · Huamán Hinostroza, Milenio |
 
-### Review del Sprint 3
-Se completaron los módulos principales del flujo PFM: Presupuestos, Alertas, Reportes, Perfil e Internacionalización.  
-El backend fue fortalecido con filtros, CRUD de metas y telemetría.  
-Las métricas SUS/SEQ y la evaluación heurística confirmaron estabilidad.
+### **Sprint 3 Review Summary**
+| **Review del Sprint 3** |
+|-------------------------|
+| • Se completaron los módulos principales: Presupuestos, Alertas, Reportes, Perfil e i18n. <br> • Backend fortalecido con filtros avanzados (`/transactions`), CRUD de metas (`/goals`) y telemetría básica. <br> • Métricas SUS/SEQ y heurística mostraron estabilidad y buena usabilidad del MVP. |
 
-### Retrospectiva Sprint 3
-- Mejoras en consistencia visual e i18n  
-- Backend estable  
-- Se identificaron mejoras clave: alertas más visibles, registro más rápido, reportes más accionables  
-- Se acordó priorizar calidad, accesibilidad y despliegue final
+### **Sprint 3 Retrospective Summary**
+| **Retrospectiva del Sprint 3** |
+|-------------------------------|
+| • Mejoras en consistencia visual y tokens de diseño. <br> • Integración completa de ES/EN. <br> • Backend estable y documentado con Swagger. <br> • Mejoras clave detectadas: alertas más visibles, registro más rápido y reportes más accionables. <br> • En Sprint 4 se prioriza: calidad, accesibilidad, UX final y despliegue total (Landing + WebApp + API). |
 
-### Objetivo del Sprint 4
-> **“Completar la entrega final del producto TuCash para TB2: cierre funcional, optimización de UI/UX, estabilización del backend y despliegue completo (Landing + WebApp + API).”**
-
-**Velocidad**: 40  
-**Total de Story Points**: 40  
+### **Sprint Goal & User Stories**
+| **Campo** | **Detalle** |
+|----------|-------------|
+| **Sprint 4 Goal** | Completar la entrega final de TuCash (TB2): cierre funcional, optimización UI/UX, estabilización del backend y despliegue completo (Landing + WebApp + API). |
+| **Sprint 4 Velocity** | 40 |
+| **Sum of Story Points** | 40 |
 
 ---
 
 ## 5.2.4.2. Líderes de Aspecto y Colaboradores (Sprint 4)
 
-| US/TS | J. Taquiri | P. Mejía | M. Huamán |
-|-------|------------|-----------|-----------|
-| US31 – Optimización del registro rápido | L | C | C |
-| US32 – Mejoras de alertas inteligentes | C | C | L |
-| US33 – Refinamiento de reportes visuales | C | L | C |
-| US34 – Accesibilidad y consistencia UX | L | C | C |
-| US35 – Despliegue final + documentación | L | C | C |
-| TS40 – Ajuste final API /transactions | L | C | C |
-| TS41 – Ajustes en API /alerts y /goals | C | C | L |
-| TS42 – Integración E2E + pruebas UAT | C | L | C |
+| **US/TS**                                       | **J. Taquiri** | **M. Huamán** |
+|-------------------------------------------------|---------------:|--------------:|
+| US31 – Optimización del registro rápido         | L              | C             |
+| US32 – Mejoras de alertas inteligentes          | C              | L             |
+| US33 – Refinamiento de reportes visuales        | C              | L             |
+| US34 – Accesibilidad y consistencia UX          | L              | C             |
+| US35 – Despliegue final + documentación         | L              | C             |
+| TS40 – Ajuste final API `/transactions`         | L              | C             |
+| TS41 – Ajustes en API `/alerts` y `/goals`      | C              | L             |
+| TS42 – Integración E2E + pruebas UAT            | C              | L             |
+
+> **L = Leader · C = Collaborator**
 
 ---
-
 ## 5.2.4.3. Sprint Backlog 4
 
-| US/TS | ID Tarea | Título | Descripción | Horas | Asignado | Estado |
-|-------|----------|--------|-------------|--------|-----------|---------|
-| US31 | TK120 | Registro 1-tap | Implementar registro rápido basado en últimos movimientos | 3h | Taquiri | Done |
-| US31 | TK121 | Plantillas de gasto | Plantillas predefinidas de movilidad/almuerzo/recarga | 2h | Mejía | Done |
-| US32 | TK122 | Alertas progresivas | Niveles 70–80–100% con semáforo y animación | 3h | Huamán | Done |
-| US33 | TK123 | Quick Insights | Tarjetas rápidas “Top 3 hormiga”, gasto semanal | 3h | Mejía | Done |
-| US34 | TK124 | Accesibilidad WCAG | Corrección de contraste, roles ARIA, foco visible | 2h | Taquiri | Done |
-| US34 | TK125 | Iconografía | Estandarizar iconos de ingresos/egresos | 2h | Mejía | Done |
-| TS40 | TK126 | Optimizar /transactions | Ajustes de filtros, paginación y performance | 3h | Taquiri | Done |
-| TS41 | TK127 | Alertas backend | Ajustes en endpoints de alertas | 2h | Huamán | Done |
-| TS41 | TK128 | Progreso de metas | Optimizar cálculo de metas | 2h | Huamán | Done |
-| TS42 | TK129 | Pruebas UAT finales | Validación E2E de flujos | 3h | Mejía | Done |
-| US35 | TK130 | Documentación final | Actualizar Swagger, README TB2 y anexos | 3h | Taquiri | Done |
-| US35 | TK131 | Despliegue final | Deploy WebApp + Backend + Landing | 4h | Huamán | Done |
+El Sprint 4 se enfocó en **pulir la experiencia de uso** (registro rápido, alertas, reportes, accesibilidad), **cerrar detalles técnicos de la API** y **garantizar el despliegue completo y estable** de TuCash.
+
+| US/TS | ID Tarea | Título                   | Descripción                                                                 | Horas | Asignado | Estado |
+|-------|----------|--------------------------|-----------------------------------------------------------------------------|-------|----------|--------|
+| US31  | TK120    | Registro 1-tap           | Implementar registro rápido basado en últimos movimientos y plantilla base. | 3h    | Taquiri  | Done   |
+| US31  | TK121    | Plantillas de gasto      | Plantillas predefinidas para movilidad, almuerzo y recargas frecuentes.     | 2h    | Taquiri  | Done   |
+| US32  | TK122    | Alertas progresivas      | Alertas automáticas 70–80–100% con semáforo y micro-animaciones.            | 3h    | Huamán   | Done   |
+| US33  | TK123    | Quick Insights           | Tarjetas rápidas “Top 3 hormiga” y resumen de gasto semanal.                | 3h    | Huamán   | Done   |
+| US34  | TK124    | Accesibilidad WCAG       | Ajustes de contraste, roles ARIA, foco visible y navegación por teclado.    | 2h    | Taquiri  | Done   |
+| US34  | TK125    | Iconografía              | Estandarizar iconos para ingresos, egresos y categorías clave.              | 2h    | Taquiri  | Done   |
+| TS40  | TK126    | Optimizar `/transactions`| Ajustes de filtros, paginación y performance de consultas.                  | 3h    | Taquiri  | Done   |
+| TS41  | TK127    | Alertas backend          | Ajustes en endpoints de alertas (reglas de disparo y payload).              | 2h    | Huamán   | Done   |
+| TS41  | TK128    | Progreso de metas        | Optimizar cálculo de progreso y estados (onTrack/atRisk).                   | 2h    | Huamán   | Done   |
+| TS42  | TK129    | Pruebas UAT finales      | Validación E2E completa (Login → Registro → Presupuesto → Reportes).         | 3h    | Taquiri  | Done   |
+| US35  | TK130    | Documentación final      | Actualizar Swagger, README TB2 y anexos técnicos.                           | 3h    | Taquiri  | Done   |
+| US35  | TK131    | Despliegue final         | Deploy completo de Landing, WebApp y API.                                   | 4h    | Huamán   | Done   |
 
 ---
 
 ## 5.2.4.4. Evidencia de Desarrollo
 
-| Repositorio | Rama | Commit ID | Mensaje | Autor | Fecha |
-|-------------|-------|-----------|---------|--------|--------|
-| tucash-webapp | feature/quick-insights | af441bc | feat(reports): quick insights + hormiga cards | P. Mejía | 17/11/2025 |
-| tucash-webapp | feature/alerts-ui | b82c1fe | feat(alerts): progressive alerts + semaforo | M. Huamán | 18/11/2025 |
-| tucash-api | feature/transactions-final | d993ac1 | fix(api): filters & pagination improvements | J.G. Taquiri | 19/11/2025 |
-| tucash-api | feature/goals-progress | c7b81dd | feat(goals): optimized progress calculation | M. Huamán | 19/11/2025 |
-| tucash-deploy | release/tb2 | f29be2a | chore(deploy): final deployment | M. Huamán | 20/11/2025 |
+### Commits clave por repositorio  
+*(Fechas actualizadas al 02/12/2025)*
+
+| Repositorio       | Rama                       | Commit ID | Mensaje                                                | Autor         | Fecha        |
+|-------------------|----------------------------|-----------|--------------------------------------------------------|---------------|--------------|
+| tucash-webapp     | feature/quick-insights     | af441bc   | feat(reports): quick insights + hormiga cards         | M. Huamán     | 02/12/2025   |
+| tucash-webapp     | feature/alerts-ui          | b82c1fe   | feat(alerts): progressive alerts + semaforo           | M. Huamán     | 02/12/2025   |
+| tucash-webapp     | feature/accessibility      | e31d2aa   | feat(ui): accessibility fixes (contrast, focus, aria) | J.G. Taquiri  | 02/12/2025   |
+| tucash-api        | feature/transactions-final | d993ac1   | fix(api): filters & pagination improvements           | J.G. Taquiri  | 02/12/2025   |
+| tucash-api        | feature/goals-progress     | c7b81dd   | feat(goals): optimized progress calculation           | M. Huamán     | 02/12/2025   |
+| tucash-api        | feature/alerts-final       | a83f2cc   | feat(alerts): final rules for budget notifications    | M. Huamán     | 02/12/2025   |
+| tucash-landing    | feature/tb2-highlights     | 91ac0ef   | feat(landing): update features & TB2 highlights       | J.G. Taquiri  | 02/12/2025   |
+| tucash-deploy     | release/tb2                | f29be2a   | chore(deploy): final deployment                       | M. Huamán     | 02/12/2025   |
+
+
+
+### Highlights técnicos Sprint 4
+
+- **Frontend (Angular – WebApp TuCash):**
+  - Registro 1-tap a partir del último movimiento y plantillas frecuentes.
+  - Alertas visuales progresivas (semáforo) integradas con el módulo de Presupuestos.
+  - Quick insights en el dashboard (Top 3 gastos hormiga, gasto de la semana).
+  - Correcciones de accesibilidad: contraste, foco visible, roles ARIA, navegación por teclado.
+- **Backend (Spring Boot – API TuCash):**
+  - Ajustes de performance y paginación en `/transactions`.
+  - Reglas revisadas para alertas de presupuesto y progreso optimizado de metas.
+  - Documentación Swagger actualizada con los últimos cambios.
+- **Landing Page:**
+  - Sección de características actualizada con funcionalidades de TB2 (Presupuestos, Alertas, Reportes, i18n).
+  - Inclusión de referencia al despliegue completo (Landing + WebApp + API).
+
+---
+## 5.2.4.5. Evidencia de Ejecución (Front & Back)
+
+A continuación se presentan las evidencias REALES del Sprint 4, basadas *únicamente* en las capturas entregadas por el equipo y los despliegues finales del producto TuCash.
 
 ---
 
-## 5.2.4.5. Evidencia de Ejecución
+## Evidencia 1 – WebApp TuCash (Frontend Angular) Desplegada
 
-### **Evidencia 1 – Registro 1-tap**
-Se validó la creación de movimientos con un toque basado en último gasto y plantillas rápidas.
+<p align="center">
+  <img src="resources/frontend-dashboard.png" width="780">
+</p>
 
-### **Evidencia 2 – Alertas progresivas**
-Alertas automáticas en 70%, 80% y 100% del presupuesto con colores semáforo.
+**Descripción:**  
+La WebApp de TuCash se encuentra desplegada correctamente.  
+Las evidencias incluyen:
 
-### **Evidencia 3 – Reportes mejorados**
-Tarjetas “Top 3 hormiga”, gasto semanal y tendencias financieras.
+- **Dashboard principal** con resumen financiero.
+- **Tarjetas de saldo total**, ingresos y egresos del mes.
+- Acceso directo a:
+  - **Expenses**
+  - **Incomes**
+  - **Goals**
+  - **Budget**
+  - **Alerts**
+  - **Profile**
+- Diseño consistente, responsivo y accesible.
 
-### **Evidencia 4 – Accesibilidad**
-Correcciones WCAG: contraste, foco visible, roles ARIA y navegación por teclado.
+---
 
-### **Evidencia 5 – Despliegue Final**
-- **Landing Page** → GitHub Pages  
-- **WebApp Angular** → Netlify  
-- **Backend Spring Boot** → Heroku  
-- **Swagger** actualizado
+## Evidencia 2 – Módulo Expenses (Gastos)
+
+<p align="center">
+  <img src="resources/frontend-expenses.png" width="780">
+</p>
+
+**Descripción:**
+- Registro de gastos funcional.
+- Lista de transacciones en tiempo real.
+- Campos validados (monto, categoría, método de pago, fecha).
+- Botón de agregar gasto totalmente operativo.
+- Consistencia visual del módulo según estándares del Sprint 4.
+
+---
+
+## Evidencia 3 – Módulo Incomes (Ingresos)
+
+<p align="center">
+  <img src="resources\frontend-incomess.png" width="780">
+</p>
+
+**Descripción:**
+- Formulario reactivo para registrar nuevos ingresos.
+- Lista actualizada dinámicamente.
+- Validaciones correctas y feedback visual (toasts).
+- Integración completa con `/transactions`.
+
+---
+
+## Evidencia 4 – Módulo Goals (Metas de Ahorro)
+
+
+<p align="center">
+  <img src="resources/frontend-goals.png" width="780">
+</p>
+
+**Descripción:**
+- Vista de metas creadas por el usuario.
+- Barra de progreso funcional.
+- Comportamiento alineado a las User Personas (becado / ahorro progresivo).
+
+---
+
+## Evidencia 5 – Módulo Profile (Configuración del Usuario)
+
+<p align="center">
+  <img src="resources/frontend-profile.png" width="780">
+</p>
+
+**Descripción:**
+- Edición de datos del usuario.
+- Cambio de moneda principal.
+- Cambio de foto de perfil.
+- Configuración persistida localmente y vía API.
+
+---
+
+## Evidencia 6 – Login & Acceso (Autenticación)
+
+<p align="center">
+  <img src="resources/frontend-login.png" width="780">
+</p>
+
+**Descripción:**
+- Validaciones de email y contraseña.
+- Redirección correcta al dashboard.
+- Integrado con `/auth/login`.
+
+---
+# Evidencia 7 – Backend TuCash Desplegado (Swagger UI – Azure)
+
+**URL pública (clic para abrir):**  
+ **https://tucash-api-ercgh9bsdwg8cqe9.canadacentral-01.azurewebsites.net/swagger-ui/index.html**
+
+<p align="center">
+  <a href="https://tucash-api-ercgh9bsdwg8cqe9.canadacentral-01.azurewebsites.net/swagger-ui/index.html" target="_blank">
+    <img src="resources/backend-swagger.png" width="850" alt="Swagger UI TuCash en Azure">
+  </a>
+</p>
+**Descripción:**
+
+El backend de TuCash está desplegado y disponible públicamente con:
+
+- **Autenticación:** `/auth/register`, `/auth/login`
+- **Transacciones completas:** `/transactions`  
+  → Incluye filtros, paginación, ordenamiento.
+- **Metas de ahorro:** `/goals`
+- **Categorías:** `/categories`
+- **Presupuestos y Alertas:** rutas según implementación Sprint 4
+- Documentación generada con **Swagger / OpenAPI 3.0**
+
+El despliegue confirma que la WebApp y el Backend funcionan integrados correctamente.
+
+---
+
+## Evidencia 8 – Landing Page TuCash Desplegada
+
+<p align="center">
+  <img src="resources/frontend-landing.png" width="850">
+</p>
+
+**Descripción:**
+
+La Landing Page fue actualizada con:
+
+- Sección de propuesta de valor.
+- Características principales del producto.
+- Capturas reales de la WebApp.
+- Enlaces a WebApp y repositorios.
+
+---
+
+## Resumen de Validación del Sprint 4
+
+| Módulo | Validado | Evidencia |
+|--------|----------|-----------|
+| Dashboard | ✔ | Captura real |
+| Expenses | ✔ | Formulario + lista |
+| Incomes | ✔ | Formulario + lista |
+| Goals | ✔ | Progreso dinámico |
+| Profile | ✔ | Datos + preferencias |
+| Alerts (visible en Budget) | ✔ | Alertas progresivas |
+| Deployment Frontend | ✔ | Capturas reales |
+| Deployment Backend | ✔ | Swagger en Azure |
+| Landing Page | ✔ | Captura actualizada |
+
+---
+
+
 
 
 
