@@ -223,42 +223,53 @@ Asimismo, desarrollé las secciones asignadas del Capítulo IV: Product Design, 
 
 <td><img src="resources/tp1-contributors.png" alt="TP1 Contributors"></td>
 
-**TP1 Pulse**
 
-<td><img src="resources/tp01-pulse.png" alt="TP1 Pulse"></td>
 
 <h2>TP1 — Sprint 2: Asignación de módulos</h2>
 
 <table align="center" border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%;">
   <tr>
-    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Integrante</td>
-    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Módulo / Responsabilidad (Sprint 2)</td>
-    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Cambios / Notas</td>
+    <td align="center" style="border: 1px solid #ddd; padding: 8px;"><b>Integrante</b></td>
+    <td align="center" style="border: 1px solid #ddd; padding: 8px;"><b>Módulo / Responsabilidad (Sprint 2)</b></td>
+    <td align="center" style="border: 1px solid #ddd; padding: 8px;"><b>Cambios / Notas</b></td>
   </tr>
+
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px;">Taquiri Calderon, Jhunior Giussepe</td>
     <td style="border: 1px solid #ddd; padding: 8px;">Expenses (Gestión de Gastos)</td>
     <td style="border: 1px solid #ddd; padding: 8px;">
       Corrigió y actualizó el análisis competitivo (tabla comparativa de apps) y secciones relacionadas.
+      Implementó el módulo completo de gastos en Angular.
     </td>
   </tr>
+
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px;">Payesa Torres, Harrison Hubert</td>
     <td style="border: 1px solid #ddd; padding: 8px;">Incomes (Gestión de Ingresos)</td>
     <td style="border: 1px solid #ddd; padding: 8px;">
-      Corrigió y actualizó la presentación y secciones del Sprint 02
+      Corrigió y actualizó la presentación y secciones del Sprint 02.
     </td>
   </tr>
+
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px;">Mondoñedo Rodriguez, Juan Diego Javier</td>
     <td style="border: 1px solid #ddd; padding: 8px;">Goals (Metas)</td>
     <td style="border: 1px solid #ddd; padding: 8px;">—</td>
   </tr>
+
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px;">Huaman Hinostroza, Milenio</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">Home &amp; Login</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">—</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">
+      Home &amp; Login · Incomes · Goals · Integración de Módulos Frontend (Sprint 2)
+    </td>
+    <td style="border: 1px solid #ddd; padding: 8px;">
+      Desarrolló el <b>Home</b> (Dashboard inicial) y el módulo de <b>Login</b> con routing y autenticación mock.<br>
+      Implementó componentes base de <b>Incomes</b> y apoyo en UI de <b>Goals</b>.<br>
+      Unificó navegación, sidebar, layout y estructura global de la WebApp.<br>
+      Apoyó en el deploy, configuración del proyecto y validación del diseño responsivo.
+    </td>
   </tr>
+
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px;">Mejia Poma, Patricia Valeria</td>
     <td style="border: 1px solid #ddd; padding: 8px;">Profile (Perfil de Usuario &amp; Configuración)</td>
@@ -267,10 +278,12 @@ Asimismo, desarrollé las secciones asignadas del Capítulo IV: Product Design, 
 </table>
 
 
-
 **TB2 Pulse**
 
 <td><img src="resources/tb02-pulse.png" alt="TB2 Pulse"></td>
+
+
+<td><img src="resources/tb02-pulse1.png" alt="TB2 Pulse"></td>
 
 <h2>TB2 — Sprint 3: Asignación de módulos</h2>
 
@@ -278,7 +291,7 @@ Asimismo, desarrollé las secciones asignadas del Capítulo IV: Product Design, 
   <tr>
     <td align="center" style="border: 1px solid #ddd; padding: 8px;">Integrante</td>
     <td align="center" style="border: 1px solid #ddd; padding: 8px;">Módulo / Responsabilidad (Sprint 3)</td>
-    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Cambios / Notas (TB2)</td>
+    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Cambios  (TB2)</td>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px;">Taquiri Calderon, Jhunior Giussepe</td>
@@ -315,6 +328,24 @@ Asimismo, desarrollé las secciones asignadas del Capítulo IV: Product Design, 
     </td>
   </tr>
 </table>
+
+
+## TF1 — Sprint 4: Asignación de módulos
+
+
+| **Integrante** | **Módulo / Responsabilidad (Sprint 4)** | **Cambios / Aportes (TF1)** |
+|----------------|------------------------------------------|------------------------------|
+| **Taquiri Calderón, Jhunior Giussepe** | **Expenses**, Dashboard, Accesibilidad, API Transactions | Responsable del módulo **Expenses** (registro, edición, listado). Mejoró el **Dashboard** con Quick Insights, tarjetas de tendencias y alertas. Implementó **accesibilidad WCAG** (contraste, foco visible, ARIA labels). Optimizó la **API de Transacciones** con filtros, paginación y ordenamiento. Desarrolló el **Registro 1-tap** y actualizó Swagger, README TF1 y evidencias de despliegue final. |
+| **Huamán Hinostroza, Milenio** | Home & Login, Alertas, Goals, Reportes, Deploy General | Lideró el desarrollo del módulo de **Alertas Progresivas** (70%, 80%, 100%) integradas con Presupuestos. Refinó **Goals** implementando el cálculo optimizado de progreso y estados (onTrack / atRisk). Mejoró la arquitectura del **Home & Login**, corregiendo flujos de autenticación y manejo de sesiones. Diseñó y desarrolló los **Reportes Visuales** (Chart.js) con tendencias mensuales, categorías y quick stats. Implementó la **infraestructura completa de i18n** (ES/EN) y el switch persistente. Gestionó el **deploy general** del proyecto: Backend en Azure, WebApp en Netlify y Landing Page en GitHub Pages. Además, realizó pruebas E2E, ajustes de performance del backend y documentación técnica del despliegue. |
+
+
+**TF1 Pulse**
+
+<td><img src="resources/tb02-pulse.png" alt="TF1 Pulse"></td>
+
+
+<td><img src="resources/tb02-pulse1.png" alt="TF1 Pulse"></td>
+
 
 <!--ÍNDICE-->
 # Contenido
@@ -4330,10 +4361,10 @@ A partir de los hallazgos, métricas y fricciones identificadas durante la valid
 
 ### Enlaces de Publicación
 - **YouTube:**  
-  👉 [Ver en YouTube](AQUI-PEGA-TU-ENLACE-PRODUCTO)
+  👉 [Ver en YouTube](https://youtu.be/uU_JoHX2SL8))
 
 - **Microsoft Stream:**  
-  👉 [Ver en Microsoft Stream](AQUI-PEGA-TU-ENLACE-PRODUCTO)
+  👉 [Ver en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c576_upc_edu_pe/IQDxl4k2KLLTSYLiCJDiJhuzAeuRPM8UFPEG--gWIclElIE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=K2xTFh)
 
 
 ---
@@ -4345,10 +4376,10 @@ A partir de los hallazgos, métricas y fricciones identificadas durante la valid
 
 ### Enlaces de Publicación
 - **YouTube:**  
-  👉 [Ver en YouTube](AQUI-PEGA-TU-ENLACE-EQUIPO)
+   [Ver en YouTube](https://youtu.be/uU_JoHX2SL8)
 
 - **Microsoft Stream:**  
-  👉 [Ver en Microsoft Stream](AQUI-PEGA-TU-ENLACE-EQUIPO)
+   [Ver en Microsoft Stream](AQUI-PEGA-TU-ENLACE-EQUIPO)
 
 
 
