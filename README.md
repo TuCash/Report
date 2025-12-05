@@ -4,23 +4,21 @@
 
 ![Logo UPC](https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png)
 
-**CARRERA** </br> Ingeniería de Software
+**CARRERA** </br> Ingeniería de Software  
 
-**CICLO** </br> 2025-20
+**CICLO** </br> 2025-20  
 
-**CURSO** </br> Desarrollo de Aplicaciones Open Source
+**CURSO** </br> Desarrollo de Aplicaciones Open Source  
 
-**NRC** </br> 7369
+**NRC** </br> 7369  
 
-**DOCENTE** </br> Wilder Julio Espinoza Bravo
+**DOCENTE** </br> Wilder Julio Espinoza Bravo  
 
 ### "INFORME DE TRABAJO FINAL"
 
-**STARTUP** </br> Kashu
-<!--Desarrollo de aplicaciones open source-->
+**STARTUP** </br> Kashu  
 
-**PRODUCTO** </br> TuCash
-<!--Nombres de integrantes-->
+**PRODUCTO** </br> TuCash  
 
 | Código | Nombre |
 |:----------:|-------------------------------|
@@ -30,10 +28,14 @@
 | u202523271 | Mejia Poma, Patricia Valeria |
 | u20211c245 | Huaman Hinostroza, Milenio |
 
+<br/>
 
 ## DICIEMBRE
 
 **2025**
+
+</div>
+
 </br>
 
 </div>
@@ -4172,10 +4174,10 @@ A partir de los hallazgos, métricas y fricciones identificadas durante la valid
 
 ### Enlaces de Publicación
 - **YouTube:**  
-   [Ver en YouTube](https://youtu.be/uU_JoHX2SL8)
+   [Ver en YouTube](https://youtu.be/dusAmXPu31M)
 
 - **Microsoft Stream:**  
-   [Ver en Microsoft Stream](AQUI-PEGA-TU-ENLACE-EQUIPO)
+   [Ver en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c576_upc_edu_pe/IQBSnAaZaPk8Q7hKLs-1i64KASBQuOmuF7OZlmVx0wvlGVU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=XfFTNc)
 
 
 
