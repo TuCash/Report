@@ -4027,7 +4027,6 @@ En esta sección realizamos entrevistas de validación con los segmentos objetiv
 4. **Métricas (3–4’)**: SUS/UMUX‑Lite, SEQ por tarea, NPS.
 5. **Cierre (1–2’)**: priorización rápida (MoSCoW/Kano) y agradecimiento.
 
-> **Indicaciones**: “Piensa en voz alta”, “No te evaluamos a ti, evaluamos al producto”.
 
 ---
 
@@ -4044,8 +4043,51 @@ En esta sección realizamos entrevistas de validación con los segmentos objetiv
 - **T5 (UG7):** Registra una **deuda** de **S/ 60** con “Alex”, paga **S/ 20** y verifica estado.  
   *Criterios*: estado **parcial** visible y comprensible.
 
-> **Mediciones por tarea**: Éxito (Sí/No), **Tiempo (s)**, **Errores**, **SEQ (1–7)**.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----
 ---
 
 ## 5.3.1.4. Banco de preguntas para entrevistas (S1, S2, S3)
@@ -4077,7 +4119,7 @@ Este apartado contiene el banco de preguntas refinado para las entrevistas con l
 - **Accesos rápidos sugeridos**: botón “Agregar turno” con plantilla (horas, tarifa, propina), atajo por voz o plantillas recurrentes.
 - **Alertas y recordatorios**: avisos sobre pagos fijos (pensión, servicios), calendario de pagos y proyección de cashflow para la quincena.
 
-### **S3 – Estudiantes becados**
+### S3 – Estudiantes becados
 - **Objetivo**: Identificar cómo la beca cubre gastos académicos y gestionar plazos.
 - **Pregunta principal**: ¿Cómo gestionas los gastos relacionados con la universidad y la beca (materiales, matrículas, trámites)?
 - **Probes / seguimiento**:
@@ -4087,24 +4129,16 @@ Este apartado contiene el banco de preguntas refinado para las entrevistas con l
 - **Funciones útiles**: recordatorios automáticos (renovación, entrega de documentos), planificador de beca, reporte académico separado.
 - **Visualización recomendada**: barra apilada "Beca recibida / Gastos académicos / Saldo académico".
 
-### **⭐ Pregunta final común (para los 3 segmentos)**
+###  Pregunta final común (para los 3 segmentos)
 - **Moderador**: Si esta pantalla solo pudiera mostrar un dato clave para ayudarte a tomar mejores decisiones financieras, ¿cuál sería? Pide que explique por qué y qué acción tomaría.
 - **Opciones de ejemplo para mostrar**: `Mesada restante`, `Saldo disponible después de pagos fijos (cashflow proyectado)`, `Fondo disponible para gastos académicos`, `Gastos hormiga hoy`.
 
-### **Alertas de "gasto hormiga" — opciones de presentación**
+### Alertas de "gasto hormiga" — opciones de presentación
 - **Sutil**: micro-banner in-app y línea en resumen diario.
 - **Proactiva**: push con CTA — "Has gastado $X en compras pequeñas. Ver detalles".
 - **Digest semanal**: resumen agrupado con ahorro potencial.
 - **Reglas sugeridas para pruebas**: umbral por monto (ej. >10% mesada), por frecuencia (>3 compras/día), por repetición (merchant repetido).
 
-### **Guion breve para el entrevistador (3–10 min por bloque)**
-- **Intro (30s)**: explica objetivo: "Entender cómo controlas gastos pequeños y pagos importantes".
-- **Warm-up (1–2 min)**: preguntas sobre mesada/ingresos/beca.
-- **Tarea práctica (3–5 min)**: pide que muestre o describa los últimos 3 gastos pequeños.
-- **Profundizar (5–7 min)**: usar probes según segmento.
-- **Cierre (1–2 min)**: preguntar la pregunta final común y pedir acción concreta a tomar.
-
----
 
 ## 5.3.1.5. Métricas estandarizadas
 
@@ -4114,7 +4148,6 @@ Este apartado contiene el banco de preguntas refinado para las entrevistas con l
 - **Tasa de éxito de tarea**, **tiempo (s)**, **errores** observados.
 - **Prioridad MoSCoW** (Must/Should/Could/Won’t) y **Kano** (Must‑Have, Performance, Delighter).
 
-> **Corte de calidad sugerido**: SUS ≥ 68 (aceptable); UMUX‑Lite ≥ 5.6; NPS > 0 en primeras betas.
 
 ---
 
@@ -4146,8 +4179,8 @@ Este apartado contiene el banco de preguntas refinado para las entrevistas con l
 
 ### Entrevista 3 — S3 (Becada)
 
-| Campo | Información |
-|---|---|
+| **Campo** | **Información** |
+|----------|------------------|
 | **Participante** | *“Lucero P.” (20 años)* — Beca Alto Rendimiento |
 | **Hallazgos Principales** | • Necesita categorización académica más visible.<br>• Exporta reportes PDF mensuales para su tutor.<br>• Requiere alertas automáticas sobre fechas de renovación de beca. |
 | **SEQ Promedio** | **5.5 / 7** |
@@ -4155,6 +4188,7 @@ Este apartado contiene el banco de preguntas refinado para las entrevistas con l
 | **NPS** | **7** |
 | **Cita clave** | “Para renovar beca necesito mis gastos claros, esto me ahorra tiempo.” |
 | **Video de la Entrevista** | 🎥 [Ver entrevista (OneDrive)](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c576_upc_edu_pe/IQC4IoIkbRf9Qa-lUkLdFnl1AQvrkoRptLaBlro7PqwAvqU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=IHRS8R) |
+| **Foto de la Entrevista** | ![Foto Entrevista 3](resources/entrevista3.png) |
 
 ---
 
@@ -4204,7 +4238,7 @@ Este apartado contiene el banco de preguntas refinado para las entrevistas con l
 
 ---
 
-## 5.3.3. Evaluación según heurísticas (Nielsen)
+## 5.3.3. Evaluación según heurísticas 
 
 | Heurística | Problema encontrado | Severidad | Recomendación |
 |---|---|---|---|
@@ -4275,26 +4309,48 @@ A partir de los hallazgos, métricas y fricciones identificadas durante la valid
   - Requisitos de beca
 - Esto responde directamente a la necesidad del segmento **S3 (becados)**.
 
-### 🤝 6. Gestión de Deudas y Estados
+###  6. Gestión de Deudas y Estados
 - Implementar módulo de historial con estados:
   - **Pendiente**
   - **Parcial**
   - **Pagado**
 - Integración con recordatorios para mejorar el control compartido.
 
-### ♿ 7. Mejoras de Accesibilidad
+###  7. Mejoras de Accesibilidad
 - Aumentar contraste de colores y soporte dark/light mode.
 - Tamaños mínimos AA en tipografías y elementos táctiles.
 - Mejoras de “lectura fácil” y etiquetas ARIA.
 - Asegurar cumplimiento WCAG 2.1 nivel AA.
 
 
-## Anexos
-- Figma / Prototipos *(pendiente)*  
-- Repos Front‑end / Back‑end / Landing *(pendiente)*  
-- Videos (About the Product / Interviews / Demo) *(pendiente)*
-
 # Video About-the-Product
+
+### Título del Video:
+**TuCash – Presentación del Producto (TF1)**
+
+### Enlaces de Publicación
+- **YouTube:**  
+  👉 [Ver en YouTube](AQUI-PEGA-TU-ENLACE-PRODUCTO)
+
+- **Microsoft Stream:**  
+  👉 [Ver en Microsoft Stream](AQUI-PEGA-TU-ENLACE-PRODUCTO)
+
+
+---
+
+# Video About-the-Team
+
+### Título del Video:
+**TuCash – Conoce al Equipo (TF1)**
+
+### Enlaces de Publicación
+- **YouTube:**  
+  👉 [Ver en YouTube](AQUI-PEGA-TU-ENLACE-EQUIPO)
+
+- **Microsoft Stream:**  
+  👉 [Ver en Microsoft Stream](AQUI-PEGA-TU-ENLACE-EQUIPO)
+
+
 
 # Conclusiones y Recomendaciones
 
@@ -4338,14 +4394,6 @@ Mediano plazo (próximos 3–4 sprints): integrar metas de ahorro y notificacion
 
 Largo plazo: expandir a aplicación móvil e IoT, integrando recordatorios contextuales (ej. alertas en smartwatch).
 
-# Video About-the-Team
-
-####
-
-**Título:**
-
-- **YouTube:**
-- **Microsoft Stream:**
 
 # Bibliografía
 
@@ -4381,179 +4429,23 @@ Largo plazo: expandir a aplicación móvil e IoT, integrando recordatorios conte
 - Anexo 2: [Mockups - Wireframe](https://www.figma.com/design/0eoLdvvEddDNIvvujQJGfU/TuCash?node-id=49-11&t=jhD9FD51vkhbVsPx-1)
 - Anexo 3: [User-Flow - WireFlow Diagram](https://lucid.app/lucidchart/6527f327-959e-4911-ae0c-6a1f5a520089/edit?viewport_loc=-1573%2C-4542%2C4989%2C2439%2C8M5xaniXGb-W&invitationId=inv_58ad1103-5a51-4d9f-95bc-86c61f1e3d65)
 
-#
-# Anexo C. Indicaciones para Secciones que Incluyen Videos
-
-A continuación, se detallan las especificaciones solicitadas para cada uno de los videos requeridos en el proyecto **TuCash**, siguiendo las directivas del curso.
-
 ---
 
-##  Needfinding Interviews
-
-**Cantidad de videos:** 1  
-**Nomenclatura:**  
-`upc-pre-202520-1asi0729-202520-tucash-needfinding-sprint-<n>`  
-**Formato:** .mp4  
-**Duración:** 3 a 5 minutos por entrevista (según cantidad total de entrevistas).
-
-### Sobre el contenido
-- Consolidar todas las entrevistas realizadas.  
-- Cada entrevista debe incluir títulos con:
-  - Nombre del entrevistado  
-  - Segmento objetivo  
-  - Fecha  
-- Mostrar hallazgos clave que alimentan la definición del User Persona.
-
-### Integración y Entrega
-- Subir el video en **Microsoft Stream** en el canal indicado por el docente.
-- Incluir en el informe:
-  - **Screenshot del video**
-  - **Enlace al video**
-  - **Introducción de la sección**
-  - **Registro narrado de cada entrevista**
-  - **Análisis general** con variables objetivas y subjetivas.
-- Seguir todas las especificaciones oficiales del enunciado.
-
----
-
-##  Prototypes Navigation / Product Navigation
-
-**Cantidad de videos:** 1  
-**Nomenclatura:**  
-`upc-pre-202520-1asi0729-202520-tucash-productnavigation-sprint-<n>`  
-**Formato:** .mp4  
-**Duración:** 3 a 5 minutos por aplicación.
-
-### Sobre el contenido
-- Demostración del flujo de navegación del:
-  - Landing Page  
-  - WebApp TuCash  
-- Priorizar user flows relacionados al **core business**:
-  - Registro  
-  - Ingresos/Egresos  
-  - Presupuestos  
-  - Alertas  
-  - Reportes  
-
-### Integración y Entrega
-- Subir en **Microsoft Stream**.
-- Incluir en el informe:
-  - Screenshot del video  
-  - Enlace  
-  - Introducción describiendo los flujos incluidos  
-
----
-
-##  Validation Interviews
-
-**Cantidad de videos:** 1  
-**Nomenclatura:**  
-`upc-pre-202520-1asi0729-202520-tucash-validation-sprint-<n>`  
-**Formato:** .mp4  
-**Duración:** 3 a 5 minutos por entrevista.
-
-### Sobre el contenido
-- Usuarios interactuando con:
-  - Landing Page  
-  - Prototipos WebApp TuCash  
-- Cada entrevista debe mostrar:
-  - Nombre del usuario  
-  - Segmento objetivo  
-  - Fecha  
-  - Comentarios y observaciones  
-
-### Integración y Entrega
-- Subir en **Microsoft Stream**.
-- Incluir en el informe:
-  - Screenshot + enlace  
-  - Introducción explicativa  
-  - Registro narrado de cada entrevista  
-  - Evaluación de:
-    - Heurísticas de usabilidad  
-    - Arquitectura de información  
-    - Diseño inclusivo  
-
----
-
-##  About the Product
-
-**Cantidad de videos:** 1  
-**Nomenclatura:**  
-`upc-pre-202520-1asi0729-202520-tucash-aboutthe-product-sprint-<n>`  
-**Formato:** .mp4  
-**Duración:** 1 a 3 minutos.
-
-### Sobre el contenido
-- Enfoque promocional.
-- Describir:
-  - Modelo de negocio  
-  - Principales características  
-  - Beneficios del producto  
-- Incluir escenas reales usando la plataforma.
-- Incluir al menos **una opinión por segmento objetivo**:
-  - Estudiantes con mesada  
-  - Estudiantes que trabajan  
-  - Estudiantes becados  
-
-### Integración y Entrega
-- Subir en **Microsoft Stream** y **YouTube**.
-- Incluir en el informe:
-  - Screenshot  
-  - Enlace  
-  - Introducción corta  
-- Inserción del video en la Landing Page (sección "About").
-
----
-
-##  About the Team
-
-**Cantidad de videos:** 1  
-**Nomenclatura:**  
-`upc-pre-202520-1asi0729-202520-tucash-aboutthe-team-sprint-<n>`  
-**Formato:** .mp4  
-**Duración:**  
-- ~5 minutos para retrospectiva del equipo  
-- ~1 minuto por cada integrante
-
-### Sobre el contenido
-- Resumen del proceso de trabajo:
-  - Reuniones  
-  - Pair programming  
-  - Testing  
-  - Ceremonias de sprint  
-- Narración (voz en off) explicando el flujo del proyecto.
-- Testimonio ante cámara de cada integrante describiendo:
-  - Actividades realizadas  
-  - Competencias desarrolladas  
-  - Contribución al Sprint 4 y al producto final  
-
-### Integración y Entrega
-- Subir en **Microsoft Stream** y **YouTube**.
-- Incluir en el informe:
-  - Screenshot  
-  - Enlace  
-  - Introducción de la sección  
-- Insertar el video también en la Landing Page.
-
----
-
-# Anexo D. Evaluación de User Experience según Heurísticas  
+## Anexo C. Evaluación de User Experience según Heurísticas  
 **UX Heuristics & Principles Evaluation**  
 Usability – Inclusive Design – Information Architecture  
 
 **CARRERA:** Ingeniería de Software  
 **CURSO:** Desarrollo de Aplicaciones Open Source  
-**SECCIÓN:** 202520  
+**SECCIÓN:** 2025-20  
 **PROFESORES:** Todos  
 **AUDITOR:** Equipo TuCash  
 **CLIENTE(S):** Segmentos objetivo – Estudiantes con mesada, estudiantes que trabajan, estudiantes becados.
 
 ---
 
-## SITE o APP A EVALUAR:
-**TuCash WebApp – Gestión financiera personal para estudiantes en Latinoamérica**
-
----
+## SITE A EVALUAR:
+**TuCash WebApp – Gestión financiera personal para estudiantes**
 
 ## TAREAS A EVALUAR (incluidas)
 1. Registro de nuevo usuario  
@@ -4587,7 +4479,7 @@ Usability – Inclusive Design – Information Architecture
 
 ---
 
-# TABLA RESUMEN – HALLAZGOS TuCash
+## TABLA RESUMEN – HALLAZGOS TuCash
 
 | # | Problema identificado | Severidad | Heurística/Principio violado |
 |---|------------------------|-----------|-------------------------------|
@@ -4602,11 +4494,11 @@ Usability – Inclusive Design – Information Architecture
 
 ---
 
-# DESCRIPCIÓN DE PROBLEMAS Y RECOMENDACIONES
+## DESCRIPCIÓN DE PROBLEMAS Y RECOMENDACIONES
 
 ---
 
-## **PROBLEMA #1: No hay acceso rápido al Dashboard después de registrar un gasto**
+## PROBLEMA #1: No hay acceso rápido al Dashboard después de registrar un gasto
 **Severidad:** 3  
 **Heurística violada:** Usabilidad – Libertad y control del usuario  
 
@@ -4691,18 +4583,6 @@ Los gráficos de barras y pie no incluyen descripciones alternativas, impidiendo
 
 **Recomendación:**  
 Incluir `aria-describedby` o texto alternativo invisible con los valores principales.
-
----
-
-## **PROBLEMA #8: Cambio de idioma incompleto**
-**Severidad:** 1  
-**Heurística violada:** Usability – Consistencia  
-
-**Descripción:**  
-El cambio ES/EN no afecta algunas etiquetas en Reportes y Perfil.
-
-**Recomendación:**  
-Completar los archivos de i18n y aplicar el pipe de traducción en todas las vistas.
 
 ---
 
