@@ -31,7 +31,7 @@
 | u20211c245 | Huaman Hinostroza, Milenio |
 
 
-## AGOSTO
+## DICIEMBRE
 
 **2025**
 </br>
@@ -43,308 +43,104 @@
 <h1 align="left">Registro de versiones del Informe</h1>
 </br>
 
+TB1 — Network Graph
+<p align="center">
+  <img src="resources/Tb1-Network graph.png" alt="TB1 Network Graph" width="750">
+</p>
+
+TB1 — Contributors
+<p align="center">
+  <img src="resources/tb1-Contributors.png" alt="TB1 Contributors" width="750">
+</p>
+
+TB1 — Pulse
+<p align="center">
+  <img src="resources/Tb-1Pulse.png" alt="TB1 Pulse" width="750">
+</p>
+
+TB1 — Asignación de responsabilidades
+| Integrante | Tareas Asignadas |
+|-----------|------------------|
+| Milenio Huamán Hinostroza | Redacción desde la Parte 1 del informe hasta el Segmento Objetivo. |
+| Jhunior Giussepe Taquiri Calderón | Capítulo II completo: Requirements Elicitation & Analysis (User Personas, User Task Matrix, User Journey Mapping). Secciones del Capítulo IV: Product Design (Style Guidelines a Navigation Systems). |
+| Patricia Mejía Poma | Empathy Mapping, As-Is/To-Be Scenario Mapping, y Product Backlog. |
+| Juan Diego Mondoñedo | Capítulo III: Requirements Specification, wireframes y mockups. |
+| Harrison Payesa | Entrevistas, To-Be Mapping, user stories y apoyo en mockups. |
+
+-------------------------------------------------------------
+
+TP1 — Network Graph
+<p align="center">
+  <img src="resources/TP-network-graph.png" alt="TP1 Network Graph" width="750">
+</p>
+
+TP1 — Contributors
+<p align="center">
+  <img src="resources/tp1-contributors.png" alt="TP1 Contributors" width="750">
+</p>
+
+TP1 — Pulse
+<p align="center">
+  <img src="resources/TP1-pulse.png" alt="TP1 Pulse" width="750">
+</p>
+
+TP1 — Asignación de módulos (Sprint 2)
+| Integrante | Módulo / Responsabilidad | Cambios / Notas |
+|-----------|---------------------------|------------------|
+| Jhunior Giussepe Taquiri Calderón | Expenses | Desarrollo completo del módulo de gastos y actualización del análisis competitivo. |
+| Harrison Payesa | Incomes | Ajustes al contenido de presentación del Sprint 2. |
+| Juan Diego Mondoñedo | Goals | Desarrollo inicial del módulo. |
+| Milenio Huamán Hinostroza | Home, Login, Incomes base, Goals UI, Integración Frontend | Implementación del Home, Login, estructura global, layout, navegación y diseño responsivo. |
+| Patricia Mejía | Profile | Implementación base. |
+
+-------------------------------------------------------------
+
+TB2 — Network Graph
+<p align="center">
+  <img src="resources/tb02-network-graph.png" alt="TB2 Network Graph" width="750">
+</p>
+
+TB2 — Contributors
+<p align="center">
+  <img src="resources/tb02-contributors.png" alt="TB2 Contributors" width="750">
+</p>
+
+TB2 — Pulse
+<p align="center">
+  <img src="resources/tb02-pulse.png" alt="TB2 Pulse" width="750">
+</p>
+
+TB2 — Asignación de responsabilidades (Sprint 3)
+| Integrante | Módulo / Responsabilidad | Cambios (TB2) |
+|-----------|---------------------------|----------------|
+| Jhunior Giussepe Taquiri Calderón | Dashboard & Expenses | Mejoras del dashboard, gastos recurrentes, navegación y documentación del sprint. |
+| Milenio Huamán Hinostroza | Alertas, Reportes Visuales, API Goals, Home & Login | Desarrollo total de alertas, reportes con Chart.js, API Goals (CRUD + progreso), autenticación e internacionalización. |
+| Patricia Mejía | Profile & Settings | Edición de perfil, categorías y contenidos. |
+
+-------------------------------------------------------------
+
+TF1 — Network Graph
+<p align="center">
+  <img src="resources/tb02-network-graph.png" alt="TF1 Network Graph" width="750">
+</p>
+
+TF1 — Contributors
+<p align="center">
+  <img src="resources/tb1-contributors.png" alt="TF1 Contributors" width="750">
+</p>
+
+TF1 — Pulse
+<p align="center">
+  <img src="resources/tp1-pulse.png" alt="TF1 Pulse" width="750">
+</p>
+
+TF1 — Asignación de responsabilidades (Sprint 4)
+| Integrante | Módulo / Responsabilidad | Cambios / Aportes (TF1) |
+|-----------|---------------------------|--------------------------|
+| Jhunior Giussepe Taquiri Calderón | Expenses, Dashboard, Accesibilidad, API Transactions | Desarrollo de Expenses, Quick Insights, accesibilidad WCAG, optimización de /transactions, registro 1-tap, Swagger y documentación final. |
+| Milenio Huamán Hinostroza | Home & Login, Alertas, Goals, Reportes, Deploy General | Alertas progresivas, progreso de metas, arquitectura Home/Login, reportes Chart.js, i18n completo y deploy general (Backend Azure, WebApp Netlify, Landing GitHub Pages). |
 
 
-
-
-
-
-<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%;">
-
-  <!-- ENCABEZADO -->
-  <tr>
-    <td align="center" style="border: 1px solid #ddd; padding: 8px;"><strong>Versión</strong></td>
-    <td align="center" style="border: 1px solid #ddd; padding: 8px;"><strong>Fecha</strong></td>
-    <td align="center" style="border: 1px solid #ddd; padding: 8px;"><strong>Autores</strong></td>
-    <td align="center" style="border: 1px solid #ddd; padding: 8px;"><strong>Descripción</strong></td>
-  </tr>
-
-  <!-- TB1 -->
-  <tr>
-    <td style="border: 1px solid #ddd; padding: 8px;">TB1</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">26/04/2025</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">
-      <ul>
-        <li>Jhunior Giussepe Taquiri Calderon - u20221c576</li>
-        <li>Harrison Hubert Payesa Torres - u2022201024</li>
-        <li>Juan Diego Javier Mondoñedo Rodriguez - u202110373</li>
-        <li>Patricia Valeria Mejia Poma - u202523271</li>
-        <li>Milenio Huaman Hinostroza - u20211c245</li>
-      </ul>
-    </td>
-    <td style="border: 1px solid #ddd; padding: 8px;">
-      <ul>
-        <li>Capítulo I: Introducción</li>
-        <li>Capítulo II: Requirements Elicitation & Analysis</li>
-        <li>Capítulo III: Requirements Specification</li>
-        <li>Capítulo IV: Product Design</li>
-        <li>Capítulo V: Product Implementation, Validation & Deployment hasta el primer sprint</li>
-        <li>Avance de Conclusiones, Bibliografía y Anexos</li>
-      </ul>
-    </td>
-  </tr>
-
-  <!-- TP1 -->
-  <tr>
-    <td style="border: 1px solid #ddd; padding: 8px;">TP1</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">09/10/2025</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">
-      <ul style="margin: 0; padding-left: 18px;">
-        <li>Jhunior Giussepe Taquiri Calderon - u20221c576</li>
-        <li>Harrison Hubert Payesa Torres - u2022201024</li>
-        <li>Juan Diego Javier Mondoñedo Rodriguez - u202110373</li>
-        <li>Patricia Valeria Mejia Poma - u202523271</li>
-        <li>Milenio Huaman Hinostroza - u20211c245</li>
-      </ul>
-    </td>
-    <td style="border: 1px solid #ddd; padding: 8px;">
-      <ul style="margin: 0; padding-left: 18px;">
-        <li>Capítulo V: Product Implementation, Validation & Deployment — <strong>Sprint 2</strong></li>
-      </ul>
-    </td>
-  </tr>
-
-  <!-- TB2 -->
-  <tr>
-    <td style="border: 1px solid #ddd; padding: 8px;">TB2</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">30/11/2025</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">
-      <ul style="margin: 0; padding-left: 18px;">
-        <li>Jhunior Giussepe Taquiri Calderon - u20221c576</li>
-        <li>Patricia Valeria Mejia Poma - u202523271</li>
-        <li>Milenio Huaman Hinostroza - u20211c245</li>
-      </ul>
-    </td>
-    <td style="border: 1px solid #ddd; padding: 8px;">
-      <ul style="margin: 0; padding-left: 18px;">
-        <li>Capítulo V: Product Implementation, Validation & Deployment — <strong>Sprint 3</strong></li>
-        <li>Actualización de evidencias de desarrollo y ejecución.</li>
-        <li>Incorporación de entrevistas de validación Sprint 3.</li>
-        <li>Ajustes al diseño final del producto KapakID.</li>
-        <li>Actualización de Conclusiones, Recomendaciones y Anexos.</li>
-      </ul>
-    </td>
-  </tr>
-
-  <!-- TF (NUEVO) -->
-  <tr>
-    <td style="border: 1px solid #ddd; padding: 8px;">TF</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">15/12/2025</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">
-      <ul style="margin: 0; padding-left: 18px;">
-        <li>Jhunior Giussepe Taquiri Calderon - u20221c576</li>
-        <li>Patricia Valeria Mejia Poma - u202523271</li>
-        <li>Milenio Huaman Hinostroza - u20211c245</li>
-      </ul>
-    </td>
-    <td style="border: 1px solid #ddd; padding: 8px;">
-      <ul style="margin: 0; padding-left: 18px;">
-        <li>Integración del <strong>Sprint 4</strong>: estabilización final del producto.</li>
-        <li>Optimización UI/UX (accesibilidad, consistencia visual y experiencia).</li>
-        <li>Mejoras finales del backend (alerts, goals, transactions).</li>
-        <li>Deploy final de WebApp, API y Landing Page.</li>
-        <li>Preparación del documento final y anexos.</li>
-      </ul>
-    </td>
-  </tr>
-
-</table>
-
-
-<!--Link al repositorio en la organización-->
-# Project Report Collaboration Insights
-
-**Tb1 Network Graph**
-
-<td><img src="resources/Tb1-Network graph.png" alt="Network-graph"></td>
-
-**Tb1 Contributors**
-
-<td><img src="resources/tb1-Contributors.png" alt="TP1 Contributors"></td>
-
-**Tb1 Pulse**
-
-<td><img src="resources/Tb-1Pulse.png" alt="TP1 Pulse"></td>
-
-</figure>
-
-<p>Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:</p>
-
-<!--Link al repositorio en la organización-->
-<h1>Project Report Collaboration Insights</h1>
-
-<h2>TB1</h2>
-
-<p>Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:</p>
-
-<table align="center" border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%;">
-  <tr>
-    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Integrante</td>
-    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Tareas Asignadas</td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid #ddd; padding: 8px;">Milenio Huaman Hinostroza</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">
-      Redacté desde la Parte 1 del informe hasta el Segmento Objetivo.
-    </td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid #ddd; padding: 8px;">Jhunior Giussepe Taquiri Calderon</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">
-      Me encargué de elaborar de forma completa el Capítulo II: Requirements Elicitation & Analysis, incluyendo la construcción de user personas, user task matrix y user journey mapping.  
-Asimismo, desarrollé las secciones asignadas del Capítulo IV: Product Design, desde Style Guidelines hasta Navigation Systems, asegurando coherencia, estructura y alineación con los objetivos del proyecto.
-    </td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid #ddd; padding: 8px;">Patricia Valeria Mejia Poma</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">
-      Encargada de Empathy Mapping, As-Is/To-Be Scenario Mapping y desarrollo del product backlog.
-    </td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid #ddd; padding: 8px;">Juan Diego Javier Mondoñedo Rodriguez</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">
-      Desarrollo de Capítulo III: Requirements Specification, diseño de wireframes y mockups para la landing page y web application.
-    </td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid #ddd; padding: 8px;">Harrison Hubert Payesa Torres</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">
-      Elaboré análisis de entrevistas complementario, To-Be Scenario Mapping, algunas user stories, y participé en el diseño de wireframes y mockups de la landing page.
-    </td>
-  </tr>
-</table>
-
-  **TP1 Network Graph**
-
-<td><img src="resources/TP-network-graph.png" alt="Network-graph"></td>
-
-**TP1 Contributors**
-
-<td><img src="resources/tp1-contributors.png" alt="TP1 Contributors"></td>
-
-
-
-<h2>TP1 — Sprint 2: Asignación de módulos</h2>
-
-<table align="center" border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%;">
-  <tr>
-    <td align="center" style="border: 1px solid #ddd; padding: 8px;"><b>Integrante</b></td>
-    <td align="center" style="border: 1px solid #ddd; padding: 8px;"><b>Módulo / Responsabilidad (Sprint 2)</b></td>
-    <td align="center" style="border: 1px solid #ddd; padding: 8px;"><b>Cambios / Notas</b></td>
-  </tr>
-
-  <tr>
-    <td style="border: 1px solid #ddd; padding: 8px;">Taquiri Calderon, Jhunior Giussepe</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">Expenses (Gestión de Gastos)</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">
-      Corrigió y actualizó el análisis competitivo (tabla comparativa de apps) y secciones relacionadas.
-      Implementó el módulo completo de gastos en Angular.
-    </td>
-  </tr>
-
-  <tr>
-    <td style="border: 1px solid #ddd; padding: 8px;">Payesa Torres, Harrison Hubert</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">Incomes (Gestión de Ingresos)</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">
-      Corrigió y actualizó la presentación y secciones del Sprint 02.
-    </td>
-  </tr>
-
-  <tr>
-    <td style="border: 1px solid #ddd; padding: 8px;">Mondoñedo Rodriguez, Juan Diego Javier</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">Goals (Metas)</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">—</td>
-  </tr>
-
-  <tr>
-    <td style="border: 1px solid #ddd; padding: 8px;">Huaman Hinostroza, Milenio</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">
-      Home &amp; Login · Incomes · Goals · Integración de Módulos Frontend (Sprint 2)
-    </td>
-    <td style="border: 1px solid #ddd; padding: 8px;">
-      Desarrolló el <b>Home</b> (Dashboard inicial) y el módulo de <b>Login</b> con routing y autenticación mock.<br>
-      Implementó componentes base de <b>Incomes</b> y apoyo en UI de <b>Goals</b>.<br>
-      Unificó navegación, sidebar, layout y estructura global de la WebApp.<br>
-      Apoyó en el deploy, configuración del proyecto y validación del diseño responsivo.
-    </td>
-  </tr>
-
-  <tr>
-    <td style="border: 1px solid #ddd; padding: 8px;">Mejia Poma, Patricia Valeria</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">Profile (Perfil de Usuario &amp; Configuración)</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">—</td>
-  </tr>
-</table>
-
-
-**TB2 Pulse**
-
-<td><img src="resources/tb02-pulse.png" alt="TB2 Pulse"></td>
-
-
-<td><img src="resources/tb02-pulse1.png" alt="TB2 Pulse"></td>
-
-<h2>TB2 — Sprint 3: Asignación de módulos</h2>
-
-<table align="center" border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%;">
-  <tr>
-    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Integrante</td>
-    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Módulo / Responsabilidad (Sprint 3)</td>
-    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Cambios  (TB2)</td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid #ddd; padding: 8px;">Taquiri Calderon, Jhunior Giussepe</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">
-      Dashboard &amp; Expenses (Resumen de Movimientos y Gestión de Gastos)
-    </td>
-    <td style="border: 1px solid #ddd; padding: 8px;">
-      Implementó mejoras en el dashboard de Pulse (resumen de ingresos/gastos, tarjetas y alertas),
-      ajustó flujos de registro de gastos recurrentes y afinó la navegación entre vistas.
-      Además, actualizó la documentación de Sprint 3 y evidencias en el repositorio.
-    </td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid #ddd; padding: 8px;">Huaman Hinostroza, Milenio</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">
-      Home & Login, Sistema de Alertas, Reportes Visuales & API Goals
-    </td>
-    <td style="border: 1px solid #ddd; padding: 8px;">
-      Lideró el desarrollo del sistema de alertas y recordatorios, implementó módulos de reportes visuales 
-      con Chart.js, desarrolló la API completa de Goals (CRUD + cálculos de progreso), refinó el flujo 
-      de autenticación, y manejó el deploy del backend en Heroku. Además, implementó la infraestructura 
-      de internacionalización (i18n) y el switch de idiomas persistente.
-    </td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid #ddd; padding: 8px;">Mejia Poma, Patricia Valeria</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">
-      Profile &amp; Settings (Perfil de Usuario, Preferencias y Notificaciones)
-    </td>
-    <td style="border: 1px solid #ddd; padding: 8px;">
-      Completó la edición de datos de perfil, configuración de categorías de gastos
-      y preferencias de notificaciones. Ajustó textos, mensajes de ayuda y contenidos
-      para mejorar la claridad y alineación con la propuesta de valor de Pulse.
-    </td>
-  </tr>
-</table>
-
-
-## TF1 — Sprint 4: Asignación de módulos
-
-
-| **Integrante** | **Módulo / Responsabilidad (Sprint 4)** | **Cambios / Aportes (TF1)** |
-|----------------|------------------------------------------|------------------------------|
-| **Taquiri Calderón, Jhunior Giussepe** | **Expenses**, Dashboard, Accesibilidad, API Transactions | Responsable del módulo **Expenses** (registro, edición, listado). Mejoró el **Dashboard** con Quick Insights, tarjetas de tendencias y alertas. Implementó **accesibilidad WCAG** (contraste, foco visible, ARIA labels). Optimizó la **API de Transacciones** con filtros, paginación y ordenamiento. Desarrolló el **Registro 1-tap** y actualizó Swagger, README TF1 y evidencias de despliegue final. |
-| **Huamán Hinostroza, Milenio** | Home & Login, Alertas, Goals, Reportes, Deploy General | Lideró el desarrollo del módulo de **Alertas Progresivas** (70%, 80%, 100%) integradas con Presupuestos. Refinó **Goals** implementando el cálculo optimizado de progreso y estados (onTrack / atRisk). Mejoró la arquitectura del **Home & Login**, corregiendo flujos de autenticación y manejo de sesiones. Diseñó y desarrolló los **Reportes Visuales** (Chart.js) con tendencias mensuales, categorías y quick stats. Implementó la **infraestructura completa de i18n** (ES/EN) y el switch persistente. Gestionó el **deploy general** del proyecto: Backend en Azure, WebApp en Netlify y Landing Page en GitHub Pages. Además, realizó pruebas E2E, ajustes de performance del backend y documentación técnica del despliegue. |
-
-
-**TF1 Pulse**
-
-<td><img src="resources/tb02-pulse.png" alt="TF1 Pulse"></td>
-
-
-<td><img src="resources/tb02-pulse1.png" alt="TF1 Pulse"></td>
 
 
 <!--ÍNDICE-->
