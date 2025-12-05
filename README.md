@@ -6,7 +6,7 @@
 
 **CARRERA** </br> Ingeniería de Software
 
-**CICLO** </br> 2025-02
+**CICLO** </br> 2025-20
 
 **CURSO** </br> Desarrollo de Aplicaciones Open Source
 
@@ -4338,7 +4338,7 @@ Agregar un botón “Regresar al Dashboard” o “Registrar otro gasto” para 
 
 ---
 
-## **PROBLEMA #2: Algunas opciones del menú se repiten en la vista móvil**
+## PROBLEMA #2: Algunas opciones del menú se repiten en la vista móvil
 **Severidad:** 2  
 **Heurística violada:** Usability – Consistencia y estándares  
 
@@ -4350,7 +4350,7 @@ Unificar las rutas en un único menú y eliminar duplicados. Asegurar consistenc
 
 ---
 
-## **PROBLEMA #3: Botones sin etiqueta ARIA**
+## PROBLEMA #3: Botones sin etiqueta ARIA
 **Severidad:** 3  
 **Heurística violada:** Inclusive Design – Proporciona experiencias comparables  
 
@@ -4362,7 +4362,7 @@ Agregar `aria-label` o `role="button"` con descripción clara (“Agregar docume
 
 ---
 
-## **PROBLEMA #4: El botón “Ver más” no muestra contenido adicional**
+## PROBLEMA #4: El botón “Ver más” no muestra contenido adicional
 **Severidad:** 3  
 **Heurística violada:** IA – Is it usable?  
 
@@ -4374,7 +4374,7 @@ Crear una vista extendida de Reportes o eliminar el botón hasta implementar la 
 
 ---
 
-## **PROBLEMA #5: No se explica el límite del presupuesto mensual**
+## PROBLEMA #5: No se explica el límite del presupuesto mensual
 **Severidad:** 2  
 **Heurística violada:** IA – Is it findable?  
 
@@ -4386,7 +4386,7 @@ Añadir un tooltip explicativo y una sección de ayuda dentro de “Perfil” o 
 
 ---
 
-## **PROBLEMA #6: Mensajes de error poco claros en Login**
+## PROBLEMA #6: Mensajes de error poco claros en Login
 **Severidad:** 2  
 **Heurística violada:** Usability – Feedback claro  
 
@@ -4401,7 +4401,7 @@ Implementar mensajes detallados:
 
 ---
 
-## **PROBLEMA #7: Gráficos sin descripciones accesibles**
+## PROBLEMA #7: Gráficos sin descripciones accesibles
 **Severidad:** 3  
 **Heurística violada:** Inclusive Design – Accesibilidad  
 
